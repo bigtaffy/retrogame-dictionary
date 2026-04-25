@@ -6,7 +6,7 @@
 <title>PC Engine 遊戲字典</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 /* ============= TOKENS ============= */
 :root {
@@ -141,6 +141,27 @@ header .subtitle { font-size: 14px; color: var(--text-soft); margin-top: 6px; fo
   border-radius: 2px;
   padding: 0 1px;
 }
+
+/* ========== 語言標籤 + 字型 ========== */
+.lang-chip {
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 9.5px; font-weight: 700;
+  font-family: "Inter", system-ui, sans-serif;
+  min-width: 18px; height: 16px;
+  padding: 0 4px;
+  border-radius: 4px;
+  margin-right: 6px;
+  vertical-align: 1px;
+  letter-spacing: 0.3px;
+  flex-shrink: 0;
+}
+.lang-chip.zh { background: rgba(255,255,255,0.10); color: #fff; border: 1px solid rgba(255,255,255,0.18); }
+.lang-chip.en { background: rgba(47,129,247,0.18); color: #58a6ff; border: 1px solid rgba(47,129,247,0.35); }
+.lang-chip.jp { background: rgba(163,113,247,0.18); color: #c8a4ff; border: 1px solid rgba(163,113,247,0.35); }
+
+.text-zh { font-family: "Noto Sans TC", system-ui, sans-serif; letter-spacing: 0.3px; }
+.text-en { font-family: "Inter", "Noto Sans TC", system-ui, sans-serif; }
+.text-jp { font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, sans-serif; letter-spacing: 0.5px; }
 .search-wrap svg {
   position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
   color: var(--text-subtle); pointer-events: none;
@@ -732,16 +753,30 @@ function render() {
 }
 
 function titleFor(g) {
-  if (currentLang === 'zh') return g.title_zh || g.title_en || '(無題)';
-  if (currentLang === 'jp') return g.title_jp || g.title_en || '(無題)';
-  return g.title_en || '(無題)';
+  if (currentLang === 'zh') {
+    if (g.title_zh) return { text: g.title_zh, lang: 'zh' };
+    return { text: g.title_en || '(無題)', lang: 'en' };
+  }
+  if (currentLang === 'jp') {
+    if (g.title_jp) return { text: g.title_jp, lang: 'jp' };
+    return { text: g.title_en || '(無題)', lang: 'en' };
+  }
+  return { text: g.title_en || '(無題)', lang: 'en' };
 }
 
 function subtitleFor(g) {
-  if (currentLang === 'zh' && g.title_zh) return g.title_en;
-  if (currentLang === 'en') return g.title_jp || '';
-  if (currentLang === 'jp') return g.title_en || '';
-  return g.title_jp || '';
+  if (currentLang === 'zh' && g.title_zh) return { text: g.title_en || '', lang: 'en' };
+  if (currentLang === 'en') return { text: g.title_jp || '', lang: 'jp' };
+  if (currentLang === 'jp') return { text: g.title_en || '', lang: 'en' };
+  // 預設：副標放日文
+  return { text: g.title_jp || '', lang: 'jp' };
+}
+
+const LANG_LABEL = { zh: '中', en: 'EN', jp: '日' };
+function withLangChip(textLang) {
+  if (!textLang || !textLang.text) return '';
+  const { text, lang } = textLang;
+  return `<span class="lang-chip ${lang}">${LANG_LABEL[lang]}</span><span class="text-${lang}">${escapeHTML(text)}</span>`;
 }
 
 function coverUrl(g) {
@@ -768,8 +803,8 @@ function renderCard(g) {
   card.innerHTML = `
     ${coverHTML}
     <div class="info">
-      <div class="title">${escapeHTML(titleFor(g))}</div>
-      <div class="subtitle">${escapeHTML(subtitleFor(g))}</div>
+      <div class="title">${withLangChip(titleFor(g))}</div>
+      <div class="subtitle">${withLangChip(subtitleFor(g))}</div>
       <div class="meta">
         <span>${escapeHTML(g.maker || '')}</span>
         ${extractYear(g.release_date) ? `<span class="dot">·</span><span>${extractYear(g.release_date)}</span>` : ''}
@@ -786,6 +821,16 @@ function renderCard(g) {
 function extractYear(s) { const m = (s || '').match(/\d{4}/); return m ? m[0] : ''; }
 function escapeHTML(s) {
   return (s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+}
+
+function modalSubtitles(g) {
+  // 在 modal 副標位置顯示「另外兩種語言」的標題
+  const out = [];
+  const main = titleFor(g);
+  if (main.lang !== 'en' && g.title_en) out.push(withLangChip({ text: g.title_en, lang: 'en' }));
+  if (main.lang !== 'jp' && g.title_jp) out.push(withLangChip({ text: g.title_jp, lang: 'jp' }));
+  if (main.lang !== 'zh' && g.title_zh) out.push(withLangChip({ text: g.title_zh, lang: 'zh' }));
+  return out.join('<br>');
 }
 
 function overviewBlock(g) {
@@ -835,8 +880,8 @@ function openModal(g) {
     <div class="header-row">
       ${url ? `<div class="cover-large" style="background-image:url('${url}')"></div>` : `<div class="cover-large"></div>`}
       <div class="header-info">
-        <h2>${escapeHTML(titleFor(g))}</h2>
-        <div class="jp-title">${escapeHTML(g.title_jp || g.title_en || '')}</div>
+        <h2>${withLangChip(titleFor(g))}</h2>
+        <div class="jp-title">${modalSubtitles(g)}</div>
         <div class="header-badges">
           <span class="badge ${formatBadgeClass(g.format_category)}">${escapeHTML(g.format_category || g.format)}</span>
           ${g.rating ? `<span class="badge rating-${g.rating}">${g.rating.toUpperCase()}</span>` : ''}
@@ -945,15 +990,20 @@ function renderSuggestions(q) {
   }
   const html = list.map((g, i) => {
     const url = coverUrl(g);
-    const main = g.title_zh || g.title_en || '';
-    const sub = g.title_zh ? g.title_en : (g.title_jp || '');
+    // 主標題：優先中文 → 英文
+    const mainText = g.title_zh || g.title_en || '';
+    const mainLang = g.title_zh ? 'zh' : 'en';
+    // 副標：另一種語言（有日文優先日，否則英文）
+    let subText = '', subLang = '';
+    if (g.title_zh && g.title_en) { subText = g.title_en; subLang = 'en'; }
+    else if (g.title_jp) { subText = g.title_jp; subLang = 'jp'; }
     const yr = extractYear(g.release_date);
     return `
       <div class="suggestion" data-idx="${i}">
         <div class="suggestion-cover" ${url ? `style="background-image:url('${url}')"` : ''}></div>
         <div class="suggestion-info">
-          <div class="suggestion-title">${highlightMatch(main, q)}</div>
-          <div class="suggestion-sub">${highlightMatch(sub, q)}</div>
+          <div class="suggestion-title"><span class="lang-chip ${mainLang}">${LANG_LABEL[mainLang]}</span><span class="text-${mainLang}">${highlightMatch(mainText, q)}</span></div>
+          ${subText ? `<div class="suggestion-sub"><span class="lang-chip ${subLang}">${LANG_LABEL[subLang]}</span><span class="text-${subLang}">${highlightMatch(subText, q)}</span></div>` : ''}
         </div>
         <div class="suggestion-meta">
           ${yr ? `<span>${yr}</span>` : ''}
