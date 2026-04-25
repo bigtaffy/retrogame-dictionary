@@ -5671,7 +5671,7 @@
   {
     "id": "adventure_of_tokyo_disney_sea",
     "title_en": "Adventure Of Tokyo Disney Sea",
-    "title_jp": "",
+    "title_jp": "Adventure of TOKYO DisneySEA",
     "title_zh": "東京迪士尼大進擊-海洋館篇",
     "developer": "Konami",
     "publisher": "Konami",
@@ -5708,7 +5708,8 @@
     "maker": "Konami",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "aero_the_acro-bat_rascal_rival_revenge",
@@ -6183,7 +6184,7 @@
   {
     "id": "akumajou_dracula_-_circle_of_the_moon",
     "title_en": "Akumajou Dracula - Circle Of The Moon",
-    "title_jp": "",
+    "title_jp": "悪魔城ドラキュラ Circle of the Moon",
     "title_zh": "惡魔城-月之輪迴",
     "developer": "",
     "publisher": "",
@@ -6218,7 +6219,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_90"
   },
   {
     "id": "aleck_bordon_adventure_tower_and_shaft_advance",
@@ -7132,7 +7134,7 @@
   {
     "id": "animal_mania_dokidoki_aishou_check",
     "title_en": "Animal Mania: Dokidoki Aishou Check",
-    "title_jp": "",
+    "title_jp": "アニマルマニア どきどき相性チェック",
     "title_zh": "",
     "developer": "Jupiter",
     "publisher": "Konami",
@@ -7164,7 +7166,8 @@
     "maker": "Konami",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_90"
   },
   {
     "id": "animal_snap_-_rescue_them_2_by",
@@ -7290,7 +7293,7 @@
   {
     "id": "animal_yokochou_dokidoki_shinkyu_shiken",
     "title_en": "Animal Yokochou Dokidoki Shinkyu Shiken",
-    "title_jp": "",
+    "title_jp": "アニマル横町 どき☆どき進級試験!の巻",
     "title_zh": "動物橫町-心跳心跳升級考試之卷 日 ACT 123.25",
     "developer": "Konami",
     "publisher": "Konami",
@@ -7327,12 +7330,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Animal_Yokochou:_Doki_Doki_Shinkyuu_Shiken!_no_Kan&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "animal_yokochou_doki_doki_shinkyuu_shiken_no_kan",
     "title_en": "Animal Yokochou: Doki Doki Shinkyuu Shiken! no Kan",
-    "title_jp": "",
+    "title_jp": "アニマル横町 どき☆どき進級試験!の巻",
     "title_zh": "",
     "developer": "Konami",
     "publisher": "Konami",
@@ -7364,12 +7368,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Animal_Yokochou:_Doki_Doki_Shinkyuu_Shiken!_no_Kan&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_95"
   },
   {
     "id": "animal_yokochou_dokidoki_kyushutsu_daisakusen_no_maki",
     "title_en": "Animal Yokochou: Doki*Doki Kyushutsu Daisakusen! no Maki",
-    "title_jp": "",
+    "title_jp": "アニマル横町 どき☆どき救出大作戦!の巻",
     "title_zh": "",
     "developer": "",
     "publisher": "Konami",
@@ -7401,7 +7406,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Animal_Yokoch%C5%8D",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "animaniacs_-_lights_camera_action",
@@ -7448,7 +7454,7 @@
   {
     "id": "animaru_yokochou_dokidoki_kyushutsu_daisakusen_no_maki",
     "title_en": "Animaru Yokochou DokiDoki Kyushutsu Daisakusen! No Maki",
-    "title_jp": "",
+    "title_jp": "アニマル横町 どき☆どき救出大作戦!の巻",
     "title_zh": "動物橫町-心跳心跳救出大作戰之卷 日 ACT 120.25",
     "developer": "",
     "publisher": "Konami",
@@ -7485,7 +7491,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Animal_Yokoch%C5%8D",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "antz_extreme_racing",
@@ -7534,7 +7541,7 @@
   {
     "id": "ao_zora_to_nakama_tachi_yume_no_bouken",
     "title_en": "Ao Zora to Nakama Tachi: Yume no Bouken",
-    "title_jp": "",
+    "title_jp": "アオ・ゾーラと仲間たち 夢の冒険",
     "title_zh": "",
     "developer": "MTO",
     "publisher": "MTO",
@@ -7566,12 +7573,13 @@
     "maker": "MTO",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_98"
   },
   {
     "id": "aozoora_to_nakamatachi_-_yume_no_bouken",
     "title_en": "Aozoora to Nakamatachi - Yume no Bouken",
-    "title_jp": "",
+    "title_jp": "アオ・ゾーラと仲間たち 夢の冒険",
     "title_zh": "夢之冒險",
     "developer": "MTO",
     "publisher": "MTO",
@@ -7608,7 +7616,8 @@
     "maker": "MTO",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_98"
   },
   {
     "id": "archer_macleans_3d_pool",
@@ -8063,7 +8072,7 @@
   {
     "id": "ashita_no_joe_makkani_moeagare",
     "title_en": "Ashita no Joe Makkani Moeagare!",
-    "title_jp": "",
+    "title_jp": "あしたのジョー まっ赤に燃え上がれ!",
     "title_zh": "",
     "developer": "Konami",
     "publisher": "Konami",
@@ -8095,7 +8104,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Ashita_no_Joe_Makkani_Moeagare!",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "asterix_obelix_xxl",
@@ -8812,7 +8822,7 @@
   {
     "id": "azumanga_daioh_advance",
     "title_en": "Azumanga Daioh Advance",
-    "title_jp": "",
+    "title_jp": "あずまんが大王アドバンス",
     "title_zh": "阿滋漫畫大王",
     "developer": "TOSE",
     "publisher": "King Records",
@@ -8849,7 +8859,8 @@
     "maker": "King Records",
     "source_url": "https://en.wikipedia.org/wiki/Azumanga_Daioh_Advance",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "b-legend_battle_b-daman_moero_b-damashii",
@@ -10738,7 +10749,7 @@
   {
     "id": "bass_tsuri_shiyouze_tournament_wa_senryaku_da",
     "title_en": "Bass Tsuri Shiyouze!: Tournament wa Senryaku da!",
-    "title_jp": "",
+    "title_jp": "バス釣りしようぜ! 〜トーナメントは戦略だ!〜",
     "title_zh": "",
     "developer": "",
     "publisher": "Konami",
@@ -10770,7 +10781,8 @@
     "maker": "Konami",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "batman_begins",
@@ -12042,7 +12054,7 @@
   {
     "id": "bit_generations_boundish",
     "title_en": "bit Generations Boundish",
-    "title_jp": "",
+    "title_jp": "bit Generations",
     "title_zh": "幾何世代-反彈網球 日 ACT 16.75",
     "developer": "Skip",
     "publisher": "Nintendo",
@@ -12079,12 +12091,13 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Bit_Generations",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "bit_generations_coloris",
     "title_en": "bit Generations Coloris",
-    "title_jp": "",
+    "title_jp": "bit Generations Series 2",
     "title_zh": "幾何世代-顏色方塊 日 TAB 109.00",
     "developer": "Skip",
     "publisher": "Nintendo",
@@ -12121,12 +12134,13 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Bit_Generations",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_81"
   },
   {
     "id": "bit_generations_dialhex",
     "title_en": "bit Generations Dialhex",
-    "title_jp": "",
+    "title_jp": "bit Generations",
     "title_zh": "幾何世代-六角形針盤 日 TAB 120.25",
     "developer": "Skip",
     "publisher": "Nintendo",
@@ -12163,7 +12177,8 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Rotohex",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "bit_generations_digidrive",
@@ -12252,7 +12267,7 @@
   {
     "id": "bit_generations_orbital",
     "title_en": "bit Generations Orbital",
-    "title_jp": "",
+    "title_jp": "bit Generations",
     "title_zh": "幾何世代-軌道牽引 日 ACT 101.25",
     "developer": "Skip",
     "publisher": "Nintendo",
@@ -12289,7 +12304,8 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Orbient",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "bit_generations_soundvoyager",
@@ -12747,7 +12763,7 @@
   {
     "id": "bobobo-bo_bo-bobo_9_kiwame_senshi_gyagu_yuugou",
     "title_en": "Bobobo-bo Bo-bobo: 9 Kiwame Senshi Gyagu Yuugou",
-    "title_jp": "",
+    "title_jp": "ボボボーボ・ボーボボ 9極戦士ギャグ融合",
     "title_zh": "",
     "developer": "",
     "publisher": "Hudson Soft",
@@ -12776,12 +12792,13 @@
     "maker": "Hudson Soft",
     "source_url": "https://en.wikipedia.org/wiki/Bobobo-bo_Bo-bobo#Video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "bobobo-bo_bo-bobo_backutou_hajike_taisen",
     "title_en": "Bobobo-bo Bo-bobo: Backutou Hajike Taisen",
-    "title_jp": "",
+    "title_jp": "ボボボーボ・ボーボボ 爆闘ハジケ大戦",
     "title_zh": "",
     "developer": "",
     "publisher": "Hudson Soft",
@@ -12813,7 +12830,8 @@
     "maker": "Hudson Soft",
     "source_url": "https://en.wikipedia.org/wiki/Bobobo-bo_Bo-bobo#Video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_97"
   },
   {
     "id": "bobobo-bo_bo-bobo_majide_shinken_shoubu",
@@ -12968,7 +12986,7 @@
   {
     "id": "boboboubo_boubobo_-_9_kiwame_senshi_gyagu_yuugou",
     "title_en": "Boboboubo Boubobo - 9 Kiwame Senshi Gyagu Yuugou",
-    "title_jp": "",
+    "title_jp": "ボボボーボ・ボーボボ 9極戦士ギャグ融合",
     "title_zh": "爆裂鼻毛真拳-9極戰士搞笑融合",
     "developer": "",
     "publisher": "Hudson Soft",
@@ -13002,12 +13020,13 @@
     "maker": "Hudson Soft",
     "source_url": "https://en.wikipedia.org/wiki/Bobobo-bo_Bo-bobo#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "boboboubo_boubobo_bakutou_hajike_taisen",
     "title_en": "Boboboubo Boubobo Bakutou Hajike Taisen",
-    "title_jp": "",
+    "title_jp": "ボボボーボ・ボーボボ 爆闘ハジケ大戦",
     "title_zh": "爆裂鼻毛真拳-爆鬥臭屁大戰",
     "developer": "",
     "publisher": "Hudson Soft",
@@ -13044,7 +13063,8 @@
     "maker": "Hudson Soft",
     "source_url": "https://en.wikipedia.org/wiki/Bobobo-bo_Bo-bobo#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_98"
   },
   {
     "id": "boktai_-_the_sun_is_in_your_hand",
@@ -13284,7 +13304,7 @@
   {
     "id": "boku_wa_koukuu_kanseikan",
     "title_en": "Boku wa Koukuu Kanseikan",
-    "title_jp": "",
+    "title_jp": "ぼくは航空管制官",
     "title_zh": "",
     "developer": "Graphic Research",
     "publisher": "Tamsoft",
@@ -13316,7 +13336,8 @@
     "maker": "Tamsoft",
     "source_url": "https://en.wikipedia.org/wiki/I_am_an_Air_Traffic_Controller",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "bokujou_monogatari_-_mineral_town_for_girls",
@@ -13358,7 +13379,7 @@
   {
     "id": "bokujou_monogatari_-_mineral_town_no_nakama_tachi",
     "title_en": "Bokujou Monogatari - Mineral Town no Nakama Tachi",
-    "title_jp": "",
+    "title_jp": "牧場物語 ミネラルタウンのなかまたち",
     "title_zh": "牧場物語-礦石鎮的夥伴們 TCG+RPG",
     "developer": "",
     "publisher": "",
@@ -13393,12 +13414,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_91"
   },
   {
     "id": "bokura_no_taiyo",
     "title_en": "Bokura no Taiyo",
-    "title_jp": "",
+    "title_jp": "ボクらの太陽",
     "title_zh": "我們的太陽",
     "developer": "",
     "publisher": "",
@@ -13430,7 +13452,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "bomberman_jetters",
@@ -15343,7 +15366,7 @@
   {
     "id": "bura_bura_donke",
     "title_en": "Bura Bura Donke",
-    "title_jp": "",
+    "title_jp": "ぶらぶらドンキー",
     "title_zh": "大金剛-搖擺之王",
     "developer": "",
     "publisher": "",
@@ -15378,7 +15401,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_92"
   },
   {
     "id": "butt_ugly_martians_bkm_battles",
@@ -15903,7 +15927,7 @@
   {
     "id": "captain_tsubasa_-_eikou_no_kiseki",
     "title_en": "Captain Tsubasa - Eikou No Kiseki",
-    "title_jp": "",
+    "title_jp": "キャプテン翼 栄光の軌跡",
     "title_zh": "天使之翼-榮光之軌跡",
     "developer": "",
     "publisher": "Konami",
@@ -15940,7 +15964,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Captain_Tsubasa:_Eikou_no_Kiseki",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "car_battler_joe",
@@ -17810,7 +17835,7 @@
   {
     "id": "chocobo_land_a_game_of_dice",
     "title_en": "Chocobo Land: A Game of Dice",
-    "title_jp": "",
+    "title_jp": "チョコボランド A Game Of Dice",
     "title_zh": "",
     "developer": "Square",
     "publisher": "Square",
@@ -17842,12 +17867,13 @@
     "maker": "Square",
     "source_url": "https://en.wikipedia.org/wiki/Chocobo_Land",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "choh_makai-mura_r",
     "title_en": "Choh Makai-Mura R",
-    "title_jp": "",
+    "title_jp": "超魔界村R",
     "title_zh": "超魔界村R",
     "developer": "",
     "publisher": "",
@@ -17882,7 +17908,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_96"
   },
   {
     "id": "choro_q_advance",
@@ -17927,7 +17954,7 @@
   {
     "id": "chu_chu_rocket",
     "title_en": "Chu Chu Rocket",
-    "title_jp": "",
+    "title_jp": "チューチューロケット!",
     "title_zh": "啾啾火箭隊",
     "developer": "Sonic Team",
     "publisher": "Sega",
@@ -17968,7 +17995,8 @@
     "maker": "Sega",
     "source_url": "https://en.wikipedia.org/wiki/ChuChu_Rocket!",
     "region_category": "多區發行",
-    "region_flags": "🇯🇵🇺🇸🇪🇺"
+    "region_flags": "🇯🇵🇺🇸🇪🇺",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "cima_the_enemy",
@@ -18015,7 +18043,7 @@
   {
     "id": "cinnamon_fuwafuwa_daisakusen",
     "title_en": "Cinnamon Fuwafuwa Daisakusen",
-    "title_jp": "",
+    "title_jp": "シナモンふわふわ大作戦",
     "title_zh": "長耳狗輕飄飄大作戰 日 ACT 32.00",
     "developer": "",
     "publisher": "",
@@ -18047,12 +18075,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_92"
   },
   {
     "id": "cinnamon_yume_no_daibouken",
     "title_en": "Cinnamon Yume no Daibouken",
-    "title_jp": "",
+    "title_jp": "シナモン ゆめの大冒険",
     "title_zh": "長耳狗-夢之大冒險",
     "developer": "",
     "publisher": "Imagineer",
@@ -18086,7 +18115,8 @@
     "maker": "Imagineer",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_91"
   },
   {
     "id": "cinnamoroll_fuwafuwa_daibouken",
@@ -18125,7 +18155,7 @@
   {
     "id": "cinnamoroll_koko_ni_ruyo",
     "title_en": "Cinnamoroll Koko ni Ruyo",
-    "title_jp": "",
+    "title_jp": "シナモロール ここにいるよ",
     "title_zh": "",
     "developer": "A.I",
     "publisher": "Imagineer",
@@ -18157,12 +18187,13 @@
     "maker": "Imagineer",
     "source_url": "https://en.wikipedia.org/wiki/Cinnamoroll#Video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_81"
   },
   {
     "id": "cinnamoroll_kokoniiruyo",
     "title_en": "Cinnamoroll Kokoniiruyo",
-    "title_jp": "",
+    "title_jp": "シナモロール ここにいるよ",
     "title_zh": "長耳狗就在這裡",
     "developer": "A.I",
     "publisher": "Imagineer",
@@ -18199,7 +18230,8 @@
     "maker": "Imagineer",
     "source_url": "https://en.wikipedia.org/wiki/Cinnamoroll#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_81"
   },
   {
     "id": "classic_nes_series_-_bomberman",
@@ -19619,7 +19651,7 @@
   {
     "id": "crash_bandicoot_advance_-_wakuwaku_tomodachi_daisakusen",
     "title_en": "Crash Bandicoot Advance - Wakuwaku Tomodachi Daisakusen",
-    "title_jp": "",
+    "title_jp": "クラッシュ・バンディクー アドバンス わくわく友ダチ大作戦!",
     "title_zh": "古惑狼大進擊-朋友大作戰",
     "developer": "",
     "publisher": "",
@@ -19654,7 +19686,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_82"
   },
   {
     "id": "crash_bandicoot_advance_2_-_gurugurusaimin_dai_panic",
@@ -19949,7 +19982,7 @@
   {
     "id": "crayon_shin_chan-densetsu_wo_yobu_omake_no_miyako_shockgaan",
     "title_en": "Crayon Shin chan-Densetsu wo Yobu Omake no Miyako Shockgaan",
-    "title_jp": "",
+    "title_jp": "クレヨンしんちゃん 伝説を呼ぶ オマケの都ショックガーン!",
     "title_zh": "蠟筆小新2-呼喚傳說食玩都冒險",
     "developer": "Inti Creates",
     "publisher": "Banpresto, Atari Europe",
@@ -19986,12 +20019,13 @@
     "maker": "Banpresto, Atari Europe",
     "source_url": "https://en.wikipedia.org/wiki/Crayon_Shin-chan#Official_video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_92"
   },
   {
     "id": "crayon_shin-chan_-_arashi_no_yobu_cinema-land_no_daibouken",
     "title_en": "Crayon Shin-Chan - Arashi no Yobu Cinema-Land no Daibouken!",
-    "title_jp": "",
+    "title_jp": "クレヨンしんちゃん 嵐を呼ぶ シネマランドの大冒険!",
     "title_zh": "蠟筆小新 呼風喚雨-電影島之大冒險! 128M",
     "developer": "Inti Creates",
     "publisher": "Banpresto, Atari Europe",
@@ -20028,12 +20062,13 @@
     "maker": "Banpresto, Atari Europe",
     "source_url": "https://en.wikipedia.org/wiki/Crayon_Shin-chan#Official_video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "crayon_shin-chan_densetsu_o_yobu_omake_no_to_shukkugaan",
     "title_en": "Crayon Shin-Chan: Densetsu o Yobu Omake no To Shukkugaan!",
-    "title_jp": "",
+    "title_jp": "クレヨンしんちゃん 伝説を呼ぶ オマケの都ショックガーン!",
     "title_zh": "",
     "developer": "Inti Creates",
     "publisher": "Banpresto, Atari Europe",
@@ -20062,7 +20097,8 @@
     "maker": "Banpresto, Atari Europe",
     "source_url": "https://en.wikipedia.org/wiki/Crayon_Shin-chan#Official_video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_85"
   },
   {
     "id": "crazy_chase",
@@ -20345,7 +20381,7 @@
   {
     "id": "croket_3_guranyuoukoku_no_nazo",
     "title_en": "Croket 3 Guranyuoukoku No Nazo",
-    "title_jp": "",
+    "title_jp": "コロッケ!3 グラニュー王国の謎",
     "title_zh": "口袋夢幻3-砂糖王國之謎",
     "developer": "",
     "publisher": "Konami",
@@ -20382,7 +20418,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Croket!#Games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_90"
   },
   {
     "id": "croket_4_bank_no_mori_no_mamorigami",
@@ -20429,7 +20466,7 @@
   {
     "id": "croket_2_yami_no_bank_to_ban_joou",
     "title_en": "Croket! 2: Yami no Bank to Ban Joou",
-    "title_jp": "",
+    "title_jp": "コロッケ!2 闇のバンクとバン女王",
     "title_zh": "",
     "developer": "",
     "publisher": "Konami",
@@ -20458,12 +20495,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Croket!#Games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "croket_3_granyuu_oukoku_no_nazo",
     "title_en": "Croket! 3: Granyuu Oukoku no Nazo",
-    "title_jp": "",
+    "title_jp": "コロッケ!3 グラニュー王国の謎",
     "title_zh": "",
     "developer": "",
     "publisher": "Konami",
@@ -20495,12 +20533,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Croket!#Games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "croket_great_jikuu_no_boukensha",
     "title_en": "Croket! Great Jikuu no Boukensha",
-    "title_jp": "",
+    "title_jp": "コロッケ!Great 時空の冒険者",
     "title_zh": "",
     "developer": "Jupiter",
     "publisher": "Konami",
@@ -20529,7 +20568,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Croket!#Games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_90"
   },
   {
     "id": "croket_yume_no_banker_survival",
@@ -21063,7 +21103,7 @@
   {
     "id": "daisenryaku",
     "title_en": "Daisenryaku",
-    "title_jp": "",
+    "title_jp": "大戦略",
     "title_zh": "大戰略",
     "developer": "",
     "publisher": "Media Kite",
@@ -21097,12 +21137,13 @@
     "maker": "Media Kite",
     "source_url": "https://en.wikipedia.org/wiki/Daisenryaku",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "daisuki_teddy",
     "title_en": "Daisuki Teddy",
-    "title_jp": "",
+    "title_jp": "大好きテディ",
     "title_zh": "我愛泰迪熊",
     "developer": "",
     "publisher": "MTO",
@@ -21139,12 +21180,13 @@
     "maker": "MTO",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_87"
   },
   {
     "id": "dan_doh_tobase_shouri_no_smile_shot",
     "title_en": "Dan Doh Tobase Shouri no Smile Shot",
-    "title_jp": "",
+    "title_jp": "DAN DOH!! 飛ばせ!勝利のスマイルショット!!",
     "title_zh": "高爾夫小子-揮出勝利之桿",
     "developer": "",
     "publisher": "Takara",
@@ -21181,12 +21223,13 @@
     "maker": "Takara",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_87"
   },
   {
     "id": "dan_doh_xi",
     "title_en": "Dan Doh Xi",
-    "title_jp": "",
+    "title_jp": "DAN DOH!! Xi",
     "title_zh": "高爾夫小子",
     "developer": "",
     "publisher": "GameVillage",
@@ -21223,7 +21266,8 @@
     "maker": "GameVillage",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "dancing_sword",
@@ -21265,7 +21309,7 @@
   {
     "id": "dancing_sword_senkou",
     "title_en": "Dancing Sword: Senkou",
-    "title_jp": "",
+    "title_jp": "ダンシングソード 閃光",
     "title_zh": "",
     "developer": "",
     "publisher": "MTO",
@@ -21297,7 +21341,8 @@
     "maker": "MTO",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "danny_phantom_-_the_ultimate_enemy",
@@ -22368,7 +22413,7 @@
   {
     "id": "densetsu_no_stafy",
     "title_en": "Densetsu no Stafy",
-    "title_jp": "",
+    "title_jp": "伝説のスタフィー",
     "title_zh": "傳說的斯塔菲",
     "developer": "TOSE",
     "publisher": "Nintendo",
@@ -22407,12 +22452,13 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Densetsu_no_Starfy_(video_game)",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_90"
   },
   {
     "id": "densetsu_no_starfy",
     "title_en": "Densetsu no Starfy",
-    "title_jp": "",
+    "title_jp": "伝説のスタフィー",
     "title_zh": "",
     "developer": "TOSE",
     "publisher": "Nintendo",
@@ -22444,12 +22490,13 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Densetsu_no_Starfy_(video_game)",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "densetsu_no_starfy_2",
     "title_en": "Densetsu no Starfy 2",
-    "title_jp": "",
+    "title_jp": "伝説のスタフィー2",
     "title_zh": "",
     "developer": "TOSE",
     "publisher": "Nintendo",
@@ -22481,12 +22528,13 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Densetsu_no_Starfy_2",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "densetsu_no_starfy_3",
     "title_en": "Densetsu no Starfy 3",
-    "title_jp": "",
+    "title_jp": "伝説のスタフィー3",
     "title_zh": "",
     "developer": "TOSE",
     "publisher": "Nintendo",
@@ -22518,7 +22566,8 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Densetsu_no_Starfy_3",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "derby_stallion_advance",
@@ -26099,7 +26148,7 @@
   {
     "id": "dokidoki_cooking_series_2_gourmet_kitchen_suteki_na_obentou",
     "title_en": "DokiDoki Cooking Series 2: Gourmet Kitchen: Suteki na Obentou",
-    "title_jp": "",
+    "title_jp": "ドキドキクッキングシリーズ(2) グルメキッチン ステキなお弁当",
     "title_zh": "",
     "developer": "MTO",
     "publisher": "MTO",
@@ -26131,12 +26180,13 @@
     "maker": "MTO",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_81"
   },
   {
     "id": "dokodemo_taikyoku_yakuman_advance",
     "title_en": "Dokodemo Taikyoku Yakuman Advance",
-    "title_jp": "",
+    "title_jp": "どこでも対局 役満アドバンス",
     "title_zh": "隨身對局-役滿",
     "developer": "NDcube",
     "publisher": "Nintendo",
@@ -26173,12 +26223,13 @@
     "maker": "Nintendo",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "domo-kun_no_fushigi_terebi",
     "title_en": "Domo-Kun No Fushigi Terebi",
-    "title_jp": "",
+    "title_jp": "どーもくんの不思議てれび",
     "title_zh": "多摩君之不可思議的電視",
     "developer": "Suzak",
     "publisher": "Nintendo",
@@ -26212,7 +26263,8 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Domo-kun_no_Fushigi_Terebi",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "don-chan_puzzle_hanabi_de_don",
@@ -26928,7 +26980,7 @@
   {
     "id": "doraemon_dokodemo_walker",
     "title_en": "Doraemon Dokodemo Walker",
-    "title_jp": "",
+    "title_jp": "ドラえもん どこでもウォーカー",
     "title_zh": "",
     "developer": "",
     "publisher": "Epoch",
@@ -26960,7 +27012,8 @@
     "maker": "Epoch",
     "source_url": "https://en.wikipedia.org/wiki/List_of_Doraemon_video_games#Game_Boy_Advance",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_83"
   },
   {
     "id": "doraemon_midori_no_wakusei",
@@ -27048,7 +27101,7 @@
   {
     "id": "doubutsu_no_shima_no_chobi_gurumi",
     "title_en": "Doubutsu no Shima no Chobi Gurumi",
-    "title_jp": "",
+    "title_jp": "どうぶつ島のチョビぐるみ",
     "title_zh": "可愛動物島",
     "developer": "A.I",
     "publisher": "Rocket Company",
@@ -27085,12 +27138,13 @@
     "maker": "Rocket Company",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_96"
   },
   {
     "id": "doubutsujima_no_chobi_gurumi",
     "title_en": "Doubutsujima no Chobi Gurumi",
-    "title_jp": "",
+    "title_jp": "どうぶつ島のチョビぐるみ",
     "title_zh": "",
     "developer": "A.I",
     "publisher": "Rocket Company",
@@ -27122,12 +27176,13 @@
     "maker": "Rocket Company",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "doubutsujima_no_chobi_gurumi_2_tamachan_monogatari",
     "title_en": "Doubutsujima no Chobi Gurumi 2 Tamachan Monogatari",
-    "title_jp": "",
+    "title_jp": "どうぶつ島のチョビぐるみ2 タマちゃん物語",
     "title_zh": "可愛動物島2",
     "developer": "A.I",
     "publisher": "Rocket Company",
@@ -27164,7 +27219,8 @@
     "maker": "Rocket Company",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_97"
   },
   {
     "id": "downforce",
@@ -27851,7 +27907,7 @@
   {
     "id": "dragon_ball_z_-_legacy_of_goku_ii",
     "title_en": "Dragon Ball Z - Legacy of Goku II",
-    "title_jp": "",
+    "title_jp": "DRAGONBALL Z THE LEGACY OF GOKU II",
     "title_zh": "七龍珠Z-悟空傳說2",
     "developer": "Webfoot",
     "publisher": "Atari, Infogrames",
@@ -27890,12 +27946,13 @@
     "maker": "Atari, Infogrames",
     "source_url": "https://en.wikipedia.org/wiki/Dragon_Ball_Z:_The_Legacy_of_Goku#The_Legend_of_Goku_II",
     "region_category": "多區發行",
-    "region_flags": "🇺🇸🇪🇺"
+    "region_flags": "🇺🇸🇪🇺",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "dragon_ball_z_-_the_legacy_of_goku",
     "title_en": "Dragon Ball Z - The Legacy Of Goku",
-    "title_jp": "",
+    "title_jp": "DRAGONBALL Z THE LEGACY OF GOKU II",
     "title_zh": "七龍珠Z-悟空傳說",
     "developer": "Webfoot",
     "publisher": "Infogrames",
@@ -27934,12 +27991,13 @@
     "maker": "Infogrames",
     "source_url": "https://en.wikipedia.org/wiki/Dragon_Ball_Z:_The_Legacy_of_Goku#The_Legend_of_Goku",
     "region_category": "多區發行",
-    "region_flags": "🇺🇸🇪🇺"
+    "region_flags": "🇺🇸🇪🇺",
+    "_jp_match": "fuzzy_98"
   },
   {
     "id": "dragon_ball_z_-_the_legacy_of_goku_ii_international",
     "title_en": "Dragon Ball Z - The Legacy of Goku II International",
-    "title_jp": "",
+    "title_jp": "DRAGONBALL Z THE LEGACY OF GOKU II",
     "title_zh": "七龍珠Z-悟空傳說2國際版 日 A‧RPG",
     "developer": "",
     "publisher": "",
@@ -27974,7 +28032,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_81"
   },
   {
     "id": "dragon_ball_z_supersonic_warriors",
@@ -28067,7 +28126,7 @@
   {
     "id": "dragon_ball_z_the_legacy_of_goku_ii",
     "title_en": "Dragon Ball Z: The Legacy of Goku II",
-    "title_jp": "",
+    "title_jp": "DRAGONBALL Z THE LEGACY OF GOKU II",
     "title_zh": "",
     "developer": "Webfoot",
     "publisher": "Atari, Infogrames",
@@ -28099,12 +28158,13 @@
     "maker": "Atari, Infogrames",
     "source_url": "https://en.wikipedia.org/wiki/Dragon_Ball_Z:_The_Legacy_of_Goku#The_Legend_of_Goku_II",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "dragon_ball_zbukuu_tougeki",
     "title_en": "Dragon Ball Zbukuu Tougeki",
-    "title_jp": "",
+    "title_jp": "ドラゴンボールZ 舞空闘劇",
     "title_zh": "七龍珠Z-舞空鬥劇",
     "developer": "",
     "publisher": "",
@@ -28139,7 +28199,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_84"
   },
   {
     "id": "dragon_drive",
@@ -28536,7 +28597,7 @@
   {
     "id": "dragonball_z_-_bukuu_tougeki",
     "title_en": "Dragonball Z - Bukuu Tougeki",
-    "title_jp": "",
+    "title_jp": "ドラゴンボールZ 舞空闘劇",
     "title_zh": "七龍珠Z-舞空鬥劇",
     "developer": "",
     "publisher": "",
@@ -28571,7 +28632,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "其他",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_84"
   },
   {
     "id": "dragonball_z_buus_fury",
@@ -30748,7 +30810,7 @@
   {
     "id": "espn_winter_x_games_snowboarding",
     "title_en": "ESPN Winter X Games Snowboarding",
-    "title_jp": "",
+    "title_jp": "ESPN winter X Games snowboarding 2002",
     "title_zh": "ESPN冬季極限滑板2",
     "developer": "KCEO",
     "publisher": "Konami",
@@ -30785,12 +30847,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/ESPN_Winter_X-Games_Snowboarding_2002",
     "region_category": "歐版",
-    "region_flags": "🇪🇺"
+    "region_flags": "🇪🇺",
+    "_jp_match": "fuzzy_93"
   },
   {
     "id": "espn_winter_x-games_snowboarding",
     "title_en": "ESPN Winter X-Games Snowboarding",
-    "title_jp": "",
+    "title_jp": "ESPN winter X Games snowboarding 2002",
     "title_zh": "ESPN冬季運動會-滑雪板2002",
     "developer": "KCEO",
     "publisher": "Konami",
@@ -30829,12 +30892,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/ESPN_Winter_X-Games_Snowboarding_2002",
     "region_category": "多區發行",
-    "region_flags": "🇯🇵🇺🇸"
+    "region_flags": "🇯🇵🇺🇸",
+    "_jp_match": "fuzzy_93"
   },
   {
     "id": "espn_winter_x-games_snowboarding_2002",
     "title_en": "ESPN Winter X-Games Snowboarding 2002",
-    "title_jp": "",
+    "title_jp": "ESPN winter X Games snowboarding 2002",
     "title_zh": "",
     "developer": "KCEO",
     "publisher": "Konami",
@@ -30866,12 +30930,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/ESPN_Winter_X-Games_Snowboarding_2002",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "espn_x_-_games_skateboarding",
     "title_en": "ESPN X - Games Skateboarding",
-    "title_jp": "",
+    "title_jp": "ESPN X Games skateboarding",
     "title_zh": "ESPN X-溜冰板遊戲",
     "developer": "Konami Honolulu Studio",
     "publisher": "Konami",
@@ -30908,12 +30973,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/ESPN_X_Games_Skateboarding",
     "region_category": "歐版",
-    "region_flags": "🇪🇺"
+    "region_flags": "🇪🇺",
+    "_jp_match": "exact"
   },
   {
     "id": "espn_x-games_skateboarding",
     "title_en": "ESPN X-Games Skateboarding",
-    "title_jp": "",
+    "title_jp": "ESPN X Games skateboarding",
     "title_zh": "ESPN X競技滑板",
     "developer": "Konami Honolulu Studio",
     "publisher": "Konami",
@@ -30952,7 +31018,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/ESPN_X_Games_Skateboarding",
     "region_category": "多區發行",
-    "region_flags": "🇯🇵🇺🇸"
+    "region_flags": "🇯🇵🇺🇸",
+    "_jp_match": "exact"
   },
   {
     "id": "estopolis_densetsu",
@@ -31073,7 +31140,7 @@
   {
     "id": "ex_monopoly",
     "title_en": "EX Monopoly",
-    "title_jp": "",
+    "title_jp": "EXモノポリー",
     "title_zh": "大富翁ＥＸ",
     "developer": "Mobile21",
     "publisher": "Takara",
@@ -31110,7 +31177,8 @@
     "maker": "Takara",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "exciting_bass",
@@ -31312,7 +31380,7 @@
   {
     "id": "eyeshield_21_devilbats_devildays",
     "title_en": "Eyeshield 21 Devilbats Devildays",
-    "title_jp": "",
+    "title_jp": "アイシールド21 DEVILBATS DEVILDAYS",
     "title_zh": "光速蒙面俠21-惡魔蝙蝠惡魔日",
     "developer": "Eighting",
     "publisher": "Nintendo",
@@ -31349,7 +31417,8 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Eyeshield_21:_Devilbats_Devildays",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_83"
   },
   {
     "id": "ez-talk",
@@ -31391,7 +31460,7 @@
   {
     "id": "ez-talk_shokyuuhen_1",
     "title_en": "EZ-Talk Shokyuuhen 1",
-    "title_jp": "",
+    "title_jp": "EZ-TALK 初級編 1",
     "title_zh": "",
     "developer": "NDcube",
     "publisher": "KeyNet",
@@ -31423,12 +31492,13 @@
     "maker": "KeyNet",
     "source_url": "https://en.wikipedia.org/w/index.php?title=EZ-Talk_1&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "ez-talk_shokyuuhen_2",
     "title_en": "EZ-Talk Shokyuuhen 2",
-    "title_jp": "",
+    "title_jp": "EZ-TALK 初級編 2",
     "title_zh": "",
     "developer": "NDcube",
     "publisher": "KeyNet",
@@ -31460,12 +31530,13 @@
     "maker": "KeyNet",
     "source_url": "https://en.wikipedia.org/w/index.php?title=EZ-Talk_2&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "ez-talk_shokyuuhen_3",
     "title_en": "EZ-Talk Shokyuuhen 3",
-    "title_jp": "",
+    "title_jp": "EZ-TALK 初級編 3",
     "title_zh": "",
     "developer": "NDcube",
     "publisher": "KeyNet",
@@ -31497,12 +31568,13 @@
     "maker": "KeyNet",
     "source_url": "https://en.wikipedia.org/w/index.php?title=EZ-Talk_3&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "ez-talk_shokyuuhen_4",
     "title_en": "EZ-Talk Shokyuuhen 4",
-    "title_jp": "",
+    "title_jp": "EZ-TALK 初級編 4",
     "title_zh": "",
     "developer": "NDcube",
     "publisher": "KeyNet",
@@ -31534,12 +31606,13 @@
     "maker": "KeyNet",
     "source_url": "https://en.wikipedia.org/w/index.php?title=EZ-Talk_4&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "ez-talk_shokyuuhen_5d",
     "title_en": "EZ-Talk Shokyuuhen 5d",
-    "title_jp": "",
+    "title_jp": "EZ-TALK 初級編 5",
     "title_zh": "",
     "developer": "NDcube",
     "publisher": "KeyNet",
@@ -31571,12 +31644,13 @@
     "maker": "KeyNet",
     "source_url": "https://en.wikipedia.org/w/index.php?title=EZ-Talk_5&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_97"
   },
   {
     "id": "ez-talk_shokyuuhen_6",
     "title_en": "EZ-Talk Shokyuuhen 6",
-    "title_jp": "",
+    "title_jp": "EZ-TALK 初級編 6",
     "title_zh": "",
     "developer": "NDcube",
     "publisher": "KeyNet",
@@ -31608,7 +31682,8 @@
     "maker": "KeyNet",
     "source_url": "https://en.wikipedia.org/w/index.php?title=EZ-Talk_6&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "f-14_tomcat",
@@ -31692,7 +31767,7 @@
   {
     "id": "f-zero_-_falcon_densetsu",
     "title_en": "F-Zero - Falcon Densetsu",
-    "title_jp": "",
+    "title_jp": "F-ZERO ファルコン伝説",
     "title_zh": "極速傳說-法爾康傳說",
     "developer": "",
     "publisher": "",
@@ -31727,7 +31802,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_87"
   },
   {
     "id": "f-zero_-_maximum_velocity",
@@ -31774,7 +31850,7 @@
   {
     "id": "f-zero_climax",
     "title_en": "F-Zero Climax",
-    "title_jp": "",
+    "title_jp": "F-ZERO CLIMAX",
     "title_zh": "極速傳說-巔峰之戰",
     "developer": "Suzak",
     "publisher": "Nintendo",
@@ -31811,7 +31887,8 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/F-Zero_Climax",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "f-zero_gp_legend",
@@ -34664,7 +34741,7 @@
   {
     "id": "field_of_nine_digital_edition",
     "title_en": "Field Of Nine Digital Edition",
-    "title_jp": "",
+    "title_jp": "FIELD OF NINE DIGITAL EDITION 2001",
     "title_zh": "九局戰場-數位版2001",
     "developer": "Konami",
     "publisher": "Konami",
@@ -34701,12 +34778,13 @@
     "maker": "Konami",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_93"
   },
   {
     "id": "field_of_nine_digital_edition_2001",
     "title_en": "Field of Nine: Digital Edition 2001",
-    "title_jp": "",
+    "title_jp": "FIELD OF NINE DIGITAL EDITION 2001",
     "title_zh": "",
     "developer": "Konami",
     "publisher": "Konami",
@@ -34738,7 +34816,8 @@
     "maker": "Konami",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "fifa",
@@ -35536,7 +35615,7 @@
   {
     "id": "finding_nemo",
     "title_en": "Finding Nemo",
-    "title_jp": "",
+    "title_jp": "ファインディング・ニモ",
     "title_zh": "海底總動員-尋找尼莫",
     "developer": "Vicarious Visions",
     "publisher": "THQ",
@@ -35579,7 +35658,8 @@
     "maker": "THQ",
     "source_url": "https://en.wikipedia.org/wiki/Finding_Nemo_(video_game)",
     "region_category": "多區發行",
-    "region_flags": "🇯🇵🇺🇸🇪🇺"
+    "region_flags": "🇯🇵🇺🇸🇪🇺",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "finding_nemo_-_the_continuing_adventures",
@@ -35628,7 +35708,7 @@
   {
     "id": "finding_nemo_arata_naru_bouken",
     "title_en": "Finding Nemo Arata Naru Bouken",
-    "title_jp": "",
+    "title_jp": "ファインディング・ニモ 新たなる冒険",
     "title_zh": "海底總動員-冒險再續",
     "developer": "",
     "publisher": "",
@@ -35663,7 +35743,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_91"
   },
   {
     "id": "fire_emblem",
@@ -35873,7 +35954,7 @@
   {
     "id": "fire_emblem_fuuin_no_tsurugi",
     "title_en": "Fire Emblem: Fuuin no Tsurugi",
-    "title_jp": "",
+    "title_jp": "ファイアーエムブレム 封印の剣",
     "title_zh": "",
     "developer": "Intelligent Systems",
     "publisher": "Nintendo",
@@ -35905,7 +35986,8 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Fire_Emblem:_The_Binding_Blade",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_82"
   },
   {
     "id": "fire_pro_wrestling",
@@ -36737,7 +36819,7 @@
   {
     "id": "frogger_kodaibunmei_no_nazo",
     "title_en": "Frogger Kodaibunmei no Nazo",
-    "title_jp": "",
+    "title_jp": "フロッガー 古代文明のなぞ",
     "title_zh": "青蛙冒險-古文明之謎",
     "developer": "",
     "publisher": "",
@@ -36772,12 +36854,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_91"
   },
   {
     "id": "frogger_mahou_no_kuni_no_daibouken",
     "title_en": "Frogger Mahou no Kuni no Daibouken",
-    "title_jp": "",
+    "title_jp": "フロッガー 魔法の国の大冒険",
     "title_zh": "青蛙冒險-魔法國的大冒險",
     "developer": "",
     "publisher": "",
@@ -36812,7 +36895,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_93"
   },
   {
     "id": "froggers_adventures_-_temple_of_the_frog",
@@ -37022,7 +37106,7 @@
   {
     "id": "from_tv_animation_-_one_piece_mezase_king_of_berry",
     "title_en": "From TV animation - One Piece: Mezase! King of Berry",
-    "title_jp": "",
+    "title_jp": "From TV animation ONE PIECE めざせ!キングオブベリー",
     "title_zh": "",
     "developer": "",
     "publisher": "Banpresto",
@@ -37054,12 +37138,13 @@
     "maker": "Banpresto",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_91"
   },
   {
     "id": "fruit_mura_no_doubutsutachi",
     "title_en": "Fruit Mura No Doubutsutachi",
-    "title_jp": "",
+    "title_jp": "フルーツ村のどうぶつたち",
     "title_zh": "水果村的動物們",
     "developer": "",
     "publisher": "TDK Core",
@@ -37096,12 +37181,13 @@
     "maker": "TDK Core",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_92"
   },
   {
     "id": "fruit_mura_no_doubutsutachi_2",
     "title_en": "Fruit Mura no Doubutsutachi",
-    "title_jp": "",
+    "title_jp": "フルーツ村のどうぶつたち",
     "title_zh": "水果村的動物們 v1.2",
     "developer": "",
     "publisher": "TDK Core",
@@ -37138,12 +37224,13 @@
     "maker": "TDK Core",
     "source_url": "",
     "region_category": "其他",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_92"
   },
   {
     "id": "fruits_mura_no_doubutsu_tachi",
     "title_en": "Fruits Mura no Doubutsu Tachi",
-    "title_jp": "",
+    "title_jp": "フルーツ村のどうぶつたち",
     "title_zh": "",
     "developer": "",
     "publisher": "TDK Core",
@@ -37175,7 +37262,8 @@
     "maker": "TDK Core",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "full_metal_alchemist",
@@ -37259,7 +37347,7 @@
   {
     "id": "fushigi_no_kuni_no_alice",
     "title_en": "Fushigi no Kuni no Alice",
-    "title_jp": "",
+    "title_jp": "不思議の国のアリス",
     "title_zh": "愛麗絲夢遊仙境",
     "developer": "",
     "publisher": "Global A",
@@ -37296,12 +37384,13 @@
     "maker": "Global A",
     "source_url": "https://en.wikipedia.org/wiki/Fushigi_no_Kuni_no_Alice",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_85"
   },
   {
     "id": "fushigi_no_kuni_no_angelique",
     "title_en": "Fushigi no Kuni no Angelique",
-    "title_jp": "",
+    "title_jp": "ふしぎの国のアンジェリーク",
     "title_zh": "",
     "developer": "",
     "publisher": "Koei",
@@ -37333,12 +37422,13 @@
     "maker": "Koei",
     "source_url": "https://en.wikipedia.org/wiki/Fushigi_no_Kuni_no_Angelique",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_83"
   },
   {
     "id": "futari_ha_precure_arienaai_yume_no_kuni_ha_daimeikyuu",
     "title_en": "Futari ha Precure Arienaai Yume no Kuni ha Daimeikyuu",
-    "title_jp": "",
+    "title_jp": "ふたりはプリキュア ありえな〜い! 夢の園は大迷宮",
     "title_zh": "光之美少女-不可能!夢之園是大迷宮",
     "developer": "",
     "publisher": "",
@@ -37370,12 +37460,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_81"
   },
   {
     "id": "futari_wa_precure_max_heart_maji_maji_fight_de_in_janai",
     "title_en": "Futari wa Precure Max Heart Maji! Maji! Fight de IN Janai",
-    "title_jp": "",
+    "title_jp": "ふたりはプリキュア Max Heart マジ?マジ?!ファイトdeINじゃない",
     "title_zh": "光之美少女 Max Heart",
     "developer": "",
     "publisher": "Bandai",
@@ -37412,12 +37503,13 @@
     "maker": "Bandai",
     "source_url": "https://en.wikipedia.org/wiki/Futari_wa_Pretty_Cure",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_82"
   },
   {
     "id": "futari_wa_pretty_cure_max_heart_maji_maji_fight_de_in_janai",
     "title_en": "Futari Wa Pretty Cure Max Heart: Maji? Maji!? Fight de IN Janai",
-    "title_jp": "",
+    "title_jp": "ふたりはプリキュア Max Heart マジ?マジ?!ファイトdeINじゃない",
     "title_zh": "",
     "developer": "",
     "publisher": "Bandai",
@@ -37449,12 +37541,13 @@
     "maker": "Bandai",
     "source_url": "https://en.wikipedia.org/wiki/Futari_wa_Pretty_Cure",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_82"
   },
   {
     "id": "futari_wa_pretty_cure_arienai_yume_no_sono_wa_daimeikyuu",
     "title_en": "Futari wa Pretty Cure: Ariena~i! Yume no Sono wa Daimeikyuu",
-    "title_jp": "",
+    "title_jp": "ふたりはプリキュア ありえな〜い! 夢の園は大迷宮",
     "title_zh": "",
     "developer": "",
     "publisher": "Bandai",
@@ -37486,7 +37579,8 @@
     "maker": "Bandai",
     "source_url": "https://en.wikipedia.org/wiki/Futari_wa_Pretty_Cure",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_84"
   },
   {
     "id": "gachasta_dino_device_2_dragon",
@@ -37575,7 +37669,7 @@
   {
     "id": "gachasute_dino_device_2_dragon",
     "title_en": "Gachasute! Dino Device 2: Dragon",
-    "title_jp": "",
+    "title_jp": "ガチャステ! ダイナデバイス2 ドラゴン",
     "title_zh": "",
     "developer": "A.I",
     "publisher": "Rocket Company",
@@ -37607,7 +37701,8 @@
     "maker": "Rocket Company",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "gachasute_dino_device_2_phoenix",
@@ -37728,7 +37823,7 @@
   {
     "id": "gachinko_pro_yakyuu",
     "title_en": "Gachinko Pro Yakyuu",
-    "title_jp": "",
+    "title_jp": "ガチンコプロ野球",
     "title_zh": "Q版職業棒球",
     "developer": "",
     "publisher": "Now Production",
@@ -37765,7 +37860,8 @@
     "maker": "Now Production",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_97"
   },
   {
     "id": "gadget_racers",
@@ -37814,7 +37910,7 @@
   {
     "id": "gakkou_no_kaidan_hyakuyoubako_no_fuuin",
     "title_en": "Gakkou no Kaidan Hyakuyoubako no Fuuin",
-    "title_jp": "",
+    "title_jp": "学校の怪談 百妖箱の封印",
     "title_zh": "學校之怪談-百妖箱的封印",
     "developer": "",
     "publisher": "TDK Core",
@@ -37851,12 +37947,13 @@
     "maker": "TDK Core",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_97"
   },
   {
     "id": "gakkou_o_tsukurou_advance",
     "title_en": "Gakkou O Tsukurou!! Advance",
-    "title_jp": "",
+    "title_jp": "学校をつくろう!!アドバンス",
     "title_zh": "學校傳說",
     "developer": "",
     "publisher": "Victor",
@@ -37893,12 +37990,13 @@
     "maker": "Victor",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_81"
   },
   {
     "id": "gakuen_alice_-_dokidoki_fushigi_taiken",
     "title_en": "Gakuen Alice - Dokidoki Fushigi Taiken",
-    "title_jp": "",
+    "title_jp": "学園アリス ドキドキ★不思議たいけん",
     "title_zh": "學園愛麗絲-奇妙心跳的體驗",
     "developer": "Rokumendo",
     "publisher": "Kids Station",
@@ -37935,12 +38033,13 @@
     "maker": "Kids Station",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Gakuen_Alice:_DokiDoki_Fushigi_Taiken&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "gakuen_alice_dokidoki_fushigi_taiken",
     "title_en": "Gakuen Alice Dokidoki Fushigi Taiken",
-    "title_jp": "",
+    "title_jp": "学園アリス ドキドキ★不思議たいけん",
     "title_zh": "學園愛麗絲-奇妙心跳的體驗 v1.1",
     "developer": "Rokumendo",
     "publisher": "Kids Station",
@@ -37977,12 +38076,13 @@
     "maker": "Kids Station",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Gakuen_Alice:_DokiDoki_Fushigi_Taiken&action=edit&redlink=1",
     "region_category": "其他",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "gakuen_senki_muryou",
     "title_en": "Gakuen Senki Muryou",
-    "title_jp": "",
+    "title_jp": "学園戦記ムリョウ",
     "title_zh": "學園戰記MURYOU",
     "developer": "",
     "publisher": "MTO",
@@ -38019,7 +38119,8 @@
     "maker": "MTO",
     "source_url": "https://en.wikipedia.org/wiki/Gakuen_Senki_Muryou",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "galaxy_angel",
@@ -39690,7 +39791,7 @@
   {
     "id": "gegege_no_kitarou_kiki_ippatsu_youkai_rettou",
     "title_en": "Gegege no Kitarou: Kiki Ippatsu! Youkai Rettou",
-    "title_jp": "",
+    "title_jp": "ゲゲゲの鬼太郎 危機一髪!妖怪列島",
     "title_zh": "",
     "developer": "",
     "publisher": "Konami",
@@ -39722,7 +39823,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/GeGeGe_no_Kitar%C5%8D#Video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "gekido_advance_-_kintaros_revenge",
@@ -39771,7 +39873,7 @@
   {
     "id": "gekitou_densetsu_noah_-_dream_management",
     "title_en": "Gekitou Densetsu Noah - Dream Management",
-    "title_jp": "",
+    "title_jp": "激闘伝説ノア ドリームマネージメント",
     "title_zh": "激鬥傳說拳擊-夢幻經理人",
     "developer": "",
     "publisher": "Game Village",
@@ -39808,7 +39910,8 @@
     "maker": "Game Village",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_84"
   },
   {
     "id": "gekitou_car_battler_go",
@@ -39974,7 +40077,7 @@
   {
     "id": "gensou_maden_saiyuki_hangyaku_no_toshin_taishi",
     "title_en": "Gensou Maden Saiyuki: Hangyaku no Toshin Taishi",
-    "title_jp": "",
+    "title_jp": "幻想魔伝最遊記 〜叛逆の闘神太子〜",
     "title_zh": "",
     "developer": "",
     "publisher": "Digital Kids",
@@ -40006,12 +40109,13 @@
     "maker": "Digital Kids",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "gensou_suikoden_card_stories",
     "title_en": "Gensou Suikoden Card Stories",
-    "title_jp": "",
+    "title_jp": "幻想水滸伝カードストーリーズ",
     "title_zh": "幻想水滸傳-卡片傳說",
     "developer": "Will",
     "publisher": "Konami",
@@ -40048,7 +40152,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Gens%C5%8D_Suikoden_Card_Stories",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_82"
   },
   {
     "id": "gensō_suikoden_card_stories",
@@ -40090,7 +40195,7 @@
   {
     "id": "get_boku_no_mushitsu",
     "title_en": "Get ! Boku no Mushitsu",
-    "title_jp": "",
+    "title_jp": "GET! ボクのムシつかまえて",
     "title_zh": "我的捕蟲日記",
     "developer": "",
     "publisher": "",
@@ -40122,12 +40227,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_83"
   },
   {
     "id": "get_backers_-_dakkanoku_jagan_fuuin",
     "title_en": "Get Backers - Dakkanoku Jagan Fuuin",
-    "title_jp": "",
+    "title_jp": "GetBackers奪還屋 邪眼封印!",
     "title_zh": "閃靈二人組-邪眼封印",
     "developer": "",
     "publisher": "Konami",
@@ -40164,12 +40270,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/GetBackers#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_91"
   },
   {
     "id": "get_backers_-_jigoku_no_sukaramushu",
     "title_en": "Get Backers - Jigoku No Sukaramushu",
-    "title_jp": "",
+    "title_jp": "GetBackers奪還屋 地獄のスカラムーシュ",
     "title_zh": "閃靈2人組",
     "developer": "",
     "publisher": "",
@@ -40201,12 +40308,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "get_ride_amdriver_-_senkou_no_hero_tanjyou",
     "title_en": "Get Ride AMDriver - Senkou no Hero Tanjyou",
-    "title_jp": "",
+    "title_jp": "Get Ride! アムドライバー 閃光のヒーロー誕生!",
     "title_zh": "武裝特騎-閃光英雄誕生 日 S‧RPG",
     "developer": "WinkySoft",
     "publisher": "Konami",
@@ -40243,12 +40351,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/AM_Driver#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_83"
   },
   {
     "id": "get_ride_amdriver_senkou_no_hero_tanjou",
     "title_en": "Get Ride! AMDriver: Senkou no Hero Tanjou",
-    "title_jp": "",
+    "title_jp": "Get Ride! アムドライバー 閃光のヒーロー誕生!",
     "title_zh": "",
     "developer": "WinkySoft",
     "publisher": "Konami",
@@ -40280,7 +40389,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/AM_Driver#Video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_84"
   },
   {
     "id": "get_ride_amdriver_shutsugeki_battle_party",
@@ -40322,7 +40432,7 @@
   {
     "id": "get_boku_no_mushi_tsukamaete",
     "title_en": "GET! Boku no Mushi Tsukamaete",
-    "title_jp": "",
+    "title_jp": "GET! ボクのムシつかまえて",
     "title_zh": "",
     "developer": "Wizard",
     "publisher": "Kemco",
@@ -40354,12 +40464,13 @@
     "maker": "Kemco",
     "source_url": "https://en.wikipedia.org/w/index.php?title=GET!_Boku_no_Mushi_Tsukamaete&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "getbackers_dakkanoku_-_metropolis_dakkan_sakusen",
     "title_en": "Getbackers Dakkanoku - Metropolis Dakkan Sakusen",
-    "title_jp": "",
+    "title_jp": "GetBackers奪還屋 メトロポリス奪還作戦!",
     "title_zh": "閃靈二人組-首都奪還作戰",
     "developer": "",
     "publisher": "Konami",
@@ -40396,12 +40507,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/GetBackers#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "getbackers_dakkanya_jagan_fuuin",
     "title_en": "GetBackers Dakkanya: Jagan Fuuin!",
-    "title_jp": "",
+    "title_jp": "GetBackers奪還屋 邪眼封印!",
     "title_zh": "",
     "developer": "",
     "publisher": "Konami",
@@ -40433,12 +40545,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/GetBackers#Video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "getbackers_dakkanya_jigoku_no_scaramouche",
     "title_en": "GetBackers Dakkanya: Jigoku no Scaramouche",
-    "title_jp": "",
+    "title_jp": "GetBackers奪還屋 地獄のスカラムーシュ",
     "title_zh": "",
     "developer": "Konami",
     "publisher": "Konami",
@@ -40470,12 +40583,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/GetBackers#Video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "getbackers_dakkanya_metropolis_dakkan_sakusen",
     "title_en": "GetBackers Dakkanya: Metropolis Dakkan Sakusen!",
-    "title_jp": "",
+    "title_jp": "GetBackers奪還屋 メトロポリス奪還作戦!",
     "title_zh": "",
     "developer": "",
     "publisher": "Konami",
@@ -40507,7 +40621,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/GetBackers#Video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_95"
   },
   {
     "id": "ghost_rider",
@@ -40758,7 +40873,7 @@
   {
     "id": "goemon_new_age_shutsudou",
     "title_en": "Goemon New Age Shutsudou!",
-    "title_jp": "",
+    "title_jp": "ゴエモン ニューエイジ出動!",
     "title_zh": "大盜伍佑衛門新時代出動!",
     "developer": "Konami",
     "publisher": "Konami",
@@ -40795,7 +40910,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Goemon:_New_Age_Shutsudou!",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "golden_nugget_casino",
@@ -41322,7 +41438,7 @@
   {
     "id": "granbo",
     "title_en": "Granbo",
-    "title_jp": "",
+    "title_jp": "グランボ",
     "title_zh": "",
     "developer": "",
     "publisher": "Capcom",
@@ -41354,7 +41470,8 @@
     "maker": "Capcom",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Granbo&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_92"
   },
   {
     "id": "grand_theft_auto_advance",
@@ -41485,7 +41602,7 @@
   {
     "id": "gremlins_-_stripe_vs_gizmo",
     "title_en": "Gremlins - Stripe Vs Gizmo",
-    "title_jp": "",
+    "title_jp": "GREMLiNS Stripe VS Gizmo",
     "title_zh": "菲比小精靈",
     "developer": "Magic Pockets",
     "publisher": "DreamCatcher Interactive",
@@ -41522,12 +41639,13 @@
     "maker": "DreamCatcher Interactive",
     "source_url": "https://en.wikipedia.org/wiki/Gremlins:_Stripe_vs_Gizmo",
     "region_category": "歐版",
-    "region_flags": "🇪🇺"
+    "region_flags": "🇪🇺",
+    "_jp_match": "exact"
   },
   {
     "id": "gremlins_stripe_vs_gizmo",
     "title_en": "Gremlins Stripe vs Gizmo",
-    "title_jp": "",
+    "title_jp": "GREMLiNS Stripe VS Gizmo",
     "title_zh": "菲比小精靈",
     "developer": "Magic Pockets",
     "publisher": "DreamCatcher Interactive",
@@ -41564,7 +41682,8 @@
     "maker": "DreamCatcher Interactive",
     "source_url": "https://en.wikipedia.org/wiki/Gremlins:_Stripe_vs_Gizmo",
     "region_category": "美版",
-    "region_flags": "🇺🇸"
+    "region_flags": "🇺🇸",
+    "_jp_match": "exact"
   },
   {
     "id": "grim_adventures_of_billy_mandy_the",
@@ -41648,7 +41767,7 @@
   {
     "id": "groove_adventure_rave_-_hikari_to_yami_no_daikessen",
     "title_en": "Groove Adventure Rave - Hikari to Yami no Daikessen",
-    "title_jp": "",
+    "title_jp": "GROOVE ADVENTURE RAVE 〜光と闇の大決戦〜",
     "title_zh": "光與暗大決戰2",
     "developer": "KCEJ",
     "publisher": "Konami",
@@ -41685,7 +41804,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Rave_Master",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_93"
   },
   {
     "id": "gt_advance_2_-_rally_racing",
@@ -42010,7 +42130,7 @@
   {
     "id": "guilty_gear_x_advance_edition",
     "title_en": "Guilty Gear X Advance Edition",
-    "title_jp": "",
+    "title_jp": "GUILTY GEAR X ADVANCE EDITION",
     "title_zh": "罪惡剋星X進化版",
     "developer": "Arc System Works",
     "publisher": "Sammy Studios",
@@ -42049,7 +42169,8 @@
     "maker": "Sammy Studios",
     "source_url": "https://en.wikipedia.org/wiki/Guilty_Gear_X:_Advance_Edition",
     "region_category": "多區發行",
-    "region_flags": "🇯🇵🇺🇸"
+    "region_flags": "🇯🇵🇺🇸",
+    "_jp_match": "exact"
   },
   {
     "id": "gumby_versus_the_astrobots",
@@ -42333,7 +42454,7 @@
   {
     "id": "gyakuten_saiban",
     "title_en": "Gyakuten Saiban",
-    "title_jp": "",
+    "title_jp": "逆転裁判",
     "title_zh": "逆轉裁判",
     "developer": "Capcom",
     "publisher": "Capcom",
@@ -42370,12 +42491,13 @@
     "maker": "Capcom",
     "source_url": "https://en.wikipedia.org/wiki/Phoenix_Wright:_Ace_Attorney",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "gyakuten_saiban_2",
     "title_en": "Gyakuten Saiban 2",
-    "title_jp": "",
+    "title_jp": "逆転裁判2",
     "title_zh": "",
     "developer": "Capcom",
     "publisher": "Capcom",
@@ -42407,12 +42529,13 @@
     "maker": "Capcom",
     "source_url": "https://en.wikipedia.org/wiki/Phoenix_Wright:_Ace_Attorney_%E2%80%93_Justice_for_All",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "gyakuten_saiban_3",
     "title_en": "Gyakuten Saiban 3",
-    "title_jp": "",
+    "title_jp": "逆転裁判3",
     "title_zh": "",
     "developer": "Capcom",
     "publisher": "Capcom",
@@ -42444,7 +42567,8 @@
     "maker": "Capcom",
     "source_url": "https://en.wikipedia.org/wiki/Phoenix_Wright:_Ace_Attorney_%E2%80%93_Trials_and_Tribulations",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "gyakuten_saiban_best_price",
@@ -42486,7 +42610,7 @@
   {
     "id": "hachiemon",
     "title_en": "Hachiemon",
-    "title_jp": "",
+    "title_jp": "ハチエモン",
     "title_zh": "",
     "developer": "Natsume Co., Ltd.",
     "publisher": "Namco",
@@ -42518,12 +42642,13 @@
     "maker": "Namco",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "hachimon",
     "title_en": "Hachimon",
-    "title_jp": "",
+    "title_jp": "ハチエモン",
     "title_zh": "八佑衛門",
     "developer": "Natsume Co., Ltd.",
     "publisher": "Namco",
@@ -42560,12 +42685,13 @@
     "maker": "Namco",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "hagane_no_renkinjutsushi_-_omoide_no_soumeikyoku",
     "title_en": "Hagane no Renkinjutsushi - Omoide no Soumeikyoku",
-    "title_jp": "",
+    "title_jp": "鋼の錬金術師 想い出の奏鳴曲",
     "title_zh": "鋼之煉金術士-回憶之奏鳴曲",
     "developer": "Tom Create",
     "publisher": "Bandai",
@@ -42599,12 +42725,13 @@
     "maker": "Bandai",
     "source_url": "https://en.wikipedia.org/wiki/Fullmetal_Alchemist_Trading_Card_Game",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "hagane_no_renkinjutsushi_meisou_no_rinbukyoku",
     "title_en": "Hagane no Renkinjutsushi: Meisou no Rinbukyoku",
-    "title_jp": "",
+    "title_jp": "鋼の錬金術師 迷走の輪舞曲",
     "title_zh": "",
     "developer": "Tom Create",
     "publisher": "Bandai",
@@ -42633,12 +42760,13 @@
     "maker": "Bandai",
     "source_url": "https://en.wikipedia.org/wiki/Fullmetal_Alchemist_Trading_Card_Game",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "hajime_no_ippo_-_the_fighting",
     "title_en": "Hajime no Ippo - The Fighting",
-    "title_jp": "",
+    "title_jp": "はじめの一歩 THE FIGHTING!",
     "title_zh": "幕之內一步-格鬥賽",
     "developer": "Treasure Co. Ltd",
     "publisher": "ESP Software",
@@ -42675,7 +42803,8 @@
     "maker": "ESP Software",
     "source_url": "https://en.wikipedia.org/wiki/Hajime_no_Ippo_The_Fighting!_DS",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "hamepane_tokyo_mew_mew",
@@ -42717,7 +42846,7 @@
   {
     "id": "hamepane_tokyo_myumyu",
     "title_en": "Hamepane Tokyo Myumyu",
-    "title_jp": "",
+    "title_jp": "はめパネ 東京ミュウミュウ",
     "title_zh": "東京貓貓拼圖",
     "developer": "",
     "publisher": "",
@@ -42749,7 +42878,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "hamster_club",
@@ -42904,7 +43034,7 @@
   {
     "id": "hamster_monogatari_2_gba",
     "title_en": "Hamster Monogatari 2 GBA",
-    "title_jp": "",
+    "title_jp": "ハムスター物語2GBA",
     "title_zh": "",
     "developer": "Culture Brain",
     "publisher": "Culture Brain",
@@ -42936,12 +43066,13 @@
     "maker": "Culture Brain",
     "source_url": "https://en.wikipedia.org/wiki/Culture_Brain#Ferret/Hamster_Monogatari_series",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "hamster_monogatari_3_gba",
     "title_en": "Hamster Monogatari 3 GBA",
-    "title_jp": "",
+    "title_jp": "ハムスター物語3GBA",
     "title_zh": "",
     "developer": "Culture Brain",
     "publisher": "Culture Brain",
@@ -42973,7 +43104,8 @@
     "maker": "Culture Brain",
     "source_url": "https://en.wikipedia.org/wiki/Culture_Brain#Ferret/Hamster_Monogatari_series",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "hamster_monogatari_3ex4_special",
@@ -43311,7 +43443,7 @@
   {
     "id": "hanabi_hyakkei_advance",
     "title_en": "Hanabi Hyakkei Advance",
-    "title_jp": "",
+    "title_jp": "花火百景アドバンス",
     "title_zh": "花火百景",
     "developer": "",
     "publisher": "Aruze",
@@ -43348,7 +43480,8 @@
     "maker": "Aruze",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_82"
   },
   {
     "id": "hanafuda_trump_mahjong_depachika_wayouchuu",
@@ -43395,7 +43528,7 @@
   {
     "id": "hanafuda_trump_mahjong_depachika_wayounaka",
     "title_en": "Hanafuda Trump Mahjong: Depachika Wayounaka",
-    "title_jp": "",
+    "title_jp": "花札トランプ麻雀 デパチカ 和洋中",
     "title_zh": "",
     "developer": "",
     "publisher": "Global A",
@@ -43424,7 +43557,8 @@
     "maker": "Global A",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "happy_feet",
@@ -43631,7 +43765,7 @@
   {
     "id": "harobots_-_robo_hero_battling",
     "title_en": "Harobots - Robo Hero Battling",
-    "title_jp": "",
+    "title_jp": "ハロボッツ ロボヒーローバトリング!!",
     "title_zh": "哈羅機器人-機器人英雄大會戰",
     "developer": "",
     "publisher": "Sunrise Interactive",
@@ -43668,7 +43802,8 @@
     "maker": "Sunrise Interactive",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_82"
   },
   {
     "id": "harry_potter_the_prisoner_of_azkaban",
@@ -44044,7 +44179,7 @@
   {
     "id": "harry_potter_to_azkaban_no_shuujin",
     "title_en": "Harry Potter to Azkaban no Shuujin",
-    "title_jp": "",
+    "title_jp": "ハリー・ポッターとアズカバンの囚人",
     "title_zh": "哈利波特-阿茲卡班的逃犯 128M A.RPG+AVG",
     "developer": "",
     "publisher": "",
@@ -44079,12 +44214,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "harry_potter_to_himitsu_no_heya",
     "title_en": "Harry Potter to Himitsu no Heya",
-    "title_jp": "",
+    "title_jp": "ハリー・ポッターと秘密の部屋",
     "title_zh": "哈利波特-消失的密室 日 A‧RPG",
     "developer": "",
     "publisher": "",
@@ -44119,12 +44255,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "harry_potter_to_kenja_no_ishi",
     "title_en": "Harry Potter To Kenja No Ishi",
-    "title_jp": "",
+    "title_jp": "ハリー・ポッターと賢者の石",
     "title_zh": "哈利波特-神秘的魔法石",
     "developer": "",
     "publisher": "",
@@ -44159,12 +44296,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_85"
   },
   {
     "id": "harukanaru_jikuu_no_naka_de",
     "title_en": "Harukanaru Jikuu No Naka De",
-    "title_jp": "",
+    "title_jp": "遙かなる時空の中で",
     "title_zh": "遙遠的時空之中",
     "developer": "",
     "publisher": "",
@@ -44196,12 +44334,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "harukanaru_toki_no_naka_de",
     "title_en": "Harukanaru Toki no Naka de",
-    "title_jp": "",
+    "title_jp": "遙かなる時空の中で",
     "title_zh": "",
     "developer": "Inis",
     "publisher": "Koei",
@@ -44230,7 +44369,8 @@
     "maker": "Koei",
     "source_url": "https://en.wikipedia.org/wiki/Harukanaru_Toki_no_Naka_de",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "harvest_moon_-_friends_of_mineral_town",
@@ -44323,7 +44463,7 @@
   {
     "id": "hatena_satena",
     "title_en": "Hatena Satena",
-    "title_jp": "",
+    "title_jp": "ハテナサテナ",
     "title_zh": "機智解謎",
     "developer": "Hudson Soft",
     "publisher": "Hudson Soft",
@@ -44360,7 +44500,8 @@
     "maker": "Hudson Soft",
     "source_url": "https://en.wikipedia.org/wiki/Hatena_Satena",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "heidi_the_game",
@@ -44816,7 +44957,7 @@
   {
     "id": "higanbana",
     "title_en": "Higanbana",
-    "title_jp": "",
+    "title_jp": "彼岸花",
     "title_zh": "",
     "developer": "TOSE",
     "publisher": "Athena",
@@ -44848,7 +44989,8 @@
     "maker": "Athena",
     "source_url": "https://en.wikipedia.org/wiki/Higanbana_no_Saku_Yoru_ni",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "high_heat_baseball",
@@ -44890,7 +45032,7 @@
   {
     "id": "high_heat_major_league_baseball",
     "title_en": "High Heat Major League Baseball",
-    "title_jp": "",
+    "title_jp": "HIGH HEAT Major League Baseball 2003",
     "title_zh": "火爆美國職業棒球聯賽2003",
     "developer": "Möbius Entertainment",
     "publisher": "The 3DO Company",
@@ -44927,12 +45069,13 @@
     "maker": "The 3DO Company",
     "source_url": "https://en.wikipedia.org/wiki/High_Heat_Major_League_Baseball_2002",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_93"
   },
   {
     "id": "high_heat_major_league_baseball_2002",
     "title_en": "High Heat Major League Baseball 2002",
-    "title_jp": "",
+    "title_jp": "HIGH HEAT Major League Baseball 2003",
     "title_zh": "",
     "developer": "Möbius Entertainment",
     "publisher": "The 3DO Company",
@@ -44964,12 +45107,13 @@
     "maker": "The 3DO Company",
     "source_url": "https://en.wikipedia.org/wiki/High_Heat_Major_League_Baseball_2002",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_97"
   },
   {
     "id": "high_heat_major_league_baseball_2003",
     "title_en": "High Heat Major League Baseball 2003",
-    "title_jp": "",
+    "title_jp": "HIGH HEAT Major League Baseball 2003",
     "title_zh": "",
     "developer": "Möbius Entertainment",
     "publisher": "The 3DO Company",
@@ -45001,7 +45145,8 @@
     "maker": "The 3DO Company",
     "source_url": "https://en.wikipedia.org/wiki/High_Heat_Major_League_Baseball_2003",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "high_heat_mlb",
@@ -45085,7 +45230,7 @@
   {
     "id": "hikaru_no_go",
     "title_en": "Hikaru No Go",
-    "title_jp": "",
+    "title_jp": "ヒカルの碁",
     "title_zh": "棋靈王",
     "developer": "KCEJ",
     "publisher": "Konami",
@@ -45122,12 +45267,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Hikaru_no_Go#Other_media",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "hikaru_no_go_2",
     "title_en": "Hikaru no Go",
-    "title_jp": "",
+    "title_jp": "ヒカルの碁",
     "title_zh": "棋靈王 v1.1",
     "developer": "KCEJ",
     "publisher": "Konami",
@@ -45164,12 +45310,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Hikaru_no_Go#Other_media",
     "region_category": "其他",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "hikaru_no_go_2_2",
     "title_en": "Hikaru no Go 2",
-    "title_jp": "",
+    "title_jp": "ヒカルの碁2",
     "title_zh": "",
     "developer": "KCEJ",
     "publisher": "Konami",
@@ -45201,12 +45348,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Hikaru_no_Go#Other_media",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "himawari_doubutsu_byouin_pet_no_oishasan_ikusei_game",
     "title_en": "Himawari Doubutsu Byouin Pet no Oishasan Ikusei Game",
-    "title_jp": "",
+    "title_jp": "ひまわりどうぶつ病院 〜☆ペットのお医者さん育成ゲーム☆〜",
     "title_zh": "向日葵獸醫院-寵物醫生養成遊戲",
     "developer": "",
     "publisher": "",
@@ -45241,12 +45389,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "hime_kishi_monogatari_-_princess_blue",
     "title_en": "Hime Kishi Monogatari - Princess Blue",
-    "title_jp": "",
+    "title_jp": "姫騎士物語 -Princess Blue-",
     "title_zh": "姬騎士物語-藍色的公主",
     "developer": "",
     "publisher": "",
@@ -45281,12 +45430,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "hitsuji_no_kimochi",
     "title_en": "Hitsuji No Kimochi",
-    "title_jp": "",
+    "title_jp": "ひつじのキモチ。",
     "title_zh": "綿羊之心",
     "developer": "",
     "publisher": "",
@@ -45321,12 +45471,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "hobbit_no_bouken_lord_of_the_rings_hajimari_no_monogatari",
     "title_en": "Hobbit No Bouken Lord Of The Rings Hajimari No Monogatari",
-    "title_jp": "",
+    "title_jp": "ホビットの冒険 ロード オブ ザ リング はじまりの物語",
     "title_zh": "魔戒前傳-哈比人歷險記",
     "developer": "",
     "publisher": "",
@@ -45361,7 +45512,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_82"
   },
   {
     "id": "home_on_the_range",
@@ -45639,7 +45791,7 @@
   {
     "id": "hoshi_no_kirby_kagami_no_daimeikyuu",
     "title_en": "Hoshi no Kirby Kagami no Daimeikyuu",
-    "title_jp": "",
+    "title_jp": "星のカービィ 鏡の大迷宮",
     "title_zh": "卡比之星-鏡之大迷宮 128M",
     "developer": "",
     "publisher": "",
@@ -45674,7 +45826,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_91"
   },
   {
     "id": "hot_potato",
@@ -46505,7 +46658,7 @@
   {
     "id": "hunter_x_hunter_-_minna_tomodachi_daisakusen",
     "title_en": "Hunter X Hunter - Minna Tomodachi Daisakusen",
-    "title_jp": "",
+    "title_jp": "HUNTER×HUNTER みんな友だち大作戦!!",
     "title_zh": "獵人X獵人-熱血友情大作戰",
     "developer": "",
     "publisher": "Konami",
@@ -46542,7 +46695,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Hunter_%C3%97_Hunter#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "hyokkori_hyotanjima_don_gabacho_daikastuyuka_no_maki",
@@ -47281,7 +47435,7 @@
   {
     "id": "inukko_club_fukumaru_no_bouken",
     "title_en": "Inukko Club Fukumaru no Bouken",
-    "title_jp": "",
+    "title_jp": "犬っこ倶楽部 〜福丸の大冒険〜",
     "title_zh": "小狗俱樂部-福丸之大冒險",
     "developer": "",
     "publisher": "Jorudan",
@@ -47315,12 +47469,13 @@
     "maker": "Jorudan",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Inukko_Club:_Fukumaru_no_Daibouken&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_81"
   },
   {
     "id": "inukko_club_fukumaru_no_daibouken",
     "title_en": "Inukko Club: Fukumaru no Daibouken",
-    "title_jp": "",
+    "title_jp": "犬っこ倶楽部 〜福丸の大冒険〜",
     "title_zh": "",
     "developer": "",
     "publisher": "Jorudan",
@@ -47349,12 +47504,13 @@
     "maker": "Jorudan",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Inukko_Club:_Fukumaru_no_Daibouken&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_87"
   },
   {
     "id": "inuyasha_naraku_no_wana_mayoi_no_mori_no_shoutaijou",
     "title_en": "Inuyasha Naraku No Wana Mayoi No Mori No Shoutaijou",
-    "title_jp": "",
+    "title_jp": "犬夜叉 奈落の罠! 迷いの森の招待状",
     "title_zh": "犬夜叉-奈落之圈套！迷幻森林之請帖",
     "developer": "WinkySoft",
     "publisher": "Takara",
@@ -47391,7 +47547,8 @@
     "maker": "Takara",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Inuyasha:_Naraku_no_Wana!_Mayoi_no_Mori_no_Shoutaijou&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "invader",
@@ -47643,7 +47800,7 @@
   {
     "id": "isseki_hacchou_kore_1-pon_de_8_shurui",
     "title_en": "Isseki Hacchou: Kore 1-pon de 8 Shurui!",
-    "title_jp": "",
+    "title_jp": "一石八鳥 〜これ1本で8種類!〜",
     "title_zh": "",
     "developer": "",
     "publisher": "Konami",
@@ -47675,7 +47832,8 @@
     "maker": "Konami",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "its_mr_pants",
@@ -48067,7 +48225,7 @@
   {
     "id": "jajamaru_jr_denshouki_-_jaleco_memorial",
     "title_en": "Jajamaru Jr. Denshouki - Jaleco Memorial",
-    "title_jp": "",
+    "title_jp": "じゃじゃ丸Jr.伝承記 ジャレコレもあり候",
     "title_zh": "忍者蛇蛇丸傳說 32M",
     "developer": "",
     "publisher": "",
@@ -48099,7 +48257,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_81"
   },
   {
     "id": "james_bond_007_-_nightfire",
@@ -48816,7 +48975,7 @@
   {
     "id": "jissen_pachi-slot_hisshouhou_juuou_advance",
     "title_en": "Jissen Pachi-Slot Hisshouhou! Juuou Advance",
-    "title_jp": "",
+    "title_jp": "実戦パチスロ必勝法! 獣王アドバンス",
     "title_zh": "",
     "developer": "",
     "publisher": "Sammy Studios",
@@ -48848,7 +49007,8 @@
     "maker": "Sammy Studios",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Jissen_Pachi-Slot_Hisshouhou!_Juuou_Advance&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_84"
   },
   {
     "id": "jisu_f-zero_weilai_saiche",
@@ -49548,7 +49708,7 @@
   {
     "id": "k-1_pocket_grand_prix",
     "title_en": "K-1 Pocket Grand Prix",
-    "title_jp": "",
+    "title_jp": "K-1ポケットグランプリ",
     "title_zh": "K1口袋格鬥技錦標賽",
     "developer": "Daft",
     "publisher": "Konami",
@@ -49585,12 +49745,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/w/index.php?title=K-1_Pocket_Grand_Prix&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "k-1_pocket_grand_prix_2",
     "title_en": "K-1 Pocket Grand Prix 2",
-    "title_jp": "",
+    "title_jp": "K-1ポケットグランプリ2",
     "title_zh": "",
     "developer": "Daft",
     "publisher": "Konami",
@@ -49622,12 +49783,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/w/index.php?title=K-1_Pocket_Grand_Prix_2&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_81"
   },
   {
     "id": "kaeru_b_back",
     "title_en": "Kaeru B Back",
-    "title_jp": "",
+    "title_jp": "カエルBバック",
     "title_zh": "青蛙回家",
     "developer": "",
     "publisher": "Kadokawa Shoten",
@@ -49664,7 +49826,8 @@
     "maker": "Kadokawa Shoten",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Kaeru_B_Back&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "kaiketsu_zorori_to_mahou_no_yuuenchi",
@@ -49708,7 +49871,7 @@
   {
     "id": "kamaitachi_no_yoru_advance",
     "title_en": "Kamaitachi no Yoru Advance",
-    "title_jp": "",
+    "title_jp": "かまいたちの夜 アドバンス",
     "title_zh": "恐怖驚魂夜",
     "developer": "",
     "publisher": "ChunSoft",
@@ -49745,12 +49908,13 @@
     "maker": "ChunSoft",
     "source_url": "https://en.wikipedia.org/wiki/Banshee%27s_Last_Cry",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_85"
   },
   {
     "id": "kami_no_kijutsu_illusion_of_the_evil_eyes",
     "title_en": "Kami No Kijutsu Illusion Of The Evil Eyes",
-    "title_jp": "",
+    "title_jp": "神の記述 Illusion of the evil eyes",
     "title_zh": "神之記述-邪惡之眼的幻影",
     "developer": "KCEJ",
     "publisher": "Konami",
@@ -49787,7 +49951,8 @@
     "maker": "Konami",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "kao_the_kangaroo",
@@ -49952,7 +50117,7 @@
   {
     "id": "kawa_no_nushi_tsuri",
     "title_en": "Kawa No Nushi Tsuri",
-    "title_jp": "",
+    "title_jp": "川のぬし釣り3&4",
     "title_zh": "川釣太郎5",
     "developer": "TOSE",
     "publisher": "Victor Interactive Software",
@@ -49989,12 +50154,13 @@
     "maker": "Victor Interactive Software",
     "source_url": "https://en.wikipedia.org/wiki/List_of_River_King_video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "kawa_no_nushi_tsuri_3_4",
     "title_en": "Kawa no Nushi Tsuri 3 & 4",
-    "title_jp": "",
+    "title_jp": "川のぬし釣り3&4",
     "title_zh": "",
     "developer": "TOSE",
     "publisher": "Marvelous Entertainment",
@@ -50026,12 +50192,13 @@
     "maker": "Marvelous Entertainment",
     "source_url": "https://en.wikipedia.org/wiki/List_of_River_King_video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "kawa_no_nushi_tsuri_5",
     "title_en": "Kawa no Nushi Tsuri 5",
-    "title_jp": "",
+    "title_jp": "川のぬし釣り3&4",
     "title_zh": "",
     "developer": "TOSE",
     "publisher": "Victor Interactive Software",
@@ -50063,12 +50230,13 @@
     "maker": "Victor Interactive Software",
     "source_url": "https://en.wikipedia.org/wiki/List_of_River_King_video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_91"
   },
   {
     "id": "kawa_no_nushitsuri_34",
     "title_en": "Kawa no Nushitsuri 3+4",
-    "title_jp": "",
+    "title_jp": "川のぬし釣り3&4",
     "title_zh": "新遊戲2合1-川釣太郎3+4 日 A·RPG",
     "developer": "TOSE",
     "publisher": "Marvelous Entertainment",
@@ -50105,7 +50273,8 @@
     "maker": "Marvelous Entertainment",
     "source_url": "https://en.wikipedia.org/wiki/List_of_River_King_video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_97"
   },
   {
     "id": "kawaii_koinu_wonderful",
@@ -50229,7 +50398,7 @@
   {
     "id": "kawaii_pet_shop_monogatari",
     "title_en": "Kawaii Pet Shop Monogatari",
-    "title_jp": "",
+    "title_jp": "かわいいペットショップ物語3",
     "title_zh": "卡哇伊寵物商店物語3",
     "developer": "",
     "publisher": "Pacific Century Cyber Works",
@@ -50266,12 +50435,13 @@
     "maker": "Pacific Century Cyber Works",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_90"
   },
   {
     "id": "kawaii_pet_shop_monogatari_3",
     "title_en": "Kawaii Pet Shop Monogatari 3",
-    "title_jp": "",
+    "title_jp": "かわいいペットショップ物語3",
     "title_zh": "",
     "developer": "",
     "publisher": "Pacific Century Cyber Works",
@@ -50303,7 +50473,8 @@
     "maker": "Pacific Century Cyber Works",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_92"
   },
   {
     "id": "kaze_no_klonoa_2_g2_-_dream_champ_tournament",
@@ -50577,7 +50748,7 @@
   {
     "id": "keroro_gunsou_taiketsu_gekisou_keronprix_daisakusen_de_arima",
     "title_en": "Keroro Gunsou Taiketsu Gekisou Keronprix Daisakusen de Arimasu",
-    "title_jp": "",
+    "title_jp": "ケロロ軍曹 対決!激走ケロンプリ大作戦であります!!",
     "title_zh": "Keroro軍曹對決-激走青蛙大作戰",
     "developer": "",
     "publisher": "Sunrise Interactive",
@@ -50614,12 +50785,13 @@
     "maker": "Sunrise Interactive",
     "source_url": "https://en.wikipedia.org/wiki/Keroro_Gunso_DS",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_98"
   },
   {
     "id": "keroro_gunsō_taiketsu_gekisō_keronprix_daisakusen_de_arimasu",
     "title_en": "Keroro Gunsō Taiketsu! Gekisō Keronprix Daisakusen de Arimasu!!",
-    "title_jp": "",
+    "title_jp": "ケロロ軍曹 対決!激走ケロンプリ大作戦であります!!",
     "title_zh": "",
     "developer": "",
     "publisher": "Sunrise Interactive",
@@ -50651,7 +50823,8 @@
     "maker": "Sunrise Interactive",
     "source_url": "https://en.wikipedia.org/wiki/Keroro_Gunso_DS",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "kerplunk_toss_across_tip_it",
@@ -50842,7 +51015,7 @@
   {
     "id": "kidou_gekidan_haro_ichiza_haro_no_puyo_puyo",
     "title_en": "Kidou Gekidan Haro Ichiza: Haro no Puyo Puyo",
-    "title_jp": "",
+    "title_jp": "機動劇団はろ一座 ハロのぷよぷよ",
     "title_zh": "",
     "developer": "",
     "publisher": "Bandai",
@@ -50874,12 +51047,13 @@
     "maker": "Bandai",
     "source_url": "https://en.wikipedia.org/wiki/Puyo_Puyo",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "kidou_senshi_gundam_seed_destiny",
     "title_en": "Kidou Senshi Gundam Seed Destiny",
-    "title_jp": "",
+    "title_jp": "機動戦士ガンダムSEED DESTINY",
     "title_zh": "機動戰士鋼彈SEED-戰鬥攻擊",
     "developer": "Natsume Co., Ltd.",
     "publisher": "Bandai",
@@ -50916,7 +51090,8 @@
     "maker": "Bandai",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "kidou_tenshi_angelic_layer",
@@ -51081,7 +51256,7 @@
   {
     "id": "king_of_fighters_ex_-_neo_blood",
     "title_en": "King of Fighters EX - Neo Blood",
-    "title_jp": "",
+    "title_jp": "THE KING OF FIGHTERS EX NEO BLOOD",
     "title_zh": "格鬥天王EX-新血 歐 FTG 64.00",
     "developer": "Artoon",
     "publisher": "Marvelous Entertainment JP / Sammy Studios NA, PAL",
@@ -51118,7 +51293,8 @@
     "maker": "Marvelous Entertainment JP / Sammy Studios NA, PAL",
     "source_url": "https://en.wikipedia.org/wiki/The_King_of_Fighters_EX:_Neo_Blood",
     "region_category": "美版",
-    "region_flags": "🇺🇸"
+    "region_flags": "🇺🇸",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "kingdom_hearts_-_chain_of_memories",
@@ -51209,7 +51385,7 @@
   {
     "id": "kinniku_banzuke_kimeru_kiseki_no_kanzen_seiha",
     "title_en": "Kinniku Banzuke: Kimeru! Kiseki no Kanzen Seiha",
-    "title_jp": "",
+    "title_jp": "筋肉番付 〜決めろ!奇跡の完全制覇〜",
     "title_zh": "",
     "developer": "KCE Studios",
     "publisher": "Konami",
@@ -51241,12 +51417,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Kinniku_Banzuke",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_95"
   },
   {
     "id": "kinniku_banzuke_kongou-kun_no_daibouken",
     "title_en": "Kinniku Banzuke: Kongou-Kun no Daibouken!",
-    "title_jp": "",
+    "title_jp": "筋肉番付 金剛くんの大冒険!",
     "title_zh": "",
     "developer": "Jupiter Multimedia",
     "publisher": "Konami",
@@ -51278,12 +51455,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Kinniku_Banzuke",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "kinnnikuman_nisei_seigi_choujin_he_no_michi",
     "title_en": "Kinnnikuman Nisei Seigi Choujin he no Michi",
-    "title_jp": "",
+    "title_jp": "キン肉マンII世 正義超人への道",
     "title_zh": "金肉人Ⅱ世-正義超人之道",
     "developer": "",
     "publisher": "",
@@ -51318,7 +51496,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_91"
   },
   {
     "id": "kirby_the_amazing_mirror",
@@ -51813,7 +51992,7 @@
   {
     "id": "koinu_to_issho_-_aijou_monogatari",
     "title_en": "Koinu to Issho - Aijou Monogatari",
-    "title_jp": "",
+    "title_jp": "仔犬といっしょ 〜愛情物語〜",
     "title_zh": "與小狗在一起-愛情物語",
     "developer": "Culture Brain",
     "publisher": "Culture Brain",
@@ -51850,7 +52029,8 @@
     "maker": "Culture Brain",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_96"
   },
   {
     "id": "koinu_to_issho_2",
@@ -51892,7 +52072,7 @@
   {
     "id": "koinu-chan_no_hajimete_no_osanpo_-_koinu_no_kokoro_ikusei_ga",
     "title_en": "Koinu-Chan no Hajimete no Osanpo - Koinu no Kokoro Ikusei Game",
-    "title_jp": "",
+    "title_jp": "こいぬちゃんのはじめてのおさんぽ 子犬のこころ育成ゲーム",
     "title_zh": "可愛小狗養育計畫",
     "developer": "TDK Mediactive",
     "publisher": "TDK Mediactive",
@@ -51929,12 +52109,13 @@
     "maker": "TDK Mediactive",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_95"
   },
   {
     "id": "koinu-chan_no_hajimete_no_osanpo_koino_no_kokoro_ikusei_game",
     "title_en": "Koinu-Chan no Hajimete no Osanpo: Koino no Kokoro Ikusei Game",
-    "title_jp": "",
+    "title_jp": "こいぬちゃんのはじめてのおさんぽ 子犬のこころ育成ゲーム",
     "title_zh": "",
     "developer": "TDK Mediactive",
     "publisher": "TDK Mediactive",
@@ -51966,7 +52147,8 @@
     "maker": "TDK Mediactive",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_93"
   },
   {
     "id": "konami_collectors_series_-_arcade_advanced",
@@ -52850,7 +53032,7 @@
   {
     "id": "korokke_great_toki_no_boukensha",
     "title_en": "Korokke Great Toki no Boukensha",
-    "title_jp": "",
+    "title_jp": "コロッケ!Great 時空の冒険者",
     "title_zh": "口袋夢幻! 萬歲-時空之冒險者",
     "developer": "",
     "publisher": "",
@@ -52885,7 +53067,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "korokke_yume_no_bunker_survival",
@@ -52971,7 +53154,7 @@
   {
     "id": "kouchuu_ouja_mushiking_greatest_champion_e_no_michi",
     "title_en": "Kouchuu Ouja Mushiking: Greatest Champion e no Michi",
-    "title_jp": "",
+    "title_jp": "甲虫王者ムシキング グレイテストチャンピオンへの道",
     "title_zh": "",
     "developer": "Mushiking Team",
     "publisher": "Sega",
@@ -53003,12 +53186,13 @@
     "maker": "Sega",
     "source_url": "https://en.wikipedia.org/wiki/Mushiking:_The_King_of_Beetles",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_91"
   },
   {
     "id": "koukou_juken_advance_series_eigo_koubunhen_26_units_shuuroku",
     "title_en": "Koukou Juken Advance Series: Eigo Koubunhen 26 Units Shuuroku",
-    "title_jp": "",
+    "title_jp": "高校受験アドバンスシリーズ 英語構文編 26units収録",
     "title_zh": "",
     "developer": "NDcube",
     "publisher": "Keynet",
@@ -53040,12 +53224,13 @@
     "maker": "Keynet",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Koukou_Juken_Advance_Series:_Eigo_Koubunhen_26_Units_Shuuroku&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_85"
   },
   {
     "id": "koukou_juken_advance_series_eijukugohen_650_phrases_shuuroku",
     "title_en": "Koukou Juken Advance Series: Eijukugohen 650 Phrases Shuuroku",
-    "title_jp": "",
+    "title_jp": "高校受験アドバンスシリーズ 英熟語編 650phrases収録",
     "title_zh": "",
     "developer": "NDcube",
     "publisher": "Keynet",
@@ -53077,12 +53262,13 @@
     "maker": "Keynet",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Koukou_Juken_Advance_Series:_Eijukugohen_650_Phrases_Shuuroku&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "koukou_juken_advance_series_eitangohen_2000_words_shuuroku",
     "title_en": "Koukou Juken Advance Series: Eitangohen 2000 Words Shuuroku",
-    "title_jp": "",
+    "title_jp": "高校受験アドバンスシリーズ 英単語編 2000words収録",
     "title_zh": "",
     "developer": "NDcube",
     "publisher": "Keynet",
@@ -53114,7 +53300,8 @@
     "maker": "Keynet",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Koukou_Juken_Advance_Series:_Eitangohen_2000_Words_Shuuroku&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_85"
   },
   {
     "id": "kunio_kun_nekketsu_collection",
@@ -53314,7 +53501,7 @@
   {
     "id": "kurohige_no_golf_shiyouyo",
     "title_en": "Kurohige No Golf Shiyouyo",
-    "title_jp": "",
+    "title_jp": "黒ひげのゴルフしようよ",
     "title_zh": "黑鬍子之大家來打高爾夫",
     "developer": "Inti Creates",
     "publisher": "Tomy Corporation",
@@ -53351,12 +53538,13 @@
     "maker": "Tomy Corporation",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_91"
   },
   {
     "id": "kurohige_no_kurutto_jintori",
     "title_en": "Kurohige No Kurutto jintori",
-    "title_jp": "",
+    "title_jp": "黒ひげのくるっとジントリ",
     "title_zh": "黑鬍子之轉轉碰碰球",
     "developer": "Happy-Smile",
     "publisher": "Tomy Corporation",
@@ -53393,12 +53581,13 @@
     "maker": "Tomy Corporation",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "kuru_kuru_kururin",
     "title_en": "Kuru Kuru Kururin",
-    "title_jp": "",
+    "title_jp": "くるくるくるりん",
     "title_zh": "滾滾歡樂球",
     "developer": "Eighting",
     "publisher": "Nintendo",
@@ -53437,12 +53626,13 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Kuru_Kuru_Kururin",
     "region_category": "多區發行",
-    "region_flags": "🇯🇵🇪🇺"
+    "region_flags": "🇯🇵🇪🇺",
+    "_jp_match": "exact"
   },
   {
     "id": "kururin_paradise",
     "title_en": "Kururin Paradise",
-    "title_jp": "",
+    "title_jp": "くるりんパラダイス",
     "title_zh": "滾滾棒天堂",
     "developer": "Eighting",
     "publisher": "Nintendo",
@@ -53479,7 +53669,8 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Kururin_Paradise",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_90"
   },
   {
     "id": "la_famille_de_la_jungle_-_a_la_poursuite_de_darwin",
@@ -54164,7 +54355,7 @@
   {
     "id": "legendz_yomigaeru_shiren_no_shima",
     "title_en": "Legendz: Yomigaeru Shiren no Shima",
-    "title_jp": "",
+    "title_jp": "レジェンズ 甦る試練の島",
     "title_zh": "",
     "developer": "Bec",
     "publisher": "Bandai",
@@ -54196,12 +54387,13 @@
     "maker": "Bandai",
     "source_url": "https://en.wikipedia.org/wiki/Legendz#Video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "legions_yomigaeru_shiren_no_shima",
     "title_en": "Legions Yomigaeru Shiren no Shima",
-    "title_jp": "",
+    "title_jp": "レジェンズ 甦る試練の島",
     "title_zh": "玩偶傳說-復甦的試練之島",
     "developer": "Bec",
     "publisher": "Bandai",
@@ -54235,7 +54427,8 @@
     "maker": "Bandai",
     "source_url": "https://en.wikipedia.org/wiki/Legendz#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_85"
   },
   {
     "id": "lego_2_in_1_-_bionicle_and_knights_kingdom",
@@ -55274,7 +55467,7 @@
   {
     "id": "licca-chan_no_oshare_nikki",
     "title_en": "Licca-Chan no Oshare Nikki",
-    "title_jp": "",
+    "title_jp": "リカちゃんのおしゃれ日記",
     "title_zh": "莉卡的時尚日記",
     "developer": "",
     "publisher": "Marvelous Entertainment",
@@ -55311,7 +55504,8 @@
     "maker": "Marvelous Entertainment",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Licca-chan_no_Oshare_Nikki&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "lilliput_kingdom_-_lillimoni_to_issho_puni",
@@ -56397,7 +56591,7 @@
   {
     "id": "madagascar",
     "title_en": "Madagascar",
-    "title_jp": "",
+    "title_jp": "マダガスカル",
     "title_zh": "馬達加斯加",
     "developer": "Vicarious Visions",
     "publisher": "Activision",
@@ -56444,7 +56638,8 @@
     "maker": "Activision",
     "source_url": "https://en.wikipedia.org/wiki/Madagascar_(video_game)",
     "region_category": "多區發行",
-    "region_flags": "🇯🇵🇺🇸🇪🇺"
+    "region_flags": "🇯🇵🇺🇸🇪🇺",
+    "_jp_match": "fuzzy_82"
   },
   {
     "id": "madagascar_-_operation_penguin",
@@ -56881,7 +57076,7 @@
   {
     "id": "made_in_wario",
     "title_en": "Made in Wario",
-    "title_jp": "",
+    "title_jp": "メイド イン ワリオ",
     "title_zh": "壞莉歐工坊",
     "developer": "",
     "publisher": "",
@@ -56916,7 +57111,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_82"
   },
   {
     "id": "magi_nation",
@@ -57047,7 +57243,7 @@
   {
     "id": "mahjong_keiji",
     "title_en": "Mahjong Keiji",
-    "title_jp": "",
+    "title_jp": "麻雀刑事",
     "title_zh": "",
     "developer": "",
     "publisher": "Hudson",
@@ -57079,7 +57275,8 @@
     "maker": "Hudson",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "mahjong_police",
@@ -57195,7 +57392,7 @@
   {
     "id": "mahou_sensei_negima_-_private_lesson_damedesuu_toshokanjima",
     "title_en": "Mahou Sensei Negima! - Private Lesson Damedesuu Toshokanjima",
-    "title_jp": "",
+    "title_jp": "魔法先生ネギま! プライベートレッスン ダメですぅ 図書館島",
     "title_zh": "魔法老師涅吉！私人課程",
     "developer": "",
     "publisher": "Marvelous Entertainment",
@@ -57232,12 +57429,13 @@
     "maker": "Marvelous Entertainment",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_85"
   },
   {
     "id": "mahou_sensei_negima_private_lesson_2_ojama_shimasu_parasite_",
     "title_en": "Mahou Sensei Negima! Private Lesson 2: Ojama Shimasu Parasite de Chu",
-    "title_jp": "",
+    "title_jp": "魔法先生ネギま! プライベートレッスン2 お邪魔しますぅ♥ パラサイトでチュ〜",
     "title_zh": "",
     "developer": "",
     "publisher": "Marvelous Entertainment",
@@ -57269,12 +57467,13 @@
     "maker": "Marvelous Entertainment",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_85"
   },
   {
     "id": "mahou_sensei_negima_private_lesson_dame_desu_toshokan",
     "title_en": "Mahou Sensei Negima! Private Lesson: Dame Desu Toshokan",
-    "title_jp": "",
+    "title_jp": "魔法先生ネギま! プライベートレッスン ダメですぅ 図書館島",
     "title_zh": "",
     "developer": "",
     "publisher": "Marvelous Entertainment",
@@ -57306,7 +57505,8 @@
     "maker": "Marvelous Entertainment",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_82"
   },
   {
     "id": "mail_de_cute",
@@ -57782,7 +57982,7 @@
   {
     "id": "marheaven_knockin_on_heavens_door",
     "title_en": "Marheaven Knockin on Heavens Door",
-    "title_jp": "",
+    "title_jp": "メルヘヴン KNOCKIN'ON HEAVEN'S DOOR",
     "title_zh": "MAR魔兵傳奇-叩響天國之門",
     "developer": "Alpha Unit",
     "publisher": "Konami",
@@ -57819,12 +58019,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/M%C3%84R",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "marie_elie_anis_no_atelier_-_soyokaze_kara_no_dengon",
     "title_en": "Marie, Elie & Anis No Atelier - Soyokaze Kara No Dengon",
-    "title_jp": "",
+    "title_jp": "マリー、エリー&アニスのアトリエ 〜そよ風からの伝言〜",
     "title_zh": "煉金術士-瑪麗 艾莉&安絲的工作室-風之傳言",
     "developer": "",
     "publisher": "Banpresto",
@@ -57861,7 +58062,8 @@
     "maker": "Banpresto",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "mario_luigi_superstar_saga",
@@ -58411,7 +58613,7 @@
   {
     "id": "mario_vs_donkey_kong",
     "title_en": "Mario Vs Donkey Kong",
-    "title_jp": "",
+    "title_jp": "マリオvs.ドンキーコング",
     "title_zh": "瑪莉歐對大金剛 128M",
     "developer": "Nintendo Software Technology",
     "publisher": "Nintendo",
@@ -58450,12 +58652,13 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Mario_vs._Donkey_Kong",
     "region_category": "多區發行",
-    "region_flags": "🇯🇵🇺🇸"
+    "region_flags": "🇯🇵🇺🇸",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "mario_vs_donkey_kong_2",
     "title_en": "Mario vs Donkey Kong",
-    "title_jp": "",
+    "title_jp": "マリオvs.ドンキーコング",
     "title_zh": "瑪莉歐對大金剛",
     "developer": "Nintendo Software Technology",
     "publisher": "Nintendo",
@@ -58492,7 +58695,8 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Mario_vs._Donkey_Kong",
     "region_category": "歐版",
-    "region_flags": "🇪🇺"
+    "region_flags": "🇪🇺",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "marvel_ultimate_alliance",
@@ -58899,7 +59103,7 @@
   {
     "id": "matantei_loki_ragnarok_gensou_no_labyrinth",
     "title_en": "Matantei Loki Ragnarok: Gensou no Labyrinth",
-    "title_jp": "",
+    "title_jp": "魔探偵ロキRAGNAROK 〜幻想のラビリンス〜",
     "title_zh": "",
     "developer": "",
     "publisher": "J-Wing",
@@ -58931,7 +59135,8 @@
     "maker": "J-Wing",
     "source_url": "https://en.wikipedia.org/wiki/The_Mythical_Detective_Loki_Ragnarok",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_83"
   },
   {
     "id": "matchbox_cross_town_heroes",
@@ -59096,7 +59301,7 @@
   {
     "id": "mawaru_made_in_wario",
     "title_en": "Mawaru Made in Wario",
-    "title_jp": "",
+    "title_jp": "まわるメイドインワリオ",
     "title_zh": "轉轉壞莉歐工坊",
     "developer": "",
     "publisher": "",
@@ -59131,7 +59336,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "max_payne",
@@ -61145,7 +61351,7 @@
   {
     "id": "meitantei_conan_akatsuki_no_monument",
     "title_en": "Meitantei Conan Akatsuki no Monument",
-    "title_jp": "",
+    "title_jp": "名探偵コナン 暁のモニュメント",
     "title_zh": "名偵探柯南-黎明之碑",
     "developer": "",
     "publisher": "Banpresto",
@@ -61182,12 +61388,13 @@
     "maker": "Banpresto",
     "source_url": "https://en.wikipedia.org/wiki/List_of_Case_Closed_video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "meitantei_conan_nerawareta_tantei",
     "title_en": "Meitantei Conan: Nerawareta Tantei",
-    "title_jp": "",
+    "title_jp": "名探偵コナン 〜狙われた探偵〜",
     "title_zh": "",
     "developer": "Fortyfive",
     "publisher": "Banpresto",
@@ -61219,7 +61426,8 @@
     "maker": "Banpresto",
     "source_url": "https://en.wikipedia.org/wiki/List_of_Case_Closed_video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_93"
   },
   {
     "id": "men_in_black_-_the_series",
@@ -61350,7 +61558,7 @@
   {
     "id": "mermaid_melody_-_pichipichi_pitch_-_pichipichi_party",
     "title_en": "Mermaid Melody - Pichipichi Pitch - Pichipichi Party",
-    "title_jp": "",
+    "title_jp": "マーメイドメロディー ぴちぴちピッチ ぴちぴちパーティー",
     "title_zh": "真珠美人魚-元氣派對",
     "developer": "Konami",
     "publisher": "Konami",
@@ -61387,7 +61595,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Mermaid_Melody_Pichi_Pichi_Pitch#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_82"
   },
   {
     "id": "mermaid_melody_pichi_pichi_picchi_pichi_ppichitto_live_start",
@@ -61721,7 +61930,7 @@
   {
     "id": "metroid_zero_mission",
     "title_en": "Metroid Zero Mission",
-    "title_jp": "",
+    "title_jp": "メトロイド ゼロミッション",
     "title_zh": "銀河戰士-零號任務",
     "developer": "Nintendo",
     "publisher": "Nintendo",
@@ -61762,12 +61971,13 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Metroid:_Zero_Mission",
     "region_category": "多區發行",
-    "region_flags": "🇯🇵🇺🇸🇪🇺"
+    "region_flags": "🇯🇵🇺🇸🇪🇺",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "mezase_koushien",
     "title_en": "Mezase Koushien",
-    "title_jp": "",
+    "title_jp": "めざせ!甲子園",
     "title_zh": "目標！甲子園",
     "developer": "",
     "publisher": "Tasuke",
@@ -61804,7 +62014,8 @@
     "maker": "Tasuke",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "mickey_no_pocket_resort",
@@ -62256,7 +62467,7 @@
   {
     "id": "minami_no_umi_no_odyssey",
     "title_en": "Minami no Umi no Odyssey",
-    "title_jp": "",
+    "title_jp": "南の海のオデッセイ",
     "title_zh": "",
     "developer": "",
     "publisher": "Global A",
@@ -62288,12 +62499,13 @@
     "maker": "Global A",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "mini_moni_-_mika_no_happy_morning_chatty",
     "title_en": "Mini Moni - Mika No Happy Morning Chatty",
-    "title_jp": "",
+    "title_jp": "ミニモニ。 ミカのハッピーモーニングchatty",
     "title_zh": "迷你早晨-麥克不快樂的饒舌口語",
     "developer": "",
     "publisher": "Shogakukan",
@@ -62330,12 +62542,13 @@
     "maker": "Shogakukan",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "minimoni_onegai_ohoshi-sama",
     "title_en": "Minimoni Onegai Ohoshi-sama!",
-    "title_jp": "",
+    "title_jp": "ミニモニ。 おねがい☆お星さま!",
     "title_zh": "迷你早安-落在山脊上的星星",
     "developer": "",
     "publisher": "Konami",
@@ -62372,12 +62585,13 @@
     "maker": "Konami",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_98"
   },
   {
     "id": "minna_de_puyo_puyo",
     "title_en": "Minna De Puyo Puyo",
-    "title_jp": "",
+    "title_jp": "みんなでぷよぷよ",
     "title_zh": "魔法氣泡大會戰",
     "developer": "",
     "publisher": "",
@@ -62412,7 +62626,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "minna_no_mahjong",
@@ -62454,7 +62669,7 @@
   {
     "id": "minna_no_ojisama",
     "title_en": "Minna No Ojisama",
-    "title_jp": "",
+    "title_jp": "みんなの王子様",
     "title_zh": "網球王子大會戰",
     "developer": "Konami",
     "publisher": "Konami",
@@ -62491,12 +62706,13 @@
     "maker": "Konami",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_96"
   },
   {
     "id": "minna_no_ouji-sama",
     "title_en": "Minna no Ouji-Sama",
-    "title_jp": "",
+    "title_jp": "みんなの王子様",
     "title_zh": "",
     "developer": "Konami",
     "publisher": "Konami",
@@ -62528,7 +62744,8 @@
     "maker": "Konami",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_96"
   },
   {
     "id": "minna_no_soft_series_happy_trump",
@@ -62575,7 +62792,7 @@
   {
     "id": "minna_no_soft_series_minna_no_shogi",
     "title_en": "Minna no Soft Series Minna no Shogi",
-    "title_jp": "",
+    "title_jp": "みんなのソフトシリーズ みんなの将棋",
     "title_zh": "全民軟體系列-全民將棋",
     "developer": "Arioka",
     "publisher": "Success",
@@ -62612,7 +62829,8 @@
     "maker": "Success",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_85"
   },
   {
     "id": "minna_no_soft_series_numpla_advance",
@@ -62765,7 +62983,7 @@
   {
     "id": "minna_no_soft_series_shanghai",
     "title_en": "Minna no Soft Series: Shanghai",
-    "title_jp": "",
+    "title_jp": "みんなのソフトシリーズ 上海",
     "title_zh": "",
     "developer": "Access",
     "publisher": "Success",
@@ -62797,7 +63015,8 @@
     "maker": "Success",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_81"
   },
   {
     "id": "minna_no_soft_series_tetris_advance",
@@ -62913,7 +63132,7 @@
   {
     "id": "miracle_panzou_7-tsu_no_hoshi_no_uchuu_kaizoku",
     "title_en": "Miracle! Panzou: 7-tsu no Hoshi no Uchuu Kaizoku",
-    "title_jp": "",
+    "title_jp": "みらくる!ぱんぞう 7つの星の宇宙海賊",
     "title_zh": "",
     "developer": "",
     "publisher": "Atlus",
@@ -62945,12 +63164,13 @@
     "maker": "Atlus",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Miracle!_Panzou:_7-tsu_no_Hoshi_no_Uchuu_Kaizoku&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "mirakuru_panzou_7_tsuno_hosh_no_kaizoku",
     "title_en": "Mirakuru Panzou 7 Tsuno Hosh no Kaizoku",
-    "title_jp": "",
+    "title_jp": "みらくる!ぱんぞう 7つの星の宇宙海賊",
     "title_zh": "神奇夢幻熊貓警官-七顆星球的宇宙海賊 日 STG 32.00",
     "developer": "",
     "publisher": "",
@@ -62985,7 +63205,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "mission_impossible_-_operation_surma",
@@ -63302,7 +63523,7 @@
   {
     "id": "mobile_pro_yakyuu_kantoku_no_saihai",
     "title_en": "Mobile Pro Yakyuu: Kantoku no Saihai",
-    "title_jp": "",
+    "title_jp": "モバイルプロ野球 監督の采配",
     "title_zh": "",
     "developer": "Mobile21",
     "publisher": "Konami",
@@ -63334,7 +63555,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Mobile_Pro_Yakyuu:_Kantoku_no_Saihai&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_90"
   },
   {
     "id": "mobile_suit_gundam_seed_battle_assault",
@@ -63489,7 +63711,7 @@
   {
     "id": "momotarou_densetsu_g_gold_deck_wo_tsukure",
     "title_en": "Momotarou Densetsu G Gold Deck wo Tsukure!",
-    "title_jp": "",
+    "title_jp": "桃太郎電鉄G ゴールド・デッキを作れ!",
     "title_zh": "桃太郎電鐵G-創造黃金牌組吧！",
     "developer": "",
     "publisher": "Hudson",
@@ -63526,12 +63748,13 @@
     "maker": "Hudson",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Momotarou_Dentetsu_G:_Gold_Deck_o_Tsukure!&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "momotarou_dentetsu_g_gold_deck_o_tsukure",
     "title_en": "Momotarou Dentetsu G: Gold Deck o Tsukure!",
-    "title_jp": "",
+    "title_jp": "桃太郎電鉄G ゴールド・デッキを作れ!",
     "title_zh": "",
     "developer": "",
     "publisher": "Hudson",
@@ -63563,12 +63786,13 @@
     "maker": "Hudson",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Momotarou_Dentetsu_G:_Gold_Deck_o_Tsukure!&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_87"
   },
   {
     "id": "momotarou_matsuri",
     "title_en": "Momotarou Matsuri",
-    "title_jp": "",
+    "title_jp": "桃太郎まつり",
     "title_zh": "",
     "developer": "Hudson",
     "publisher": "Hudson",
@@ -63600,7 +63824,8 @@
     "maker": "Hudson",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Momotarou_Matsuri&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "monopoly",
@@ -64521,7 +64746,7 @@
   {
     "id": "morita_shogi_advance",
     "title_en": "Morita Shogi Advance",
-    "title_jp": "",
+    "title_jp": "森田将棋あどばんす",
     "title_zh": "森田將棋",
     "developer": "Hudson",
     "publisher": "Hudson",
@@ -64558,7 +64783,8 @@
     "maker": "Hudson",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_81"
   },
   {
     "id": "mortal_kombat_-_tournament_edition",
@@ -64693,7 +64919,7 @@
   {
     "id": "mother",
     "title_en": "Mother",
-    "title_jp": "",
+    "title_jp": "MOTHER3",
     "title_zh": "地球冒險3",
     "developer": "Brownie Brown / HAL Laboratory / Nintendo",
     "publisher": "Nintendo",
@@ -64730,12 +64956,13 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Mother_3",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_92"
   },
   {
     "id": "mother_12",
     "title_en": "Mother 1+2",
-    "title_jp": "",
+    "title_jp": "MOTHER1+2",
     "title_zh": "地球冒險1+2",
     "developer": "Brownie Brown / HAL Laboratory",
     "publisher": "Nintendo",
@@ -64772,12 +64999,13 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Mother_1_%2B_2",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "mother_3",
     "title_en": "Mother 3",
-    "title_jp": "",
+    "title_jp": "MOTHER3",
     "title_zh": "",
     "developer": "Brownie Brown / HAL Laboratory / Nintendo",
     "publisher": "Nintendo",
@@ -64809,12 +65037,13 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Mother_3",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "moto_gp",
     "title_en": "Moto GP",
-    "title_jp": "",
+    "title_jp": "Moto GP",
     "title_zh": "GP摩托車賽",
     "developer": "",
     "publisher": "",
@@ -64853,7 +65082,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "多區發行",
-    "region_flags": "🇯🇵🇺🇸🇪🇺"
+    "region_flags": "🇯🇵🇺🇸🇪🇺",
+    "_jp_match": "exact"
   },
   {
     "id": "moto_gp_gt_advance_3_double_pack",
@@ -64895,7 +65125,7 @@
   {
     "id": "motocross_maniacs_advance",
     "title_en": "Motocross Maniacs Advance",
-    "title_jp": "",
+    "title_jp": "モトクロスマニアックスADVANCE",
     "title_zh": "瘋狂越野摩托車",
     "developer": "Konami",
     "publisher": "Konami",
@@ -64934,7 +65164,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Motocross_Maniacs_Advance",
     "region_category": "多區發行",
-    "region_flags": "🇯🇵🇺🇸"
+    "region_flags": "🇯🇵🇺🇸",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "motogp_ultimate_racing_technology",
@@ -65529,7 +65760,7 @@
   {
     "id": "mugenborg",
     "title_en": "Mugenborg",
-    "title_jp": "",
+    "title_jp": "ムゲンボーグ",
     "title_zh": "夢幻伯格",
     "developer": "KCET",
     "publisher": "Konami",
@@ -65566,7 +65797,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Mugenborg&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "mummy_the",
@@ -66045,7 +66277,7 @@
   {
     "id": "nakayoshi_mahjan_kaburiichi",
     "title_en": "Nakayoshi Mahjan Kaburiichi",
-    "title_jp": "",
+    "title_jp": "なかよし麻雀 かぶリーチ",
     "title_zh": "友情麻將",
     "developer": "",
     "publisher": "Konami",
@@ -66079,7 +66311,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Nakayoshi_Mahjan_Kaburiichi&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_98"
   },
   {
     "id": "nakayoshi_pet_advance_series",
@@ -66163,7 +66396,7 @@
   {
     "id": "nakayoshi_pet_advance_series_1_kawaii_hamusutaa",
     "title_en": "Nakayoshi Pet Advance Series 1: Kawaii Hamusutaa",
-    "title_jp": "",
+    "title_jp": "なかよしペットアドバンスシリーズ1 かわいいハムスター",
     "title_zh": "",
     "developer": "MTO",
     "publisher": "MTO",
@@ -66195,7 +66428,8 @@
     "maker": "MTO",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "nakayoshi_pet_advance_series_2_-_kawaii_koinu",
@@ -66326,7 +66560,7 @@
   {
     "id": "nakayoshi_pet_advance_series_4_kawaii_koinu_mini_-_wanko_to_",
     "title_en": "Nakayoshi Pet Advance Series 4: Kawaii Koinu Mini - Wanko to Asobou!! Kogatainu",
-    "title_jp": "",
+    "title_jp": "なかよしペットアドバンスシリーズ4 かわいい仔犬ミニ わんこと遊ぼう!! 小型犬",
     "title_zh": "",
     "developer": "MTO",
     "publisher": "MTO",
@@ -66358,7 +66592,8 @@
     "maker": "MTO",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_87"
   },
   {
     "id": "nakayoshi_youchien",
@@ -66573,7 +66808,7 @@
   {
     "id": "napoleon",
     "title_en": "Napoleon",
-    "title_jp": "",
+    "title_jp": "ナポレオン",
     "title_zh": "拿破侖",
     "developer": "Genki",
     "publisher": "Nintendo",
@@ -66610,7 +66845,8 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Napoleon_(video_game)",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "napoleon_-_laigle_de_guerrre",
@@ -66689,7 +66925,7 @@
   {
     "id": "naruto_-_konoha_senki",
     "title_en": "Naruto - Konoha Senki",
-    "title_jp": "",
+    "title_jp": "NARUTO -ナルト- 木ノ葉戦記",
     "title_zh": "火影忍者-木葉戰記",
     "developer": "Amedio",
     "publisher": "Tomy Corporation",
@@ -66726,7 +66962,8 @@
     "maker": "Tomy Corporation",
     "source_url": "https://en.wikipedia.org/wiki/Naruto:_Konoha_Senki",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "naruto_ninja_council",
@@ -66773,7 +67010,7 @@
   {
     "id": "naruto_rpg_-_uketsugareshi_hi_no_ishi",
     "title_en": "Naruto RPG - Uketsugareshi Hi no Ishi",
-    "title_jp": "",
+    "title_jp": "NARUTO -ナルト- ナルトRPG〜受けつがれし火の意志〜",
     "title_zh": "火影忍者RPG",
     "developer": "TOSE",
     "publisher": "Tomy Corporation",
@@ -66810,12 +67047,13 @@
     "maker": "Tomy Corporation",
     "source_url": "https://en.wikipedia.org/wiki/Naruto_RPG:_Uketsugareshi_Hi_no_Ishi",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_81"
   },
   {
     "id": "naruto_saikyou_ninja_daikessyu",
     "title_en": "Naruto Saikyou Ninja Daikessyu",
-    "title_jp": "",
+    "title_jp": "NARUTO -ナルト- 最強忍者 大結集2",
     "title_zh": "火影忍者-最強忍者大集結2 64M",
     "developer": "",
     "publisher": "",
@@ -66850,7 +67088,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_85"
   },
   {
     "id": "naruto_ninja_council_2",
@@ -66966,7 +67205,7 @@
   {
     "id": "natural_2_duo",
     "title_en": "Natural 2 Duo",
-    "title_jp": "",
+    "title_jp": "Natural2 -DUO-",
     "title_zh": "雙姝情緣",
     "developer": "",
     "publisher": "Omega Micott",
@@ -67003,7 +67242,8 @@
     "maker": "Omega Micott",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Natural_2:_Duo&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "nba_jam",
@@ -68312,7 +68552,7 @@
   {
     "id": "nobunaga_ibun",
     "title_en": "Nobunaga Ibun",
-    "title_jp": "",
+    "title_jp": "信長異聞",
     "title_zh": "信長異聞錄 日 S‧RPG",
     "developer": "",
     "publisher": "Global A",
@@ -68349,12 +68589,13 @@
     "maker": "Global A",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "nobunaga_no_yabou",
     "title_en": "Nobunaga No Yabou",
-    "title_jp": "",
+    "title_jp": "信長の野望",
     "title_zh": "信長之野望",
     "developer": "Koei/iNiS",
     "publisher": "Koei",
@@ -68391,7 +68632,8 @@
     "maker": "Koei",
     "source_url": "https://en.wikipedia.org/wiki/Nobunaga_No_Yabou",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "noddy_a_day_in_toyland",
@@ -68554,7 +68796,7 @@
   {
     "id": "nyan_nyan_nyanko_no_nyan_collection",
     "title_en": "Nyan Nyan Nyanko no Nyan Collection",
-    "title_jp": "",
+    "title_jp": "にゃんにゃんにゃんこのにゃんコレクション",
     "title_zh": "喵喵小貓遊戲集",
     "developer": "MTO",
     "publisher": "MTO",
@@ -68591,7 +68833,8 @@
     "maker": "MTO",
     "source_url": "https://en.wikipedia.org/wiki/Nyan_Nyan_Nyanko",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "ochainu_no_bouken_jima",
@@ -68633,7 +68876,7 @@
   {
     "id": "ochaken_kururin_honwaka_puzzle_de_hotto_shiyo",
     "title_en": "Ochaken Kururin Honwaka Puzzle de Hotto Shiyo",
-    "title_jp": "",
+    "title_jp": "お茶犬くるりん 〜ほんわかパズルで「ほっ」としよ?〜",
     "title_zh": "綠茶犬-解謎樂",
     "developer": "",
     "publisher": "MTO",
@@ -68670,12 +68913,13 @@
     "maker": "MTO",
     "source_url": "https://en.wikipedia.org/wiki/Ocha-Ken#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "ochaken_no_bouken_jima_honwaka_yume_no_island",
     "title_en": "Ochaken no Bouken Jima: Honwaka Yume no Island",
-    "title_jp": "",
+    "title_jp": "お茶犬の冒険島 ほんわか夢のアイランド",
     "title_zh": "",
     "developer": "",
     "publisher": "MTO",
@@ -68707,12 +68951,13 @@
     "maker": "MTO",
     "source_url": "https://en.wikipedia.org/wiki/Ocha-Ken#Video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_84"
   },
   {
     "id": "ochaken_no_heya",
     "title_en": "Ochaken No Heya",
-    "title_jp": "",
+    "title_jp": "お茶犬の部屋",
     "title_zh": "綠茶犬的窩",
     "developer": "",
     "publisher": "MTO",
@@ -68749,12 +68994,13 @@
     "maker": "MTO",
     "source_url": "https://en.wikipedia.org/wiki/Ocha-Ken#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_85"
   },
   {
     "id": "ochaken_no_yumebouken",
     "title_en": "Ochaken no Yumebouken",
-    "title_jp": "",
+    "title_jp": "お茶犬の夢冒険",
     "title_zh": "綠茶犬的夢冒險",
     "developer": "",
     "publisher": "MTO",
@@ -68791,7 +69037,8 @@
     "maker": "MTO",
     "source_url": "https://en.wikipedia.org/wiki/Ocha-Ken#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "oddworld_-_munchs_oddysee",
@@ -68916,7 +69163,7 @@
   {
     "id": "ojaru_maru_-_gekkou_machi_sanpo_de_ojaru",
     "title_en": "Ojaru Maru - Gekkou Machi Sanpo de Ojaru",
-    "title_jp": "",
+    "title_jp": "おじゃる丸 月光町さんぽでおじゃる",
     "title_zh": "丸少爺-來月光町散步",
     "developer": "",
     "publisher": "MTO",
@@ -68953,7 +69200,8 @@
     "maker": "MTO",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "okaitoku_series_5_-_puzzle_tantei_collection",
@@ -69034,7 +69282,7 @@
   {
     "id": "okuman_chouja_game_nottori_daisakusen",
     "title_en": "Okuman Chouja Game: Nottori Daisakusen!",
-    "title_jp": "",
+    "title_jp": "億万長者ゲーム のっとり大作戦!",
     "title_zh": "",
     "developer": "Mobile21",
     "publisher": "Bandai",
@@ -69066,7 +69314,8 @@
     "maker": "Bandai",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "one_piece_-_ilgop_seomui_daebomu",
@@ -69185,7 +69434,7 @@
   {
     "id": "one_piece_dragon_dream",
     "title_en": "One Piece Dragon Dream",
-    "title_jp": "",
+    "title_jp": "ONE PIECE ドラゴンドリーム!",
     "title_zh": "海賊王-龍之夢",
     "developer": "M2",
     "publisher": "Bandai",
@@ -69222,7 +69471,8 @@
     "maker": "Bandai",
     "source_url": "https://en.wikipedia.org/wiki/List_of_One_Piece_video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_85"
   },
   {
     "id": "one_piece_going_baseball",
@@ -69341,7 +69591,7 @@
   {
     "id": "onimusha_tactics",
     "title_en": "Onimusha Tactics",
-    "title_jp": "",
+    "title_jp": "Onimusha Tactics",
     "title_zh": "鬼武者戰略版",
     "developer": "Capcom",
     "publisher": "Capcom",
@@ -69382,12 +69632,13 @@
     "maker": "Capcom",
     "source_url": "https://en.wikipedia.org/wiki/Onimusha_Tactics",
     "region_category": "多區發行",
-    "region_flags": "🇯🇵🇺🇸🇪🇺"
+    "region_flags": "🇯🇵🇺🇸🇪🇺",
+    "_jp_match": "exact"
   },
   {
     "id": "onmyou_taisenki_zeroshiki",
     "title_en": "Onmyou Taisenki Zeroshiki",
-    "title_jp": "",
+    "title_jp": "陰陽大戦記 零式",
     "title_zh": "陰陽大戰記-零式",
     "developer": "Kamui",
     "publisher": "Bandai",
@@ -69424,7 +69675,8 @@
     "maker": "Bandai",
     "source_url": "https://en.wikipedia.org/wiki/Onmy%C5%8D_Taisenki#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_83"
   },
   {
     "id": "open_season",
@@ -69517,7 +69769,7 @@
   {
     "id": "oriental_blue_-_ao_no_tengai",
     "title_en": "Oriental Blue - Ao no Tengai",
-    "title_jp": "",
+    "title_jp": "オリエンタルブルー -青の天外-",
     "title_zh": "天外魔境-青天之外",
     "developer": "Hudson",
     "publisher": "Nintendo",
@@ -69554,7 +69806,8 @@
     "maker": "Nintendo",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_84"
   },
   {
     "id": "original_harlem_globetrotters",
@@ -69712,7 +69965,7 @@
   {
     "id": "oshare_princess",
     "title_en": "Oshare Princess",
-    "title_jp": "",
+    "title_jp": "おしゃれプリンセス",
     "title_zh": "俏皮公主",
     "developer": "Culture Brain",
     "publisher": "Culture Brain",
@@ -69749,7 +70002,8 @@
     "maker": "Culture Brain",
     "source_url": "https://en.wikipedia.org/wiki/Culture_Brain#Oshare_Princess_series",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_83"
   },
   {
     "id": "oshare_princess_2_doubutsu_kyaranabi_uranai",
@@ -69830,7 +70084,7 @@
   {
     "id": "oshare_princess_3",
     "title_en": "Oshare Princess 3",
-    "title_jp": "",
+    "title_jp": "おしゃれプリンセス3",
     "title_zh": "",
     "developer": "Culture Brain",
     "publisher": "Culture Brain",
@@ -69862,12 +70116,13 @@
     "maker": "Culture Brain",
     "source_url": "https://en.wikipedia.org/wiki/Culture_Brain#Oshare_Princess_series",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_84"
   },
   {
     "id": "oshare_princess_5",
     "title_en": "Oshare Princess 5",
-    "title_jp": "",
+    "title_jp": "おしゃれプリンセス5",
     "title_zh": "",
     "developer": "Culture Brain",
     "publisher": "Culture Brain",
@@ -69899,12 +70154,13 @@
     "maker": "Culture Brain",
     "source_url": "https://en.wikipedia.org/wiki/Culture_Brain#Oshare_Princess_series",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_84"
   },
   {
     "id": "oshare_wanko",
     "title_en": "Oshare Wanko",
-    "title_jp": "",
+    "title_jp": "おしゃれワンコ",
     "title_zh": "俏皮寵物",
     "developer": "",
     "publisher": "",
@@ -69939,7 +70195,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "ottifanten_pinball",
@@ -70631,7 +70888,7 @@
   {
     "id": "pawa_poke_dash",
     "title_en": "Pawa Poke Dash",
-    "title_jp": "",
+    "title_jp": "パワポケダッシュ",
     "title_zh": "實況野球Dash",
     "developer": "",
     "publisher": "Konami",
@@ -70665,7 +70922,8 @@
     "maker": "Konami",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_92"
   },
   {
     "id": "paws_claws_best_friends_-_dogs_cats",
@@ -70860,7 +71118,7 @@
   {
     "id": "pazunin_-_uminin_no_puzzle_de_nimu",
     "title_en": "Pazunin - Uminin No Puzzle de Nimu",
-    "title_jp": "",
+    "title_jp": "パズにん 〜うみにんのパズルでにむ〜",
     "title_zh": "魔幻彈力球",
     "developer": "",
     "publisher": "",
@@ -70895,7 +71153,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_82"
   },
   {
     "id": "penny_racers",
@@ -71462,7 +71721,7 @@
   {
     "id": "pia_carrot_e_youkoso_33",
     "title_en": "Pia Carrot e Youkoso!! 3.3",
-    "title_jp": "",
+    "title_jp": "Piaキャロットへようこそ!!3.3",
     "title_zh": "",
     "developer": "F&C",
     "publisher": "NEC Interchannel",
@@ -71494,7 +71753,8 @@
     "maker": "NEC Interchannel",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_82"
   },
   {
     "id": "piglets_big_game",
@@ -71541,7 +71801,7 @@
   {
     "id": "pika_pika_nurse_monogatari_hatsuratsu_nurse_ikusei_game",
     "title_en": "Pika Pika Nurse Monogatari: Hatsuratsu Nurse Ikusei Game",
-    "title_jp": "",
+    "title_jp": "ピカピカナース物語 はつらつナース育成ゲーム",
     "title_zh": "",
     "developer": "",
     "publisher": "TDK Core",
@@ -71570,7 +71830,8 @@
     "maker": "TDK Core",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_85"
   },
   {
     "id": "pikapika_nurse_monogatari_-_nurse_ikusei_game",
@@ -73197,7 +73458,7 @@
   {
     "id": "pokemon_fushigi_no_dungeon_aka_no_kyuujotai",
     "title_en": "Pokemon Fushigi no Dungeon Aka no Kyuujotai",
-    "title_jp": "",
+    "title_jp": "ポケモン不思議のダンジョン 赤の救助隊",
     "title_zh": "神奇寶貝不可思議的迷宮-赤色救難隊 歐 A·RPG",
     "developer": "",
     "publisher": "",
@@ -73236,7 +73497,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "多區發行",
-    "region_flags": "🇯🇵🇺🇸🌍"
+    "region_flags": "🇯🇵🇺🇸🌍",
+    "_jp_match": "fuzzy_93"
   },
   {
     "id": "pokemon_gba_video_volume",
@@ -76373,7 +76635,7 @@
   {
     "id": "pukupuku_tennen_kairanban",
     "title_en": "PukuPuku Tennen Kairanban",
-    "title_jp": "",
+    "title_jp": "ぷくぷく天然かいらんばん",
     "title_zh": "狗狗小鎮",
     "developer": "",
     "publisher": "Victor Interactive Software",
@@ -76410,12 +76672,13 @@
     "maker": "Victor Interactive Software",
     "source_url": "https://en.wikipedia.org/wiki/Pukupuku_Natural_Circular_Notice",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "pukupuku_tennen_kairanban_koi_no_cupid_daisakusen",
     "title_en": "Pukupuku Tennen Kairanban Koi no Cupid Daisakusen",
-    "title_jp": "",
+    "title_jp": "ぷくぷく天然かいらんばん 恋のキューピッド大作戦",
     "title_zh": "狗狗小鎮-愛神邱比特大作戰",
     "developer": "",
     "publisher": "Marvelous Entertainment",
@@ -76452,12 +76715,13 @@
     "maker": "Marvelous Entertainment",
     "source_url": "https://en.wikipedia.org/wiki/Pukupuku_Natural_Circular_Notice",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "pukupuku_tennen_kairanban_youkoso_illusion_land_he",
     "title_en": "Pukupuku Tennen Kairanban Youkoso Illusion Land he",
-    "title_jp": "",
+    "title_jp": "ぷくぷく天然かいらんばん 〜ようこそ!イリュージョンランドへ〜",
     "title_zh": "狗狗小鎮-歡迎來到幻影樂園",
     "developer": "",
     "publisher": "Marvelous Entertainment",
@@ -76494,12 +76758,13 @@
     "maker": "Marvelous Entertainment",
     "source_url": "https://en.wikipedia.org/wiki/Pukupuku_Natural_Circular_Notice",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "pukupuku_tennen_kairanban_youkoso_illusion_land_e",
     "title_en": "PukuPuku Tennen Kairanban: Youkoso! Illusion Land e",
-    "title_jp": "",
+    "title_jp": "ぷくぷく天然かいらんばん 〜ようこそ!イリュージョンランドへ〜",
     "title_zh": "",
     "developer": "",
     "publisher": "Marvelous Entertainment",
@@ -76531,7 +76796,8 @@
     "maker": "Marvelous Entertainment",
     "source_url": "https://en.wikipedia.org/wiki/Pukupuku_Natural_Circular_Notice",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_85"
   },
   {
     "id": "punch_king",
@@ -76747,7 +77013,7 @@
   {
     "id": "pyuu_to_fuku_jogger_byuu_to_deru_megane_kun",
     "title_en": "Pyuu to Fuku Jogger Byuu to Deru Megane Kun",
-    "title_jp": "",
+    "title_jp": "ピューと吹く!ジャガー ビョ〜と出る!メガネくん",
     "title_zh": "魔法吹笛手-立體眼鏡遊戲 64M A.RPG",
     "developer": "Intense",
     "publisher": "Konami",
@@ -76781,12 +77047,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Pyu_to_Fuku!_Jaguar#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "pyuu_to_fuku_jaguar_byuu_to_deru_megane-kun",
     "title_en": "Pyuu to Fuku! Jaguar: Byuu to Deru! Megane-Kun",
-    "title_jp": "",
+    "title_jp": "ピューと吹く!ジャガー ビョ〜と出る!メガネくん",
     "title_zh": "",
     "developer": "Intense",
     "publisher": "Konami",
@@ -76818,7 +77085,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Pyu_to_Fuku!_Jaguar#Video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_92"
   },
   {
     "id": "quad_desert_fury",
@@ -77712,7 +77980,7 @@
   {
     "id": "ready_2_rumble_boxing_-_round",
     "title_en": "Ready 2 Rumble Boxing - Round",
-    "title_jp": "",
+    "title_jp": "READY 2 RUMBLE BOXING ROUND2",
     "title_zh": "暴力拳擊2",
     "developer": "Crawfish Interactive",
     "publisher": "Midway",
@@ -77751,12 +78019,13 @@
     "maker": "Midway",
     "source_url": "https://en.wikipedia.org/wiki/Ready_2_Rumble_Boxing:_Round_2",
     "region_category": "多區發行",
-    "region_flags": "🇺🇸🇪🇺"
+    "region_flags": "🇺🇸🇪🇺",
+    "_jp_match": "fuzzy_98"
   },
   {
     "id": "ready_2_rumble_boxing_round_2",
     "title_en": "Ready 2 Rumble Boxing: Round 2",
-    "title_jp": "",
+    "title_jp": "READY 2 RUMBLE BOXING ROUND2",
     "title_zh": "",
     "developer": "Crawfish Interactive",
     "publisher": "Midway",
@@ -77788,7 +78057,8 @@
     "maker": "Midway",
     "source_url": "https://en.wikipedia.org/wiki/Ready_2_Rumble_Boxing:_Round_2",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "rebelstar_tactical_command",
@@ -77947,7 +78217,7 @@
   {
     "id": "relaxuma_na_mainichi",
     "title_en": "Relaxuma na Mainichi",
-    "title_jp": "",
+    "title_jp": "リラックマなまいにち",
     "title_zh": "懶懶熊的每一天",
     "developer": "",
     "publisher": "Imagineer",
@@ -77984,7 +78254,8 @@
     "maker": "Imagineer",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Relaxuma_na_Mainichi&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_81"
   },
   {
     "id": "rescue_heroes_billy_blazes",
@@ -78644,7 +78915,7 @@
   {
     "id": "robots",
     "title_en": "Robots",
-    "title_jp": "",
+    "title_jp": "ロボッツ",
     "title_zh": "機器人歷險記",
     "developer": "Amaze Entertainment",
     "publisher": "Vivendi Universal Games",
@@ -78685,7 +78956,8 @@
     "maker": "Vivendi Universal Games",
     "source_url": "https://en.wikipedia.org/wiki/Robots_(2005_video_game)",
     "region_category": "多區發行",
-    "region_flags": "🇯🇵🇺🇸🇪🇺"
+    "region_flags": "🇯🇵🇺🇸🇪🇺",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "rock_n_roll_racing",
@@ -78984,7 +79256,7 @@
   {
     "id": "rockman_forte",
     "title_en": "Rockman & Forte",
-    "title_jp": "",
+    "title_jp": "ロックマン&フォルテ",
     "title_zh": "洛克人與佛魯迪",
     "developer": "",
     "publisher": "",
@@ -79019,7 +79291,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_85"
   },
   {
     "id": "rockman_exe",
@@ -79417,7 +79690,7 @@
   {
     "id": "rockman_zero",
     "title_en": "Rockman Zero",
-    "title_jp": "",
+    "title_jp": "ロックマンゼロ",
     "title_zh": "洛克人ZERO",
     "developer": "",
     "publisher": "",
@@ -79452,12 +79725,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_87"
   },
   {
     "id": "rockman_zero_2",
     "title_en": "RockMan Zero",
-    "title_jp": "",
+    "title_jp": "ロックマンゼロ",
     "title_zh": "洛克人ZERO2",
     "developer": "",
     "publisher": "",
@@ -79492,7 +79766,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_87"
   },
   {
     "id": "rocky",
@@ -79571,7 +79846,7 @@
   {
     "id": "rpg_tsukuru_advance",
     "title_en": "RPG Tsukuru Advance",
-    "title_jp": "",
+    "title_jp": "RPGツクール アドバンス",
     "title_zh": "RPG工具",
     "developer": "",
     "publisher": "Enterbrain",
@@ -79608,7 +79883,8 @@
     "maker": "Enterbrain",
     "source_url": "https://en.wikipedia.org/wiki/RPG_Maker",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "rugrats_-_castle_capers",
@@ -79906,7 +80182,7 @@
   {
     "id": "saibara_rieko_no_dendou_mahjong",
     "title_en": "Saibara Rieko No Dendou Mahjong",
-    "title_jp": "",
+    "title_jp": "西原理恵子の殿堂麻雀",
     "title_zh": "西原理惠子之殿堂麻雀",
     "developer": "Warashi",
     "publisher": "Media Rings",
@@ -79943,12 +80219,13 @@
     "maker": "Media Rings",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Saibara_Rieko_no_Dendou_Mahjong&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_81"
   },
   {
     "id": "sakura_momoko_no_ukiuki_carnival",
     "title_en": "Sakura Momoko No Ukiuki Carnival",
-    "title_jp": "",
+    "title_jp": "さくらももこのウキウキカーニバル",
     "title_zh": "嘉年華會",
     "developer": "Indies Zero",
     "publisher": "Nintendo",
@@ -79985,7 +80262,8 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Sakura_Momoko_no_Ukiuki_Carnival",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_84"
   },
   {
     "id": "salt_lake",
@@ -80066,7 +80344,7 @@
   {
     "id": "samurai_deeper_kyo",
     "title_en": "Samurai Deeper Kyo",
-    "title_jp": "",
+    "title_jp": "SAMURAI DEEPER KYO",
     "title_zh": "鬼眼狂刀-京",
     "developer": "Marvelous Entertainment",
     "publisher": "Bold Games",
@@ -80103,7 +80381,8 @@
     "maker": "Bold Games",
     "source_url": "https://en.wikipedia.org/wiki/Samurai_Deeper_Kyo",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "samurai_evolution_-_oukoku_gaist",
@@ -80229,7 +80508,7 @@
   {
     "id": "san_goku_shi",
     "title_en": "San Goku Shi",
-    "title_jp": "",
+    "title_jp": "三國志",
     "title_zh": "三國誌",
     "developer": "Koei",
     "publisher": "Koei",
@@ -80268,12 +80547,13 @@
     "maker": "Koei",
     "source_url": "https://en.wikipedia.org/wiki/San_Goku_Shi",
     "region_category": "日版",
-    "region_flags": "🇯🇵🇨🇳"
+    "region_flags": "🇯🇵🇨🇳",
+    "_jp_match": "exact"
   },
   {
     "id": "sangokushi_eiketsuden",
     "title_en": "Sangokushi Eiketsuden",
-    "title_jp": "",
+    "title_jp": "三國志英傑伝",
     "title_zh": "三國誌英傑傳",
     "developer": "",
     "publisher": "Koei",
@@ -80310,12 +80590,13 @@
     "maker": "Koei",
     "source_url": "https://en.wikipedia.org/w/index.php?title=San_Goku_Shi:_Eiketsuden&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "sangokushi_koumeiden",
     "title_en": "Sangokushi Koumeiden",
-    "title_jp": "",
+    "title_jp": "三國志孔明伝",
     "title_zh": "三國誌孔明傳",
     "developer": "",
     "publisher": "Koei",
@@ -80352,7 +80633,8 @@
     "maker": "Koei",
     "source_url": "https://en.wikipedia.org/w/index.php?title=San_Goku_Shi:_Koumeiden&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "sanrio_puro_land_all-characters",
@@ -80431,7 +80713,7 @@
   {
     "id": "sansara_naga_1x2",
     "title_en": "Sansara Naga 1x2",
-    "title_jp": "",
+    "title_jp": "サンサーラナーガ1×2",
     "title_zh": "育龍戰記1x2",
     "developer": "Groove Box Japan",
     "publisher": "Victor Interactive Software",
@@ -80468,7 +80750,8 @@
     "maker": "Victor Interactive Software",
     "source_url": "https://en.wikipedia.org/wiki/Sansara_Naga_(series)",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "santa_claus_jr",
@@ -81709,7 +81992,7 @@
   {
     "id": "sengoku_kakumei_gaiden",
     "title_en": "Sengoku Kakumei Gaiden",
-    "title_jp": "",
+    "title_jp": "戦国革命外伝",
     "title_zh": "戰國革命外傳",
     "developer": "KCE Studios",
     "publisher": "Konami",
@@ -81746,12 +82029,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Sengoku_Kakumei_Gaiden&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "sennen_kazoku",
     "title_en": "Sennen Kazoku",
-    "title_jp": "",
+    "title_jp": "千年家族",
     "title_zh": "",
     "developer": "Indies Zero",
     "publisher": "Nintendo",
@@ -81783,12 +82067,13 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/Sennen_Kazoku",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "sentouin_yamada_hajime",
     "title_en": "Sentouin Yamada Hajime",
-    "title_jp": "",
+    "title_jp": "戦闘員 山田はじめ",
     "title_zh": "戰鬥員山田始",
     "developer": "Rokumendo",
     "publisher": "Kids Station",
@@ -81825,7 +82110,8 @@
     "maker": "Kids Station",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Sentouin:_Yamada_Hajime&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "serious_sam_advance",
@@ -82032,7 +82318,7 @@
   {
     "id": "shaman_king_chou_senjiryakketsu_2",
     "title_en": "Shaman King Chou Senjiryakketsu 2",
-    "title_jp": "",
+    "title_jp": "シャーマンキング 超・占事略決2",
     "title_zh": "",
     "developer": "Studio Saizensen",
     "publisher": "Konami",
@@ -82061,12 +82347,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Shaman_King_Chou_Senjiryakketsu_2",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_95"
   },
   {
     "id": "shaman_king_chou_senjiryakketsu_3",
     "title_en": "Shaman King Chou Senjiryakketsu 3",
-    "title_jp": "",
+    "title_jp": "シャーマンキング 超・占事略決3",
     "title_zh": "",
     "developer": "Studio Saizensen",
     "publisher": "Konami",
@@ -82095,12 +82382,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Shaman_King_Chou_Senjiryakketsu_3",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_95"
   },
   {
     "id": "shaman_king_chou_senjiryokketsu",
     "title_en": "Shaman King Chou Senjiryokketsu",
-    "title_jp": "",
+    "title_jp": "シャーマンキング 超・占事略決2",
     "title_zh": "通靈王-超‧占士略決3",
     "developer": "Studio Saizensen",
     "publisher": "Konami",
@@ -82134,7 +82422,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Shaman_King_Chou_Senjiryakketsu_2",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_90"
   },
   {
     "id": "shaman_king_master_of_spirits",
@@ -82713,7 +83002,7 @@
   {
     "id": "shimura_ken_no_bakatono-sama_bakushou_tenka_touitsu_game",
     "title_en": "Shimura Ken no Bakatono-sama: Bakushou Tenka Touitsu Game",
-    "title_jp": "",
+    "title_jp": "志村けんのバカ殿様 爆笑天下統一ゲーム",
     "title_zh": "",
     "developer": "Kamui",
     "publisher": "TDK Core",
@@ -82745,7 +83034,8 @@
     "maker": "TDK Core",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_96"
   },
   {
     "id": "shimura_ken_no_bakatonosama",
@@ -82787,7 +83077,7 @@
   {
     "id": "shin_bokura_no_taiyou_gyakushuu_no_sabata",
     "title_en": "Shin Bokura no Taiyou Gyakushuu no Sabata",
-    "title_jp": "",
+    "title_jp": "新・ボクらの太陽 逆襲のサバタ",
     "title_zh": "新．我們的太陽-沙巴特的反攻",
     "developer": "Hideo Kojima Production",
     "publisher": "Konami",
@@ -82824,12 +83114,13 @@
     "maker": "Konami",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_99"
   },
   {
     "id": "shin_bokura_no_taiyō_gyakushū_no_sabata",
     "title_en": "Shin Bokura no Taiyō: Gyakushū no Sabata",
-    "title_jp": "",
+    "title_jp": "新・ボクらの太陽 逆襲のサバタ",
     "title_zh": "",
     "developer": "Hideo Kojima Production",
     "publisher": "Konami",
@@ -82861,7 +83152,8 @@
     "maker": "Konami",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_93"
   },
   {
     "id": "shin_chan_contra_los_munecos_de_shock_gahn",
@@ -82906,7 +83198,7 @@
   {
     "id": "shin_kisekae_monogatari",
     "title_en": "Shin Kisekae Monogatari",
-    "title_jp": "",
+    "title_jp": "新きせかえ物語",
     "title_zh": "新換裝物語",
     "developer": "",
     "publisher": "Marvelous Entertainment",
@@ -82943,7 +83235,8 @@
     "maker": "Marvelous Entertainment",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "shin_megami_tensei",
@@ -83279,7 +83572,7 @@
   {
     "id": "shin_nihon_pro_wrestling_toukon_retsuden_advance",
     "title_en": "Shin Nihon Pro Wrestling Toukon Retsuden Advance",
-    "title_jp": "",
+    "title_jp": "新日本プロレスリング 闘魂烈伝アドバンス",
     "title_zh": "新日本職業摔角-鬥魂烈傳",
     "developer": "",
     "publisher": "Tomy Corporation",
@@ -83316,12 +83609,13 @@
     "maker": "Tomy Corporation",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_83"
   },
   {
     "id": "shin_nippon_pro_wrestling_toukon_retsuden_advance",
     "title_en": "Shin Nippon Pro Wrestling: Toukon Retsuden Advance",
-    "title_jp": "",
+    "title_jp": "新日本プロレスリング 闘魂烈伝アドバンス",
     "title_zh": "",
     "developer": "",
     "publisher": "Tomy Corporation",
@@ -83353,7 +83647,8 @@
     "maker": "Tomy Corporation",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "shin_sangoku_musou_advance",
@@ -83735,7 +84030,7 @@
   {
     "id": "shinyaku_seiken_densetsu",
     "title_en": "Shinyaku Seiken Densetsu",
-    "title_jp": "",
+    "title_jp": "新約 聖剣伝説",
     "title_zh": "新約聖劍傳說",
     "developer": "",
     "publisher": "",
@@ -83770,7 +84065,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "shiren_monsters_netsal",
@@ -83893,7 +84189,7 @@
   {
     "id": "shoubushi_densetsu_tetsuya_yomigaeru_densetsu",
     "title_en": "Shoubushi Densetsu Tetsuya: Yomigaeru Densetsu",
-    "title_jp": "",
+    "title_jp": "勝負師伝説 哲也 〜甦る伝説〜",
     "title_zh": "",
     "developer": "",
     "publisher": "Athena",
@@ -83922,7 +84218,8 @@
     "maker": "Athena",
     "source_url": "https://en.wikipedia.org/wiki/Legendary_Gambler_Tetsuya",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_98"
   },
   {
     "id": "shrek",
@@ -84785,7 +85082,7 @@
   {
     "id": "simple_2960_tomodachi_series_vol_2_-_the_block_kuzushi",
     "title_en": "Simple 2960 Tomodachi Series Vol. 2 - The Block Kuzushi",
-    "title_jp": "",
+    "title_jp": "SIMPLE2960ともだちシリーズ Vol.2 THE ブロックくずし",
     "title_zh": "簡單2960朋友系列第二集-彩虹方塊",
     "developer": "Access",
     "publisher": "D3 Publisher",
@@ -84822,7 +85119,8 @@
     "maker": "D3 Publisher",
     "source_url": "https://en.wikipedia.org/wiki/Simple_series_video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "simple_2960_tomodachi_series_vol_3_the_itsudemo_puzzle",
@@ -85249,7 +85547,7 @@
   {
     "id": "slime_morimori_dragon_quest_-_shougeki_no_shippo_dan",
     "title_en": "Slime Morimori Dragon Quest - Shougeki no Shippo Dan",
-    "title_jp": "",
+    "title_jp": "スライムもりもりドラゴンクエスト 衝撃のしっぽ団",
     "title_zh": "勇者鬥惡龍之元氣史萊姆-衝擊的尾巴團",
     "developer": "TOSE",
     "publisher": "Square Enix",
@@ -85286,12 +85584,13 @@
     "maker": "Square Enix",
     "source_url": "https://en.wikipedia.org/wiki/Slime_MoriMori_Dragon_Quest:_Shougeki_No_Shippo_Dan",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "slot_pro_2_advance_go_go_juggler_new_tairyou",
     "title_en": "Slot! Pro 2 Advance: Go Go Juggler & New Tairyou",
-    "title_jp": "",
+    "title_jp": "SLOT!PRO2アドバンス GOGOジャグラー&Newタイリョウ",
     "title_zh": "",
     "developer": "",
     "publisher": "Nippon Telenet",
@@ -85323,12 +85622,13 @@
     "maker": "Nippon Telenet",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "slot_pro_advance_takarabune_ooedo_sakura_fubuki_2",
     "title_en": "Slot! Pro Advance: Takarabune & Ooedo Sakura Fubuki 2",
-    "title_jp": "",
+    "title_jp": "SLOT!PROアドバンス 宝船&大江戸桜吹雪2",
     "title_zh": "",
     "developer": "Nippon Telenet",
     "publisher": "Nippon Telenet",
@@ -85360,7 +85660,8 @@
     "maker": "Nippon Telenet",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_92"
   },
   {
     "id": "slotpro_2_advance_gogo_juggler",
@@ -88239,7 +88540,7 @@
   {
     "id": "spyro_advance_wakuwaku_tomodachi_daisakusen",
     "title_en": "Spyro Advance Wakuwaku Tomodachi Daisakusen",
-    "title_jp": "",
+    "title_jp": "スパイロ アドバンス わくわく友ダチ大作戦!",
     "title_zh": "寶貝龍-朋友大作戰！",
     "developer": "",
     "publisher": "",
@@ -88274,7 +88575,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "spyro_adventure",
@@ -89052,7 +89354,7 @@
   {
     "id": "starcom_star_communicator",
     "title_en": "Starcom: Star Communicator",
-    "title_jp": "",
+    "title_jp": "スタコミ STAR★COMMUNICATOR",
     "title_zh": "",
     "developer": "Konami",
     "publisher": "Konami",
@@ -89081,7 +89383,8 @@
     "maker": "Konami",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "starsky_hutch",
@@ -89938,7 +90241,7 @@
   {
     "id": "sugar_sugar_rune_heart_ga_ippai_moegi_gakuen",
     "title_en": "Sugar Sugar Rune Heart Ga Ippai Moegi Gakuen",
-    "title_jp": "",
+    "title_jp": "シュガシュガルーン ハートがいっぱい!萌黄学園",
     "title_zh": "小魔女安野夢洋子-充滿愛心的萌黃學園",
     "developer": "Open Sesame",
     "publisher": "Bandai",
@@ -89975,7 +90278,8 @@
     "maker": "Bandai",
     "source_url": "https://en.wikipedia.org/wiki/Sugar_Sugar_Rune",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "suite_life_of_zack_cody_-_the_tipton_caper",
@@ -90099,7 +90403,7 @@
   {
     "id": "summon_night_craft_sword_monogatari_hajimari_no_ishi",
     "title_en": "Summon Night Craft Sword Monogatari Hajimari no Ishi",
-    "title_jp": "",
+    "title_jp": "サモンナイト クラフトソード物語 〜はじまりの石〜",
     "title_zh": "召喚之夜 鑄劍物語-起源之石",
     "developer": "Flight-Plan",
     "publisher": "Banpresto",
@@ -90136,7 +90440,8 @@
     "maker": "Banpresto",
     "source_url": "https://en.wikipedia.org/wiki/Summon_Night_Craft_Sword_Monogatari:_Hajimari_no_Ishi",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_82"
   },
   {
     "id": "summon_night-swordcraft_story",
@@ -91482,7 +91787,7 @@
   {
     "id": "super_robot_taisen",
     "title_en": "Super Robot Taisen",
-    "title_jp": "",
+    "title_jp": "スーパーロボット大戦A",
     "title_zh": "超級機器人大戰J",
     "developer": "",
     "publisher": "",
@@ -91517,12 +91822,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_82"
   },
   {
     "id": "super_robot_taisen_a",
     "title_en": "Super Robot Taisen A",
-    "title_jp": "",
+    "title_jp": "スーパーロボット大戦A",
     "title_zh": "超級機器人大戰A",
     "developer": "",
     "publisher": "",
@@ -91557,12 +91863,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "super_robot_taisen_d",
     "title_en": "Super Robot Taisen D",
-    "title_jp": "",
+    "title_jp": "スーパーロボット大戦D",
     "title_zh": "超級機器人大戰D",
     "developer": "",
     "publisher": "",
@@ -91597,12 +91904,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "super_robot_taisen_original_gen",
     "title_en": "Super Robot Taisen Original Gen",
-    "title_jp": "",
+    "title_jp": "スーパーロボット大戦ORIGINAL GENERATION",
     "title_zh": "超級機器人大戰OG2",
     "developer": "Banpresto",
     "publisher": "Banpresto / Atlus",
@@ -91636,12 +91944,13 @@
     "maker": "Banpresto / Atlus",
     "source_url": "https://en.wikipedia.org/wiki/Super_Robot_Taisen:_Original_Generation",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_81"
   },
   {
     "id": "super_robot_taisen_original_generation",
     "title_en": "Super Robot Taisen Original Generation",
-    "title_jp": "",
+    "title_jp": "スーパーロボット大戦ORIGINAL GENERATION",
     "title_zh": "超級機器人大戰OG2 歐 SLG 128.00",
     "developer": "Banpresto",
     "publisher": "Banpresto / Atlus",
@@ -91682,12 +91991,13 @@
     "maker": "Banpresto / Atlus",
     "source_url": "https://en.wikipedia.org/wiki/Super_Robot_Taisen:_Original_Generation",
     "region_category": "多區發行",
-    "region_flags": "🇯🇵🇺🇸🇪🇺"
+    "region_flags": "🇯🇵🇺🇸🇪🇺",
+    "_jp_match": "fuzzy_93"
   },
   {
     "id": "super_robot_taisen_r",
     "title_en": "Super Robot Taisen R",
-    "title_jp": "",
+    "title_jp": "スーパーロボット大戦R",
     "title_zh": "超級機器人大戰R",
     "developer": "",
     "publisher": "",
@@ -91722,12 +92032,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "super_robot_taisen-original_generation",
     "title_en": "Super Robot Taisen-Original Generation",
-    "title_jp": "",
+    "title_jp": "スーパーロボット大戦ORIGINAL GENERATION",
     "title_zh": "超級機器人大戰OG 歐 SLG 128.00",
     "developer": "Banpresto",
     "publisher": "Banpresto / Atlus",
@@ -91764,7 +92075,8 @@
     "maker": "Banpresto / Atlus",
     "source_url": "https://en.wikipedia.org/wiki/Super_Robot_Taisen:_Original_Generation",
     "region_category": "美版",
-    "region_flags": "🇺🇸"
+    "region_flags": "🇺🇸",
+    "_jp_match": "fuzzy_93"
   },
   {
     "id": "super_robot_wars_a",
@@ -92507,7 +92819,7 @@
   {
     "id": "sylvanian_families_fashion_designer_ni_naritai_kurumi_risu_n",
     "title_en": "Sylvanian Families: Fashion Designer ni Naritai! Kurumi Risu no Onna no Ko",
-    "title_jp": "",
+    "title_jp": "シルバニアファミリー ファッションデザイナーになりたい! くるみリスの女の子",
     "title_zh": "",
     "developer": "",
     "publisher": "Epoch",
@@ -92539,12 +92851,13 @@
     "maker": "Epoch",
     "source_url": "",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_81"
   },
   {
     "id": "sylvanian_families_yosei_no_stick_to_fushigi_no_ki_-_maron_i",
     "title_en": "Sylvanian Families: Yosei no Stick to Fushigi no Ki - Maron Inu no Onna no Ko",
-    "title_jp": "",
+    "title_jp": "シルバニアファミリー 妖精のステッキとふしぎの木 マロンイヌの女の子",
     "title_zh": "",
     "developer": "",
     "publisher": "Epoch",
@@ -92576,7 +92889,8 @@
     "maker": "Epoch",
     "source_url": "https://en.wikipedia.org/wiki/Sylvanian_Families",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_83"
   },
   {
     "id": "tmnt",
@@ -92667,7 +92981,7 @@
   {
     "id": "taiketsu_ultra_hero",
     "title_en": "Taiketsu Ultra Hero",
-    "title_jp": "",
+    "title_jp": "対決!ウルトラヒーロー",
     "title_zh": "鹹蛋超人大對決",
     "developer": "",
     "publisher": "Jorudan",
@@ -92704,7 +93018,8 @@
     "maker": "Jorudan",
     "source_url": "https://en.wikipedia.org/wiki/Ultra_Series",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_83"
   },
   {
     "id": "tak_2_-_the_staff_of_dreams",
@@ -93288,7 +93603,7 @@
   {
     "id": "tantei_gakuen_q_-_meitantei_ha_kimi_da",
     "title_en": "Tantei Gakuen Q - Meitantei ha Kimi da!",
-    "title_jp": "",
+    "title_jp": "探偵学園Q 名探偵はキミだ!",
     "title_zh": "偵探學園Q-你就是名偵探！",
     "developer": "",
     "publisher": "Konami",
@@ -93325,12 +93640,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Detective_School_Q",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "tantei_gakuen_q_kyukyoku_trick_ni_idome",
     "title_en": "Tantei Gakuen Q Kyukyoku Trick ni Idome",
-    "title_jp": "",
+    "title_jp": "探偵学園Q 究極トリックに挑め!",
     "title_zh": "偵探學園Q-挑戰究極殺人事件!",
     "developer": "",
     "publisher": "Konami",
@@ -93367,12 +93683,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Detective_School_Q",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_92"
   },
   {
     "id": "tantei_gakuen_q_kyuukyoku_no_trick_ni_idome",
     "title_en": "Tantei Gakuen Q: Kyuukyoku no Trick ni Idome!",
-    "title_jp": "",
+    "title_jp": "探偵学園Q 究極トリックに挑め!",
     "title_zh": "",
     "developer": "",
     "publisher": "Konami",
@@ -93404,12 +93721,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Detective_School_Q",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_90"
   },
   {
     "id": "tantei_jinguuji_saburou_shiroi_kage_no_syoujyo",
     "title_en": "Tantei Jinguuji Saburou Shiroi Kage No Syoujyo",
-    "title_jp": "",
+    "title_jp": "探偵 神宮寺三郎 白い影の少女",
     "title_zh": "偵探神宮寺三郎",
     "developer": "",
     "publisher": "",
@@ -93444,12 +93762,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_96"
   },
   {
     "id": "tantei_jingūji_saburō_shiroi_kage_no_shōjo",
     "title_en": "Tantei Jingūji Saburō: Shiroi Kage no Shōjo",
-    "title_jp": "",
+    "title_jp": "探偵 神宮寺三郎 白い影の少女",
     "title_zh": "",
     "developer": "WorkJam",
     "publisher": "Marvelous Entertainment",
@@ -93478,7 +93797,8 @@
     "maker": "Marvelous Entertainment",
     "source_url": "https://en.wikipedia.org/wiki/Jake_Hunter",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_91"
   },
   {
     "id": "tarzan_return_to_the_jungle",
@@ -94048,7 +94368,7 @@
   {
     "id": "tennis_no_oji-sama_2003_cool_blue",
     "title_en": "Tennis no Oji-Sama 2003: Cool Blue",
-    "title_jp": "",
+    "title_jp": "テニスの王子様2003 COOLBLUE",
     "title_zh": "",
     "developer": "KCEJ",
     "publisher": "Konami",
@@ -94080,12 +94400,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/List_of_The_Prince_of_Tennis_video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "tennis_no_oji-sama_2003_passion_red",
     "title_en": "Tennis no Oji-Sama 2003: Passion Red",
-    "title_jp": "",
+    "title_jp": "テニスの王子様2003 PASSIONRED",
     "title_zh": "",
     "developer": "KCEJ",
     "publisher": "Konami",
@@ -94117,12 +94438,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/List_of_The_Prince_of_Tennis_video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_95"
   },
   {
     "id": "tennis_no_oji-sama_2004_glorious_gold",
     "title_en": "Tennis no Oji-Sama 2004: Glorious Gold",
-    "title_jp": "",
+    "title_jp": "テニスの王子様2004 GLORIOUS GOLD",
     "title_zh": "",
     "developer": "KCEJ",
     "publisher": "Konami",
@@ -94154,12 +94476,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/List_of_The_Prince_of_Tennis_video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_95"
   },
   {
     "id": "tennis_no_oji-sama_2004_stylish_silver",
     "title_en": "Tennis no Oji-Sama 2004: Stylish Silver",
-    "title_jp": "",
+    "title_jp": "テニスの王子様2004 STYLISH SILVER",
     "title_zh": "",
     "developer": "KCEJ",
     "publisher": "Konami",
@@ -94191,12 +94514,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/List_of_The_Prince_of_Tennis_video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_95"
   },
   {
     "id": "tennis_no_oji-sama_aim_at_the_victory",
     "title_en": "Tennis no Oji-Sama: Aim at the Victory!",
-    "title_jp": "",
+    "title_jp": "テニスの王子様 Aim at The Victory!",
     "title_zh": "",
     "developer": "KCEJ",
     "publisher": "Konami",
@@ -94228,7 +94552,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/List_of_The_Prince_of_Tennis_video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_95"
   },
   {
     "id": "tennis_no_oji-sama_genius_boys_academy",
@@ -94270,7 +94595,7 @@
   {
     "id": "tennis_no_ouji-sama_-_aim_at_the_victory",
     "title_en": "Tennis no Ouji-sama - Aim at The Victory",
-    "title_jp": "",
+    "title_jp": "テニスの王子様 Aim at The Victory!",
     "title_zh": "網球王子-志在勝利",
     "developer": "KCEJ",
     "publisher": "Konami",
@@ -94307,12 +94632,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/List_of_The_Prince_of_Tennis_video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_95"
   },
   {
     "id": "tennis_no_oujisama_2003_cool_blue",
     "title_en": "Tennis no Oujisama 2003 Cool Blue",
-    "title_jp": "",
+    "title_jp": "テニスの王子様2003 COOLBLUE",
     "title_zh": "網球王子2003-冰藍版",
     "developer": "KCEJ",
     "publisher": "Konami",
@@ -94349,12 +94675,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/List_of_The_Prince_of_Tennis_video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "tennis_no_oujisama_2003_rassion_red",
     "title_en": "Tennis no Oujisama 2003 Rassion Red",
-    "title_jp": "",
+    "title_jp": "テニスの王子様2003 PASSIONRED",
     "title_zh": "網球王子2003-火紅版",
     "developer": "KCEJ",
     "publisher": "Konami",
@@ -94391,7 +94718,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/List_of_The_Prince_of_Tennis_video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_91"
   },
   {
     "id": "terminator_3_rise_of_the_machines",
@@ -95822,7 +96150,7 @@
   {
     "id": "the_king_of_fighters_ex",
     "title_en": "The King Of Fighters EX",
-    "title_jp": "",
+    "title_jp": "THE KING OF FIGHTERS EX NEO BLOOD",
     "title_zh": "格鬥天王EX",
     "developer": "",
     "publisher": "",
@@ -95854,12 +96182,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_84"
   },
   {
     "id": "the_king_of_fighters_ex_-_neo_blood",
     "title_en": "The King Of Fighters EX - Neo Blood",
-    "title_jp": "",
+    "title_jp": "THE KING OF FIGHTERS EX NEO BLOOD",
     "title_zh": "格鬥天王EX-新血",
     "developer": "Artoon",
     "publisher": "Marvelous Entertainment JP / Sammy Studios NA, PAL",
@@ -95895,12 +96224,13 @@
     "maker": "Marvelous Entertainment JP / Sammy Studios NA, PAL",
     "source_url": "https://en.wikipedia.org/wiki/The_King_of_Fighters_EX:_Neo_Blood",
     "region_category": "多區發行",
-    "region_flags": "🇺🇸🇪🇺"
+    "region_flags": "🇺🇸🇪🇺",
+    "_jp_match": "exact"
   },
   {
     "id": "the_king_of_fighters_ex2_-_howling_blood",
     "title_en": "The King Of Fighters EX2 - Howling Blood",
-    "title_jp": "",
+    "title_jp": "THE KING OF FIGHTERS EX2 Howling Blood",
     "title_zh": "格鬥天王EX2",
     "developer": "Marvelous Entertainment / Sun-Tec",
     "publisher": "Marvelous Entertainment JP / Atlus NA",
@@ -95937,12 +96267,13 @@
     "maker": "Marvelous Entertainment JP / Atlus NA",
     "source_url": "https://en.wikipedia.org/wiki/The_King_of_Fighters_EX2:_Howling_Blood",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "the_king_of_fighters_ex2_-_howling_blood_2",
     "title_en": "The King of Fighters EX2 - Howling Blood",
-    "title_jp": "",
+    "title_jp": "THE KING OF FIGHTERS EX2 Howling Blood",
     "title_zh": "格鬥之王EX2-咆哮之血",
     "developer": "Marvelous Entertainment / Sun-Tec",
     "publisher": "Marvelous Entertainment JP / Atlus NA",
@@ -95979,7 +96310,8 @@
     "maker": "Marvelous Entertainment JP / Atlus NA",
     "source_url": "https://en.wikipedia.org/wiki/The_King_of_Fighters_EX2:_Howling_Blood",
     "region_category": "美版",
-    "region_flags": "🇺🇸"
+    "region_flags": "🇺🇸",
+    "_jp_match": "exact"
   },
   {
     "id": "the_koala_brothers_-_outback_adventures",
@@ -97775,7 +98107,7 @@
   {
     "id": "the_tower_sp",
     "title_en": "The Tower SP",
-    "title_jp": "",
+    "title_jp": "The Tower SP",
     "title_zh": "模擬大樓SP",
     "developer": "Vivarium",
     "publisher": "Nintendo",
@@ -97811,7 +98143,8 @@
     "maker": "Nintendo",
     "source_url": "https://en.wikipedia.org/wiki/The_Tower_SP",
     "region_category": "多區發行",
-    "region_flags": "🇯🇵🇺🇸"
+    "region_flags": "🇯🇵🇺🇸",
+    "_jp_match": "exact"
   },
   {
     "id": "the_urbz_sims_in_the_city",
@@ -98778,7 +99111,7 @@
   {
     "id": "tokimeki_dream_series_1_ohanaya-san_ni_narou",
     "title_en": "Tokimeki Dream Series 1: Ohanaya-san ni Narou!",
-    "title_jp": "",
+    "title_jp": "ときめき夢シリーズ(1) お花屋さんになろう!",
     "title_zh": "",
     "developer": "",
     "publisher": "MTO",
@@ -98810,12 +99143,13 @@
     "maker": "MTO",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Tokimeki_Dream_Series_1:_Ohanaya-san_ni_Narou!&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_81"
   },
   {
     "id": "tokyo_majin_gakuen_-_fuju_houroku",
     "title_en": "Tokyo Majin Gakuen - Fuju Houroku",
-    "title_jp": "",
+    "title_jp": "東京魔人學園符咒封録",
     "title_zh": "東京魔人學園-符咒封錄 128M",
     "developer": "",
     "publisher": "Marvelous Entertainment",
@@ -98852,7 +99186,8 @@
     "maker": "Marvelous Entertainment",
     "source_url": "https://en.wikipedia.org/wiki/Tokyo_Majin_Gakuen:_Fuju_Houroku",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_92"
   },
   {
     "id": "tokyo_xtreme_racer_advance",
@@ -99593,7 +99928,7 @@
   {
     "id": "tony_hawks_pro_skater",
     "title_en": "Tony Hawk's Pro Skater",
-    "title_jp": "",
+    "title_jp": "SK8 Tony Hawk's PRO SKATER 2",
     "title_zh": "湯尼霍克專業滑板2",
     "developer": "Vicarious Visions",
     "publisher": "Activision",
@@ -99634,12 +99969,13 @@
     "maker": "Activision",
     "source_url": "https://en.wikipedia.org/wiki/Tony_Hawk%27s_Pro_Skater_2_(GBA_video_game)",
     "region_category": "多區發行",
-    "region_flags": "🇺🇸🇪🇺"
+    "region_flags": "🇺🇸🇪🇺",
+    "_jp_match": "fuzzy_90"
   },
   {
     "id": "tony_hawks_pro_skater_2_2",
     "title_en": "Tony Hawk's Pro Skater 2",
-    "title_jp": "",
+    "title_jp": "SK8 Tony Hawk's PRO SKATER 2",
     "title_zh": "",
     "developer": "Vicarious Visions",
     "publisher": "Activision",
@@ -99671,12 +100007,13 @@
     "maker": "Activision",
     "source_url": "https://en.wikipedia.org/wiki/Tony_Hawk%27s_Pro_Skater_2_(GBA_video_game)",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_93"
   },
   {
     "id": "tony_hawks_pro_skater_3",
     "title_en": "Tony Hawk's Pro Skater 3",
-    "title_jp": "",
+    "title_jp": "SK8 Tony Hawk's PRO SKATER 2",
     "title_zh": "",
     "developer": "Vicarious Visions",
     "publisher": "Activision",
@@ -99708,12 +100045,13 @@
     "maker": "Activision",
     "source_url": "https://en.wikipedia.org/wiki/Tony_Hawk%27s_Pro_Skater_3",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "tony_hawks_pro_skater_4",
     "title_en": "Tony Hawk's Pro Skater 4",
-    "title_jp": "",
+    "title_jp": "SK8 Tony Hawk's PRO SKATER 2",
     "title_zh": "",
     "developer": "Vicarious Visions",
     "publisher": "Activision",
@@ -99745,7 +100083,8 @@
     "maker": "Activision",
     "source_url": "https://en.wikipedia.org/wiki/Tony_Hawk%27s_Pro_Skater_4",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "tony_hawks_underground_2",
@@ -99787,7 +100126,7 @@
   {
     "id": "tony_hawks_pro_skater_2",
     "title_en": "Tony Hawks Pro Skater",
-    "title_jp": "",
+    "title_jp": "SK8 Tony Hawk's PRO SKATER 2",
     "title_zh": "湯尼霍克職業溜冰4",
     "developer": "Vicarious Visions",
     "publisher": "Activision",
@@ -99828,7 +100167,8 @@
     "maker": "Activision",
     "source_url": "https://en.wikipedia.org/wiki/Tony_Hawk%27s_Pro_Skater_2_(GBA_video_game)",
     "region_category": "多區發行",
-    "region_flags": "🇯🇵🇺🇸🇪🇺"
+    "region_flags": "🇯🇵🇺🇸🇪🇺",
+    "_jp_match": "fuzzy_90"
   },
   {
     "id": "tony_hawks_underground",
@@ -100480,7 +100820,7 @@
   {
     "id": "tottoko_hamutaro_4_-_nijiiro_daikoushin_dechu",
     "title_en": "Tottoko Hamutaro 4 - Nijiiro Daikoushin Dechu",
-    "title_jp": "",
+    "title_jp": "とっとこハム太郎4 にじいろ大行進でちゅ",
     "title_zh": "哈姆太郎4-彩虹救援大作戰",
     "developer": "",
     "publisher": "",
@@ -100515,12 +100855,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "tottoko_hamutaro_hamuhamu_sports",
     "title_en": "Tottoko Hamutaro Hamuhamu Sports",
-    "title_jp": "",
+    "title_jp": "とっとこハム太郎 ハムハムスポーツ",
     "title_zh": "哈姆太郎運動會 多國SPG",
     "developer": "",
     "publisher": "",
@@ -100555,7 +100896,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_95"
   },
   {
     "id": "toukon_heat",
@@ -101773,7 +102115,7 @@
   {
     "id": "uchu_no_stellvia",
     "title_en": "Uchu No Stellvia",
-    "title_jp": "",
+    "title_jp": "宇宙のステルヴィア",
     "title_zh": "宇宙學園 64M",
     "developer": "King Records",
     "publisher": "King Records",
@@ -101810,12 +102152,13 @@
     "maker": "King Records",
     "source_url": "https://en.wikipedia.org/wiki/Uchuu_no_Stellvia_(video_game)",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_83"
   },
   {
     "id": "uchuu_daisakusen_chocovader_-_uchuu_kara_no_shinryakusha",
     "title_en": "Uchuu Daisakusen Chocovader - Uchuu kara no Shinryakusha",
-    "title_jp": "",
+    "title_jp": "宇宙大作戦チョコベーダー ウチュウからの侵略者",
     "title_zh": "宇宙大作戰-異次元的侵略者",
     "developer": "Namco",
     "publisher": "Namco",
@@ -101852,12 +102195,13 @@
     "maker": "Namco",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Uchuu_Daisakusen_Chocovader:_Uchuu_kara_no_Shinryakusha&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_90"
   },
   {
     "id": "uchuu_no_stellvia",
     "title_en": "Uchuu no Stellvia",
-    "title_jp": "",
+    "title_jp": "宇宙のステルヴィア",
     "title_zh": "",
     "developer": "King Records",
     "publisher": "King Records",
@@ -101889,7 +102233,8 @@
     "maker": "King Records",
     "source_url": "https://en.wikipedia.org/wiki/Uchuu_no_Stellvia_(video_game)",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_83"
   },
   {
     "id": "ueki_no_housoku",
@@ -102707,7 +103052,7 @@
   {
     "id": "v_-_rally",
     "title_en": "V - Rally",
-    "title_jp": "",
+    "title_jp": "V-RALLY3",
     "title_zh": "V-拉力越野賽3",
     "developer": "Velez & Dubail",
     "publisher": "Infogrames",
@@ -102744,12 +103089,13 @@
     "maker": "Infogrames",
     "source_url": "https://en.wikipedia.org/wiki/V-Rally_3",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_92"
   },
   {
     "id": "v-rally",
     "title_en": "V-Rally",
-    "title_jp": "",
+    "title_jp": "V-RALLY3",
     "title_zh": "V-越野賽車3",
     "developer": "Velez & Dubail",
     "publisher": "Infogrames",
@@ -102788,12 +103134,13 @@
     "maker": "Infogrames",
     "source_url": "https://en.wikipedia.org/wiki/V-Rally_3",
     "region_category": "多區發行",
-    "region_flags": "🇺🇸🇪🇺"
+    "region_flags": "🇺🇸🇪🇺",
+    "_jp_match": "fuzzy_92"
   },
   {
     "id": "v-rally_3",
     "title_en": "V-Rally 3",
-    "title_jp": "",
+    "title_jp": "V-RALLY3",
     "title_zh": "",
     "developer": "Velez & Dubail",
     "publisher": "Infogrames",
@@ -102825,7 +103172,8 @@
     "maker": "Infogrames",
     "source_url": "https://en.wikipedia.org/wiki/V-Rally_3",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "van_helsing",
@@ -103207,7 +103555,7 @@
   {
     "id": "wagamama_fairy_mirumo_de_pon_dokidoki_memorial_panic",
     "title_en": "Wagamama * Fairy: Mirumo de Pon! DokiDoki Memorial Panic",
-    "title_jp": "",
+    "title_jp": "わがまま☆フェアリー ミルモでポン! どきどきメモリアルパニック",
     "title_zh": "",
     "developer": "",
     "publisher": "Konami",
@@ -103239,12 +103587,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Mirmo!#Video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "wagamama_fairy_mirumo_de_pon_hachinin_no_toki_no_yousei",
     "title_en": "Wagamama * Fairy: Mirumo de Pon! Hachinin no Toki no Yousei",
-    "title_jp": "",
+    "title_jp": "わがまま☆フェアリー ミルモでポン! 8人の時の妖精",
     "title_zh": "",
     "developer": "Jupiter Multimedia",
     "publisher": "Konami",
@@ -103276,12 +103625,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Mirmo!#Video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "wagamama_fairy_mirumo_de_pon_nazo_no_kagi_to_shinjitsu_no_to_2",
     "title_en": "Wagamama * Fairy: Mirumo de Pon! Nazo no Kagi to Shinjitsu no Tobira",
-    "title_jp": "",
+    "title_jp": "わがまま☆フェアリー ミルモでポン! 謎のカギと真実のトビラ",
     "title_zh": "",
     "developer": "Jupiter Multimedia",
     "publisher": "Konami",
@@ -103313,12 +103663,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Mirmo!#Video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "wagamama_fairy_mirumo_de_pon_ougon_maracas_no_densetsu_2",
     "title_en": "Wagamama * Fairy: Mirumo de Pon! Ougon Maracas no Densetsu",
-    "title_jp": "",
+    "title_jp": "わがまま☆フェアリー ミルモでポン! 〜黄金マラカスの伝説〜",
     "title_zh": "",
     "developer": "Jupiter Multimedia",
     "publisher": "Konami",
@@ -103350,12 +103701,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Mirmo!#Video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "wagamama_fairy_mirumo_de_pon_taisen_mahoudama",
     "title_en": "Wagamama * Fairy: Mirumo de Pon! Taisen Mahoudama",
-    "title_jp": "",
+    "title_jp": "わがまま☆フェアリー ミルモでポン! 対戦まほうだま",
     "title_zh": "",
     "developer": "",
     "publisher": "Konami",
@@ -103387,12 +103739,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Mirmo!#Video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_92"
   },
   {
     "id": "wagamama_fairy_mirumo_de_pon_yume_no_kakera_2",
     "title_en": "Wagamama * Fairy: Mirumo de Pon! Yume no Kakera",
-    "title_jp": "",
+    "title_jp": "わがまま☆フェアリー ミルモでポン! 夢のカケラ",
     "title_zh": "",
     "developer": "",
     "publisher": "Konami",
@@ -103424,12 +103777,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Mirmo!#Video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_92"
   },
   {
     "id": "wagamama_fairy_milmo_de_pon_dokidoki_memorial_panic",
     "title_en": "Wagamama Fairy Milmo de Pon Dokidoki Memorial Panic",
-    "title_jp": "",
+    "title_jp": "わがまま☆フェアリー ミルモでポン! どきどきメモリアルパニック",
     "title_zh": "魔法咪路咪路-心跳回憶永久紀念",
     "developer": "",
     "publisher": "Konami",
@@ -103466,12 +103820,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Mirmo!#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_84"
   },
   {
     "id": "wagamama_fairy_mirumo_de_pon_-_8_nin_no_toki_no_yousei",
     "title_en": "Wagamama Fairy Mirumo De Pon - 8 Nin no Toki no Yousei",
-    "title_jp": "",
+    "title_jp": "わがまま☆フェアリー ミルモでポン! 8人の時の妖精",
     "title_zh": "魔法咪路咪路-八目妖精",
     "developer": "Jupiter Multimedia",
     "publisher": "Konami",
@@ -103508,12 +103863,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Mirmo!#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "wagamama_fairy_mirumo_de_pon_nazo_no_kagi_to_shinjitsu_no_to",
     "title_en": "Wagamama Fairy Mirumo de Pon Nazo no Kagi to Shinjitsu no Tobir",
-    "title_jp": "",
+    "title_jp": "わがまま☆フェアリー ミルモでポン! 謎のカギと真実のトビラ",
     "title_zh": "魔法咪路咪路-謎之鑰及真實之門",
     "developer": "Jupiter Multimedia",
     "publisher": "Konami",
@@ -103550,12 +103906,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Mirmo!#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "wagamama_fairy_mirumo_de_pon_ougon_maracas_no_densetsu",
     "title_en": "Wagamama Fairy Mirumo de Pon Ougon Maracas no Densetsu",
-    "title_jp": "",
+    "title_jp": "わがまま☆フェアリー ミルモでポン! 〜黄金マラカスの伝説〜",
     "title_zh": "魔法咪路咪路-黃金響葫蘆的傳說",
     "developer": "Jupiter Multimedia",
     "publisher": "Konami",
@@ -103592,12 +103949,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Mirmo!#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "wagamama_fairy_mirumo_de_pon_taisen_mahoudrama",
     "title_en": "Wagamama Fairy Mirumo De Pon Taisen Mahoudrama",
-    "title_jp": "",
+    "title_jp": "わがまま☆フェアリー ミルモでポン! 対戦まほうだま",
     "title_zh": "魔法咪路咪路!-對戰魔法氣泡",
     "developer": "",
     "publisher": "Konami",
@@ -103634,12 +103992,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Mirmo!#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_92"
   },
   {
     "id": "wagamama_fairy_mirumo_de_pon_yume_no_kakera",
     "title_en": "Wagamama Fairy Mirumo de Pon Yume no Kakera",
-    "title_jp": "",
+    "title_jp": "わがまま☆フェアリー ミルモでポン! 夢のカケラ",
     "title_zh": "魔法咪路咪路-夢之碎片",
     "developer": "",
     "publisher": "Konami",
@@ -103676,7 +104035,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Mirmo!#Video_games",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_93"
   },
   {
     "id": "wakeboarding_unleashed",
@@ -103834,7 +104194,7 @@
   {
     "id": "wanko_de_kururin_wancle",
     "title_en": "Wanko de Kururin Wancle",
-    "title_jp": "",
+    "title_jp": "ワンコでくるりん! ワンクル",
     "title_zh": "小狗轉轉樂園",
     "developer": "",
     "publisher": "",
@@ -103869,12 +104229,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_83"
   },
   {
     "id": "wanko_de_kururin_wankuru",
     "title_en": "Wanko de Kururin! Wankuru",
-    "title_jp": "",
+    "title_jp": "ワンコでくるりん! ワンクル",
     "title_zh": "",
     "developer": "",
     "publisher": "MTO",
@@ -103903,7 +104264,8 @@
     "maker": "MTO",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Wanko_de_Kururin!_Wankuru&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "exact"
   },
   {
     "id": "wanko_mix_chiwanko_world",
@@ -103989,7 +104351,7 @@
   {
     "id": "wanwan_meitantei",
     "title_en": "WanWan Meitantei",
-    "title_jp": "",
+    "title_jp": "わんわん名探偵",
     "title_zh": "汪汪名偵探",
     "developer": "Culture Brain",
     "publisher": "Culture Brain",
@@ -104026,7 +104388,8 @@
     "maker": "Culture Brain",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Wan_Wan_Meitantei&action=edit&redlink=1",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "wario_land",
@@ -104460,7 +104823,7 @@
   {
     "id": "whistle_dai_37-kai_tokyo-to_chuugakkou_sougou_taiiku_soccer_",
     "title_en": "Whistle! Dai 37-kai Tokyo-to Chuugakkou Sougou Taiiku Soccer Taikai",
-    "title_jp": "",
+    "title_jp": "ホイッスル! 第37回東京都中学校総合体育サッカー大会",
     "title_zh": "",
     "developer": "Intense",
     "publisher": "Konami",
@@ -104492,7 +104855,8 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/wiki/Whistle!#Video_games",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_82"
   },
   {
     "id": "who_wants_to_be_a_millionaire_2nd_ed",
@@ -106480,7 +106844,7 @@
   {
     "id": "yakusoku_no_chi_riviera",
     "title_en": "Yakusoku no Chi Riviera",
-    "title_jp": "",
+    "title_jp": "Riviera 〜約束の地リヴィエラ〜",
     "title_zh": "Riviera-約束之地里費拉",
     "developer": "",
     "publisher": "",
@@ -106512,7 +106876,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_82"
   },
   {
     "id": "yakyutuku_advance",
@@ -106675,7 +107040,7 @@
   {
     "id": "yoshi_no_banyu_inryoku",
     "title_en": "Yoshi no Banyu Inryoku",
-    "title_jp": "",
+    "title_jp": "ヨッシーの万有引力",
     "title_zh": "耀西之萬有引力",
     "developer": "",
     "publisher": "",
@@ -106710,7 +107075,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_97"
   },
   {
     "id": "yoshi_topsy_turvy",
@@ -107241,7 +107607,7 @@
   {
     "id": "yu-gi-oh_sugoroku_no_sugoroku",
     "title_en": "Yu-Gi-Oh Sugoroku No Sugoroku",
-    "title_jp": "",
+    "title_jp": "遊☆戯☆王 双六のスゴロク",
     "title_zh": "遊戲王-雙六的骰子",
     "developer": "",
     "publisher": "",
@@ -107276,7 +107642,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_94"
   },
   {
     "id": "yu-gi-oh_world_championship_tournament",
@@ -108400,7 +108767,7 @@
   {
     "id": "yuujou_no_victory_goal_4v4_arashi_get_the_goal",
     "title_en": "Yuujou no Victory Goal 4v4 Arashi: Get the Goal!",
-    "title_jp": "",
+    "title_jp": "友情のビクトリーゴール 4V4嵐 GET THE GOAL!!",
     "title_zh": "",
     "developer": "",
     "publisher": "Konami",
@@ -108432,12 +108799,13 @@
     "maker": "Konami",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Yuujou_no_Victory_Goal_4v4_Arashi:_Get_the_Goal!&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_85"
   },
   {
     "id": "yuurei_yashiki_no_24jikan",
     "title_en": "Yuurei Yashiki No 24jikan",
-    "title_jp": "",
+    "title_jp": "幽霊屋敷の二十四時間",
     "title_zh": "幽靈屋敷之24小時",
     "developer": "",
     "publisher": "",
@@ -108469,12 +108837,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_80"
   },
   {
     "id": "yuurei_yashiki_no_nijuuyon_jikan",
     "title_en": "Yuurei Yashiki No Nijuuyon Jikan",
-    "title_jp": "",
+    "title_jp": "幽霊屋敷の二十四時間",
     "title_zh": "",
     "developer": "Global A",
     "publisher": "Global A",
@@ -108506,7 +108875,8 @@
     "maker": "Global A",
     "source_url": "https://en.wikipedia.org/w/index.php?title=Yuurei_Yashiki_No_Nijuuyon_Jikan&action=edit&redlink=1",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "yuushun_rhapsody",
@@ -108545,7 +108915,7 @@
   {
     "id": "zoe_2173_testament",
     "title_en": "Z.O.E. 2173 Testament",
-    "title_jp": "",
+    "title_jp": "Z.O.E 2173 TESTAMENT",
     "title_zh": "Z.O.E星域毀滅者2173-聖約",
     "developer": "",
     "publisher": "",
@@ -108580,7 +108950,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "zapper",
@@ -108706,7 +109077,7 @@
   {
     "id": "zen-nippon_shounen_soccer_taikai_2_-_mezase_nippon-ichi",
     "title_en": "Zen-Nippon Shounen Soccer Taikai 2 - Mezase Nippon-ichi!",
-    "title_jp": "",
+    "title_jp": "全日本少年サッカー大会2 めざせ日本一!",
     "title_zh": "全日本少年足球大會2-目標日本第一！",
     "developer": "Boom",
     "publisher": "Success",
@@ -108743,12 +109114,13 @@
     "maker": "Success",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_86"
   },
   {
     "id": "zero_one",
     "title_en": "Zero One",
-    "title_jp": "",
+    "title_jp": "ZERO ONE",
     "title_zh": "對與錯",
     "developer": "Fuuki Co., Ltd.",
     "publisher": "Fuuki Co., Ltd.",
@@ -108785,12 +109157,13 @@
     "maker": "Fuuki Co., Ltd.",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "exact"
   },
   {
     "id": "zero_one_sp",
     "title_en": "Zero One SP",
-    "title_jp": "",
+    "title_jp": "ZERO ONE",
     "title_zh": "對與錯SP 日 AVG128",
     "developer": "Fuuki Co., Ltd.",
     "publisher": "Fuuki Co., Ltd.",
@@ -108827,7 +109200,8 @@
     "maker": "Fuuki Co., Ltd.",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "zettai_zetsumei_dangerous_jiisan",
@@ -108903,7 +109277,7 @@
   {
     "id": "zettai_zetsumei_dangerous_jiisan_3_hateshinaki_mamonogatari",
     "title_en": "Zettai Zetsumei Dangerous Jiisan 3 Hateshinaki Mamonogatari",
-    "title_jp": "",
+    "title_jp": "絶体絶命でんぢゃらすじーさん3〜果てしなき魔物語〜",
     "title_zh": "走投無路危險爺爺3-無盡的魔物語",
     "developer": "Rokumendo",
     "publisher": "Kids Station",
@@ -108940,12 +109314,13 @@
     "maker": "Kids Station",
     "source_url": "https://en.wikipedia.org/wiki/Grandpa_Danger",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_83"
   },
   {
     "id": "zettai_zetsumei_dangerous_jiisan_tsuu_ikari_no_oshioki_blues",
     "title_en": "Zettai Zetsumei Dangerous Jiisan Tsuu: Ikari no Oshioki Blues",
-    "title_jp": "",
+    "title_jp": "絶体絶命でんぢゃらすじーさん痛〜怒りのおしおきブルース〜",
     "title_zh": "",
     "developer": "Rokumendo",
     "publisher": "Kids Station",
@@ -108977,7 +109352,8 @@
     "maker": "Kids Station",
     "source_url": "https://en.wikipedia.org/wiki/Grandpa_Danger",
     "region_category": "未知",
-    "region_flags": ""
+    "region_flags": "",
+    "_jp_match": "fuzzy_83"
   },
   {
     "id": "zettai_zetsumei_dangerous_jisan_tsu",
@@ -109019,7 +109395,7 @@
   {
     "id": "zettaizetsumei_dangerous_jiisan_-_shijou_saikyou_no_dogeza",
     "title_en": "Zettaizetsumei Dangerous Jiisan - Shijou Saikyou no Dogeza",
-    "title_jp": "",
+    "title_jp": "絶体絶命でんぢゃらすじーさん 〜史上最強の土下座〜",
     "title_zh": "走投無路危險爺爺-史上最強之土下座",
     "developer": "Rokumendo",
     "publisher": "Kids Station",
@@ -109056,7 +109432,8 @@
     "maker": "Kids Station",
     "source_url": "https://en.wikipedia.org/wiki/Grandpa_Danger",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_88"
   },
   {
     "id": "zidane_football_generation",
@@ -109256,7 +109633,7 @@
   {
     "id": "zoids_saga",
     "title_en": "Zoids Saga",
-    "title_jp": "",
+    "title_jp": "ゾイドサーガ",
     "title_zh": "機獸新世紀-中央大陸之戰",
     "developer": "Amedio",
     "publisher": "Tomy Corporation",
@@ -109293,7 +109670,8 @@
     "maker": "Tomy Corporation",
     "source_url": "https://en.wikipedia.org/wiki/Zoids_Saga",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_89"
   },
   {
     "id": "zoids_saga_fuzors",
@@ -109340,7 +109718,7 @@
   {
     "id": "zoids_saga_ii",
     "title_en": "Zoids Saga II",
-    "title_jp": "",
+    "title_jp": "ゾイドサーガII",
     "title_zh": "機獸新世紀2",
     "developer": "Amedio",
     "publisher": "Tomy Corporation",
@@ -109377,12 +109755,13 @@
     "maker": "Tomy Corporation",
     "source_url": "https://en.wikipedia.org/wiki/Zoids_Saga",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_90"
   },
   {
     "id": "zoku_bokura_no_taiyou_-_taiyou_shounen_django",
     "title_en": "Zoku Bokura no Taiyou - Taiyou Shounen Django",
-    "title_jp": "",
+    "title_jp": "続・ボクらの太陽 太陽少年ジャンゴ",
     "title_zh": "續‧我們的太陽-太陽少年傳奇",
     "developer": "",
     "publisher": "",
@@ -109417,12 +109796,13 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_97"
   },
   {
     "id": "zoku_bokura_no_taiyou-taiyou_shounen_django",
     "title_en": "Zoku Bokura no Taiyou-Taiyou Shounen Django",
-    "title_jp": "",
+    "title_jp": "続・ボクらの太陽 太陽少年ジャンゴ",
     "title_zh": "我們的太陽2-太陽少年傳奇1.1版 日 A·RPG 110.00",
     "developer": "",
     "publisher": "",
@@ -109457,7 +109837,8 @@
     "maker": "",
     "source_url": "",
     "region_category": "日版",
-    "region_flags": "🇯🇵"
+    "region_flags": "🇯🇵",
+    "_jp_match": "fuzzy_97"
   },
   {
     "id": "zone_of_enders_-_the_fist_of_mars",
