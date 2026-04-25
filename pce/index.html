@@ -76,6 +76,71 @@ header .subtitle { font-size: 14px; color: var(--text-soft); margin-top: 6px; fo
   display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
 }
 .search-wrap { position: relative; flex: 1 1 280px; min-width: 0; }
+
+/* Autocomplete 下拉 */
+.suggestions {
+  position: absolute; top: calc(100% + 6px); left: 0; right: 0;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: var(--shadow-lg);
+  max-height: 70vh; overflow-y: auto;
+  z-index: 60;
+  display: none;
+}
+.suggestions.show { display: block; }
+.suggestion {
+  display: flex; gap: 12px; align-items: center;
+  padding: 10px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border-soft);
+  transition: background 0.1s;
+}
+.suggestion:last-child { border-bottom: 0; }
+.suggestion:hover, .suggestion.active {
+  background: var(--bg-hover);
+}
+.suggestion.active {
+  background: var(--accent-bg);
+}
+.suggestion-cover {
+  width: 44px; height: 44px; flex-shrink: 0;
+  background: var(--bg) center/cover no-repeat;
+  border-radius: 6px;
+  border: 1px solid var(--border-soft);
+}
+.suggestion-info {
+  flex: 1; min-width: 0;
+  display: flex; flex-direction: column; gap: 2px;
+}
+.suggestion-title {
+  font-size: 13px; font-weight: 600;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.suggestion-sub {
+  font-size: 11px; color: var(--text-subtle);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.suggestion-meta {
+  font-size: 10px; color: var(--text-soft);
+  display: flex; gap: 6px; flex-shrink: 0;
+}
+.suggestions-empty {
+  padding: 20px; text-align: center;
+  color: var(--text-subtle); font-size: 13px;
+}
+.suggestions-footer {
+  padding: 8px 12px;
+  font-size: 11px; color: var(--text-subtle);
+  background: var(--bg);
+  border-top: 1px solid var(--border-soft);
+  text-align: center;
+}
+.highlight {
+  background: rgba(47, 129, 247, 0.25);
+  border-radius: 2px;
+  padding: 0 1px;
+}
 .search-wrap svg {
   position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
   color: var(--text-subtle); pointer-events: none;
@@ -491,7 +556,8 @@ header .subtitle { font-size: 14px; color: var(--text-soft); margin-top: 6px; fo
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
       </svg>
-      <input type="search" id="search" placeholder="搜尋遊戲名、發行商、類型…">
+      <input type="search" id="search" placeholder="搜尋遊戲名、發行商、類型…" autocomplete="off">
+      <div class="suggestions" id="suggestions"></div>
     </div>
     <select id="filter-format"><option value="">所有規格</option></select>
     <select id="filter-genre"><option value="">所有類型</option></select>
@@ -824,12 +890,143 @@ function closeModal() {
   document.body.style.overflow = '';
 }
 
+// ============ AUTOCOMPLETE ============
+let suggestionIdx = -1;
+let currentSuggestions = [];
+
+function findSuggestions(q) {
+  if (!q || q.length < 1) return [];
+  const ql = q.toLowerCase();
+  // 比對：title_zh / title_en / title_jp / aka / maker
+  // 評分：title 開頭 > title 包含 > maker 包含
+  const scored = [];
+  for (const g of games) {
+    const fields = [
+      { v: (g.title_zh || '').toLowerCase(), w: 30 },
+      { v: (g.title_en || '').toLowerCase(), w: 30 },
+      { v: (g.title_jp || '').toLowerCase(), w: 30 },
+      { v: (g.aka || '').toLowerCase(), w: 20 },
+      { v: (g.maker || '').toLowerCase(), w: 10 },
+    ];
+    let score = 0;
+    for (const f of fields) {
+      if (!f.v) continue;
+      if (f.v === ql) { score = Math.max(score, f.w * 3); break; }
+      if (f.v.startsWith(ql)) score = Math.max(score, f.w * 2);
+      else if (f.v.includes(ql)) score = Math.max(score, f.w);
+    }
+    if (score > 0) scored.push({ g, score });
+  }
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, 10).map(x => x.g);
+}
+
+function highlightMatch(text, q) {
+  if (!text || !q) return escapeHTML(text || '');
+  const ql = q.toLowerCase();
+  const tl = text.toLowerCase();
+  const idx = tl.indexOf(ql);
+  if (idx < 0) return escapeHTML(text);
+  return escapeHTML(text.slice(0, idx)) +
+    `<span class="highlight">${escapeHTML(text.slice(idx, idx + q.length))}</span>` +
+    escapeHTML(text.slice(idx + q.length));
+}
+
+function renderSuggestions(q) {
+  const box = document.getElementById('suggestions');
+  if (!q) { box.classList.remove('show'); return; }
+  const list = findSuggestions(q);
+  currentSuggestions = list;
+  suggestionIdx = -1;
+  if (list.length === 0) {
+    box.innerHTML = '<div class="suggestions-empty">沒有符合的遊戲，按 Enter 直接搜尋</div>';
+    box.classList.add('show');
+    return;
+  }
+  const html = list.map((g, i) => {
+    const url = coverUrl(g);
+    const main = g.title_zh || g.title_en || '';
+    const sub = g.title_zh ? g.title_en : (g.title_jp || '');
+    const yr = extractYear(g.release_date);
+    return `
+      <div class="suggestion" data-idx="${i}">
+        <div class="suggestion-cover" ${url ? `style="background-image:url('${url}')"` : ''}></div>
+        <div class="suggestion-info">
+          <div class="suggestion-title">${highlightMatch(main, q)}</div>
+          <div class="suggestion-sub">${highlightMatch(sub, q)}</div>
+        </div>
+        <div class="suggestion-meta">
+          ${yr ? `<span>${yr}</span>` : ''}
+          ${g.format_category ? `<span>${escapeHTML(g.format_category)}</span>` : ''}
+        </div>
+      </div>`;
+  }).join('') + `<div class="suggestions-footer">↑↓ 選擇 · Enter 開啟詳細頁 · Esc 關閉</div>`;
+  box.innerHTML = html;
+  box.classList.add('show');
+  // 綁定 click
+  box.querySelectorAll('.suggestion').forEach(el => {
+    el.onclick = () => {
+      const i = +el.dataset.idx;
+      const g = currentSuggestions[i];
+      if (g) {
+        document.getElementById('suggestions').classList.remove('show');
+        document.getElementById('search').blur();
+        openModal(g);
+      }
+    };
+  });
+}
+
+function highlightSuggestion(idx) {
+  const box = document.getElementById('suggestions');
+  box.querySelectorAll('.suggestion').forEach((el, i) => {
+    el.classList.toggle('active', i === idx);
+  });
+  const active = box.querySelector('.suggestion.active');
+  if (active) active.scrollIntoView({ block: 'nearest' });
+}
+
 function bindEvents() {
   let searchTimer;
-  document.getElementById('search').oninput = e => {
+  const searchInput = document.getElementById('search');
+  searchInput.oninput = e => {
     clearTimeout(searchTimer);
-    searchTimer = setTimeout(() => { searchTerm = e.target.value; applyFilters(); }, 120);
+    const q = e.target.value;
+    // 即時推薦（30ms 防抖）
+    setTimeout(() => renderSuggestions(q), 30);
+    // 較慢的網格更新（120ms）
+    searchTimer = setTimeout(() => { searchTerm = q; applyFilters(); }, 120);
   };
+  searchInput.onfocus = () => {
+    if (searchInput.value) renderSuggestions(searchInput.value);
+  };
+  searchInput.onkeydown = e => {
+    const box = document.getElementById('suggestions');
+    if (!box.classList.contains('show')) return;
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      suggestionIdx = Math.min(suggestionIdx + 1, currentSuggestions.length - 1);
+      highlightSuggestion(suggestionIdx);
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      suggestionIdx = Math.max(suggestionIdx - 1, -1);
+      highlightSuggestion(suggestionIdx);
+    } else if (e.key === 'Enter' && suggestionIdx >= 0 && currentSuggestions[suggestionIdx]) {
+      e.preventDefault();
+      box.classList.remove('show');
+      searchInput.blur();
+      openModal(currentSuggestions[suggestionIdx]);
+    } else if (e.key === 'Escape') {
+      box.classList.remove('show');
+      searchInput.blur();
+    }
+  };
+  // 點外面關閉推薦
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.search-wrap')) {
+      document.getElementById('suggestions').classList.remove('show');
+    }
+  });
   document.getElementById('filter-format').onchange = e => { currentFormat = e.target.value; applyFilters(); };
   document.getElementById('filter-genre').onchange = e => { currentGenre = e.target.value; applyFilters(); };
   document.getElementById('filter-rating').onchange = e => { currentRating = e.target.value; applyFilters(); };
