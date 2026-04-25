@@ -798,13 +798,17 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
 }
 .empty p { font-size: 13px; line-height: 1.7; }
 
-.discover-section { margin: 24px auto; max-width: 1400px; padding: 0 20px; }
+.discover-section { margin: 24px auto 32px; max-width: 1400px; }
 .discover-section h2 {
   font-family: var(--pixel-en); font-size: 14px; letter-spacing: 2px;
   color: var(--cyan); text-shadow: var(--glow-cyan);
-  margin-bottom: 12px; text-transform: uppercase;
+  margin: 0 20px 12px; text-transform: uppercase;
   padding: 6px 14px; display: inline-block;
   border: 1px solid var(--cyan); border-radius: 4px;
+}
+.discover-section .grid { padding-top: 0; padding-bottom: 12px; }
+@media (max-width: 600px) {
+  .discover-section h2 { margin-left: 12px; margin-right: 12px; }
 }
 
 .settings-page {
