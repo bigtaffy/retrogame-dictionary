@@ -563,65 +563,24 @@ header .subtitle { font-size: 14px; color: var(--text-soft); margin-top: 6px; fo
   .modal dt { font-size: 12px; }
 }
 
-/* GBA 版隱藏不適用的元件 */
+/* GBA 版隱藏不適用元件 */
 #filter-format, #filter-rating, .rank-bar { display: none !important; }
-/* 規格徽章 GBA 都一樣，隱藏 */
-.card .badges .format-other { display: none; }
 .modal .header-badges { display: none !important; }
-
-
-/* ===== GBA 版專用：文字優先卡片 ===== */
-/* 隱藏封面區域 */
-.card .cover { display: none !important; }
-.card { 
-  flex-direction: column; 
-  padding: 0;
-  min-height: 140px;
+/* 沒封面時：扁平文字卡 */
+.card .cover.no-img {
+  aspect-ratio: auto !important;
+  height: 36px !important;
+  background: linear-gradient(90deg, transparent, rgba(47,129,247,0.08));
+  border-bottom: 2px solid var(--border-soft);
 }
-.card .info {
-  padding: 16px 18px !important;
-  gap: 6px !important;
-  flex: 1;
-  border-left: 3px solid var(--border-soft);
-  transition: border-color 0.2s;
-  position: relative;
+.card .cover.no-img::after {
+  font-size: 10px !important;
+  letter-spacing: 1.5px;
+  color: var(--text-subtle) !important;
+  content: "GBA";
+  background: none;
 }
-.card:hover .info {
-  border-left-color: var(--accent);
-}
-.card .title { 
-  font-size: 15px !important;
-  -webkit-line-clamp: 2 !important;
-}
-.card .subtitle { 
-  font-size: 12.5px !important;
-  -webkit-line-clamp: 1;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-}
-.card .meta { 
-  font-size: 11.5px !important;
-  margin-top: 4px;
-}
-/* 類型徽章顯眼一點 */
-.badge.format-other { 
-  background: rgba(47,129,247,0.12) !important;
-  color: #58a6ff !important;
-  border: 1px solid rgba(47,129,247,0.3) !important;
-}
-/* 桌機網格密一點 */
-.grid {
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)) !important;
-  gap: 12px !important;
-}
-@media (max-width: 640px) {
-  .grid {
-    grid-template-columns: 1fr !important;
-    gap: 10px !important;
-  }
-  .card { min-height: 100px; }
-  .card .info { padding: 12px 14px !important; }
-}
+/* 有封面卡片仍然 1:1 */
 
 </style>
 </head>
