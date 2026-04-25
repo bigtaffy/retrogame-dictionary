@@ -404,6 +404,47 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
   gap: 10px;
   max-width: 900px;
 }
+/* Covers-only mode: smaller dense grid, no info panel */
+.grid.covers {
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 8px;
+  max-width: 1400px;
+}
+.grid.covers .card .info,
+.grid.covers .card .list-shots { display: none; }
+.grid.covers .card { aspect-ratio: 1; height: auto; }
+.grid.covers .card .cover { aspect-ratio: 1; border-bottom: 0; }
+.grid.covers .card::after {
+  content: attr(data-title);
+  position: absolute; left: 0; right: 0; bottom: 0;
+  padding: 18px 8px 8px;
+  font-family: var(--pixel-cjk); font-size: 11px; line-height: 1.2;
+  color: #fff; text-align: center;
+  background: linear-gradient(transparent, rgba(0,0,0,0.85));
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  pointer-events: none;
+}
+@media (max-width: 600px) {
+  .grid.covers { grid-template-columns: repeat(2, 1fr); padding: 10px 12px 30px; }
+}
+
+/* Mini screenshot strip for list view */
+.list-shots {
+  display: flex; gap: 4px;
+  margin-top: auto; padding-top: 8px;
+  overflow: hidden;
+}
+.list-shots img {
+  flex: 1 1 0;
+  width: 0; min-width: 0;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 240, 255, 0.25);
+  background: var(--bg);
+}
+.list-shots img:hover { border-color: var(--pink); }
+.grid:not(.list) .card .list-shots { display: none; }
 
 /* ============================================================
    CARD
@@ -1256,10 +1297,13 @@ function renderLibrary(consoleName) {
         ${cfg.hasRegion ? `<select id="region-filter"><option value="">All regions</option></select>` : ''}
         <button class="pill-btn" id="random-btn" title="Random">🎲</button>
         <div class="view-toggle">
-          <button data-view="grid" ${state.view==='grid'?'class="active"':''} title="Grid">
+          <button data-view="grid" ${state.view==='grid'?'class="active"':''} title="Grid (with info)">
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="1" y="1" width="5" height="5" stroke="currentColor" stroke-width="1.4"/><rect x="8" y="1" width="5" height="5" stroke="currentColor" stroke-width="1.4"/><rect x="1" y="8" width="5" height="5" stroke="currentColor" stroke-width="1.4"/><rect x="8" y="8" width="5" height="5" stroke="currentColor" stroke-width="1.4"/></svg>
           </button>
-          <button data-view="list" ${state.view==='list'?'class="active"':''} title="List">
+          <button data-view="covers" ${state.view==='covers'?'class="active"':''} title="Covers only">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="1" y="1" width="5" height="12" stroke="currentColor" stroke-width="1.4"/><rect x="8" y="1" width="5" height="12" stroke="currentColor" stroke-width="1.4"/></svg>
+          </button>
+          <button data-view="list" ${state.view==='list'?'class="active"':''} title="List (with screenshots)">
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="1" y="2" width="12" height="2" stroke="currentColor" stroke-width="1.4"/><rect x="1" y="6" width="12" height="2" stroke="currentColor" stroke-width="1.4"/><rect x="1" y="10" width="12" height="2" stroke="currentColor" stroke-width="1.4"/></svg>
           </button>
         </div>
@@ -1273,7 +1317,7 @@ function renderLibrary(consoleName) {
       <div class="az-bar" id="az-bar"></div>
       <div class="stats" id="stats"></div>
     </div>
-    <div class="grid ${state.view==='list'?'list':''}" id="grid"></div>
+    <div class="grid ${state.view==='list'?'list':state.view==='covers'?'covers':''}" id="grid"></div>
   `;
   // populate filters and grid
   populateFilters(consoleName);
@@ -1383,7 +1427,11 @@ function bindLibraryEvents() {
       document.querySelectorAll('.view-toggle button').forEach(x => x.classList.remove('active'));
       b.classList.add('active');
       const grid = document.getElementById('grid');
-      if (grid) grid.classList.toggle('list', state.view === 'list');
+      if (grid) {
+        grid.classList.remove('list', 'covers');
+        if (state.view === 'list') grid.classList.add('list');
+        else if (state.view === 'covers') grid.classList.add('covers');
+      }
     });
   });
 }
@@ -1460,6 +1508,16 @@ function makeCard(g, consoleName) {
   const region = g.region_category || (g.regions && g.regions[0]) || '';
   const year = g.release_date ? (g.release_date.match(/\d{4}/) || [''])[0] : (g.year || '');
 
+  // Mini screenshots for list-view (first 2 from screenshots array)
+  const miniShots = (g.screenshots || []).slice(0, 2).map(s => {
+    const u = typeof s === 'string' ? s : (s && s.url) || '';
+    return u ? resolveImg(u, consoleName) : '';
+  }).filter(Boolean);
+  const miniHtml = miniShots.length
+    ? `<div class="list-shots">${miniShots.map(u => `<img src="${escapeHtml(u)}" alt="" decoding="async">`).join('')}</div>`
+    : '';
+
+  el.dataset.title = title;
   el.innerHTML = `
     <div class="cover ${coverCls}">${cover}</div>
     <div class="info">
@@ -1475,6 +1533,7 @@ function makeCard(g, consoleName) {
         ${rb ? `<span class="badge ${rb.cls}">${rb.label}</span>` : ''}
         ${region ? `<span class="badge region ${region}">${region}</span>` : ''}
       </div>
+      ${miniHtml}
     </div>
   `;
   el.addEventListener('click', () => navigate(`${consoleName}/g/${g.id}`));
@@ -1794,6 +1853,15 @@ function renderSettings() {
 async function handleRoute() {
   const r = parseRoute();
   state.tab = r.tab;
+  // Reset console-specific filters (format/genre/region/letter) when switching consoles.
+  // Search stays since user may want to find same title across consoles.
+  if (r.console && CONSOLE_CONFIG[r.console] && r.console !== state.console) {
+    state.filters.format = '';
+    state.filters.genre = '';
+    state.filters.region = '';
+    state.filters.letter = '';
+    state.filters.rating = 'all';
+  }
   if (r.console && CONSOLE_CONFIG[r.console]) state.console = r.console;
 
   // Update top bar UI
