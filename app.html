@@ -1179,8 +1179,7 @@ function renderLibrary(consoleName) {
   const cfg = CONSOLE_CONFIG[consoleName];
   c.innerHTML = `
     <div class="controls-wrap">
-      <div class="controls">
-        ${state.filters.search ? `<button class="pill-btn search-active-pill" id="search-active-pill" title="Clear search">🔍 ${escapeHtml(state.filters.search)} ×</button>` : ''}
+      <div class="controls" id="controls-bar">
         ${cfg.hasFormat ? `<select id="format-filter"><option value="">All formats</option></select>` : ''}
         <select id="genre-filter"><option value="">All genres</option></select>
         ${cfg.hasRegion ? `<select id="region-filter"><option value="">All regions</option></select>` : ''}
@@ -1256,12 +1255,35 @@ function populateFilters(consoleName) {
   }
 }
 
+function updateSearchPill() {
+  const controls = document.getElementById('controls-bar');
+  if (!controls) return;
+  let pill = document.getElementById('search-active-pill');
+  if (state.filters.search) {
+    if (!pill) {
+      pill = document.createElement('button');
+      pill.id = 'search-active-pill';
+      pill.className = 'pill-btn search-active-pill';
+      pill.title = 'Clear search';
+      pill.type = 'button';
+      pill.addEventListener('click', () => {
+        state.filters.search = '';
+        const inp = document.getElementById('search-input');
+        if (inp) inp.value = '';
+        renderSuggestions();
+        updateSearchPill();
+        applyFiltersAndRender();
+      });
+      controls.insertBefore(pill, controls.firstChild);
+    }
+    pill.textContent = `🔍 ${state.filters.search}  ×`;
+  } else if (pill) {
+    pill.remove();
+  }
+}
+
 function bindLibraryEvents() {
-  document.getElementById('search-active-pill')?.addEventListener('click', () => {
-    state.filters.search = '';
-    document.getElementById('search-input').value = '';
-    applyFiltersAndRender();
-  });
+  updateSearchPill();
   document.getElementById('format-filter')?.addEventListener('change', e => { state.filters.format = e.target.value; applyFiltersAndRender(); });
   document.getElementById('genre-filter')?.addEventListener('change', e => { state.filters.genre = e.target.value; applyFiltersAndRender(); });
   document.getElementById('region-filter')?.addEventListener('change', e => { state.filters.region = e.target.value; applyFiltersAndRender(); });
@@ -1832,6 +1854,7 @@ document.getElementById('search-overlay').addEventListener('click', e => {
 document.getElementById('search-input').addEventListener('input', e => {
   state.filters.search = e.target.value.trim();
   renderSuggestions();
+  if (typeof updateSearchPill === 'function') updateSearchPill();
   applyFiltersAndRender();
 });
 document.addEventListener('keydown', e => {
