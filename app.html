@@ -1,0 +1,1619 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0b0420">
+<title>Retro Game Dictionary — PCE / GBA / FC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================================
+   PIXEL FONTS (Cubic 11 + LanaPixel via jsDelivr)
+   ============================================================ */
+@font-face {
+  font-family: 'Cubic 11';
+  src: url('https://cdn.jsdelivr.net/gh/ACh-K/Cubic-11@main/fonts/web/Cubic_11.woff2') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'LanaPixel';
+  src: url('https://cdn.jsdelivr.net/gh/ericoporto/pixel-utf8-fonts@main/lanapixel/LanaPixel.ttf') format('truetype');
+  font-display: swap;
+}
+
+/* ============================================================
+   SYNTHWAVE TOKENS
+   ============================================================ */
+:root {
+  --bg: #0b0420;
+  --bg-raised: #1a0d3e;
+  --bg-hover: #2a1855;
+  --border: #6e36c8;
+  --border-soft: #2a1855;
+  --text: #f7e8ff;
+  --text-soft: #c8b3f0;
+  --text-subtle: #8e74c4;
+  --pink: #ff3ec8;
+  --pink-hover: #ff66d6;
+  --cyan: #00f0ff;
+  --yellow: #ffe14a;
+  --green: #5cffa0;
+  --red: #ff5577;
+  --orange: #ff9933;
+  --purple: #b388ff;
+  --glow-pink: 0 0 8px rgba(255, 62, 200, 0.6), 0 0 18px rgba(255, 62, 200, 0.3);
+  --glow-cyan: 0 0 8px rgba(0, 240, 255, 0.5), 0 0 18px rgba(0, 240, 255, 0.25);
+  --glow-yellow: 0 0 8px rgba(255, 225, 74, 0.5), 0 0 18px rgba(255, 225, 74, 0.25);
+  --shadow-lg: 0 0 24px rgba(255, 62, 200, 0.35),
+               0 0 48px rgba(0, 240, 255, 0.15),
+               0 12px 32px rgba(0, 0, 0, 0.6);
+  --tab-h: 64px;
+  --topbar-h: 88px;
+  --pixel-en: 'LanaPixel', monospace;
+  --pixel-cjk: 'Cubic 11', 'Noto Sans TC', sans-serif;
+  --body-cjk: 'Noto Sans TC', system-ui, sans-serif;
+  --body-jp: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', system-ui, sans-serif;
+}
+
+/* ============================================================
+   RESET / BASE
+   ============================================================ */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--body-cjk);
+  color: var(--text);
+  background:
+    radial-gradient(ellipse at 25% 10%, rgba(255, 62, 200, 0.18), transparent 55%),
+    radial-gradient(ellipse at 80% 30%, rgba(0, 240, 255, 0.14), transparent 55%),
+    radial-gradient(ellipse at 50% 90%, rgba(163, 113, 247, 0.18), transparent 60%),
+    var(--bg);
+  background-attachment: fixed;
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: calc(var(--tab-h) + env(safe-area-inset-bottom, 0px));
+}
+button { cursor: pointer; font-family: inherit; color: inherit; background: transparent; border: 0; }
+a { color: inherit; text-decoration: none; }
+img { display: block; }
+
+/* Subtle scanline atmosphere */
+body::before {
+  content: ""; position: fixed; inset: 0;
+  background-image: repeating-linear-gradient(0deg,
+    transparent 0, transparent 2px,
+    rgba(0, 240, 255, 0.025) 2px, rgba(0, 240, 255, 0.025) 3px);
+  pointer-events: none; z-index: 1; mix-blend-mode: overlay;
+}
+.app { position: relative; z-index: 2; }
+
+/* ============================================================
+   TOP BAR (console picker + lang + desktop tabs)
+   ============================================================ */
+.topbar {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(11, 4, 32, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255, 62, 200, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 240, 255, 0.12);
+  padding: 14px 20px 12px;
+}
+.topbar-row {
+  max-width: 1400px; margin: 0 auto;
+  display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+}
+.console-picker {
+  display: flex; gap: 10px; flex: 1 1 auto;
+}
+.console-pill {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  padding: 8px 14px; min-width: 78px;
+  border-radius: 10px;
+  border: 1.5px solid rgba(255, 62, 200, 0.35);
+  background: linear-gradient(180deg, rgba(42, 24, 85, 0.5), rgba(11, 4, 32, 0.7));
+  transition: all 0.15s;
+  position: relative;
+}
+.console-pill:hover {
+  border-color: var(--cyan);
+  box-shadow: var(--glow-cyan);
+}
+.console-pill.active {
+  border-color: var(--pink);
+  box-shadow: var(--glow-pink);
+  background: linear-gradient(180deg, rgba(255, 62, 200, 0.18), rgba(11, 4, 32, 0.7));
+}
+.console-pill .ico {
+  width: 38px; height: 26px; display: block;
+  image-rendering: pixelated;
+}
+.console-pill .name {
+  font-family: var(--pixel-en);
+  font-size: 11px; letter-spacing: 1px;
+  color: var(--text);
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.3);
+}
+.console-pill.active .name { color: var(--pink); text-shadow: var(--glow-pink); }
+
+.topbar-right { display: flex; align-items: center; gap: 8px; }
+.tabs-desktop { display: none; gap: 4px; }
+.lang-toggle {
+  font-family: var(--pixel-en);
+  font-size: 11px; letter-spacing: 1px;
+  padding: 8px 14px; border-radius: 8px;
+  border: 1px solid rgba(0, 240, 255, 0.4);
+  color: var(--cyan);
+  transition: all 0.15s;
+}
+.lang-toggle:hover { background: rgba(0, 240, 255, 0.12); box-shadow: var(--glow-cyan); }
+
+/* ============================================================
+   CONTROLS (search + filters + AZ + ranks)
+   ============================================================ */
+.controls-wrap {
+  position: sticky; top: var(--topbar-h); z-index: 40;
+  background: rgba(11, 4, 32, 0.78);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 62, 200, 0.18);
+  padding: 12px 0;
+}
+.controls {
+  max-width: 1400px; margin: 0 auto; padding: 0 20px;
+  display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+}
+.search-wrap { position: relative; flex: 1 1 260px; min-width: 0; }
+.search-wrap svg {
+  position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+  color: var(--text-subtle); pointer-events: none;
+}
+.controls input[type=search] {
+  width: 100%; padding: 10px 14px 10px 40px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 62, 200, 0.35);
+  background: rgba(26, 13, 62, 0.7); color: var(--text);
+  font-size: 14px; font-family: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.controls input[type=search]:focus {
+  outline: 0; border-color: var(--pink);
+  box-shadow: 0 0 0 3px rgba(255, 62, 200, 0.18), var(--glow-pink);
+}
+.controls select, .controls .pill-btn, .view-toggle button {
+  padding: 9px 12px; border-radius: 8px;
+  border: 1px solid rgba(255, 62, 200, 0.35);
+  background: rgba(26, 13, 62, 0.7); color: var(--text);
+  font-size: 13px; font-family: inherit;
+  transition: all 0.15s;
+}
+.controls select {
+  appearance: none; padding-right: 32px;
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%23c8b3f0' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 12px center;
+}
+.controls select:hover, .controls .pill-btn:hover, .view-toggle button:hover {
+  border-color: var(--cyan); box-shadow: var(--glow-cyan);
+}
+.view-toggle {
+  display: inline-flex; gap: 0; border-radius: 8px; overflow: hidden;
+  border: 1px solid rgba(255, 62, 200, 0.35);
+}
+.view-toggle button {
+  border: 0; border-radius: 0; padding: 8px 12px;
+  background: rgba(26, 13, 62, 0.7);
+  width: 38px; display: inline-flex; align-items: center; justify-content: center;
+}
+.view-toggle button.active { background: var(--pink); color: #fff; box-shadow: inset 0 0 12px rgba(255, 255, 255, 0.2); }
+
+.rank-bar, .az-bar {
+  max-width: 1400px; margin: 12px auto 0; padding: 0 20px;
+  display: flex; flex-wrap: wrap; gap: 5px;
+}
+.rank-bar button {
+  font-family: var(--pixel-en);
+  font-size: 11px; letter-spacing: 1px; text-transform: uppercase;
+  padding: 6px 12px; border-radius: 999px;
+  border: 1px solid rgba(255, 62, 200, 0.25);
+  color: var(--text-soft); transition: all 0.15s;
+}
+.rank-bar button:hover { color: var(--text); border-color: var(--cyan); }
+.rank-bar button.active {
+  background: rgba(255, 62, 200, 0.18); border-color: var(--pink);
+  color: var(--pink); box-shadow: var(--glow-pink);
+}
+.az-bar { justify-content: center; gap: 2px; }
+.az-bar button {
+  font-family: var(--pixel-en); font-size: 11px;
+  width: 30px; height: 30px; border-radius: 6px;
+  color: var(--text-soft); transition: all 0.12s;
+}
+.az-bar button:hover:not(:disabled) { background: rgba(255, 62, 200, 0.15); color: var(--text); }
+.az-bar button.active { background: var(--pink); color: #fff; box-shadow: var(--glow-pink); }
+.az-bar button.all { width: auto; padding: 0 10px; }
+.az-bar button:disabled { opacity: 0.25; cursor: default; }
+
+.stats {
+  text-align: center; margin: 18px 0 8px;
+  font-family: var(--pixel-en); font-size: 11px; letter-spacing: 1px;
+  color: var(--cyan); text-shadow: var(--glow-cyan);
+}
+
+/* ============================================================
+   GRID / LIST
+   ============================================================ */
+.grid {
+  max-width: 1400px; margin: 0 auto; padding: 8px 20px 60px;
+  display: grid; gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+}
+.grid.list {
+  grid-template-columns: 1fr;
+  gap: 10px;
+  max-width: 900px;
+}
+
+/* ============================================================
+   CARD
+   ============================================================ */
+.card {
+  background: linear-gradient(180deg, rgba(42, 24, 85, 0.6), rgba(11, 4, 32, 0.75));
+  border: 1px solid rgba(255, 62, 200, 0.3);
+  border-radius: 8px; overflow: hidden;
+  display: flex; flex-direction: column;
+  cursor: pointer;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+  animation: cardFadeIn 0.3s ease-out backwards;
+  position: relative;
+}
+@keyframes cardFadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+.card:hover {
+  transform: translateY(-4px);
+  border-color: var(--pink);
+  box-shadow: var(--glow-pink), 0 12px 32px rgba(0, 0, 0, 0.6);
+}
+.card .cover {
+  width: 100%; aspect-ratio: 1;
+  background: linear-gradient(135deg, #2a1855 0%, #0b0420 100%);
+  position: relative; overflow: hidden;
+  border-bottom: 1px solid rgba(0, 240, 255, 0.2);
+}
+.card .cover-img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.card:hover .cover-img { transform: scale(1.05); }
+.card .cover.no-img::after {
+  content: "NO COVER"; position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-subtle); font-family: var(--pixel-en); font-size: 11px; letter-spacing: 2px;
+}
+.card .fav-btn {
+  position: absolute; top: 6px; right: 6px; z-index: 3;
+  width: 30px; height: 30px; border-radius: 50%;
+  background: rgba(11, 4, 32, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex; align-items: center; justify-content: center;
+  color: rgba(255, 255, 255, 0.5); font-size: 14px;
+  transition: all 0.15s;
+}
+.card .fav-btn:hover { color: var(--pink); border-color: var(--pink); transform: scale(1.1); }
+.card .fav-btn.faved { color: var(--pink); border-color: var(--pink); box-shadow: var(--glow-pink); }
+.card .fav-btn.faved::before { content: "★"; }
+.card .fav-btn:not(.faved)::before { content: "☆"; }
+
+.card .info { padding: 10px 12px 12px; flex: 1; display: flex; flex-direction: column; gap: 4px; }
+.card .title {
+  font-family: var(--pixel-cjk);
+  font-size: 13.5px; letter-spacing: 0.5px; line-height: 1.3;
+  overflow: hidden;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+}
+.card .title.text-en { font-family: var(--pixel-en); letter-spacing: 0.8px; text-transform: uppercase; font-size: 12px; }
+.card .title.text-jp { font-family: var(--pixel-cjk); }
+.card .subtitle {
+  font-family: var(--body-cjk);
+  font-size: 11.5px; color: var(--cyan); opacity: 0.78;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  min-height: 1em;
+}
+.card .meta {
+  font-family: var(--pixel-en); font-size: 10px;
+  color: var(--text-subtle); display: flex; gap: 6px; flex-wrap: wrap;
+  margin-top: auto; padding-top: 8px;
+}
+.card .meta .dot { color: rgba(110, 54, 200, 0.5); }
+.card .badges { display: flex; gap: 4px; flex-wrap: wrap; padding-top: 6px; }
+
+.badge {
+  font-family: var(--pixel-en);
+  font-size: 9px; padding: 3px 7px; border-radius: 3px;
+  letter-spacing: 0.6px; text-transform: uppercase; white-space: nowrap;
+  border: 1px solid;
+}
+.badge.format-hucard, .badge.format-cart { background: rgba(255, 153, 51, 0.18); color: var(--orange); border-color: rgba(255, 153, 51, 0.5); box-shadow: 0 0 6px rgba(255, 153, 51, 0.25); }
+.badge.format-cd { background: rgba(0, 240, 255, 0.15); color: var(--cyan); border-color: rgba(0, 240, 255, 0.5); box-shadow: 0 0 6px rgba(0, 240, 255, 0.25); }
+.badge.format-scd { background: rgba(179, 136, 255, 0.18); color: var(--purple); border-color: rgba(179, 136, 255, 0.5); box-shadow: 0 0 6px rgba(179, 136, 255, 0.25); }
+.badge.format-sg { background: rgba(255, 85, 119, 0.18); color: var(--red); border-color: rgba(255, 85, 119, 0.5); box-shadow: 0 0 6px rgba(255, 85, 119, 0.25); }
+.badge.format-arcade { background: rgba(255, 225, 74, 0.15); color: var(--yellow); border-color: rgba(255, 225, 74, 0.5); box-shadow: 0 0 6px rgba(255, 225, 74, 0.25); }
+.badge.format-disk { background: rgba(0, 240, 255, 0.12); color: var(--cyan); border-color: rgba(0, 240, 255, 0.4); }
+.badge.format-other { background: rgba(200, 179, 240, 0.12); color: var(--text-soft); border-color: rgba(200, 179, 240, 0.4); }
+.badge.rating-buyit { background: rgba(92, 255, 160, 0.18); color: var(--green); border-color: rgba(92, 255, 160, 0.5); box-shadow: var(--glow-cyan); }
+.badge.rating-tryit { background: rgba(255, 225, 74, 0.18); color: var(--yellow); border-color: rgba(255, 225, 74, 0.5); box-shadow: var(--glow-yellow); }
+.badge.rating-avoid { background: rgba(255, 85, 119, 0.18); color: var(--red); border-color: rgba(255, 85, 119, 0.5); }
+.badge.rating-unrated { background: transparent; color: var(--text-subtle); border-color: rgba(142, 116, 196, 0.4); }
+.badge.region {
+  background: rgba(11, 4, 32, 0.6);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #fff; padding: 2px 5px;
+  font-family: var(--pixel-en); font-size: 8.5px;
+}
+.badge.region.US { color: #58a6ff; border-color: #58a6ff; }
+.badge.region.JP { color: var(--pink); border-color: var(--pink); }
+.badge.region.EU { color: var(--green); border-color: var(--green); }
+.badge.region.AU { color: var(--yellow); border-color: var(--yellow); }
+.badge.region.KR { color: var(--orange); border-color: var(--orange); }
+
+.lang-chip {
+  display: inline-flex; align-items: center; justify-content: center;
+  font-family: var(--pixel-en); font-size: 9px;
+  min-width: 18px; height: 16px; padding: 0 4px;
+  border-radius: 3px; margin-right: 6px;
+  letter-spacing: 0.5px; flex-shrink: 0;
+  vertical-align: 1px; border: 1px solid;
+}
+.lang-chip.zh { background: rgba(255, 62, 200, 0.15); color: var(--pink); border-color: rgba(255, 62, 200, 0.5); }
+.lang-chip.en { background: rgba(0, 240, 255, 0.15); color: var(--cyan); border-color: rgba(0, 240, 255, 0.5); }
+.lang-chip.jp { background: rgba(255, 225, 74, 0.15); color: var(--yellow); border-color: rgba(255, 225, 74, 0.5); }
+
+.text-zh { font-family: var(--body-cjk); }
+.text-en { font-family: 'Inter', system-ui, sans-serif; }
+.text-jp { font-family: var(--body-jp); }
+
+/* List view styling: horizontal card */
+.grid.list .card {
+  flex-direction: row; aspect-ratio: auto; height: 96px;
+}
+.grid.list .card .cover {
+  aspect-ratio: 1; width: 96px; height: 96px; flex-shrink: 0;
+  border-bottom: 0; border-right: 1px solid rgba(0, 240, 255, 0.2);
+}
+.grid.list .card .info { padding: 10px 14px; gap: 3px; }
+.grid.list .card .badges { padding-top: 4px; }
+.grid.list .card .meta { padding-top: 4px; }
+
+/* ============================================================
+   DETAIL VIEW (full route)
+   ============================================================ */
+.detail {
+  max-width: 1100px; margin: 0 auto; padding: 24px 20px 60px;
+}
+.detail .back {
+  font-family: var(--pixel-en); font-size: 11px; letter-spacing: 1px;
+  padding: 8px 14px; border: 1px solid var(--cyan); border-radius: 6px;
+  color: var(--cyan); margin-bottom: 24px;
+  display: inline-flex; align-items: center; gap: 6px;
+  transition: all 0.15s;
+}
+.detail .back:hover { background: rgba(0, 240, 255, 0.12); box-shadow: var(--glow-cyan); }
+.detail .header {
+  display: flex; gap: 28px; flex-wrap: wrap; margin-bottom: 24px;
+}
+.detail .cover-large {
+  width: 240px; aspect-ratio: 1; flex-shrink: 0;
+  background: var(--bg-raised) center/cover no-repeat;
+  border: 2px solid var(--pink); border-radius: 6px;
+  box-shadow: var(--glow-pink), 0 12px 32px rgba(0, 0, 0, 0.5);
+}
+.detail .header-info { flex: 1; min-width: 240px; }
+.detail h2 {
+  font-family: var(--pixel-en);
+  font-size: clamp(22px, 4vw, 36px); letter-spacing: 1.5px;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, var(--pink), var(--cyan));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  filter: drop-shadow(0 0 12px rgba(255, 62, 200, 0.4));
+  margin-bottom: 8px; line-height: 1.1;
+}
+.detail h2.cjk {
+  font-family: var(--pixel-cjk);
+  letter-spacing: 0.5px; text-transform: none;
+}
+.detail .subtitle-jp {
+  font-family: var(--pixel-cjk);
+  font-size: 16px; color: var(--yellow);
+  text-shadow: 0 0 8px rgba(255, 225, 74, 0.4);
+  margin-bottom: 4px; letter-spacing: 0.5px;
+}
+.detail .subtitle-zh {
+  font-family: var(--body-cjk);
+  font-size: 15px; color: var(--text-soft); margin-bottom: 16px;
+}
+.detail .header-badges { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 14px; }
+.detail .header-actions { display: flex; gap: 8px; margin-top: 18px; flex-wrap: wrap; }
+.detail .action-btn {
+  font-family: var(--pixel-en); font-size: 11px; letter-spacing: 1px;
+  padding: 9px 14px; border-radius: 6px; border: 1px solid;
+  display: inline-flex; align-items: center; gap: 6px;
+  transition: all 0.15s; text-transform: uppercase;
+}
+.detail .action-btn.fav { color: var(--pink); border-color: var(--pink); }
+.detail .action-btn.fav:hover, .detail .action-btn.fav.active { background: rgba(255, 62, 200, 0.15); box-shadow: var(--glow-pink); }
+.detail .action-btn.src { color: var(--cyan); border-color: var(--cyan); }
+.detail .action-btn.src:hover { background: rgba(0, 240, 255, 0.12); box-shadow: var(--glow-cyan); }
+
+.detail .section {
+  margin-top: 28px; padding-top: 20px;
+  border-top: 1px solid rgba(255, 62, 200, 0.18);
+}
+.detail .section-title {
+  font-family: var(--pixel-en); font-size: 13px; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--cyan);
+  text-shadow: var(--glow-cyan);
+  margin-bottom: 14px;
+  padding: 6px 14px; display: inline-block;
+  border: 1px solid var(--cyan); border-radius: 4px;
+}
+.detail .specs {
+  display: grid; grid-template-columns: auto 1fr;
+  gap: 10px 18px; font-size: 14px;
+}
+.detail .specs dt {
+  font-family: var(--pixel-en); font-size: 11px;
+  color: var(--cyan); letter-spacing: 1px; text-transform: uppercase;
+  padding-top: 2px;
+}
+.detail .specs dd { color: var(--text); font-family: var(--body-cjk); }
+.detail .desc {
+  font-family: var(--body-cjk);
+  line-height: 1.8; font-size: 14.5px; color: var(--text);
+}
+.detail .desc + .desc { margin-top: 16px; }
+.detail .desc-label {
+  display: inline-block; margin-right: 8px;
+  font-family: var(--pixel-en); font-size: 10px; letter-spacing: 1px;
+  color: var(--yellow); padding: 2px 6px; border: 1px solid var(--yellow);
+  border-radius: 3px; vertical-align: 2px;
+  text-shadow: var(--glow-yellow);
+}
+.detail .gallery {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 8px;
+}
+.detail .gallery img {
+  width: 100%; aspect-ratio: 4/3; object-fit: cover;
+  border: 1px solid rgba(0, 240, 255, 0.3); border-radius: 4px;
+  cursor: pointer; transition: all 0.15s;
+}
+.detail .gallery img:hover {
+  border-color: var(--pink);
+  box-shadow: var(--glow-pink);
+  transform: scale(1.03);
+}
+.detail .videos {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 12px;
+}
+.detail .video-thumb {
+  position: relative; aspect-ratio: 16/9;
+  background: #000 center/cover no-repeat;
+  border-radius: 6px; cursor: pointer; overflow: hidden;
+  border: 1px solid rgba(255, 62, 200, 0.4);
+  transition: all 0.15s;
+}
+.detail .video-thumb:hover { transform: scale(1.02); border-color: var(--pink); box-shadow: var(--glow-pink); }
+.detail .video-thumb::before { content: ""; position: absolute; inset: 0; background: linear-gradient(transparent 60%, rgba(0,0,0,0.6)); }
+.detail .video-thumb::after {
+  content: "▶"; position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%, -50%); width: 56px; height: 56px;
+  background: var(--pink); border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; font-size: 20px;
+  box-shadow: var(--glow-pink);
+}
+.detail .video-thumb .v-title {
+  position: absolute; bottom: 8px; left: 10px; right: 10px;
+  color: #fff; font-family: var(--pixel-en); font-size: 10px;
+  letter-spacing: 0.5px; z-index: 2;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.9);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+/* ============================================================
+   LIGHTBOX (screenshot zoom)
+   ============================================================ */
+.lightbox {
+  position: fixed; inset: 0; z-index: 200;
+  background: rgba(0, 0, 0, 0.92);
+  backdrop-filter: blur(8px);
+  display: none; align-items: center; justify-content: center;
+  padding: 20px;
+}
+.lightbox.show { display: flex; }
+.lightbox img, .lightbox iframe {
+  max-width: 95vw; max-height: 92vh;
+  border: 1px solid var(--pink); border-radius: 6px;
+  box-shadow: var(--glow-pink);
+}
+.lightbox iframe { width: 90vw; aspect-ratio: 16/9; max-height: 80vh; }
+.lightbox .close {
+  position: absolute; top: 18px; right: 18px;
+  width: 36px; height: 36px; border-radius: 50%;
+  background: var(--bg-raised); border: 1px solid var(--pink);
+  color: var(--pink); font-size: 20px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+/* ============================================================
+   BOTTOM TAB BAR (mobile)
+   ============================================================ */
+.tabbar {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 60;
+  height: var(--tab-h);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  background: rgba(11, 4, 32, 0.95);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-top: 1px solid rgba(255, 62, 200, 0.3);
+  box-shadow: 0 -1px 12px rgba(255, 62, 200, 0.15);
+  display: flex;
+}
+.tabbar button {
+  flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 3px; color: var(--text-soft);
+  font-family: var(--pixel-en); font-size: 10px; letter-spacing: 0.5px;
+  transition: color 0.15s;
+}
+.tabbar button .ico { font-size: 18px; line-height: 1; }
+.tabbar button:hover { color: var(--text); }
+.tabbar button.active {
+  color: var(--pink); text-shadow: var(--glow-pink);
+}
+.tabbar button.active .ico { filter: drop-shadow(0 0 6px var(--pink)); }
+
+/* ============================================================
+   FAVORITES / DISCOVER / SETTINGS
+   ============================================================ */
+.empty {
+  text-align: center; padding: 80px 20px; color: var(--text-subtle);
+}
+.empty h3 {
+  font-family: var(--pixel-en); font-size: 16px; letter-spacing: 2px;
+  color: var(--pink); margin-bottom: 10px;
+}
+.empty p { font-size: 13px; line-height: 1.7; }
+
+.discover-section { margin: 24px auto; max-width: 1400px; padding: 0 20px; }
+.discover-section h2 {
+  font-family: var(--pixel-en); font-size: 14px; letter-spacing: 2px;
+  color: var(--cyan); text-shadow: var(--glow-cyan);
+  margin-bottom: 12px; text-transform: uppercase;
+  padding: 6px 14px; display: inline-block;
+  border: 1px solid var(--cyan); border-radius: 4px;
+}
+
+.settings-page {
+  max-width: 700px; margin: 0 auto; padding: 24px 20px 60px;
+}
+.settings-page h2 {
+  font-family: var(--pixel-en); font-size: 18px; letter-spacing: 2px;
+  background: linear-gradient(135deg, var(--pink), var(--cyan));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  text-transform: uppercase; margin-bottom: 24px;
+}
+.settings-row {
+  padding: 16px 0; border-bottom: 1px solid rgba(255, 62, 200, 0.15);
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+}
+.settings-label {
+  font-family: var(--body-cjk); font-size: 14px; color: var(--text);
+}
+.settings-label small {
+  display: block; font-size: 12px; color: var(--text-subtle);
+  margin-top: 2px; font-family: var(--body-cjk);
+}
+.settings-control {
+  display: flex; gap: 8px; flex-wrap: wrap;
+}
+.settings-control button {
+  font-family: var(--pixel-en); font-size: 11px; letter-spacing: 1px;
+  padding: 8px 14px; border-radius: 6px;
+  border: 1px solid rgba(255, 62, 200, 0.35);
+  background: rgba(26, 13, 62, 0.7); color: var(--text);
+  text-transform: uppercase; transition: all 0.15s;
+}
+.settings-control button.active {
+  background: var(--pink); border-color: var(--pink); box-shadow: var(--glow-pink);
+}
+.settings-control button.danger { color: var(--red); border-color: var(--red); }
+
+/* ============================================================
+   SPINNER (loading overlay)
+   ============================================================ */
+.spinner-wrap {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 16px; padding: 80px 20px;
+  min-height: 50vh;
+}
+.spinner-wrap.overlay {
+  position: fixed; inset: 0; z-index: 100;
+  background: rgba(11, 4, 32, 0.85);
+  backdrop-filter: blur(8px);
+}
+.spinner {
+  width: 56px; height: 56px;
+  border: 4px solid rgba(255, 62, 200, 0.2);
+  border-top-color: var(--pink);
+  border-right-color: var(--cyan);
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+  box-shadow: var(--glow-pink);
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.spinner-label {
+  font-family: var(--pixel-en); font-size: 12px; letter-spacing: 2px;
+  color: var(--cyan); text-shadow: var(--glow-cyan);
+  text-transform: uppercase;
+}
+
+/* ============================================================
+   AUTOCOMPLETE SUGGESTIONS
+   ============================================================ */
+.suggestions {
+  position: absolute; top: calc(100% + 6px); left: 0; right: 0;
+  background: rgba(26, 13, 62, 0.96);
+  border: 1px solid rgba(255, 62, 200, 0.4);
+  border-radius: 8px; box-shadow: var(--shadow-lg);
+  max-height: 70vh; overflow-y: auto; z-index: 70;
+  display: none;
+}
+.suggestions.show { display: block; }
+.suggestion {
+  display: flex; gap: 12px; align-items: center; padding: 9px 11px;
+  cursor: pointer; border-bottom: 1px solid rgba(255, 62, 200, 0.1);
+  transition: background 0.1s;
+}
+.suggestion:last-child { border-bottom: 0; }
+.suggestion:hover, .suggestion.active { background: rgba(255, 62, 200, 0.13); }
+.suggestion-cover {
+  width: 40px; height: 40px; flex-shrink: 0;
+  background: var(--bg) center/cover no-repeat;
+  border-radius: 4px; border: 1px solid rgba(0, 240, 255, 0.25);
+}
+.suggestion-info { flex: 1; min-width: 0; }
+.suggestion-title {
+  font-family: var(--pixel-cjk); font-size: 13px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.suggestion-sub {
+  font-size: 11px; color: var(--text-subtle);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.highlight { background: rgba(0, 240, 255, 0.3); color: var(--cyan); border-radius: 2px; }
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (min-width: 900px) {
+  .tabbar { display: none; }
+  body { padding-bottom: 0; }
+  .tabs-desktop { display: flex; }
+  .tabs-desktop button {
+    font-family: var(--pixel-en); font-size: 11px; letter-spacing: 1px;
+    padding: 8px 12px; border-radius: 6px;
+    color: var(--text-soft); transition: all 0.15s;
+    text-transform: uppercase;
+  }
+  .tabs-desktop button:hover { color: var(--text); background: rgba(255, 62, 200, 0.1); }
+  .tabs-desktop button.active { color: var(--pink); background: rgba(255, 62, 200, 0.18); box-shadow: var(--glow-pink); }
+}
+@media (max-width: 600px) {
+  .grid { grid-template-columns: 1fr; gap: 10px; padding: 8px 12px 80px; }
+  .grid .card { flex-direction: row; aspect-ratio: auto; height: auto; }
+  .grid .card .cover { width: 110px; height: 110px; flex-shrink: 0; aspect-ratio: 1; border-bottom: 0; border-right: 1px solid rgba(0, 240, 255, 0.2); }
+  .grid .card .info { padding: 10px 12px; }
+  .topbar { padding: 10px 14px 8px; }
+  .console-pill { min-width: 64px; padding: 6px 10px; }
+  .console-pill .ico { width: 30px; height: 22px; }
+  .console-pill .name { font-size: 10px; }
+  .controls-wrap { padding: 10px 0; }
+  .controls { padding: 0 14px; }
+  .detail { padding: 16px 14px 60px; }
+  .detail .cover-large { width: 100%; max-width: 320px; }
+  .detail h2 { font-size: 22px; }
+}
+</style>
+</head>
+<body>
+
+<div class="app">
+
+<!-- ============================================================
+     TOP BAR
+     ============================================================ -->
+<header class="topbar" id="topbar">
+  <div class="topbar-row">
+    <div class="console-picker" id="console-picker">
+      <button class="console-pill" data-console="pce" title="PC Engine">
+        <svg class="ico" viewBox="0 0 38 26" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="6" width="34" height="14" rx="2" fill="#e8e3d9" stroke="#000" stroke-width="1"/>
+          <circle cx="9" cy="13" r="3" fill="#1a1a1a"/>
+          <rect x="20" y="10" width="6" height="2" fill="#ff3ec8"/>
+          <rect x="20" y="14" width="6" height="2" fill="#ff3ec8"/>
+        </svg>
+        <span class="name">PCE</span>
+      </button>
+      <button class="console-pill" data-console="gba" title="Game Boy Advance">
+        <svg class="ico" viewBox="0 0 38 26" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="3" width="34" height="20" rx="3" fill="#7b3fc0" stroke="#000" stroke-width="1"/>
+          <rect x="9" y="8" width="20" height="10" rx="1" fill="#9bc94e"/>
+          <circle cx="6" cy="13" r="1.6" fill="#1a1a1a"/>
+          <circle cx="32" cy="13" r="1.6" fill="#1a1a1a"/>
+        </svg>
+        <span class="name">GBA</span>
+      </button>
+      <button class="console-pill" data-console="fc" title="Famicom">
+        <svg class="ico" viewBox="0 0 38 26" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="6" width="34" height="14" rx="1" fill="#d9534f" stroke="#000" stroke-width="1"/>
+          <rect x="2" y="6" width="34" height="5" fill="#ffffff"/>
+          <rect x="6" y="14" width="3" height="3" fill="#1a1a1a"/>
+          <rect x="11" y="14" width="3" height="3" fill="#1a1a1a"/>
+          <rect x="22" y="14" width="3" height="3" fill="#ffe14a"/>
+          <rect x="27" y="14" width="3" height="3" fill="#ffe14a"/>
+        </svg>
+        <span class="name">FC</span>
+      </button>
+    </div>
+
+    <div class="topbar-right">
+      <div class="tabs-desktop" id="tabs-desktop">
+        <button data-tab="library" class="active"><span>📚</span> Library</button>
+        <button data-tab="favorites"><span>⭐</span> Favorites</button>
+        <button data-tab="discover"><span>🎲</span> Discover</button>
+        <button data-tab="settings"><span>⚙</span> Settings</button>
+      </div>
+      <button class="lang-toggle" id="lang-toggle">中</button>
+    </div>
+  </div>
+</header>
+
+<!-- ============================================================
+     MAIN CONTENT
+     ============================================================ -->
+<main id="main">
+  <div id="view-container"></div>
+</main>
+
+<!-- ============================================================
+     LIGHTBOX
+     ============================================================ -->
+<div class="lightbox" id="lightbox">
+  <button class="close" id="lightbox-close">×</button>
+  <div id="lightbox-content"></div>
+</div>
+
+</div><!-- /app -->
+
+<!-- ============================================================
+     BOTTOM TAB BAR
+     ============================================================ -->
+<nav class="tabbar" id="tabbar">
+  <button data-tab="library" class="active"><span class="ico">📚</span><span>LIBRARY</span></button>
+  <button data-tab="favorites"><span class="ico">⭐</span><span>FAVS</span></button>
+  <button data-tab="discover"><span class="ico">🎲</span><span>DISCOVER</span></button>
+  <button data-tab="settings"><span class="ico">⚙</span><span>SETTINGS</span></button>
+</nav>
+
+<script>
+/* ============================================================
+   APP STATE & CONFIG
+   ============================================================ */
+const CONSOLE_CONFIG = {
+  pce: {
+    name: 'PC Engine',
+    dataUrl: 'data/games.json',
+    hasFormat: true,
+    hasRegion: false,
+    hasYoutube: true,
+  },
+  gba: {
+    name: 'Game Boy Advance',
+    dataUrl: 'data/gba/games.json',
+    hasFormat: false,
+    hasRegion: true,
+    hasYoutube: false,
+  },
+  fc: {
+    name: 'Famicom',
+    dataUrl: 'data/fc/games.json',
+    hasFormat: true,  // FC has Cart/Disk
+    hasRegion: false,
+    hasYoutube: false,
+  },
+};
+
+const state = {
+  console: 'pce',
+  tab: 'library',
+  lang: localStorage.getItem('rgd-lang') || 'zh', // zh / en / jp
+  view: localStorage.getItem('rgd-view') || 'grid', // grid / list
+  filters: { search: '', format: '', genre: '', region: '', rating: 'all', letter: '' },
+  cache: new Map(), // console → { games, byId }
+  detail: null, // current detail game id
+  favorites: new Set(JSON.parse(localStorage.getItem('rgd-favs') || '[]')),
+};
+
+const LANG_LABELS = { zh: '中', en: 'EN', jp: '日' };
+const LANG_ORDER = ['zh', 'en', 'jp'];
+
+/* ============================================================
+   ROUTING (hash-based)
+   route formats:
+     #/{console}                          → library for that console
+     #/{console}/g/{id}                   → game detail
+     #/favorites, #/discover, #/settings  → those tabs (uses current console)
+   ============================================================ */
+function parseRoute() {
+  const h = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
+  if (!h.length) return { tab: 'library', console: state.console };
+  if (['favorites', 'discover', 'settings'].includes(h[0])) {
+    return { tab: h[0], console: state.console };
+  }
+  if (CONSOLE_CONFIG[h[0]]) {
+    if (h[1] === 'g' && h[2]) return { tab: 'detail', console: h[0], id: h[2] };
+    return { tab: 'library', console: h[0] };
+  }
+  return { tab: 'library', console: state.console };
+}
+function navigate(path) { location.hash = '#/' + path.replace(/^\/?/, ''); }
+
+/* ============================================================
+   DATA LOADING (with spinner)
+   ============================================================ */
+async function loadConsole(name) {
+  if (state.cache.has(name)) return state.cache.get(name);
+  // 1) Try inline embedded data (works on file://)
+  const inlineEl = document.getElementById(name + '-data');
+  if (inlineEl) {
+    try {
+      const games = JSON.parse(inlineEl.textContent);
+      const byId = new Map(games.map(g => [String(g.id), g]));
+      const data = { games, byId };
+      state.cache.set(name, data);
+      return data;
+    } catch (e) { console.warn('inline data parse failed', e); }
+  }
+  // 2) Fall back to fetch (works on http(s)://)
+  showLoading('Loading ' + CONSOLE_CONFIG[name].name + '...');
+  try {
+    const res = await fetch(CONSOLE_CONFIG[name].dataUrl);
+    if (!res.ok) throw new Error('Failed to fetch ' + name);
+    const games = await res.json();
+    const byId = new Map(games.map(g => [String(g.id), g]));
+    const data = { games, byId };
+    state.cache.set(name, data);
+    return data;
+  } catch (e) {
+    console.error(e);
+    document.getElementById('view-container').innerHTML =
+      `<div class="empty"><h3>Load Failed</h3><p>無法載入 ${CONSOLE_CONFIG[name].name} 資料。請用 http server 開啟（python3 -m http.server）或使用 bundled 版本。</p></div>`;
+    return { games: [], byId: new Map() };
+  }
+}
+
+function showLoading(label) {
+  const c = document.getElementById('view-container');
+  c.innerHTML = `
+    <div class="spinner-wrap">
+      <div class="spinner"></div>
+      <div class="spinner-label">${escapeHtml(label || 'Loading...')}</div>
+    </div>`;
+}
+
+/* ============================================================
+   UTILITIES
+   ============================================================ */
+function escapeHtml(s) {
+  if (s == null) return '';
+  return String(s).replace(/[&<>"']/g, m => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[m]));
+}
+function pickTitle(g) {
+  if (state.lang === 'zh') return g.title_zh || g.title_en || g.title_jp || '?';
+  if (state.lang === 'jp') return g.title_jp || g.title_en || g.title_zh || '?';
+  return g.title_en || g.title_zh || g.title_jp || '?';
+}
+function detectLang(g) {
+  if (state.lang === 'zh' && g.title_zh) return 'zh';
+  if (state.lang === 'jp' && g.title_jp) return 'jp';
+  if (state.lang === 'en' && g.title_en) return 'en';
+  // fallback ordering
+  if (g.title_en) return 'en';
+  if (g.title_jp) return 'jp';
+  return 'zh';
+}
+function langClass(lang) { return lang === 'zh' ? 'text-zh' : lang === 'jp' ? 'text-jp' : 'text-en'; }
+function favKey(consoleName, id) { return `${consoleName}:${id}`; }
+function isFav(consoleName, id) { return state.favorites.has(favKey(consoleName, id)); }
+function toggleFav(consoleName, id) {
+  const k = favKey(consoleName, id);
+  if (state.favorites.has(k)) state.favorites.delete(k);
+  else state.favorites.add(k);
+  localStorage.setItem('rgd-favs', JSON.stringify([...state.favorites]));
+}
+
+function fmtCategory(c, formatRaw) {
+  if (!c && !formatRaw) return null;
+  c = (c || formatRaw || '').toLowerCase();
+  if (c.includes('hu')) return { cls: 'format-hucard', label: 'HuCard' };
+  if (c.includes('scd') || c.includes('super cd')) return { cls: 'format-scd', label: 'Super CD' };
+  if (c.includes('cd')) return { cls: 'format-cd', label: 'CD-ROM²' };
+  if (c.includes('arcade')) return { cls: 'format-arcade', label: 'Arcade' };
+  if (c.includes('sg')) return { cls: 'format-sg', label: 'SuperGrafx' };
+  if (c.includes('cart')) return { cls: 'format-cart', label: 'Cartridge' };
+  if (c.includes('disk') || c.includes('disc')) return { cls: 'format-disk', label: 'Disk' };
+  return { cls: 'format-other', label: formatRaw || c };
+}
+function ratingBadge(r) {
+  if (!r) return null;
+  r = r.toLowerCase().replace(/\s+/g, '');
+  if (r.includes('buy')) return { cls: 'rating-buyit', label: 'BUY IT' };
+  if (r.includes('try')) return { cls: 'rating-tryit', label: 'TRY IT' };
+  if (r.includes('avoid')) return { cls: 'rating-avoid', label: 'AVOID' };
+  return { cls: 'rating-unrated', label: 'UNRATED' };
+}
+
+/* ============================================================
+   RENDERING — LIBRARY
+   ============================================================ */
+function renderLibrary(consoleName) {
+  const c = document.getElementById('view-container');
+  const cfg = CONSOLE_CONFIG[consoleName];
+  c.innerHTML = `
+    <div class="controls-wrap">
+      <div class="controls">
+        <div class="search-wrap">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.5"/><path d="M11 11L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <input type="search" id="search-input" placeholder="Search ${cfg.name}..." autocomplete="off">
+          <div class="suggestions" id="suggestions"></div>
+        </div>
+        ${cfg.hasFormat ? `<select id="format-filter"><option value="">All formats</option></select>` : ''}
+        <select id="genre-filter"><option value="">All genres</option></select>
+        ${cfg.hasRegion ? `<select id="region-filter"><option value="">All regions</option></select>` : ''}
+        <button class="pill-btn" id="random-btn" title="Random">🎲</button>
+        <div class="view-toggle">
+          <button data-view="grid" ${state.view==='grid'?'class="active"':''} title="Grid">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="1" y="1" width="5" height="5" stroke="currentColor" stroke-width="1.4"/><rect x="8" y="1" width="5" height="5" stroke="currentColor" stroke-width="1.4"/><rect x="1" y="8" width="5" height="5" stroke="currentColor" stroke-width="1.4"/><rect x="8" y="8" width="5" height="5" stroke="currentColor" stroke-width="1.4"/></svg>
+          </button>
+          <button data-view="list" ${state.view==='list'?'class="active"':''} title="List">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="1" y="2" width="12" height="2" stroke="currentColor" stroke-width="1.4"/><rect x="1" y="6" width="12" height="2" stroke="currentColor" stroke-width="1.4"/><rect x="1" y="10" width="12" height="2" stroke="currentColor" stroke-width="1.4"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="rank-bar" id="rank-bar">
+        <button class="active" data-rating="all">All</button>
+        <button data-rating="buyit">🏆 Buy It</button>
+        <button data-rating="tryit">👍 Try It</button>
+        <button data-rating="avoid">⚠ Avoid</button>
+      </div>
+      <div class="az-bar" id="az-bar"></div>
+      <div class="stats" id="stats"></div>
+    </div>
+    <div class="grid ${state.view==='list'?'list':''}" id="grid"></div>
+  `;
+  // populate filters and grid
+  populateFilters(consoleName);
+  applyFiltersAndRender();
+  bindLibraryEvents();
+}
+
+function populateFilters(consoleName) {
+  const data = state.cache.get(consoleName);
+  if (!data) return;
+  const games = data.games;
+
+  // genre
+  const genreSel = document.getElementById('genre-filter');
+  if (genreSel) {
+    const genres = [...new Set(games.map(g => g.genre_category).filter(Boolean))].sort();
+    genres.forEach(g => {
+      const o = document.createElement('option');
+      o.value = g; o.textContent = g; genreSel.appendChild(o);
+    });
+  }
+  // format
+  const fmtSel = document.getElementById('format-filter');
+  if (fmtSel) {
+    const formats = [...new Set(games.map(g => g.format_category || g.format).filter(Boolean))].sort();
+    formats.forEach(f => {
+      const o = document.createElement('option');
+      o.value = f; o.textContent = f; fmtSel.appendChild(o);
+    });
+  }
+  // region (gba only)
+  const regSel = document.getElementById('region-filter');
+  if (regSel) {
+    const regs = [...new Set(games.map(g => g.region_category).filter(Boolean))].sort();
+    regs.forEach(r => {
+      const o = document.createElement('option');
+      o.value = r; o.textContent = r; regSel.appendChild(o);
+    });
+  }
+  // A-Z bar
+  const azBar = document.getElementById('az-bar');
+  if (azBar) {
+    const letters = new Set(games.map(g => (g.letter || (g.title_en || '?')[0] || '?').toUpperCase()));
+    let html = `<button class="all active" data-letter="">ALL</button>`;
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').forEach(l => {
+      const has = letters.has(l);
+      html += `<button data-letter="${l}" ${has ? '' : 'disabled'}>${l}</button>`;
+    });
+    azBar.innerHTML = html;
+  }
+}
+
+function bindLibraryEvents() {
+  const search = document.getElementById('search-input');
+  if (search) {
+    search.addEventListener('input', e => {
+      state.filters.search = e.target.value.trim();
+      renderSuggestions();
+      applyFiltersAndRender();
+    });
+    search.addEventListener('focus', renderSuggestions);
+    document.addEventListener('click', e => {
+      if (!e.target.closest('.search-wrap')) document.getElementById('suggestions')?.classList.remove('show');
+    });
+  }
+  document.getElementById('format-filter')?.addEventListener('change', e => { state.filters.format = e.target.value; applyFiltersAndRender(); });
+  document.getElementById('genre-filter')?.addEventListener('change', e => { state.filters.genre = e.target.value; applyFiltersAndRender(); });
+  document.getElementById('region-filter')?.addEventListener('change', e => { state.filters.region = e.target.value; applyFiltersAndRender(); });
+  document.getElementById('random-btn')?.addEventListener('click', randomGame);
+  document.querySelectorAll('#rank-bar button').forEach(b => {
+    b.addEventListener('click', () => {
+      document.querySelectorAll('#rank-bar button').forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      state.filters.rating = b.dataset.rating;
+      applyFiltersAndRender();
+    });
+  });
+  document.querySelectorAll('#az-bar button').forEach(b => {
+    if (b.disabled) return;
+    b.addEventListener('click', () => {
+      document.querySelectorAll('#az-bar button').forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      state.filters.letter = b.dataset.letter;
+      applyFiltersAndRender();
+    });
+  });
+  document.querySelectorAll('.view-toggle button').forEach(b => {
+    b.addEventListener('click', () => {
+      state.view = b.dataset.view;
+      localStorage.setItem('rgd-view', state.view);
+      document.querySelectorAll('.view-toggle button').forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      const grid = document.getElementById('grid');
+      if (grid) grid.classList.toggle('list', state.view === 'list');
+    });
+  });
+}
+
+function applyFiltersAndRender() {
+  const data = state.cache.get(state.console);
+  if (!data) return;
+  let games = data.games;
+  const f = state.filters;
+  if (f.search) {
+    const q = f.search.toLowerCase();
+    games = games.filter(g =>
+      (g.title_en || '').toLowerCase().includes(q) ||
+      (g.title_zh || '').toLowerCase().includes(q) ||
+      (g.title_jp || '').toLowerCase().includes(q) ||
+      (g.maker || '').toLowerCase().includes(q) ||
+      (g.publisher || '').toLowerCase().includes(q) ||
+      (g.aka || '').toLowerCase().includes(q)
+    );
+  }
+  if (f.format) games = games.filter(g => (g.format_category || g.format) === f.format);
+  if (f.genre) games = games.filter(g => g.genre_category === f.genre);
+  if (f.region) games = games.filter(g => g.region_category === f.region);
+  if (f.rating !== 'all') {
+    games = games.filter(g => {
+      const rb = ratingBadge(g.rating);
+      if (!rb) return false;
+      return rb.cls === 'rating-' + f.rating;
+    });
+  }
+  if (f.letter) games = games.filter(g => ((g.letter || (g.title_en || '?')[0]) + '').toUpperCase() === f.letter);
+
+  const stats = document.getElementById('stats');
+  if (stats) stats.textContent = `${games.length} / ${data.games.length} GAMES`;
+  renderGrid(games);
+}
+
+function renderGrid(games) {
+  const grid = document.getElementById('grid');
+  if (!grid) return;
+  grid.innerHTML = '';
+  if (!games.length) {
+    grid.innerHTML = `<div class="empty" style="grid-column:1/-1"><h3>No matches</h3><p>調整搜尋或篩選條件試試看</p></div>`;
+    return;
+  }
+  // virtual cap to prevent insane DOM size — show first 600 cards, then "load more"
+  const cap = 600;
+  games.slice(0, cap).forEach(g => grid.appendChild(makeCard(g)));
+  if (games.length > cap) {
+    const more = document.createElement('div');
+    more.className = 'empty';
+    more.style.gridColumn = '1/-1';
+    more.innerHTML = `<p>顯示前 ${cap} 筆，共 ${games.length} 筆。再篩細一點吧。</p>`;
+    grid.appendChild(more);
+  }
+}
+
+function makeCard(g, consoleName) {
+  consoleName = consoleName || state.console;
+  const el = document.createElement('div');
+  el.className = 'card';
+  el.dataset.id = g.id;
+
+  const cover = g.cover ? `<img class="cover-img" src="${escapeHtml(g.cover)}" alt="" loading="lazy">` : '';
+  const coverCls = g.cover ? '' : 'no-img';
+  const lang = detectLang(g);
+  const title = pickTitle(g);
+  const titleCls = langClass(lang);
+  const altTitle = (lang !== 'zh' && g.title_zh) ? g.title_zh
+                   : (lang !== 'en' && g.title_en) ? g.title_en
+                   : (lang !== 'jp' && g.title_jp) ? g.title_jp : '';
+  const fmt = fmtCategory(g.format_category, g.format);
+  const rb = ratingBadge(g.rating);
+  const region = g.region_category || (g.regions && g.regions[0]) || '';
+  const year = g.release_date ? (g.release_date.match(/\d{4}/) || [''])[0] : (g.year || '');
+  const fav = isFav(consoleName, g.id);
+
+  el.innerHTML = `
+    <div class="cover ${coverCls}">${cover}</div>
+    <button class="fav-btn ${fav ? 'faved' : ''}" data-fav="${escapeHtml(g.id)}" aria-label="favorite"></button>
+    <div class="info">
+      <div class="title ${titleCls}">${escapeHtml(title)}</div>
+      ${altTitle ? `<div class="subtitle">${escapeHtml(altTitle)}</div>` : ''}
+      <div class="meta">
+        ${g.maker || g.publisher ? `<span>${escapeHtml(g.maker || g.publisher)}</span>` : ''}
+        ${(g.maker || g.publisher) && year ? '<span class="dot">·</span>' : ''}
+        ${year ? `<span>${year}</span>` : ''}
+      </div>
+      <div class="badges">
+        ${fmt ? `<span class="badge ${fmt.cls}">${fmt.label}</span>` : ''}
+        ${rb ? `<span class="badge ${rb.cls}">${rb.label}</span>` : ''}
+        ${region ? `<span class="badge region ${region}">${region}</span>` : ''}
+      </div>
+    </div>
+  `;
+  el.addEventListener('click', e => {
+    if (e.target.closest('.fav-btn')) return;
+    navigate(`${consoleName}/g/${g.id}`);
+  });
+  el.querySelector('.fav-btn').addEventListener('click', e => {
+    e.stopPropagation();
+    toggleFav(consoleName, g.id);
+    e.currentTarget.classList.toggle('faved');
+  });
+  return el;
+}
+
+/* ============================================================
+   AUTOCOMPLETE
+   ============================================================ */
+function renderSuggestions() {
+  const q = state.filters.search.toLowerCase();
+  const box = document.getElementById('suggestions');
+  if (!box) return;
+  if (!q || q.length < 1) { box.classList.remove('show'); return; }
+  const data = state.cache.get(state.console);
+  if (!data) return;
+  const matches = data.games.filter(g =>
+    (g.title_en || '').toLowerCase().includes(q) ||
+    (g.title_zh || '').toLowerCase().includes(q) ||
+    (g.title_jp || '').toLowerCase().includes(q)
+  ).slice(0, 8);
+  if (!matches.length) { box.classList.remove('show'); return; }
+  box.innerHTML = matches.map(g => {
+    const t = pickTitle(g);
+    const sub = g.maker || g.publisher || '';
+    return `<div class="suggestion" data-id="${escapeHtml(g.id)}">
+      <div class="suggestion-cover" style="${g.cover ? `background-image:url('${escapeHtml(g.cover)}')` : ''}"></div>
+      <div class="suggestion-info">
+        <div class="suggestion-title">${escapeHtml(t)}</div>
+        <div class="suggestion-sub">${escapeHtml(sub)}</div>
+      </div>
+    </div>`;
+  }).join('');
+  box.querySelectorAll('.suggestion').forEach(s => {
+    s.addEventListener('click', () => {
+      navigate(`${state.console}/g/${s.dataset.id}`);
+      box.classList.remove('show');
+    });
+  });
+  box.classList.add('show');
+}
+
+/* ============================================================
+   RENDERING — DETAIL
+   ============================================================ */
+async function renderDetail(consoleName, id) {
+  await loadConsole(consoleName);
+  const data = state.cache.get(consoleName);
+  const g = data.byId.get(String(id));
+  const c = document.getElementById('view-container');
+  if (!g) {
+    c.innerHTML = `<div class="empty"><h3>Not Found</h3><p>找不到這款遊戲：${escapeHtml(id)}</p></div>`;
+    return;
+  }
+  const fmt = fmtCategory(g.format_category, g.format);
+  const rb = ratingBadge(g.rating);
+  const region = g.region_category || '';
+  const year = g.release_date ? (g.release_date.match(/\d{4}/) || [''])[0] : (g.year || '');
+  const fav = isFav(consoleName, g.id);
+
+  // titles in 3 langs
+  const titles = [];
+  if (g.title_en) titles.push({ lang: 'en', text: g.title_en });
+  if (g.title_jp) titles.push({ lang: 'jp', text: g.title_jp });
+  if (g.title_zh) titles.push({ lang: 'zh', text: g.title_zh });
+
+  // pick primary title for h2
+  const primary = pickTitle(g);
+  const primaryLang = detectLang(g);
+
+  // screenshots
+  const shots = g.screenshots || [];
+
+  // youtube
+  const yts = g.youtube || [];
+
+  // Build specs
+  const specsRows = [
+    g.maker || g.publisher ? ['Publisher', g.maker || g.publisher] : null,
+    g.developer ? ['Developer', g.developer] : null,
+    g.release_date ? ['Released', g.release_date] : (year ? ['Year', year] : null),
+    g.genre_category ? ['Genre', g.genre_category] : null,
+    fmt ? ['Format', fmt.label] : null,
+    region ? ['Region', region] : null,
+    g.fc_no ? ['FC No.', g.fc_no] : null,
+    g.price ? ['Price', g.price] : null,
+    g.media ? ['Media', g.media] : null,
+    g.product_code ? ['Code', g.product_code] : null,
+  ].filter(Boolean);
+
+  c.innerHTML = `
+    <div class="detail">
+      <button class="back" id="detail-back">← BACK</button>
+      <div class="header">
+        <div class="cover-large" style="${g.cover ? `background-image:url('${escapeHtml(g.cover)}')` : ''}"></div>
+        <div class="header-info">
+          <h2 class="${primaryLang === 'en' ? '' : 'cjk'}">${escapeHtml(primary)}</h2>
+          ${titles.filter(t => t.lang !== primaryLang).map(t => `<div class="${t.lang === 'jp' ? 'subtitle-jp' : 'subtitle-zh'}"><span class="lang-chip ${t.lang}">${t.lang.toUpperCase()}</span>${escapeHtml(t.text)}</div>`).join('')}
+          <div class="header-badges">
+            ${fmt ? `<span class="badge ${fmt.cls}">${fmt.label}</span>` : ''}
+            ${rb ? `<span class="badge ${rb.cls}">${rb.label}</span>` : ''}
+            ${region ? `<span class="badge region ${region}">${region}</span>` : ''}
+          </div>
+          <div class="header-actions">
+            <button class="action-btn fav ${fav ? 'active' : ''}" id="detail-fav">${fav ? '★ FAVORITED' : '☆ FAVORITE'}</button>
+            ${g.source_url ? `<a class="action-btn src" href="${escapeHtml(g.source_url)}" target="_blank" rel="noopener">↗ SOURCE</a>` : ''}
+          </div>
+        </div>
+      </div>
+
+      ${specsRows.length ? `
+      <div class="section">
+        <div class="section-title">★ Game Specs</div>
+        <dl class="specs">
+          ${specsRows.map(([k, v]) => `<dt>${k}</dt><dd>${escapeHtml(v)}</dd>`).join('')}
+        </dl>
+      </div>` : ''}
+
+      ${(g.overview_zh || g.overview_en) ? `
+      <div class="section">
+        <div class="section-title">▣ Description</div>
+        ${g.overview_zh ? `<div class="desc"><span class="desc-label">中</span>${escapeHtml(g.overview_zh)}</div>` : ''}
+        ${g.overview_en ? `<div class="desc"><span class="desc-label">EN</span>${escapeHtml(g.overview_en)}</div>` : ''}
+      </div>` : ''}
+
+      ${(g.comment_zh || g.comment_en) ? `
+      <div class="section">
+        <div class="section-title">✦ Review</div>
+        ${g.comment_zh ? `<div class="desc"><span class="desc-label">中</span>${escapeHtml(g.comment_zh)}</div>` : ''}
+        ${g.comment_en ? `<div class="desc"><span class="desc-label">EN</span>${escapeHtml(g.comment_en)}</div>` : ''}
+      </div>` : ''}
+
+      ${shots.length ? `
+      <div class="section">
+        <div class="section-title">▦ Screenshots</div>
+        <div class="gallery">
+          ${shots.slice(0, 12).map(s => `<img src="${escapeHtml(s.url || s)}" alt="" loading="lazy" data-shot="${escapeHtml(s.url || s)}">`).join('')}
+        </div>
+      </div>` : ''}
+
+      ${yts.length ? `
+      <div class="section">
+        <div class="section-title">▶ Videos</div>
+        <div class="videos">
+          ${yts.slice(0, 6).map(v => {
+            const vid = v.id || (v.url || '').match(/(?:v=|\/)([\w-]{11})/)?.[1] || '';
+            const thumb = vid ? `https://img.youtube.com/vi/${vid}/hqdefault.jpg` : '';
+            const title = v.title || 'Watch on YouTube';
+            return `<div class="video-thumb" style="background-image:url('${thumb}')" data-yt="${vid}">
+              <div class="v-title">${escapeHtml(title)}</div>
+            </div>`;
+          }).join('')}
+        </div>
+      </div>` : ''}
+    </div>
+  `;
+
+  document.getElementById('detail-back').addEventListener('click', () => navigate(consoleName));
+  document.getElementById('detail-fav').addEventListener('click', e => {
+    toggleFav(consoleName, g.id);
+    const f = isFav(consoleName, g.id);
+    e.currentTarget.classList.toggle('active', f);
+    e.currentTarget.textContent = f ? '★ FAVORITED' : '☆ FAVORITE';
+  });
+  c.querySelectorAll('.gallery img').forEach(img => {
+    img.addEventListener('click', () => openLightbox(`<img src="${img.dataset.shot}">`));
+  });
+  c.querySelectorAll('.video-thumb').forEach(t => {
+    t.addEventListener('click', () => {
+      const vid = t.dataset.yt;
+      if (!vid) return;
+      openLightbox(`<iframe src="https://www.youtube.com/embed/${vid}?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>`);
+    });
+  });
+}
+
+/* ============================================================
+   LIGHTBOX
+   ============================================================ */
+function openLightbox(html) {
+  const lb = document.getElementById('lightbox');
+  document.getElementById('lightbox-content').innerHTML = html;
+  lb.classList.add('show');
+}
+document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
+document.getElementById('lightbox').addEventListener('click', e => {
+  if (e.target.id === 'lightbox') closeLightbox();
+});
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('show');
+  document.getElementById('lightbox-content').innerHTML = '';
+}
+
+/* ============================================================
+   RANDOM GAME
+   ============================================================ */
+function randomGame() {
+  const data = state.cache.get(state.console);
+  if (!data || !data.games.length) return;
+  const g = data.games[Math.floor(Math.random() * data.games.length)];
+  navigate(`${state.console}/g/${g.id}`);
+}
+
+/* ============================================================
+   FAVORITES VIEW (cross-console)
+   ============================================================ */
+async function renderFavorites() {
+  const c = document.getElementById('view-container');
+  showLoading('Loading favorites...');
+  const favList = [...state.favorites].map(k => {
+    const [con, id] = k.split(':');
+    return { console: con, id };
+  });
+  if (!favList.length) {
+    c.innerHTML = `<div class="empty"><h3>No Favorites Yet</h3><p>到 Library 點任何卡片右上角的 ☆ 收藏遊戲</p></div>`;
+    return;
+  }
+  const consoleNames = [...new Set(favList.map(f => f.console))];
+  await Promise.all(consoleNames.map(loadConsole));
+  c.innerHTML = `<div class="grid ${state.view==='list'?'list':''}" id="grid"></div>`;
+  const grid = document.getElementById('grid');
+  favList.forEach(f => {
+    const data = state.cache.get(f.console);
+    const g = data?.byId.get(String(f.id));
+    if (!g) return;
+    const card = makeCard(g, f.console);
+    // tag console on card
+    const tag = document.createElement('span');
+    tag.className = 'badge format-other';
+    tag.textContent = f.console.toUpperCase();
+    tag.style.position = 'absolute';
+    tag.style.top = '6px'; tag.style.left = '6px'; tag.style.zIndex = '3';
+    card.appendChild(tag);
+    grid.appendChild(card);
+  });
+}
+
+/* ============================================================
+   DISCOVER VIEW
+   ============================================================ */
+async function renderDiscover() {
+  const c = document.getElementById('view-container');
+  showLoading('Loading discover...');
+  await loadConsole(state.console);
+  const data = state.cache.get(state.console);
+  if (!data) return;
+
+  // Random 12
+  const random = [...data.games].sort(() => Math.random() - 0.5).slice(0, 12);
+  // Top picks (BUY IT)
+  const top = data.games.filter(g => (g.rating || '').toLowerCase().replace(/\s+/g, '').includes('buy')).slice(0, 12);
+  // With Chinese translations
+  const zhPicks = data.games.filter(g => g.title_zh && g.overview_zh).slice(0, 12);
+
+  c.innerHTML = `
+    <div class="discover-section">
+      <h2>🎲 Today's Random</h2>
+      <div class="grid ${state.view==='list'?'list':''}" id="grid-random"></div>
+    </div>
+    <div class="discover-section">
+      <h2>🏆 Top Picks (Buy It)</h2>
+      <div class="grid ${state.view==='list'?'list':''}" id="grid-top"></div>
+    </div>
+    <div class="discover-section">
+      <h2>🇹🇼 中文化精選</h2>
+      <div class="grid ${state.view==='list'?'list':''}" id="grid-zh"></div>
+    </div>
+  `;
+  random.forEach(g => document.getElementById('grid-random').appendChild(makeCard(g)));
+  top.forEach(g => document.getElementById('grid-top').appendChild(makeCard(g)));
+  zhPicks.forEach(g => document.getElementById('grid-zh').appendChild(makeCard(g)));
+}
+
+/* ============================================================
+   SETTINGS VIEW
+   ============================================================ */
+function renderSettings() {
+  const c = document.getElementById('view-container');
+  c.innerHTML = `
+    <div class="settings-page">
+      <h2>⚙ Settings</h2>
+
+      <div class="settings-row">
+        <div class="settings-label">Language 語言
+          <small>切換顯示語言（中 / 英 / 日）</small>
+        </div>
+        <div class="settings-control" id="set-lang">
+          <button data-lang="zh" class="${state.lang==='zh'?'active':''}">中</button>
+          <button data-lang="en" class="${state.lang==='en'?'active':''}">EN</button>
+          <button data-lang="jp" class="${state.lang==='jp'?'active':''}">日</button>
+        </div>
+      </div>
+
+      <div class="settings-row">
+        <div class="settings-label">Default View 預設顯示
+          <small>網格或列表</small>
+        </div>
+        <div class="settings-control" id="set-view">
+          <button data-view="grid" class="${state.view==='grid'?'active':''}">Grid</button>
+          <button data-view="list" class="${state.view==='list'?'active':''}">List</button>
+        </div>
+      </div>
+
+      <div class="settings-row">
+        <div class="settings-label">Favorites 收藏
+          <small>共 ${state.favorites.size} 筆</small>
+        </div>
+        <div class="settings-control">
+          <button class="danger" id="clear-favs">Clear All</button>
+        </div>
+      </div>
+
+      <div class="settings-row">
+        <div class="settings-label">Cache 資料快取
+          <small>清除已載入的遊戲資料（重新載入時重抓）</small>
+        </div>
+        <div class="settings-control">
+          <button class="danger" id="clear-cache">Clear Cache</button>
+        </div>
+      </div>
+
+      <div class="settings-row">
+        <div class="settings-label">About
+          <small>Retro Game Dictionary v2.0 — PCE / GBA / FC</small>
+        </div>
+      </div>
+    </div>
+  `;
+  document.querySelectorAll('#set-lang button').forEach(b => {
+    b.addEventListener('click', () => {
+      state.lang = b.dataset.lang;
+      localStorage.setItem('rgd-lang', state.lang);
+      document.getElementById('lang-toggle').textContent = LANG_LABELS[state.lang];
+      renderSettings();
+    });
+  });
+  document.querySelectorAll('#set-view button').forEach(b => {
+    b.addEventListener('click', () => {
+      state.view = b.dataset.view;
+      localStorage.setItem('rgd-view', state.view);
+      renderSettings();
+    });
+  });
+  document.getElementById('clear-favs').addEventListener('click', () => {
+    if (!confirm('確定清空所有收藏？')) return;
+    state.favorites.clear();
+    localStorage.setItem('rgd-favs', '[]');
+    renderSettings();
+  });
+  document.getElementById('clear-cache').addEventListener('click', () => {
+    state.cache.clear();
+    alert('已清除快取，下次切換主機會重新載入。');
+  });
+}
+
+/* ============================================================
+   ROUTER ENTRY
+   ============================================================ */
+async function handleRoute() {
+  const r = parseRoute();
+  state.tab = r.tab;
+  if (r.console && CONSOLE_CONFIG[r.console]) state.console = r.console;
+
+  // Update top bar UI
+  document.querySelectorAll('#console-picker .console-pill').forEach(b => {
+    b.classList.toggle('active', b.dataset.console === state.console);
+  });
+  document.querySelectorAll('#tabs-desktop button, #tabbar button').forEach(b => {
+    const matchTab = (r.tab === 'detail' ? 'library' : r.tab);
+    b.classList.toggle('active', b.dataset.tab === matchTab);
+  });
+
+  if (r.tab === 'library') {
+    await loadConsole(state.console);
+    renderLibrary(state.console);
+  } else if (r.tab === 'detail') {
+    await renderDetail(state.console, r.id);
+  } else if (r.tab === 'favorites') {
+    renderFavorites();
+  } else if (r.tab === 'discover') {
+    renderDiscover();
+  } else if (r.tab === 'settings') {
+    renderSettings();
+  }
+}
+
+window.addEventListener('hashchange', handleRoute);
+
+/* ============================================================
+   TOP BAR EVENTS
+   ============================================================ */
+document.querySelectorAll('#console-picker .console-pill').forEach(b => {
+  b.addEventListener('click', () => navigate(b.dataset.console));
+});
+document.querySelectorAll('#tabs-desktop button, #tabbar button').forEach(b => {
+  b.addEventListener('click', () => {
+    const t = b.dataset.tab;
+    if (t === 'library') navigate(state.console);
+    else navigate(t);
+  });
+});
+document.getElementById('lang-toggle').textContent = LANG_LABELS[state.lang];
+document.getElementById('lang-toggle').addEventListener('click', () => {
+  const idx = LANG_ORDER.indexOf(state.lang);
+  state.lang = LANG_ORDER[(idx + 1) % LANG_ORDER.length];
+  localStorage.setItem('rgd-lang', state.lang);
+  document.getElementById('lang-toggle').textContent = LANG_LABELS[state.lang];
+  handleRoute();
+});
+
+/* ============================================================
+   BOOT
+   ============================================================ */
+if (!location.hash) location.hash = '#/' + state.console;
+handleRoute();
+</script>
+
+</body>
+</html>
