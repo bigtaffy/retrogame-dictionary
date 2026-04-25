@@ -931,11 +931,9 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
     <div class="topbar-right">
       <div class="tabs-desktop" id="tabs-desktop">
         <button data-tab="library" class="active"><span>📚</span> Library</button>
-        <button data-tab="favorites"><span>⭐</span> Favorites</button>
         <button data-tab="discover"><span>🎲</span> Discover</button>
         <button data-tab="settings"><span>⚙</span> Settings</button>
       </div>
-      <button class="lang-toggle" id="lang-toggle">中</button>
       <button class="search-icon-btn" id="search-icon-btn" title="Search" aria-label="Search">
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.8"/><path d="M11 11L14.5 14.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
       </button>
@@ -1044,16 +1042,11 @@ function normalizeGameImages(games, consoleName) {
 const state = {
   console: 'pce',
   tab: 'library',
-  lang: localStorage.getItem('rgd-lang') || 'zh', // zh / en / jp
   view: localStorage.getItem('rgd-view') || 'grid', // grid / list
   filters: { search: '', format: '', genre: '', region: '', rating: 'all', letter: '' },
   cache: new Map(), // console → { games, byId }
   detail: null, // current detail game id
-  favorites: new Set(JSON.parse(localStorage.getItem('rgd-favs') || '[]')),
 };
-
-const LANG_LABELS = { zh: '中', en: 'EN', jp: '日' };
-const LANG_ORDER = ['zh', 'en', 'jp'];
 
 /* ============================================================
    ROUTING (hash-based)
@@ -1065,7 +1058,7 @@ const LANG_ORDER = ['zh', 'en', 'jp'];
 function parseRoute() {
   const h = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
   if (!h.length) return { tab: 'library', console: state.console };
-  if (['favorites', 'discover', 'settings'].includes(h[0])) {
+  if (['discover', 'settings'].includes(h[0])) {
     return { tab: h[0], console: state.console };
   }
   if (CONSOLE_CONFIG[h[0]]) {
@@ -1127,28 +1120,15 @@ function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, m => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[m]));
 }
 function pickTitle(g) {
-  if (state.lang === 'zh') return g.title_zh || g.title_en || g.title_jp || '?';
-  if (state.lang === 'jp') return g.title_jp || g.title_en || g.title_zh || '?';
-  return g.title_en || g.title_zh || g.title_jp || '?';
+  return g.title_zh || g.title_en || g.title_jp || '?';
 }
 function detectLang(g) {
-  if (state.lang === 'zh' && g.title_zh) return 'zh';
-  if (state.lang === 'jp' && g.title_jp) return 'jp';
-  if (state.lang === 'en' && g.title_en) return 'en';
-  // fallback ordering
+  if (g.title_zh) return 'zh';
   if (g.title_en) return 'en';
   if (g.title_jp) return 'jp';
   return 'zh';
 }
 function langClass(lang) { return lang === 'zh' ? 'text-zh' : lang === 'jp' ? 'text-jp' : 'text-en'; }
-function favKey(consoleName, id) { return `${consoleName}:${id}`; }
-function isFav(consoleName, id) { return state.favorites.has(favKey(consoleName, id)); }
-function toggleFav(consoleName, id) {
-  const k = favKey(consoleName, id);
-  if (state.favorites.has(k)) state.favorites.delete(k);
-  else state.favorites.add(k);
-  localStorage.setItem('rgd-favs', JSON.stringify([...state.favorites]));
-}
 
 function fmtCategory(c, formatRaw) {
   if (!c && !formatRaw) return null;
@@ -1388,11 +1368,9 @@ function makeCard(g, consoleName) {
   const rb = ratingBadge(g.rating);
   const region = g.region_category || (g.regions && g.regions[0]) || '';
   const year = g.release_date ? (g.release_date.match(/\d{4}/) || [''])[0] : (g.year || '');
-  const fav = isFav(consoleName, g.id);
 
   el.innerHTML = `
     <div class="cover ${coverCls}">${cover}</div>
-    <button class="fav-btn ${fav ? 'faved' : ''}" data-fav="${escapeHtml(g.id)}" aria-label="favorite"></button>
     <div class="info">
       <div class="title ${titleCls}">${escapeHtml(title)}</div>
       ${altTitle ? `<div class="subtitle">${escapeHtml(altTitle)}</div>` : ''}
@@ -1408,15 +1386,7 @@ function makeCard(g, consoleName) {
       </div>
     </div>
   `;
-  el.addEventListener('click', e => {
-    if (e.target.closest('.fav-btn')) return;
-    navigate(`${consoleName}/g/${g.id}`);
-  });
-  el.querySelector('.fav-btn').addEventListener('click', e => {
-    e.stopPropagation();
-    toggleFav(consoleName, g.id);
-    e.currentTarget.classList.toggle('faved');
-  });
+  el.addEventListener('click', () => navigate(`${consoleName}/g/${g.id}`));
   return el;
 }
 
@@ -1491,7 +1461,6 @@ async function renderDetail(consoleName, id) {
   const rb = ratingBadge(g.rating);
   const region = g.region_category || '';
   const year = g.release_date ? (g.release_date.match(/\d{4}/) || [''])[0] : (g.year || '');
-  const fav = isFav(consoleName, g.id);
 
   // titles in 3 langs
   const titles = [];
@@ -1537,7 +1506,6 @@ async function renderDetail(consoleName, id) {
             ${region ? `<span class="badge region ${region}">${region}</span>` : ''}
           </div>
           <div class="header-actions">
-            <button class="action-btn fav ${fav ? 'active' : ''}" id="detail-fav">${fav ? '★ FAVORITED' : '☆ FAVORITE'}</button>
             ${g.source_url ? `<a class="action-btn src" href="${escapeHtml(g.source_url)}" target="_blank" rel="noopener">↗ SOURCE</a>` : ''}
           </div>
         </div>
@@ -1591,12 +1559,6 @@ async function renderDetail(consoleName, id) {
   `;
 
   document.getElementById('detail-back').addEventListener('click', () => navigate(consoleName));
-  document.getElementById('detail-fav').addEventListener('click', e => {
-    toggleFav(consoleName, g.id);
-    const f = isFav(consoleName, g.id);
-    e.currentTarget.classList.toggle('active', f);
-    e.currentTarget.textContent = f ? '★ FAVORITED' : '☆ FAVORITE';
-  });
   c.querySelectorAll('.gallery img').forEach(img => {
     img.addEventListener('click', () => openLightbox(`<img src="${img.dataset.shot}">`));
   });
@@ -1634,40 +1596,6 @@ function randomGame() {
   if (!data || !data.games.length) return;
   const g = data.games[Math.floor(Math.random() * data.games.length)];
   navigate(`${state.console}/g/${g.id}`);
-}
-
-/* ============================================================
-   FAVORITES VIEW (cross-console)
-   ============================================================ */
-async function renderFavorites() {
-  const c = document.getElementById('view-container');
-  showLoading('Loading favorites...');
-  const favList = [...state.favorites].map(k => {
-    const [con, id] = k.split(':');
-    return { console: con, id };
-  });
-  if (!favList.length) {
-    c.innerHTML = `<div class="empty"><h3>No Favorites Yet</h3><p>到 Library 點任何卡片右上角的 ☆ 收藏遊戲</p></div>`;
-    return;
-  }
-  const consoleNames = [...new Set(favList.map(f => f.console))];
-  await Promise.all(consoleNames.map(loadConsole));
-  c.innerHTML = `<div class="grid ${state.view==='list'?'list':''}" id="grid"></div>`;
-  const grid = document.getElementById('grid');
-  favList.forEach(f => {
-    const data = state.cache.get(f.console);
-    const g = data?.byId.get(String(f.id));
-    if (!g) return;
-    const card = makeCard(g, f.console);
-    // tag console on card
-    const tag = document.createElement('span');
-    tag.className = 'badge format-other';
-    tag.textContent = f.console.toUpperCase();
-    tag.style.position = 'absolute';
-    tag.style.top = '6px'; tag.style.left = '6px'; tag.style.zIndex = '3';
-    card.appendChild(tag);
-    grid.appendChild(card);
-  });
 }
 
 /* ============================================================
@@ -1716,32 +1644,12 @@ function renderSettings() {
       <h2>⚙ Settings</h2>
 
       <div class="settings-row">
-        <div class="settings-label">Language 語言
-          <small>切換顯示語言（中 / 英 / 日）</small>
-        </div>
-        <div class="settings-control" id="set-lang">
-          <button data-lang="zh" class="${state.lang==='zh'?'active':''}">中</button>
-          <button data-lang="en" class="${state.lang==='en'?'active':''}">EN</button>
-          <button data-lang="jp" class="${state.lang==='jp'?'active':''}">日</button>
-        </div>
-      </div>
-
-      <div class="settings-row">
         <div class="settings-label">Default View 預設顯示
           <small>網格或列表</small>
         </div>
         <div class="settings-control" id="set-view">
           <button data-view="grid" class="${state.view==='grid'?'active':''}">Grid</button>
           <button data-view="list" class="${state.view==='list'?'active':''}">List</button>
-        </div>
-      </div>
-
-      <div class="settings-row">
-        <div class="settings-label">Favorites 收藏
-          <small>共 ${state.favorites.size} 筆</small>
-        </div>
-        <div class="settings-control">
-          <button class="danger" id="clear-favs">Clear All</button>
         </div>
       </div>
 
@@ -1761,26 +1669,12 @@ function renderSettings() {
       </div>
     </div>
   `;
-  document.querySelectorAll('#set-lang button').forEach(b => {
-    b.addEventListener('click', () => {
-      state.lang = b.dataset.lang;
-      localStorage.setItem('rgd-lang', state.lang);
-      document.getElementById('lang-toggle').textContent = LANG_LABELS[state.lang];
-      renderSettings();
-    });
-  });
   document.querySelectorAll('#set-view button').forEach(b => {
     b.addEventListener('click', () => {
       state.view = b.dataset.view;
       localStorage.setItem('rgd-view', state.view);
       renderSettings();
     });
-  });
-  document.getElementById('clear-favs').addEventListener('click', () => {
-    if (!confirm('確定清空所有收藏？')) return;
-    state.favorites.clear();
-    localStorage.setItem('rgd-favs', '[]');
-    renderSettings();
   });
   document.getElementById('clear-cache').addEventListener('click', () => {
     state.cache.clear();
@@ -1810,8 +1704,6 @@ async function handleRoute() {
     renderLibrary(state.console);
   } else if (r.tab === 'detail') {
     await renderDetail(state.console, r.id);
-  } else if (r.tab === 'favorites') {
-    renderFavorites();
   } else if (r.tab === 'discover') {
     renderDiscover();
   } else if (r.tab === 'settings') {
@@ -1833,14 +1725,6 @@ document.querySelectorAll('#tabs-desktop button, #tabbar button').forEach(b => {
     if (t === 'library') navigate(state.console);
     else navigate(t);
   });
-});
-document.getElementById('lang-toggle').textContent = LANG_LABELS[state.lang];
-document.getElementById('lang-toggle').addEventListener('click', () => {
-  const idx = LANG_ORDER.indexOf(state.lang);
-  state.lang = LANG_ORDER[(idx + 1) % LANG_ORDER.length];
-  localStorage.setItem('rgd-lang', state.lang);
-  document.getElementById('lang-toggle').textContent = LANG_LABELS[state.lang];
-  handleRoute();
 });
 
 /* ============================================================
