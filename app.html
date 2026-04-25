@@ -646,6 +646,51 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
   border-radius: 3px; vertical-align: 2px;
   text-shadow: var(--glow-yellow);
 }
+.detail .desc-collapsible {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px dashed rgba(0, 240, 255, 0.18);
+}
+.detail .desc-summary {
+  cursor: pointer;
+  display: inline-flex; align-items: center; gap: 8px;
+  list-style: none;
+  font-family: var(--body-cjk); font-size: 13px;
+  color: var(--text-soft);
+  user-select: none;
+  padding: 7px 14px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 240, 255, 0.35);
+  background: rgba(0, 240, 255, 0.06);
+  transition: all 0.15s;
+}
+.detail .desc-summary::-webkit-details-marker { display: none; }
+.detail .desc-summary::marker { content: ""; }
+.detail .desc-summary::after {
+  content: "▾"; color: var(--cyan);
+  display: inline-block; transition: transform 0.2s ease;
+  font-size: 10px;
+}
+.detail .desc-collapsible[open] .desc-summary::after { transform: rotate(180deg); }
+.detail .desc-summary:hover {
+  background: rgba(0, 240, 255, 0.14);
+  box-shadow: var(--glow-cyan);
+  color: var(--text);
+}
+.detail .desc-collapsible[open] .desc-summary { margin-bottom: 14px; }
+.detail .desc-en-body {
+  font-family: var(--body-cjk);
+  line-height: 1.8; font-size: 14.5px;
+  color: var(--text-soft);
+  padding: 8px 0 0 12px;
+  border-left: 2px solid rgba(0, 240, 255, 0.3);
+  margin-left: 4px;
+  animation: enReveal 0.25s ease-out;
+}
+@keyframes enReveal {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
 .detail .gallery {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 8px;
@@ -1522,14 +1567,22 @@ async function renderDetail(consoleName, id) {
       <div class="section">
         <div class="section-title">▣ Description</div>
         ${g.overview_zh ? `<div class="desc"><span class="desc-label">中</span>${escapeHtml(g.overview_zh)}</div>` : ''}
-        ${g.overview_en ? `<div class="desc"><span class="desc-label">EN</span>${escapeHtml(g.overview_en)}</div>` : ''}
+        ${g.overview_en ? `
+          <details class="desc-collapsible">
+            <summary class="desc-summary"><span class="desc-label">EN</span>顯示英文原文</summary>
+            <div class="desc desc-en-body">${escapeHtml(g.overview_en)}</div>
+          </details>` : ''}
       </div>` : ''}
 
       ${(g.comment_zh || g.comment_en) ? `
       <div class="section">
         <div class="section-title">✦ Review</div>
         ${g.comment_zh ? `<div class="desc"><span class="desc-label">中</span>${escapeHtml(g.comment_zh)}</div>` : ''}
-        ${g.comment_en ? `<div class="desc"><span class="desc-label">EN</span>${escapeHtml(g.comment_en)}</div>` : ''}
+        ${g.comment_en ? `
+          <details class="desc-collapsible">
+            <summary class="desc-summary"><span class="desc-label">EN</span>顯示英文原文</summary>
+            <div class="desc desc-en-body">${escapeHtml(g.comment_en)}</div>
+          </details>` : ''}
       </div>` : ''}
 
       ${shots.length ? `
@@ -1545,11 +1598,18 @@ async function renderDetail(consoleName, id) {
         <div class="section-title">▶ Videos</div>
         <div class="videos">
           ${yts.slice(0, 6).map(v => {
-            const vid = v.id || (v.url || '').match(/(?:v=|\/)([\w-]{11})/)?.[1] || '';
+            // YouTube entries can be: plain string ID, full URL, or object {id|url, title}
+            let vid = '';
+            let title = '';
+            if (typeof v === 'string') {
+              vid = /^[\w-]{11}$/.test(v) ? v : (v.match(/(?:v=|\/)([\w-]{11})/)?.[1] || '');
+            } else if (v && typeof v === 'object') {
+              vid = v.id || v.videoId || (v.url || '').match(/(?:v=|\/)([\w-]{11})/)?.[1] || '';
+              title = v.title || '';
+            }
             const thumb = vid ? `https://img.youtube.com/vi/${vid}/hqdefault.jpg` : '';
-            const title = v.title || 'Watch on YouTube';
-            return `<div class="video-thumb" style="background-image:url('${thumb}')" data-yt="${vid}">
-              <div class="v-title">${escapeHtml(title)}</div>
+            return `<div class="video-thumb" style="background-image:url('${thumb}')" data-yt="${escapeHtml(vid)}">
+              ${title ? `<div class="v-title">${escapeHtml(title)}</div>` : ''}
             </div>`;
           }).join('')}
         </div>
