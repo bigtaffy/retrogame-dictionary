@@ -816,7 +816,9 @@ const CONSOLE_CONFIG = {
   pce: {
     name: 'PC Engine',
     dataUrl: 'data/games.json',
-    imageBase: 'https://www.pcengine.co.uk/',  // PCE covers/shots stored as relative paths
+    // PCE images stored as relative paths; original host (pcengine.co.uk) is slow & rate-limits.
+    // Proxied through weserv.nl CDN cache for fast, reliable delivery.
+    imageBase: 'https://images.weserv.nl/?url=www.pcengine.co.uk/',
     hasFormat: true,
     hasRegion: false,
     hasYoutube: true,
