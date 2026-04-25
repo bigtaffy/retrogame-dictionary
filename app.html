@@ -111,34 +111,42 @@ body::before {
   display: flex; gap: 10px; flex: 1 1 auto;
 }
 .console-pill {
-  display: flex; flex-direction: column; align-items: center; gap: 4px;
-  padding: 8px 14px; min-width: 78px;
-  border-radius: 10px;
-  border: 1.5px solid rgba(255, 62, 200, 0.35);
-  background: linear-gradient(180deg, rgba(42, 24, 85, 0.5), rgba(11, 4, 32, 0.7));
-  transition: all 0.15s;
-  position: relative;
+  display: inline-flex; align-items: flex-end; justify-content: center;
+  padding: 6px 10px 12px;
+  background: transparent; border: 0; position: relative;
+  transition: opacity 0.2s ease, transform 0.2s ease, filter 0.2s ease;
+  opacity: 0.5;
+  filter: saturate(0.7) brightness(0.85);
+  cursor: pointer;
 }
 .console-pill:hover {
-  border-color: var(--cyan);
-  box-shadow: var(--glow-cyan);
+  opacity: 0.9;
+  filter: saturate(1) brightness(1);
+  transform: translateY(-2px);
 }
 .console-pill.active {
-  border-color: var(--pink);
-  box-shadow: var(--glow-pink);
-  background: linear-gradient(180deg, rgba(255, 62, 200, 0.18), rgba(11, 4, 32, 0.7));
+  opacity: 1;
+  filter: saturate(1.15) brightness(1.05) drop-shadow(0 0 10px rgba(255, 62, 200, 0.4));
 }
-.console-pill .ico {
-  width: 38px; height: 26px; display: block;
-  image-rendering: pixelated;
+.console-pill.active::after {
+  content: ""; position: absolute;
+  bottom: 4px; left: 14%; right: 14%; height: 3px;
+  background: linear-gradient(90deg, var(--pink), var(--pink) 50%, transparent);
+  background: var(--pink);
+  border-radius: 2px;
+  box-shadow: 0 0 8px var(--pink), 0 0 16px rgba(255, 62, 200, 0.6);
+  animation: underlineSlide 0.3s ease-out;
 }
-.console-pill .name {
-  font-family: var(--pixel-en);
-  font-size: 11px; letter-spacing: 1px;
-  color: var(--text);
-  text-shadow: 0 0 4px rgba(255, 255, 255, 0.3);
+@keyframes underlineSlide {
+  from { transform: scaleX(0); opacity: 0; }
+  to   { transform: scaleX(1); opacity: 1; }
 }
-.console-pill.active .name { color: var(--pink); text-shadow: var(--glow-pink); }
+.console-pill .ico-img {
+  height: 84px; width: auto; display: block;
+  image-rendering: -webkit-optimize-contrast;
+  -webkit-user-drag: none; user-select: none;
+  pointer-events: none;
+}
 
 .topbar-right { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .tabs-desktop { display: flex; gap: 4px; flex-wrap: wrap; }
@@ -285,15 +293,15 @@ body::before {
 }
 
 /* ---- Scroll-collapse: shrink controls when scrolled down ---- */
-.topbar, .console-pill, .console-pill .ico, .console-pill .name,
+.topbar, .console-pill, .console-pill .ico-img,
 .controls input[type=search], .controls select, .controls .pill-btn,
 .view-toggle button, .rank-bar, .az-bar, .stats {
-  transition: all 0.2s ease;
+  transition: all 0.2s ease, opacity 0.2s ease, filter 0.2s ease;
 }
 body.scrolled .topbar { padding: 6px 16px 4px; }
-body.scrolled .console-pill { padding: 4px 9px; min-width: 0; gap: 0; }
-body.scrolled .console-pill .name { font-size: 0; opacity: 0; height: 0; margin: 0; padding: 0; }
-body.scrolled .console-pill .ico { width: 26px; height: 18px; }
+body.scrolled .console-pill { padding: 4px 8px 8px; }
+body.scrolled .console-pill .ico-img { height: 48px; }
+body.scrolled .console-pill.active::after { bottom: 2px; height: 2px; }
 body.scrolled .controls-wrap { padding: 6px 0; border-bottom-color: rgba(255, 62, 200, 0.3); }
 body.scrolled .rank-bar { max-height: 0; margin: 0; opacity: 0; overflow: hidden; padding: 0 20px; pointer-events: none; }
 body.scrolled .az-bar { max-height: 0; margin: 0; opacity: 0; overflow: hidden; padding: 0 20px; pointer-events: none; }
@@ -874,11 +882,11 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
   .grid.list .card .title { font-size: 15px; }
   .grid.list .card .title.text-en { font-size: 13.5px; }
 
-  .topbar { padding: 10px 12px 8px; }
-  .topbar-row { gap: 10px; }
-  .console-pill { min-width: 56px; padding: 5px 8px; }
-  .console-pill .ico { width: 28px; height: 20px; }
-  .console-pill .name { font-size: 9px; letter-spacing: 0.5px; }
+  .topbar { padding: 8px 10px 4px; }
+  .topbar-row { gap: 8px; }
+  .console-pill { padding: 4px 6px 10px; }
+  .console-pill .ico-img { height: 64px; }
+  body.scrolled .console-pill .ico-img { height: 40px; }
   .controls-wrap { padding: 10px 0; }
   .controls { padding: 0 12px; gap: 6px; }
   .detail { padding: 16px 14px 30px; }
@@ -897,59 +905,13 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
   <div class="topbar-row">
     <div class="console-picker" id="console-picker">
       <button class="console-pill" data-console="pce" title="PC Engine">
-        <svg class="ico" viewBox="0 0 44 30" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
-          <!-- white PC Engine console: compact rounded body -->
-          <rect x="2" y="8" width="40" height="18" rx="3" fill="#f5f1e6" stroke="#1a1a1a" stroke-width="1.2"/>
-          <!-- HuCard slot on top -->
-          <rect x="14" y="4" width="16" height="5" rx="1" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1"/>
-          <rect x="16" y="6" width="12" height="2" fill="#ff3ec8"/>
-          <!-- tiny round black button (power/reset) -->
-          <circle cx="8" cy="17" r="2" fill="#1a1a1a"/>
-          <!-- side accent lines -->
-          <rect x="32" y="13" width="6" height="1.5" fill="#d9534f"/>
-          <rect x="32" y="16" width="6" height="1.5" fill="#d9534f"/>
-          <rect x="32" y="19" width="6" height="1.5" fill="#d9534f"/>
-        </svg>
-        <span class="name">PCE</span>
+        <img class="ico-img" src="icons/pce.png" alt="PCE" draggable="false">
       </button>
       <button class="console-pill" data-console="gba" title="Game Boy Advance">
-        <svg class="ico" viewBox="0 0 44 30" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
-          <!-- purple GBA body, landscape -->
-          <rect x="3" y="4" width="38" height="22" rx="4" fill="#7b3fc0" stroke="#1a1a1a" stroke-width="1.2"/>
-          <!-- LCD screen, green tint -->
-          <rect x="11" y="9" width="22" height="12" rx="1.5" fill="#0b3d12" stroke="#1a1a1a" stroke-width="1"/>
-          <rect x="12.5" y="10.5" width="19" height="9" fill="#9bc94e"/>
-          <!-- D-pad cross (left) -->
-          <rect x="6" y="14" width="4" height="2" fill="#1a1a1a"/>
-          <rect x="7" y="13" width="2" height="4" fill="#1a1a1a"/>
-          <!-- A/B buttons (right) -->
-          <circle cx="36" cy="13.5" r="1.5" fill="#ff3ec8"/>
-          <circle cx="36" cy="17.5" r="1.5" fill="#ff3ec8"/>
-          <!-- L/R bumpers indicators -->
-          <rect x="5" y="3" width="5" height="2" fill="#5a2a96"/>
-          <rect x="34" y="3" width="5" height="2" fill="#5a2a96"/>
-        </svg>
-        <span class="name">GBA</span>
+        <img class="ico-img" src="icons/gba.png" alt="GBA" draggable="false">
       </button>
       <button class="console-pill" data-console="fc" title="Famicom">
-        <svg class="ico" viewBox="0 0 44 30" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
-          <!-- red bottom + white top body (iconic Famicom split) -->
-          <rect x="2" y="6" width="40" height="20" rx="2" fill="#d9534f" stroke="#1a1a1a" stroke-width="1.2"/>
-          <rect x="2" y="6" width="40" height="9" fill="#f5f1e6"/>
-          <line x1="2.6" y1="15" x2="41.4" y2="15" stroke="#1a1a1a" stroke-width="0.8"/>
-          <!-- cartridge slot in white area -->
-          <rect x="16" y="9" width="12" height="3" fill="#1a1a1a"/>
-          <!-- left controller (D-pad cross black) -->
-          <rect x="5" y="19" width="4" height="2" fill="#1a1a1a"/>
-          <rect x="6" y="18" width="2" height="4" fill="#1a1a1a"/>
-          <!-- right controller (yellow A/B buttons) -->
-          <rect x="31" y="19" width="3" height="3" fill="#ffe14a" stroke="#1a1a1a" stroke-width="0.5"/>
-          <rect x="36" y="19" width="3" height="3" fill="#ffe14a" stroke="#1a1a1a" stroke-width="0.5"/>
-          <!-- start/select pixels -->
-          <rect x="20" y="20" width="2" height="1" fill="#1a1a1a"/>
-          <rect x="23" y="20" width="2" height="1" fill="#1a1a1a"/>
-        </svg>
-        <span class="name">FC</span>
+        <img class="ico-img" src="icons/fc.png" alt="FC" draggable="false">
       </button>
     </div>
 
