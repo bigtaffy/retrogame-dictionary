@@ -944,21 +944,34 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
   .grid.list .card .title.text-en { font-size: 13.5px; }
   .grid.list .card .fav-btn { top: auto; bottom: 6px; right: 6px; width: 28px; height: 28px; }
 
-  .topbar { padding: 8px 10px 4px; }
-  .topbar-row { gap: 8px; flex-wrap: nowrap; }
+  .topbar { padding: 8px 8px 4px; }
+  .topbar-row {
+    gap: 6px; flex-wrap: wrap;
+    flex-direction: column; align-items: stretch;
+  }
   .console-picker {
-    flex: 1 1 auto; min-width: 0;
+    flex: 0 0 auto; min-width: 0;
     overflow-x: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
     -webkit-overflow-scrolling: touch;
     flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
   }
   .console-picker::-webkit-scrollbar { display: none; }
-  .console-pill { padding: 4px 4px 10px; flex-shrink: 0; }
-  .console-pill .ico-img { height: 56px; }
-  body.scrolled .console-pill .ico-img { height: 36px; }
-  .topbar-right { flex-shrink: 0; }
+  .console-pill { padding: 2px 4px 8px; flex-shrink: 0; }
+  .console-pill .ico-img { height: 52px; }
+  body.scrolled .console-pill .ico-img { height: 34px; }
+  .topbar-right {
+    flex: 0 0 auto;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 1px solid rgba(255, 62, 200, 0.12);
+    padding-top: 6px;
+  }
+  .tabs-desktop { flex: 1; justify-content: flex-start; }
+  .search-icon-btn { flex-shrink: 0; }
   .controls-wrap { padding: 10px 0; }
   .controls { padding: 0 12px; gap: 6px; }
   .detail { padding: 16px 14px 30px; }

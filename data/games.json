@@ -64,13 +64,14 @@
       "Images-Screenshots_A-K/COMP-1941_01.gif",
       "Images-Screenshots_A-K/COMP-1941_02.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "OuwpEZo4ImI",
       "Jz45WlUPR7Y",
       "jVi5RsX3fPM"
     ],
-    "no_intro_name": "1941 - Counter Attack (Japan)"
+    "no_intro_name": "1941 - Counter Attack (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "1943_Kai",
@@ -103,14 +104,15 @@
       "Images-Screenshots_A-K/COMP-1943kai_01.gif",
       "Images-Screenshots_A-K/COMP-1943kai_02.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "動作",
     "youtube": [
       "VVyAaR4Weis",
       "wKuwk6TjIgs",
       "Z-2baz4aDlA",
       "fevSv80Df6A"
     ],
-    "no_intro_name": "1943 Kai (Japan)"
+    "no_intro_name": "1943 Kai (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "21_Emon",
@@ -141,12 +143,13 @@
       "Images-Screenshots_A-K/21_Emon_05.gif",
       "Images-Screenshots_A-K/21_Emon_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "棋盤桌遊",
     "youtube": [
       "7WnCn0KfbWQ",
       "QpekdEurr1o"
     ],
-    "no_intro_name": "21 Emon - Mezase Hotel Ou!! (Japan)"
+    "no_intro_name": "21 Emon - Mezase Hotel Ou!! (Japan)",
+    "genre_en": "Board"
   },
   {
     "id": "3x3_Eyes",
@@ -291,14 +294,15 @@
       "Images-Screenshots_A-K/COMP-Adventure_Island_01.gif",
       "Images-Screenshots_A-K/COMP-Adventure_Island_02.gif"
     ],
-    "genre_category": "冒險 Adventure",
+    "genre_category": "動作平台",
     "youtube": [
       "2yaFk0yZMyY",
       "knql2372vHk",
       "m6lQCgl01r4",
       "tSCPKqlgCkA"
     ],
-    "no_intro_name": "Adventure Island (Japan)"
+    "no_intro_name": "Adventure Island (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "Adventure_of_the_Mummyhead",
@@ -396,14 +400,15 @@
       "Images-Screenshots_A-K/Aero_Blasters_07.gif",
       "Images-Screenshots_A-K/COMP-Aero_Blasters_01.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "動作",
     "youtube": [
       "wQY0DBUkEfI",
       "bfOn2ry5AlM",
       "LAjr4sJrhrs",
       "FkGdXWTmooU"
     ],
-    "no_intro_name": "Aero Blasters (Japan)"
+    "no_intro_name": "Aero Blasters (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "After_Burner_II",
@@ -440,14 +445,15 @@
       "Images-Screenshots_A-K/COMP-After_Burner_II_01.gif",
       "Images-Screenshots_A-K/COMP-After_Burner_II_02.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "射擊",
     "youtube": [
       "7YA9QkvcTlw",
       "23WgY59OSRI",
       "2hgZOb-pQfQ",
       "EoMR1F2iZJs"
     ],
-    "no_intro_name": "After Burner II (Japan)"
+    "no_intro_name": "After Burner II (Japan)",
+    "genre_en": "Shooter"
   },
   {
     "id": "Ai-Cho_Aniki",
@@ -555,14 +561,15 @@
       "Images-Screenshots_A-K/Alien_Crush_05.gif",
       "Images-Screenshots_A-K/Alien_Crush_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "彈珠台",
     "youtube": [
       "Dj8KysKxfXY",
       "qITY4SRaRrI",
       "Bmqte-TrB6w",
       "iZTfGwOFpiE"
     ],
-    "no_intro_name": "Alien Crush (Japan)"
+    "no_intro_name": "Alien Crush (Japan)",
+    "genre_en": "Pinball"
   },
   {
     "id": "Alshark",
@@ -783,14 +790,15 @@
       "Images-Screenshots_A-K/Ankoku_Densetsu_05.gif",
       "Images-Screenshots_A-K/Ankoku_Densetsu_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作",
     "youtube": [
       "y8DZgt5bC08",
       "CphVriWdjh0",
       "aW7-rFBJCdw",
       "fpIpwK10l80"
     ],
-    "no_intro_name": "Ankoku Densetsu (Japan)"
+    "no_intro_name": "Ankoku Densetsu (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Aoki_Okami_to_Shiroki_Mejika",
@@ -877,12 +885,13 @@
       "Images-Screenshots_A-K/Artist_Tool_05.gif",
       "Images-Screenshots_A-K/Artist_Tool_06.gif"
     ],
-    "genre_category": "其他 Other",
+    "genre_category": "N/A",
     "youtube": [
       "-mEzTC7E7Xw",
       "tGv2eaFNrlY"
     ],
-    "no_intro_name": "Artist Tool (Japan)"
+    "no_intro_name": "Artist Tool (Japan)",
+    "genre_en": "N/A"
   },
   {
     "id": "Arnam_no_Kiba",
@@ -945,13 +954,14 @@
       "Images-Screenshots_A-K/COMP-Atomic_Robokid_01.gif",
       "Images-Screenshots_A-K/COMP-Atomic_Robokid_02.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "射擊",
     "youtube": [
       "SOQkFA4379A",
       "DxILMCu_OVw",
       "EmsU5pPc0ro"
     ],
-    "no_intro_name": "Atomic Robo-Kid Special (Japan)"
+    "no_intro_name": "Atomic Robo-Kid Special (Japan)",
+    "genre_en": "Shooter"
   },
   {
     "id": "Aurora_Quest",
@@ -1046,12 +1056,13 @@
       "Images-Screenshots_A-K/AV_Poker_05.gif",
       "Images-Screenshots_A-K/AV_Poker_06.gif"
     ],
-    "genre_category": "成人 Adult",
+    "genre_category": "Gambling",
     "youtube": [
       "0u5IKf6G1wc",
       "VpecKIm2ZHU"
     ],
-    "no_intro_name": "AV Poker - World Gambler (Japan) (Unl)"
+    "no_intro_name": "AV Poker - World Gambler (Japan) (Unl)",
+    "genre_en": "Gambling"
   },
   {
     "id": "AV_Tanjo",
@@ -1153,13 +1164,14 @@
       "Images-Screenshots_A-K/Fushigi_no_Yume_no_Alice_05.gif",
       "Images-Screenshots_A-K/Fushigi_no_Yume_no_Alice_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作",
     "youtube": [
       "nffUG0vvDe8",
       "54MNXGVEs50",
       "-94yyMQ5IQE"
     ],
-    "no_intro_name": "Fushigi no Yume no Alice (Japan)"
+    "no_intro_name": "Fushigi no Yume no Alice (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Auleria",
@@ -1565,14 +1577,15 @@
       "Images-Screenshots_A-K/Ballistix_05.gif",
       "Images-Screenshots_A-K/Ballistix_02.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "qxzqV_JkBdA",
       "x4QucoV3nY4",
       "wBbkhqtxl3Y",
       "BtdGi1YrAww"
     ],
-    "no_intro_name": "Ballistix (Japan)"
+    "no_intro_name": "Ballistix (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Bari_Bari_Legend",
@@ -1603,14 +1616,15 @@
       "Images-Screenshots_A-K/Bari_Bari_Densetsu_05.gif",
       "Images-Screenshots_A-K/Bari_Bari_Densetsu_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "競速",
     "youtube": [
       "LJMVlqMQyt4",
       "FK0M_hDkotg",
       "28rD_IBSs1k",
       "VDN2qH-W6Ck"
     ],
-    "no_intro_name": "Bari Bari Densetsu (Japan)"
+    "no_intro_name": "Bari Bari Densetsu (Japan)",
+    "genre_en": "Racing"
   },
   {
     "id": "Barunba",
@@ -1641,13 +1655,14 @@
       "Images-Screenshots_A-K/Barunba_05.gif",
       "Images-Screenshots_A-K/Barunba_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "動作",
     "youtube": [
       "KUv9108-VBk",
       "SR23-Sa2KCE",
       "qUZVEB_RKgw"
     ],
-    "no_intro_name": "Barunba (Japan)"
+    "no_intro_name": "Barunba (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Basted",
@@ -1712,14 +1727,15 @@
       "Images-Screenshots_A-K/Batman_05.gif",
       "Images-Screenshots_A-K/Batman_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作",
     "youtube": [
       "bz99i5EagGI",
       "QnLFWu_s318",
       "TySHiSxdkyQ",
       "fTKwMYmzB8g"
     ],
-    "no_intro_name": "Batman (Japan)"
+    "no_intro_name": "Batman (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Battle_Ace",
@@ -1791,12 +1807,13 @@
       "Images-Screenshots_A-K/Battle_Lode_Runner_05.gif",
       "Images-Screenshots_A-K/Battle_Lode_Runner_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "解謎",
     "youtube": [
       "kfs_XOANwzQ",
       "RUqqZJYeeWg"
     ],
-    "no_intro_name": "Battle Lode Runner (Japan)"
+    "no_intro_name": "Battle Lode Runner (Japan)",
+    "genre_en": "Puzzle"
   },
   {
     "id": "Battle_Royale",
@@ -1827,12 +1844,13 @@
       "Images-Screenshots_A-K/Battle_Royale_05.gif",
       "Images-Screenshots_A-K/Battle_Royale_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "pWgKjQ3pDTM",
       "7Yb-RbEwiQo"
     ],
-    "no_intro_name": "Battle Royale (USA)"
+    "no_intro_name": "Battle Royale (USA)",
+    "genre_en": "Sports"
   },
   {
     "id": "Bazaru_de_Gozaru",
@@ -1900,12 +1918,13 @@
       "Images-Screenshots_A-K/Be_Ball_05.gif",
       "Images-Screenshots_A-K/Be_Ball_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "解謎",
     "youtube": [
       "-ojPsl6TSz4",
       "iQvKcPM-6wo"
     ],
-    "no_intro_name": "Be Ball (Japan)"
+    "no_intro_name": "Be Ball (Japan)",
+    "genre_en": "Puzzle"
   },
   {
     "id": "Benkei_Gaiden",
@@ -1936,9 +1955,10 @@
       "Images-Screenshots_A-K/Benkei_Gaiden_05.gif",
       "Images-Screenshots_A-K/Benkei_Gaiden_06.gif"
     ],
-    "genre_category": "角色扮演 RPG",
+    "genre_category": "角色扮演",
     "youtube": [],
-    "no_intro_name": "Benkei Gaiden (Japan)"
+    "no_intro_name": "Benkei Gaiden (Japan)",
+    "genre_en": "Role-playing (RPG)"
   },
   {
     "id": "Beyond_Shadowgate",
@@ -2135,13 +2155,14 @@
       "Images-Screenshots_A-K/Blodia_05.gif",
       "Images-Screenshots_A-K/Blodia_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "解謎",
     "youtube": [
       "6SdhporZKgY",
       "7CB5Kux1Lfk",
       "KlBfZRAVB9U"
     ],
-    "no_intro_name": "Blodia (Japan)"
+    "no_intro_name": "Blodia (Japan)",
+    "genre_en": "Puzzle"
   },
   {
     "id": "Blood_Gear",
@@ -2505,11 +2526,12 @@
       "Images-Screenshots_A-K/Break_In_06.gif",
       "Images-Screenshots_A-K/Break_In_03.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "ohmDswbrjw8"
     ],
-    "no_intro_name": "Break In (Japan)"
+    "no_intro_name": "Break In (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Browning",
@@ -2576,9 +2598,10 @@
       "Images-Screenshots_A-K/Bubblegum_Crash_05.gif",
       "Images-Screenshots_A-K/Bubblegum_Crash_06.gif"
     ],
-    "genre_category": "冒險 Adventure",
+    "genre_category": "冒險",
     "youtube": [],
-    "no_intro_name": "Bubblegum Crash! - Knight Sabers 2034 (Japan)"
+    "no_intro_name": "Bubblegum Crash! - Knight Sabers 2034 (Japan)",
+    "genre_en": "Adventure"
   },
   {
     "id": "Builderland",
@@ -2735,12 +2758,13 @@
       "Images-Screenshots_A-K/Burning_Angels_04.gif",
       "Images-Screenshots_A-K/Burning_Angels_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "vjAq9TwEMs0",
       "HzqTQAqsZk0"
     ],
-    "no_intro_name": "Burning Angels (Japan)"
+    "no_intro_name": "Burning Angels (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Berabo_Man",
@@ -2874,12 +2898,13 @@
       "Images-Screenshots_A-K/Cadash_05.gif",
       "Images-Screenshots_A-K/Cadash_06.gif"
     ],
-    "genre_category": "角色扮演 RPG",
+    "genre_category": "角色扮演",
     "youtube": [
       "Ydps5ZaOyy0",
       "UFDFDKVnO00"
     ],
-    "no_intro_name": "Cadash (Japan)"
+    "no_intro_name": "Cadash (Japan)",
+    "genre_en": "Role-playing (RPG)"
   },
   {
     "id": "Cal_II",
@@ -3212,11 +3237,12 @@
       "Images-Screenshots_A-K/Champion_Wrestler_05.gif",
       "Images-Screenshots_A-K/Champion_Wrestler_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "格鬥",
     "youtube": [
       "0AjsdRmtIZ4"
     ],
-    "no_intro_name": "Champion Wrestler (Japan)"
+    "no_intro_name": "Champion Wrestler (Japan)",
+    "genre_en": "Fighting"
   },
   {
     "id": "Champions_Forever",
@@ -3247,12 +3273,13 @@
       "Images-Screenshots_A-K/Champions_Forever_05.gif",
       "Images-Screenshots_A-K/Champions_Forever_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "eHf4-3h5Jfs",
       "ZAGSjQn9i4Q"
     ],
-    "no_intro_name": "Champions Forever Boxing (USA)"
+    "no_intro_name": "Champions Forever Boxing (USA)",
+    "genre_en": "Sports"
   },
   {
     "id": "Championship_Rally",
@@ -3346,11 +3373,12 @@
       "Images-Screenshots_A-K/Chibi_Maruko-chan_05.gif",
       "Images-Screenshots_A-K/Chibi_Maruko-chan_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "益智問答",
     "youtube": [
       "x3rzyhYSO8s"
     ],
-    "no_intro_name": "Chibi Maruko-chan - Quiz de Piihyara (Japan)"
+    "no_intro_name": "Chibi Maruko-chan - Quiz de Piihyara (Japan)",
+    "genre_en": "Quiz"
   },
   {
     "id": "Chiki_Chiki_Boys",
@@ -3485,12 +3513,13 @@
       "Images-Screenshots_A-K/Circus_Lido_05.gif",
       "Images-Screenshots_A-K/Circus_Lido_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "解謎",
     "youtube": [
       "qOxeQuzMQBs",
       "_ube82uJC0k"
     ],
-    "no_intro_name": "Circus Lido (Japan)"
+    "no_intro_name": "Circus Lido (Japan)",
+    "genre_en": "Puzzle"
   },
   {
     "id": "City_Hunter",
@@ -3520,14 +3549,15 @@
       "Images-Screenshots_A-K/City_Hunter_04.gif",
       "Images-Screenshots_A-K/City_Hunter_05.gif"
     ],
-    "genre_category": "冒險 Adventure",
+    "genre_category": "動作",
     "youtube": [
       "YyetLVQB0q4",
       "kCNDVh21UiQ",
       "IwBm8myjir0",
       "kzDHQ-07B60"
     ],
-    "no_intro_name": "City Hunter (Japan)"
+    "no_intro_name": "City Hunter (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Cobra",
@@ -3657,12 +3687,13 @@
       "Images-Screenshots_A-K/Columns_05.gif",
       "Images-Screenshots_A-K/Columns_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "動作",
     "youtube": [
       "Bu1Xy12GvqA",
       "s4gmlLTEnzs"
     ],
-    "no_intro_name": "Columns (Japan)"
+    "no_intro_name": "Columns (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Coryoon",
@@ -4023,13 +4054,14 @@
       "Images-Screenshots_A-K/Cross_Wiber_05.gif",
       "Images-Screenshots_A-K/Cross_Wiber_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "PNHdNgIY3Aw",
       "dPgZxghWPFE",
       "gOKguu1NQtw"
     ],
-    "no_intro_name": "Cross Wiber - Cyber Combat Police (Japan)"
+    "no_intro_name": "Cross Wiber - Cyber Combat Police (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "Cyber_City_Oedo_808",
@@ -4087,14 +4119,15 @@
       "Images-Screenshots_A-K/Cyber_Core_04.gif",
       "Images-Screenshots_A-K/Cyber_Core_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "epIRU5PvmA8",
       "A_biUiT7ejY",
       "8VDP8tqkvlA",
       "44bYgMASCpU"
     ],
-    "no_intro_name": "Cyber Core (Japan)"
+    "no_intro_name": "Cyber Core (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Cyber_Cross",
@@ -4125,13 +4158,14 @@
       "Images-Screenshots_A-K/Cyber_Cross_05.gif",
       "Images-Screenshots_A-K/Cyber_Cross_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "znsQlaGseUE",
       "Qq7N9pNYSAc",
       "OqyWcwq4T9Q"
     ],
-    "no_intro_name": "Busou Keiji - Cyber Cross (Japan)"
+    "no_intro_name": "Busou Keiji - Cyber Cross (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "Cyber_Dodge",
@@ -4162,11 +4196,12 @@
       "Images-Screenshots_A-K/Cyber_Dodge_05.gif",
       "Images-Screenshots_A-K/Cyber_Dodge_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "ymPSTcgANa0"
     ],
-    "no_intro_name": "Cyber Dodge (Japan)"
+    "no_intro_name": "Cyber Dodge (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Cyber_Knight",
@@ -4197,9 +4232,10 @@
       "Images-Screenshots_A-K/Cyber_Knight_05.gif",
       "Images-Screenshots_A-K/Cyber_Knight_06.gif"
     ],
-    "genre_category": "冒險 Adventure",
+    "genre_category": "角色扮演",
     "youtube": [],
-    "no_intro_name": "Cyber Knight (Japan)"
+    "no_intro_name": "Cyber Knight (Japan)",
+    "genre_en": "Role-playing (RPG)"
   },
   {
     "id": "Cloud_Master",
@@ -4230,12 +4266,13 @@
       "Images-Screenshots_A-K/Cloud_Master_05.gif",
       "Images-Screenshots_A-K/Cloud_Master_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "qV43N7OZj9w",
       "b-6MltueJQ8"
     ],
-    "no_intro_name": "Gokuraku! Chuuka Taisen (Japan)"
+    "no_intro_name": "Gokuraku! Chuuka Taisen (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Chris_Adventure",
@@ -4303,7 +4340,7 @@
       "Images-Screenshots_A-K/Chan_and_Chan_05.gif",
       "Images-Screenshots_A-K/Chan_and_Chan_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作",
     "youtube": [
       "BY8Ox7emqug",
       "emHpgi0QSN0",
@@ -4311,7 +4348,8 @@
       "SBSzY1ileUQ",
       "GNMTlvKrxOc"
     ],
-    "no_intro_name": "Kato-chan Ken-chan (Japan)"
+    "no_intro_name": "Kato-chan Ken-chan (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Carmen_Sandiego",
@@ -4419,9 +4457,10 @@
       "Images-Screenshots_A-K/Daichikun_Crisis_05.gif",
       "Images-Screenshots_A-K/Daichikun_Crisis_06.gif"
     ],
-    "genre_category": "策略模擬 Strategy",
+    "genre_category": "策略",
     "youtube": [],
-    "no_intro_name": "Daichi-kun Crisis - Do Natural (Japan)"
+    "no_intro_name": "Daichi-kun Crisis - Do Natural (Japan)",
+    "genre_en": "Strategy"
   },
   {
     "id": "Daisenpu",
@@ -4452,12 +4491,13 @@
       "Images-Screenshots_A-K/Dai_Sen_Pu_05.gif",
       "Images-Screenshots_A-K/Dai_Sen_Pu_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "DWb49p81bBo",
       "2UtUhHexjms"
     ],
-    "no_intro_name": "Daisenpuu (Japan)"
+    "no_intro_name": "Daisenpuu (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Daisenpu_Custom",
@@ -4554,11 +4594,12 @@
       "Images-Screenshots_A-K/Darius_Alpha_05.gif",
       "Images-Screenshots_A-K/Darius_Alpha_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "動作",
     "youtube": [
       "eM6QMvmNeUs"
     ],
-    "no_intro_name": "Darius Alpha (Japan) (SG Enhanced)"
+    "no_intro_name": "Darius Alpha (Japan) (SG Enhanced)",
+    "genre_en": "Action"
   },
   {
     "id": "Darius_Plus",
@@ -4589,14 +4630,15 @@
       "Images-Screenshots_A-K/Darius_Plus_06.gif",
       "Images-Screenshots_A-K/Darius_Plus_05.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "7tlFaGXTREY",
       "DMfjdKKZjeA",
       "QZZPSdb07Ao",
       "SSyURAJVo0A"
     ],
-    "no_intro_name": "Darius Plus (Japan) (SG Enhanced)"
+    "no_intro_name": "Darius Plus (Japan) (SG Enhanced)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Darkwing_Duck",
@@ -4627,12 +4669,13 @@
       "Images-Screenshots_A-K/Darkwing_Duck_05.gif",
       "Images-Screenshots_A-K/Darkwing_Duck_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "GwtFayPg5hg",
       "4pJJHWyiVZs"
     ],
-    "no_intro_name": "Darkwing Duck (USA)"
+    "no_intro_name": "Darkwing Duck (USA)",
+    "genre_en": "Platform"
   },
   {
     "id": "De_Ja",
@@ -4696,13 +4739,14 @@
       "Images-Screenshots_A-K/Dead_Moon_05.gif",
       "Images-Screenshots_A-K/Dead_Moon_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "動作",
     "youtube": [
       "d0HU72rylLY",
       "7Kl8ivWyh2g",
       "hbXnJBnD5O8"
     ],
-    "no_intro_name": "Dead Moon (USA)"
+    "no_intro_name": "Dead Moon (USA)",
+    "genre_en": "Action"
   },
   {
     "id": "Dead_of_the_Brain",
@@ -4830,12 +4874,13 @@
       "Images-Screenshots_A-K/Deep_Blue_05.png",
       "Images-Screenshots_A-K/Deep_Blue_06.png"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "zmDzfN2McUQ",
       "SF7y3q7MJ70"
     ],
-    "no_intro_name": "Deep Blue (USA)"
+    "no_intro_name": "Deep Blue (USA)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Denno_Tenshi",
@@ -4890,14 +4935,15 @@
       "Images-Screenshots_A-K/Devil_Crash_05.gif",
       "Images-Screenshots_A-K/Devil_Crash_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "彈珠台",
     "youtube": [
       "R7G8NE9efjY",
       "3UEWBQJ2OQ0",
       "dVZexL5iqiU",
       "DAaaZ6xwTLU"
     ],
-    "no_intro_name": "Devil Crash - Naxat Pinball (Japan)"
+    "no_intro_name": "Devil Crash - Naxat Pinball (Japan)",
+    "genre_en": "Pinball"
   },
   {
     "id": "Die_Hard",
@@ -4928,12 +4974,13 @@
       "Images-Screenshots_A-K/Die_Hard_05.gif",
       "Images-Screenshots_A-K/Die_Hard_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "射擊",
     "youtube": [
       "1G7L_qkmuvM",
       "wxUjT-poyz4"
     ],
-    "no_intro_name": "Die Hard (Japan)"
+    "no_intro_name": "Die Hard (Japan)",
+    "genre_en": "Shooter"
   },
   {
     "id": "Digital_Champ",
@@ -4964,12 +5011,13 @@
       "Images-Screenshots_A-K/Digital_Champ_05.gif",
       "Images-Screenshots_A-K/Digital_Champ_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "EeFERZHDcLc",
       "M4Oi2IYRw7o"
     ],
-    "no_intro_name": "Digital Champ (Japan)"
+    "no_intro_name": "Digital Champ (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Dino_Force",
@@ -5050,12 +5098,13 @@
       "Images-Screenshots_A-K/Don_Doko_Don_05.gif",
       "Images-Screenshots_A-K/Don_Doko_Don_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作",
     "youtube": [
       "56fFRyaI8zY",
       "rIroKNgYUNI"
     ],
-    "no_intro_name": "Don Doko Don! (Japan)"
+    "no_intro_name": "Don Doko Don! (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Doraemon",
@@ -5086,7 +5135,7 @@
       "Images-Screenshots_A-K/Doraemon_05.gif",
       "Images-Screenshots_A-K/Doraemon_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作",
     "youtube": [
       "5i_-fkL4IyE",
       "9ZQo0weCYj4",
@@ -5095,7 +5144,8 @@
       "YUo7gDMks20",
       "Vbt6_dlkN9M"
     ],
-    "no_intro_name": "Doraemon - Meikyuu Daisakusen (Japan)"
+    "no_intro_name": "Doraemon - Meikyuu Daisakusen (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Doraemon_II",
@@ -5130,13 +5180,14 @@
       "Images-Screenshots_A-K/Doraemon2_05.gif",
       "Images-Screenshots_A-K/Doraemon2_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "P3bIkoNv4Q0",
       "4Zxw1gJ3k_A",
       "yyWOVpMsXCI"
     ],
-    "no_intro_name": "Doraemon - Nobita no Dorabian Night (Japan)"
+    "no_intro_name": "Doraemon - Nobita no Dorabian Night (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "Double_Dragon_II",
@@ -5208,9 +5259,10 @@
       "Images-Screenshots_A-K/Double_Dungeons_05.gif",
       "Images-Screenshots_A-K/Double_Dungeons_06.gif"
     ],
-    "genre_category": "角色扮演 RPG",
+    "genre_category": "角色扮演",
     "youtube": [],
-    "no_intro_name": "Double Dungeons (Japan)"
+    "no_intro_name": "Double Dungeons (Japan)",
+    "genre_en": "Role-playing (RPG)"
   },
   {
     "id": "Download",
@@ -5430,14 +5482,15 @@
       "Images-Screenshots_A-K/Dragon_Egg_05.gif",
       "Images-Screenshots_A-K/Dragon_Egg_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "TTcfEp83SBU",
       "rgBDaveAXDM",
       "68C3jHxhMmM",
       "AO2X8Uciw_c"
     ],
-    "no_intro_name": "Dragon Egg! (Japan)"
+    "no_intro_name": "Dragon Egg! (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "Dragon_Half",
@@ -5716,14 +5769,15 @@
       "Images-Screenshots_A-K/Dragon_Spirit_06.gif",
       "Images-Screenshots_A-K/COMP-Dragon_Spirit_01.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "3HYtA-fxmmw",
       "yVFt-lWQTHo",
       "8YT5Ckpqm5Q",
       "EZXBClhlqeM"
     ],
-    "no_intro_name": "Dragon Spirit (Japan)"
+    "no_intro_name": "Dragon Spirit (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Drop_Rock_Hora_Hora",
@@ -5796,13 +5850,14 @@
       "Images-Screenshots_A-K/Dungeon_Explorer_05.gif",
       "Images-Screenshots_A-K/Dungeon_Explorer_06.gif"
     ],
-    "genre_category": "角色扮演 RPG",
+    "genre_category": "角色扮演",
     "youtube": [
       "e5vH6_Ewx7Y",
       "pfcPVZi11Ns",
       "C7Po73eMng0"
     ],
-    "no_intro_name": "Dungeon Explorer (Japan)"
+    "no_intro_name": "Dungeon Explorer (Japan)",
+    "genre_en": "Role-playing (RPG)"
   },
   {
     "id": "Dungeon_Explorer_II",
@@ -6073,12 +6128,13 @@
       "Images-Screenshots_A-K/Davis_Cup_05.gif",
       "Images-Screenshots_A-K/Davis_Cup_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "of0lisyc22E",
       "qxN5-tsm6Ic"
     ],
-    "no_intro_name": "Davis Cup Tennis (USA)"
+    "no_intro_name": "Davis Cup Tennis (USA)",
+    "genre_en": "Sports"
   },
   {
     "id": "Efera_and_Jiliora",
@@ -6239,12 +6295,13 @@
       "Images-Screenshots_A-K/Energy_05.gif",
       "Images-Screenshots_A-K/Energy_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作",
     "youtube": [
       "95YZs-N5cj8",
       "x2AkmF8b0wQ"
     ],
-    "no_intro_name": "Energy (Japan)"
+    "no_intro_name": "Energy (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Eternal_City",
@@ -6275,11 +6332,12 @@
       "Images-Screenshots_A-K/Eternal_City_05.gif",
       "Images-Screenshots_A-K/Eternal_City_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "311SYqAX-88"
     ],
-    "no_intro_name": "Eternal City - Toshi Tensou Keikaku (Japan)"
+    "no_intro_name": "Eternal City - Toshi Tensou Keikaku (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "Exile",
@@ -6380,11 +6438,12 @@
       "Images-Screenshots_A-K/F1_Dream_05.gif",
       "Images-Screenshots_A-K/F1_Dream_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "競速",
     "youtube": [
       "cIRlPfg-i_k"
     ],
-    "no_intro_name": "F-1 Dream (Japan)"
+    "no_intro_name": "F-1 Dream (Japan)",
+    "genre_en": "Racing"
   },
   {
     "id": "F1_Pilot",
@@ -6415,9 +6474,10 @@
       "Images-Screenshots_A-K/F1_Pilot_05.gif",
       "Images-Screenshots_A-K/F1_Pilot_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "競速",
     "youtube": [],
-    "no_intro_name": "F-1 Pilot - You're King of Kings (Japan)"
+    "no_intro_name": "F-1 Pilot - You're King of Kings (Japan)",
+    "genre_en": "Racing"
   },
   {
     "id": "F1_Circus",
@@ -6483,9 +6543,10 @@
       "Images-Screenshots_A-K/F1_Circus91_05.gif",
       "Images-Screenshots_A-K/F1_Circus91_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "競速",
     "youtube": [],
-    "no_intro_name": "F1 Circus '91 (Japan)"
+    "no_intro_name": "F1 Circus '91 (Japan)",
+    "genre_en": "Racing"
   },
   {
     "id": "F1_Circus_92",
@@ -6516,11 +6577,12 @@
       "Images-Screenshots_A-K/F1_Circus-92_05.gif",
       "Images-Screenshots_A-K/F1_Circus-92_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "競速",
     "youtube": [
       "FrcTLBWZTP8"
     ],
-    "no_intro_name": "F1 Circus '92 - The Speed of Sound (Japan)"
+    "no_intro_name": "F1 Circus '92 - The Speed of Sound (Japan)",
+    "genre_en": "Racing"
   },
   {
     "id": "F1_Circus_Special",
@@ -6614,9 +6676,10 @@
       "Images-Screenshots_A-K/F1_Triple_Battle_05.gif",
       "Images-Screenshots_A-K/F1_Triple_Battle_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "競速",
     "youtube": [],
-    "no_intro_name": "F1 Triple Battle (Japan)"
+    "no_intro_name": "F1 Triple Battle (Japan)",
+    "genre_en": "Racing"
   },
   {
     "id": "Faceball",
@@ -6676,12 +6739,13 @@
       "Images-Screenshots_A-K/Falcon_05.gif",
       "Images-Screenshots_A-K/Falcon_06.gif"
     ],
-    "genre_category": "策略模擬 Strategy",
+    "genre_category": "模擬",
     "youtube": [
       "MVAhZ4STvCo",
       "hHMKVLj_BOA"
     ],
-    "no_intro_name": "Falcon (USA)"
+    "no_intro_name": "Falcon (USA)",
+    "genre_en": "Simulation"
   },
   {
     "id": "Fantasy_Zone",
@@ -6716,14 +6780,15 @@
       "Images-Screenshots_A-K/Fantasy_Zone_05.gif",
       "Images-Screenshots_A-K/Fantasy_Zone_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "phTZEXACkWc",
       "xPhgZAIurmg",
       "8lAg6Qw_Qm8",
       "eTqHTK-yNXg"
     ],
-    "no_intro_name": "Fantasy Zone (Japan)"
+    "no_intro_name": "Fantasy Zone (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Far_East_of_Eden_Kabuki",
@@ -6965,12 +7030,13 @@
       "Images-Screenshots_A-K/Fighting_Run_05.gif",
       "Images-Screenshots_A-K/Fighting_Run_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作",
     "youtube": [
       "d4P_MAgI3EI",
       "88i7h4V302I"
     ],
-    "no_intro_name": "Fighting Run (Japan)"
+    "no_intro_name": "Fighting Run (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Fighting_Street",
@@ -7036,12 +7102,13 @@
       "Images-Screenshots_A-K/Final_Blaster_05.gif",
       "Images-Screenshots_A-K/Final_Blaster_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "fVg8xHnh0Zk",
       "bqXJXHmd9RQ"
     ],
-    "no_intro_name": "Final Blaster (Japan)"
+    "no_intro_name": "Final Blaster (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Final_Lap_Twin",
@@ -7072,12 +7139,13 @@
       "Images-Screenshots_A-K/Final_Lap_Twin_05.gif",
       "Images-Screenshots_A-K/Final_Lap_Twin_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "角色扮演",
     "youtube": [
       "oRtD8IWFVsM",
       "6ZJ6EZ--Ffk"
     ],
-    "no_intro_name": "Final Lap Twin (Japan)"
+    "no_intro_name": "Final Lap Twin (Japan)",
+    "genre_en": "Role-playing (RPG)"
   },
   {
     "id": "Final_Match_Tennis",
@@ -7108,11 +7176,12 @@
       "Images-Screenshots_A-K/Final_Match_Tennis_05.gif",
       "Images-Screenshots_A-K/Final_Match_Tennis_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "-Orboh1oti4"
     ],
-    "no_intro_name": "Final Match Tennis (Japan)"
+    "no_intro_name": "Final Match Tennis (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Final_Soldier",
@@ -7143,13 +7212,14 @@
       "Images-Screenshots_A-K/Final_Soldier_05.gif",
       "Images-Screenshots_A-K/Final_Soldier_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "動作",
     "youtube": [
       "xBNJuO3_raU",
       "cSnAC3N0CJk",
       "53wJOwxFmoo"
     ],
-    "no_intro_name": "Final Soldier (Japan) (En)"
+    "no_intro_name": "Final Soldier (Japan) (En)",
+    "genre_en": "Action"
   },
   {
     "id": "Final_Zone_II",
@@ -7239,9 +7309,10 @@
       "Images-Screenshots_A-K/Fire_Pro_Wrestling_05.gif",
       "Images-Screenshots_A-K/Fire_Pro_Wrestling_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "格鬥",
     "youtube": [],
-    "no_intro_name": "Fire Pro Wrestling - Combination Tag (Japan)"
+    "no_intro_name": "Fire Pro Wrestling - Combination Tag (Japan)",
+    "genre_en": "Fighting"
   },
   {
     "id": "Fire_Pro_Wrestling_2",
@@ -7272,9 +7343,10 @@
       "Images-Screenshots_A-K/Fire_Pro_Wrestling2_05.gif",
       "Images-Screenshots_A-K/Fire_Pro_Wrestling2_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [],
-    "no_intro_name": "Fire Pro Wrestling 2 - 2nd Bout (Japan)"
+    "no_intro_name": "Fire Pro Wrestling 2 - 2nd Bout (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Fire_Pro_Wrestling_3",
@@ -7305,9 +7377,10 @@
       "Images-Screenshots_A-K/Fire_Pro_Wrestling3_05.gif",
       "Images-Screenshots_A-K/Fire_Pro_Wrestling3_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [],
-    "no_intro_name": "Fire Pro Wrestling 3 - Legend Bout (Japan)"
+    "no_intro_name": "Fire Pro Wrestling 3 - Legend Bout (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Flash_Hiders",
@@ -7422,12 +7495,13 @@
       "Images-Screenshots_A-K/Formation_Armed_F_11.png",
       "Images-Screenshots_A-K/Formation_Armed_F_12.png"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "cTOBpUJzfY4",
       "IDgDhB4MC1M"
     ],
-    "no_intro_name": "Armed F (Japan)"
+    "no_intro_name": "Armed F (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Formation_Soccer",
@@ -7458,11 +7532,12 @@
       "Images-Screenshots_A-K/Formation_Soccer_05.gif",
       "Images-Screenshots_A-K/Formation_Soccer_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "vebBVsCstaA"
     ],
-    "no_intro_name": "Formation Soccer - Human Cup '90 (Japan)"
+    "no_intro_name": "Formation Soccer - Human Cup '90 (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Formation_Soccer95",
@@ -7529,9 +7604,10 @@
       "Images-Screenshots_A-K/Formation_Soccer_J_05.gif",
       "Images-Screenshots_A-K/Formation_Soccer_J_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [],
-    "no_intro_name": "Formation Soccer - On J League (Japan)"
+    "no_intro_name": "Formation Soccer - On J League (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Fray_CD-Xak_Gaiden",
@@ -7686,11 +7762,12 @@
       "Images-Screenshots_A-K/Gaia_no_Monsho_05.gif",
       "Images-Screenshots_A-K/Gaia_no_Monsho_06.gif"
     ],
-    "genre_category": "策略模擬 Strategy",
+    "genre_category": "策略",
     "youtube": [
       "lldKBr-h8T8"
     ],
-    "no_intro_name": "Gaia no Monshou (Japan)"
+    "no_intro_name": "Gaia no Monshou (Japan)",
+    "genre_en": "Strategy"
   },
   {
     "id": "Gaiflame",
@@ -7791,14 +7868,15 @@
       "Images-Screenshots_A-K/Galaga88_05.gif",
       "Images-Screenshots_A-K/Galaga88_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "uqwh078fjuc",
       "plffBhO-ITk",
       "0XD0-JPVrXQ",
       "rFVwWZ_ijvo"
     ],
-    "no_intro_name": "Galaga '88 (Japan)"
+    "no_intro_name": "Galaga '88 (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Galaxy_Deka_Gayvan",
@@ -7999,9 +8077,10 @@
       "Images-Screenshots_A-K/Ganbare_Golf_Boys_05.gif",
       "Images-Screenshots_A-K/Ganbare_Golf_Boys_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [],
-    "no_intro_name": "Ganbare! Golf Boys (Japan)"
+    "no_intro_name": "Ganbare! Golf Boys (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Gate_of_Thunder",
@@ -8096,11 +8175,12 @@
       "Images-Screenshots_A-K/Gekisha_Boy_05.gif",
       "Images-Screenshots_A-K/Gekisha_Boy_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作",
     "youtube": [
       "_TVp4fwo_Z8"
     ],
-    "no_intro_name": "Gekisha Boy (Japan)"
+    "no_intro_name": "Gekisha Boy (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Genji_Tsushin_Agedama",
@@ -8131,13 +8211,14 @@
       "Images-Screenshots_A-K/Genji_Tsushin_Agedama_05.gif",
       "Images-Screenshots_A-K/Genji_Tsushin_Agedama_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作",
     "youtube": [
       "XtaZ3ELG1zY",
       "1H67wSzT2x4",
       "IvuQGBmeXS8"
     ],
-    "no_intro_name": "Genji Tsuushin Agedama (Japan)"
+    "no_intro_name": "Genji Tsuushin Agedama (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Genocide",
@@ -8277,12 +8358,13 @@
       "Images-Screenshots_A-K/Ghost_Manor_05.gif",
       "Images-Screenshots_A-K/Ghost_Manor_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "mdW-zuW6ViA",
       "7Yi7OYctI20"
     ],
-    "no_intro_name": "Ghost Manor (USA)"
+    "no_intro_name": "Ghost Manor (USA)",
+    "genre_en": "Platform"
   },
   {
     "id": "Ghost_Sweeper_Mikami",
@@ -8483,13 +8565,14 @@
       "Images-Screenshots_A-K/Gomola_Speed_05.gif",
       "Images-Screenshots_A-K/Gomola_Speed_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作",
     "youtube": [
       "J2ZW0hXtGw8",
       "kOzYLSVNayU",
       "ls7s3_DUlIA"
     ],
-    "no_intro_name": "Gomola Speed (Japan)"
+    "no_intro_name": "Gomola Speed (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Gotzendiener",
@@ -8557,13 +8640,14 @@
       "Images-Screenshots_A-K/Gradius_05.gif",
       "Images-Screenshots_A-K/Gradius_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "動作",
     "youtube": [
       "pzO3wzrRyQs",
       "tWDXdf5TuSY",
       "7QA4xdeLgEY"
     ],
-    "no_intro_name": "Gradius (Japan)"
+    "no_intro_name": "Gradius (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Gradius_II",
@@ -8691,12 +8775,13 @@
       "Images-Screenshots_A-K/Gunboat_05.gif",
       "Images-Screenshots_A-K/Gunboat_06.gif"
     ],
-    "genre_category": "策略模擬 Strategy",
+    "genre_category": "模擬",
     "youtube": [
       "qjNf8kHPTKQ",
       "8jzrkzusAJM"
     ],
-    "no_intro_name": "Gunboat (USA)"
+    "no_intro_name": "Gunboat (USA)",
+    "genre_en": "Simulation"
   },
   {
     "id": "Gunhed",
@@ -8727,13 +8812,14 @@
       "Images-Screenshots_A-K/Gunhed_05.gif",
       "Images-Screenshots_A-K/Gunhed_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "WXqsa4T7efg",
       "hBnv0V1w1vU",
       "OquO7XKHDT4"
     ],
-    "no_intro_name": "Gunhed (Japan)"
+    "no_intro_name": "Gunhed (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Granzort",
@@ -8860,13 +8946,14 @@
       "Images-Screenshots_A-K/Hanata_Kadaka_05.gif",
       "Images-Screenshots_A-K/Hanata_Kadaka_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "bpHbh6v2mxM",
       "fVPepc8HB8g",
       "vYfiGaZ2oe8"
     ],
-    "no_intro_name": "Hana Taaka Daka! (Japan)"
+    "no_intro_name": "Hana Taaka Daka! (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Hany_in_the_Sky",
@@ -8897,12 +8984,13 @@
       "Images-Screenshots_A-K/Hany_in_the_Sky_05.gif",
       "Images-Screenshots_A-K/Hany_in_the_Sky_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "動作",
     "youtube": [
       "3X_FpbNK-sY",
       "ooXMA-9BE9k"
     ],
-    "no_intro_name": "Hanii in the Sky (Japan)"
+    "no_intro_name": "Hanii in the Sky (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Hany_on_the_Road",
@@ -8933,12 +9021,13 @@
       "Images-Screenshots_A-K/Hany_on_the_Road_05.gif",
       "Images-Screenshots_A-K/Hany_on_the_Road_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "LT0eIsK-v7o",
       "axT2ZL-XLWk"
     ],
-    "no_intro_name": "Hanii on the Road (Japan)"
+    "no_intro_name": "Hanii on the Road (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "Hatris",
@@ -8970,11 +9059,12 @@
       "Images-Screenshots_A-K/Hatris_02.gif",
       "Images-Screenshots_A-K/Hatris_03.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "解謎",
     "youtube": [
       "LEL2H9r-N34"
     ],
-    "no_intro_name": "Hatris (Japan)"
+    "no_intro_name": "Hatris (Japan)",
+    "genre_en": "Puzzle"
   },
   {
     "id": "Hatsukoi_Monogatari",
@@ -9073,11 +9163,12 @@
       "Images-Screenshots_A-K/Heavy_Unit_05.gif",
       "Images-Screenshots_A-K/Heavy_Unit_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "動作",
     "youtube": [
       "0eyZvvVQMvQ"
     ],
-    "no_intro_name": "Heavy Unit (Japan)"
+    "no_intro_name": "Heavy Unit (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Hellfire_S",
@@ -9260,13 +9351,14 @@
       "Images-Screenshots_A-K/Hit_The_Ice_05.gif",
       "Images-Screenshots_A-K/Hit_The_Ice_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "動作",
     "youtube": [
       "CTLZFwiuask",
       "453-GtWu19o",
       "WOy4ULWw05o"
     ],
-    "no_intro_name": "Hit the Ice - VHL - The Video Hockey League (Japan)"
+    "no_intro_name": "Hit the Ice - VHL - The Video Hockey League (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Hono_no_Tokyuji_Dodge_Danpei",
@@ -9301,9 +9393,10 @@
       "Images-Screenshots_A-K/Hono_Dodge_Danpei_05.gif",
       "Images-Screenshots_A-K/Hono_Dodge_Danpei_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [],
-    "no_intro_name": "Honoo no Toukyuuji - Dodge Danpei (Japan)"
+    "no_intro_name": "Honoo no Toukyuuji - Dodge Danpei (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Hopper_Cat",
@@ -9497,12 +9590,13 @@
       "Images-Screenshots_A-K/Hell_Explorer_05.gif",
       "Images-Screenshots_A-K/Hell_Explorer_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "VX4Fe0EVorU",
       "7S4rF73rHDQ"
     ],
-    "no_intro_name": "Jigoku Meguri (Japan)"
+    "no_intro_name": "Jigoku Meguri (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "Idol_Hanafuda_Fan_Club",
@@ -9533,9 +9627,10 @@
       "Images-Screenshots_A-K/Idol_Hanafuda_05.gif",
       "Images-Screenshots_A-K/Idol_Hanafuda_06.gif"
     ],
-    "genre_category": "成人 Adult",
+    "genre_category": "棋盤桌遊",
     "youtube": [],
-    "no_intro_name": "Idol Hanafuda Fan Club (Japan) (Unl)"
+    "no_intro_name": "Idol Hanafuda Fan Club (Japan) (Unl)",
+    "genre_en": "Board"
   },
   {
     "id": "Iga_Ninden_Gao",
@@ -9607,12 +9702,13 @@
       "Images-Screenshots_A-K/Image_Fight_05.gif",
       "Images-Screenshots_A-K/Image_Fight_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "動作",
     "youtube": [
       "lQWXqZwrHuk",
       "pzXIBLyl-CE"
     ],
-    "no_intro_name": "Image Fight (Japan)"
+    "no_intro_name": "Image Fight (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Image_Fight_II",
@@ -9647,12 +9743,13 @@
       "Images-Screenshots_A-K/Image_Fight2_05.png",
       "Images-Screenshots_A-K/Image_Fight2_06.png"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "動作",
     "youtube": [
       "aXFFf4M4MLE",
       "g5kx_5vOrgQ"
     ],
-    "no_intro_name": "Image Fight (Japan)"
+    "no_intro_name": "Image Fight (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Imperial_Force",
@@ -9706,13 +9803,14 @@
       "Images-Screenshots_A-K/Impossamole_05.gif",
       "Images-Screenshots_A-K/Impossamole_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "Vh_a5e4Z_ww",
       "-p8jg2M8Rio",
       "csjTJicXuB8"
     ],
-    "no_intro_name": "Impossamole (USA)"
+    "no_intro_name": "Impossamole (USA)",
+    "genre_en": "Platform"
   },
   {
     "id": "IQ_Panic",
@@ -9833,11 +9931,12 @@
       "Images-Screenshots_A-K/J-League_Greatest11_05.gif",
       "Images-Screenshots_A-K/J-League_Greatest11_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "Rn_f4uFPkVI"
     ],
-    "no_intro_name": "J.League Greatest Eleven (Japan)"
+    "no_intro_name": "J.League Greatest Eleven (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "J-League_Tremendous_Soccer94",
@@ -9929,11 +10028,12 @@
       "Images-Screenshots_A-K/Jack_Nicklaus_05.gif",
       "Images-Screenshots_A-K/Jack_Nicklaus_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "hUKeIKk27xA"
     ],
-    "no_intro_name": "Jack Nicklaus - Championship Golf (Japan)"
+    "no_intro_name": "Jack Nicklaus - Championship Golf (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Jack_Nicklaus_WT_Golf",
@@ -9958,11 +10058,12 @@
       "https://raw.githubusercontent.com/libretro-thumbnails/NEC_-_PC_Engine_-_TurboGrafx_16/master/Named_Titles/Jack%20Nicklaus%20-%20Championship%20Golf%20(Japan).png",
       "https://raw.githubusercontent.com/libretro-thumbnails/NEC_-_PC_Engine_-_TurboGrafx_16/master/Named_Snaps/Jack%20Nicklaus%20-%20Championship%20Golf%20(Japan).png"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "hUKeIKk27xA"
     ],
-    "no_intro_name": "Jack Nicklaus - Championship Golf (Japan)"
+    "no_intro_name": "Jack Nicklaus - Championship Golf (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Jackie_Chan",
@@ -9993,14 +10094,15 @@
       "Images-Screenshots_A-K/Jackie_Chan_05.gif",
       "Images-Screenshots_A-K/Jackie_Chan_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "ijqUpIWz82c",
       "QZL0qySisq8",
       "wP2Xn2EkNMQ",
       "49pfO0-LYLo"
     ],
-    "no_intro_name": "Jackie Chan (Japan)"
+    "no_intro_name": "Jackie Chan (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "Jantei_Monogatari",
@@ -10380,11 +10482,12 @@
       "Images-Screenshots_A-K/Kattobi_Takuhaikun_05.gif",
       "Images-Screenshots_A-K/Kattobi_Takuhaikun_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作",
     "youtube": [
       "DgzJUusjsrA"
     ],
-    "no_intro_name": "Kattobi! Takuhai-kun (Japan)"
+    "no_intro_name": "Kattobi! Takuhai-kun (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Kawa_no_Nushitsuri_Shizenha",
@@ -10556,11 +10659,12 @@
       "Images-Screenshots_A-K/COMP-Kiki_kaikai_01.gif",
       "Images-Screenshots_A-K/COMP-Kiki_kaikai_02.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "gkEns-XU3jk"
     ],
-    "no_intro_name": "Kiki Kaikai (Japan)"
+    "no_intro_name": "Kiki Kaikai (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "King_of_Casino",
@@ -10595,12 +10699,13 @@
       "Images-Screenshots_A-K/King_of_Casino_05.gif",
       "Images-Screenshots_A-K/King_of_Casino_06.gif"
     ],
-    "genre_category": "麻將博奕 Mahjong/Gambling",
+    "genre_category": "Gambling",
     "youtube": [
       "MapKVUgFBl4",
       "D0YHcEWmQwE"
     ],
-    "no_intro_name": "King of Casino (Japan)"
+    "no_intro_name": "King of Casino (Japan)",
+    "genre_en": "Gambling"
   },
   {
     "id": "Kiso_Louga",
@@ -10685,13 +10790,14 @@
       "Images-Screenshots_A-K/Klax_05.gif",
       "Images-Screenshots_A-K/Klax_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "策略",
     "youtube": [
       "X0brHIzvbhU",
       "CuJqYPclDEc",
       "87aYodm-su8"
     ],
-    "no_intro_name": "Klax (Japan)"
+    "no_intro_name": "Klax (Japan)",
+    "genre_en": "Strategy"
   },
   {
     "id": "Knight_Rider_Special",
@@ -10726,12 +10832,13 @@
       "Images-Screenshots_A-K/Knight_Rider_Special_05.gif",
       "Images-Screenshots_A-K/Knight_Rider_Special_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "競速",
     "youtube": [
       "f0-CwUMMHpg",
       "hsn9u1OTzDg"
     ],
-    "no_intro_name": "Knight Rider Special (Japan)"
+    "no_intro_name": "Knight Rider Special (Japan)",
+    "genre_en": "Racing"
   },
   {
     "id": "Kore_ga_Pro_Yakyu_89",
@@ -10762,9 +10869,10 @@
       "Images-Screenshots_A-K/Kore_ga_Pro_Yakyu89_05.gif",
       "Images-Screenshots_A-K/Kore_ga_Pro_Yakyu89_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [],
-    "no_intro_name": "Kore ga Pro Yakyuu '89 (Japan)"
+    "no_intro_name": "Kore ga Pro Yakyuu '89 (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Kore_ga_Pro_Yakyu_90",
@@ -10795,9 +10903,10 @@
       "Images-Screenshots_A-K/Kore_ga_Pro_Yakyu90_05.gif",
       "Images-Screenshots_A-K/Kore_ga_Pro_Yakyu90_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [],
-    "no_intro_name": "Kore ga Pro Yakyuu '90 (Japan)"
+    "no_intro_name": "Kore ga Pro Yakyuu '90 (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Kyukyoku_Mahjong",
@@ -10925,9 +11034,10 @@
       "Images-Screenshots_A-K/Kaisers_Quest_05.gif",
       "Images-Screenshots_A-K/Kaisers_Quest_06.gif"
     ],
-    "genre_category": "麻將博奕 Mahjong/Gambling",
+    "genre_category": "棋盤桌遊",
     "youtube": [],
-    "no_intro_name": "Mahjong Haouden - Kaiser's Quest (Japan)"
+    "no_intro_name": "Mahjong Haouden - Kaiser's Quest (Japan)",
+    "genre_en": "Board"
   },
   {
     "id": "Kickboxing",
@@ -10993,14 +11103,15 @@
       "Images-Screenshots_S-Z/The_Kung_Fu_05.gif",
       "Images-Screenshots_S-Z/The_Kung_Fu_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作",
     "youtube": [
       "1LwfJRBte6Y",
       "ATQjWW6sPtg",
       "DhokMCOFYTk",
       "kQBtCYN6i-Q"
     ],
-    "no_intro_name": "Kung Fu, The (Japan)"
+    "no_intro_name": "Kung Fu, The (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Lost_Sunheart",
@@ -11269,14 +11380,15 @@
       "Images-Screenshots_L-R/Legend_of_Hero_Tonma_05.gif",
       "Images-Screenshots_L-R/Legend_of_Hero_Tonma_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "W0NEOflO98g",
       "K3xU-sodvl0",
       "EDp3OmqMZR4",
       "yp0NOHT05Oo"
     ],
-    "no_intro_name": "Legend of Hero Tonma (Japan)"
+    "no_intro_name": "Legend of Hero Tonma (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "Legend_of_Xanadu",
@@ -11468,11 +11580,12 @@
       "Images-Screenshots_L-R/Lode_Runner_LL_05.gif",
       "Images-Screenshots_L-R/Lode_Runner_LL_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "動作平台",
     "youtube": [
       "wghMu9q0xJg"
     ],
-    "no_intro_name": "Lode Runner - Lost Labyrinth (Japan)"
+    "no_intro_name": "Lode Runner - Lost Labyrinth (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "Loom",
@@ -11610,14 +11723,15 @@
       "Images-Screenshots_L-R/Legend_of_Valkyrie_05.gif",
       "Images-Screenshots_L-R/Legend_of_Valkyrie_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "冒險",
     "youtube": [
       "IPz-ZMyioAE",
       "JhIS4HNgUKg",
       "vvFVjUsAIsk",
       "PVn5ZjFkMGg"
     ],
-    "no_intro_name": "Valkyrie no Densetsu (Japan)"
+    "no_intro_name": "Valkyrie no Densetsu (Japan)",
+    "genre_en": "Adventure"
   },
   {
     "id": "Macross_2036",
@@ -11769,7 +11883,7 @@
       "Images-Screenshots_L-R/Magical_Chase_05.gif",
       "Images-Screenshots_L-R/Magical_Chase_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "rEVmAjlM2DA",
       "Byf7olVso1I",
@@ -11777,7 +11891,8 @@
       "9_-nfnmA0dc",
       "_6AA2mNIAp8"
     ],
-    "no_intro_name": "Magical Chase (Japan)"
+    "no_intro_name": "Magical Chase (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Magical_Saurus_Tour",
@@ -11903,9 +12018,10 @@
       "Images-Screenshots_L-R/Mah-Jong_Gakuen_05.gif",
       "Images-Screenshots_L-R/Mah-Jong_Gakuen_06.gif"
     ],
-    "genre_category": "麻將博奕 Mahjong/Gambling",
+    "genre_category": "棋盤桌遊",
     "youtube": [],
-    "no_intro_name": "Mahjong Gakuen - Touma Soushirou Toujou (Japan)"
+    "no_intro_name": "Mahjong Gakuen - Touma Soushirou Toujou (Japan)",
+    "genre_en": "Board"
   },
   {
     "id": "Mahjong_Gakuen_Mild",
@@ -11969,9 +12085,10 @@
       "Images-Screenshots_L-R/Mah-Jong_Goku_Special_05.gif",
       "Images-Screenshots_L-R/Mah-Jong_Goku_Special_06.gif"
     ],
-    "genre_category": "麻將博奕 Mahjong/Gambling",
+    "genre_category": "棋盤桌遊",
     "youtube": [],
-    "no_intro_name": "Mahjong Gokuu Special (Japan)"
+    "no_intro_name": "Mahjong Gokuu Special (Japan)",
+    "genre_en": "Board"
   },
   {
     "id": "Mahjong_Lemon_Angel",
@@ -12112,9 +12229,10 @@
       "Images-Screenshots_L-R/Mahjong_Wars_05.gif",
       "Images-Screenshots_L-R/Mahjong_Wars_06.gif"
     ],
-    "genre_category": "麻將博奕 Mahjong/Gambling",
+    "genre_category": "棋盤桌遊",
     "youtube": [],
-    "no_intro_name": "Mahjong Shikaku Retsuden - Mahjong Wars (Japan)"
+    "no_intro_name": "Mahjong Shikaku Retsuden - Mahjong Wars (Japan)",
+    "genre_en": "Board"
   },
   {
     "id": "Maison_Ikkoku",
@@ -12149,9 +12267,10 @@
       "Images-Screenshots_L-R/Maison_Ikkoku_05.gif",
       "Images-Screenshots_L-R/Maison_Ikkoku_06.gif"
     ],
-    "genre_category": "冒險 Adventure",
+    "genre_category": "冒險",
     "youtube": [],
-    "no_intro_name": "Maison Ikkoku (Japan)"
+    "no_intro_name": "Maison Ikkoku (Japan)",
+    "genre_en": "Adventure"
   },
   {
     "id": "Makai_Prince_Dorabocchan",
@@ -12182,11 +12301,12 @@
       "Images-Screenshots_L-R/Makai_Prince_Doraba-chan_05.gif",
       "Images-Screenshots_L-R/Makai_Prince_Doraba-chan_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "foI67VbEAdg"
     ],
-    "no_intro_name": "Makai Prince Dorabocchan (Japan)"
+    "no_intro_name": "Makai Prince Dorabocchan (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "Mami_Inoue",
@@ -12547,12 +12667,13 @@
       "Images-Screenshots_L-R/Mesopotamia_03.gif",
       "Images-Screenshots_L-R/Mesopotamia_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "射擊",
     "youtube": [
       "u_3HeRI86Wc",
       "mruKBoC9lpQ"
     ],
-    "no_intro_name": "Mesopotamia (Japan)"
+    "no_intro_name": "Mesopotamia (Japan)",
+    "genre_en": "Shooter"
   },
   {
     "id": "Metal_Angel",
@@ -12645,11 +12766,12 @@
       "Images-Screenshots_L-R/Metal_Stoker_05.gif",
       "Images-Screenshots_L-R/Metal_Stoker_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "z1nABHSRpbU"
     ],
-    "no_intro_name": "Metal Stoker (Japan)"
+    "no_intro_name": "Metal Stoker (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Metamor_Jupiter",
@@ -12907,9 +13029,10 @@
       "Images-Screenshots_L-R/Momotaro_Densetsu_Gaiden_05.gif",
       "Images-Screenshots_L-R/Momotaro_Densetsu_Gaiden_06.gif"
     ],
-    "genre_category": "角色扮演 RPG",
+    "genre_category": "角色扮演",
     "youtube": [],
-    "no_intro_name": "Momotarou Densetsu Gaiden - Dai-1-shuu (Japan)"
+    "no_intro_name": "Momotarou Densetsu Gaiden - Dai-1-shuu (Japan)",
+    "genre_en": "Role-playing (RPG)"
   },
   {
     "id": "Momotaro_Densetsu_II",
@@ -12940,9 +13063,10 @@
       "Images-Screenshots_L-R/Momotaro_Densetsu_II_05.gif",
       "Images-Screenshots_L-R/Momotaro_Densetsu_II_06.gif"
     ],
-    "genre_category": "角色扮演 RPG",
+    "genre_category": "角色扮演",
     "youtube": [],
-    "no_intro_name": "Momotarou Densetsu II (Japan)"
+    "no_intro_name": "Momotarou Densetsu II (Japan)",
+    "genre_en": "Role-playing (RPG)"
   },
   {
     "id": "Momotaro_Densetsu_Turbo",
@@ -12973,9 +13097,10 @@
       "Images-Screenshots_L-R/Momotaro_Densetsu_Turbo_05.gif",
       "Images-Screenshots_L-R/Momotaro_Densetsu_Turbo_06.gif"
     ],
-    "genre_category": "角色扮演 RPG",
+    "genre_category": "角色扮演",
     "youtube": [],
-    "no_intro_name": "Momotarou Densetsu Turbo (Japan)"
+    "no_intro_name": "Momotarou Densetsu Turbo (Japan)",
+    "genre_en": "Role-playing (RPG)"
   },
   {
     "id": "Momotaro_Katsugeki",
@@ -13077,11 +13202,12 @@
       "Images-Screenshots_L-R/Monster_Pro_Wrestling_05.gif",
       "Images-Screenshots_L-R/Monster_Pro_Wrestling_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "格鬥",
     "youtube": [
       "Ake708ghY2I"
     ],
-    "no_intro_name": "Monster Pro Wres (Japan)"
+    "no_intro_name": "Monster Pro Wres (Japan)",
+    "genre_en": "Fighting"
   },
   {
     "id": "Moonlight_Lady",
@@ -13145,9 +13271,10 @@
       "Images-Screenshots_L-R/Morita_Shogi_03.gif",
       "Images-Screenshots_L-R/Morita_Shogi_04.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "棋盤桌遊",
     "youtube": [],
-    "no_intro_name": "Morita Shougi PC (Japan)"
+    "no_intro_name": "Morita Shougi PC (Japan)",
+    "genre_en": "Board"
   },
   {
     "id": "Moto_Roader",
@@ -13182,11 +13309,12 @@
       "Images-Screenshots_L-R/Motoroader_05.gif",
       "Images-Screenshots_L-R/Motoroader_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "動作",
     "youtube": [
       "3bPBbgGitnE"
     ],
-    "no_intro_name": "Moto Roader (Japan)"
+    "no_intro_name": "Moto Roader (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Moto_Roader_2",
@@ -13258,13 +13386,14 @@
       "Images-Screenshots_L-R/Motoroader_MC_05.gif",
       "Images-Screenshots_L-R/Motoroader_MC_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "動作",
     "youtube": [
       "wnFdvsPL4aw",
       "GYVOyw6sYK0",
       "1saqlBbfVHQ"
     ],
-    "no_intro_name": "Moto Roader (Japan)"
+    "no_intro_name": "Moto Roader (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Motteke_Tamago",
@@ -13526,11 +13655,12 @@
       "Images-Screenshots_L-R/Naxat_Open_05.gif",
       "Images-Screenshots_L-R/Naxat_Open_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "l7VjhidHrLM"
     ],
-    "no_intro_name": "Naxat Open (Japan)"
+    "no_intro_name": "Naxat Open (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Naxat_Stadium",
@@ -13561,11 +13691,12 @@
       "Images-Screenshots_L-R/Naxat_Stadium_05.gif",
       "Images-Screenshots_L-R/Naxat_Stadium_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "H2a7Hikrv5M"
     ],
-    "no_intro_name": "Naxat Stadium (Japan)"
+    "no_intro_name": "Naxat Stadium (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Nazo_no_Masquerade",
@@ -13596,9 +13727,10 @@
       "Images-Screenshots_L-R/Nazo_no_Masquerade_05.gif",
       "Images-Screenshots_L-R/Nazo_no_Masquerade_06.gif"
     ],
-    "genre_category": "冒險 Adventure",
+    "genre_category": "冒險",
     "youtube": [],
-    "no_intro_name": "Nazo no Mascarade (Japan)"
+    "no_intro_name": "Nazo no Mascarade (Japan)",
+    "genre_en": "Adventure"
   },
   {
     "id": "Nectaris",
@@ -13629,11 +13761,12 @@
       "Images-Screenshots_L-R/Nectaris_05.gif",
       "Images-Screenshots_L-R/Nectaris_06.gif"
     ],
-    "genre_category": "策略模擬 Strategy",
+    "genre_category": "策略",
     "youtube": [
       "LGDDNB1KZGE"
     ],
-    "no_intro_name": "Nectaris (Japan)"
+    "no_intro_name": "Nectaris (Japan)",
+    "genre_en": "Strategy"
   },
   {
     "id": "Nekketsu-High_School_CD-SOCCER",
@@ -13885,12 +14018,13 @@
       "Images-Screenshots_L-R/Neutopia_05.gif",
       "Images-Screenshots_L-R/Neutopia_06.gif"
     ],
-    "genre_category": "角色扮演 RPG",
+    "genre_category": "冒險",
     "youtube": [
       "DppU8VevpdQ",
       "8YG2P4JevME"
     ],
-    "no_intro_name": "Neutopia (Japan)"
+    "no_intro_name": "Neutopia (Japan)",
+    "genre_en": "Adventure"
   },
   {
     "id": "Neutopia_2",
@@ -13921,13 +14055,14 @@
       "Images-Screenshots_L-R/Neutopia2_05.gif",
       "Images-Screenshots_L-R/Neutopia2_06.gif"
     ],
-    "genre_category": "角色扮演 RPG",
+    "genre_category": "冒險",
     "youtube": [
       "cQq8OcmVb0o",
       "yqXbmHe5v6k",
       "7zEB-EEunAg"
     ],
-    "no_intro_name": "Neutopia II (Japan)"
+    "no_intro_name": "Neutopia II (Japan)",
+    "genre_en": "Adventure"
   },
   {
     "id": "Nexzr",
@@ -13996,13 +14131,14 @@
       "Images-Screenshots_L-R/Niko_Niko_Pun_05.gif",
       "Images-Screenshots_L-R/Niko_Niko_Pun_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "Yu1Q-RaCgdE",
       "KHwUUNKL4mk",
       "IP5xRaoxByA"
     ],
-    "no_intro_name": "Niko Niko Pun (Japan)"
+    "no_intro_name": "Niko Niko Pun (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "NHK_Taiheiki",
@@ -14033,9 +14169,10 @@
       "Images-Screenshots_L-R/NHK_Taiheiki_05.gif",
       "Images-Screenshots_L-R/NHK_Taiheiki_06.gif"
     ],
-    "genre_category": "策略模擬 Strategy",
+    "genre_category": "策略",
     "youtube": [],
-    "no_intro_name": "NHK Taiga Drama - Taiheiki (Japan)"
+    "no_intro_name": "NHK Taiga Drama - Taiheiki (Japan)",
+    "genre_en": "Strategy"
   },
   {
     "id": "Night_Creatures",
@@ -14066,12 +14203,13 @@
       "Images-Screenshots_L-R/Night_Creatures_05.gif",
       "Images-Screenshots_L-R/Night_Creatures_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "冒險",
     "youtube": [
       "pZl7coEjATc",
       "VBKhFEev4tY"
     ],
-    "no_intro_name": "Night Creatures (USA)"
+    "no_intro_name": "Night Creatures (USA)",
+    "genre_en": "Adventure"
   },
   {
     "id": "Ninja_Ryukenden",
@@ -14141,13 +14279,14 @@
       "Images-Screenshots_L-R/Ninja_Spirit_05.gif",
       "Images-Screenshots_L-R/Ninja_Spirit_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "S39YW6d22a8",
       "R6mW9QG0Xf0",
       "iBg9ujwtP4w"
     ],
-    "no_intro_name": "Ninja Spirit (USA, Europe) (Wii U Virtual Console)"
+    "no_intro_name": "Ninja Spirit (USA, Europe) (Wii U Virtual Console)",
+    "genre_en": "Platform"
   },
   {
     "id": "Nishimura_Kyotaro_Mystery",
@@ -14323,12 +14462,13 @@
       "Images-Screenshots_L-R/Ninja_Warriors_05.gif",
       "Images-Screenshots_L-R/Ninja_Warriors_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "Beat'em Up",
     "youtube": [
       "rCzAxCz2kj0",
       "BZCLbrjdhxg"
     ],
-    "no_intro_name": "Ninja Warriors, The (Japan)"
+    "no_intro_name": "Ninja Warriors, The (Japan)",
+    "genre_en": "Beat'em Up"
   },
   {
     "id": "Obocchama-kun",
@@ -14359,11 +14499,12 @@
       "Images-Screenshots_L-R/Obocchama-kun_05.gif",
       "Images-Screenshots_L-R/Obocchama-kun_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "Y8SagkTFYJc"
     ],
-    "no_intro_name": "Obocchama-kun (Japan)"
+    "no_intro_name": "Obocchama-kun (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "Operation_Wolf",
@@ -14398,13 +14539,14 @@
       "Images-Screenshots_L-R/Operation_Wolf_05.gif",
       "Images-Screenshots_L-R/Operation_Wolf_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "射擊",
     "youtube": [
       "OZ-n9iFqGVU",
       "f_ADW9UCQM8",
       "6bGtkd16_Hc"
     ],
-    "no_intro_name": "Operation Wolf (Japan)"
+    "no_intro_name": "Operation Wolf (Japan)",
+    "genre_en": "Lightgun Shooter"
   },
   {
     "id": "Ordyne",
@@ -14435,14 +14577,15 @@
       "Images-Screenshots_L-R/Ordyne_05.gif",
       "Images-Screenshots_L-R/Ordyne_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "動作",
     "youtube": [
       "JohKyLR8GCQ",
       "Yq5INjs1UIo",
       "ryKJwuDoBgY",
       "AYsfJmNsMTM"
     ],
-    "no_intro_name": "Ordyne (Japan)"
+    "no_intro_name": "Ordyne (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Out_Live",
@@ -14477,9 +14620,10 @@
       "Images-Screenshots_L-R/Out_Live_05.gif",
       "Images-Screenshots_L-R/Out_Live_06.gif"
     ],
-    "genre_category": "角色扮演 RPG",
+    "genre_category": "角色扮演",
     "youtube": [],
-    "no_intro_name": "Out Live (Japan)"
+    "no_intro_name": "Out Live (Japan)",
+    "genre_en": "Role-playing (RPG)"
   },
   {
     "id": "Out_Run",
@@ -14514,13 +14658,14 @@
       "Images-Screenshots_L-R/Outrun_05.gif",
       "Images-Screenshots_L-R/Outrun_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "競速",
     "youtube": [
       "qiUm1CdBvEQ",
       "An1gUPqqBVg",
       "aX-N9WQI8gw"
     ],
-    "no_intro_name": "Out Run (Japan)"
+    "no_intro_name": "Out Run (Japan)",
+    "genre_en": "Racing"
   },
   {
     "id": "Override",
@@ -14551,13 +14696,14 @@
       "Images-Screenshots_L-R/Override_05.gif",
       "Images-Screenshots_L-R/Override_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "tJORGi9-3fU",
       "AlMmKZrAYTE",
       "YTsA_TTeGMA"
     ],
-    "no_intro_name": "Override (Japan)"
+    "no_intro_name": "Override (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Patlabor",
@@ -14611,13 +14757,14 @@
       "Images-Screenshots_L-R/P-47_05.gif",
       "Images-Screenshots_L-R/P-47_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "lXlZv7LPktM",
       "9y2-HlY1TMs",
       "yIY1XR_MytQ"
     ],
-    "no_intro_name": "P-47 - The Freedom Fighter (Japan)"
+    "no_intro_name": "P-47 - The Freedom Fighter (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Pac_Land",
@@ -14652,14 +14799,15 @@
       "Images-Screenshots_L-R/Pac_Land_05.gif",
       "Images-Screenshots_L-R/Pac_Land_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "qhrqHeJQKLc",
       "AX4z7iuFfNU",
       "aYJ0CD3R7iw",
       "eGs7c5quXqM"
     ],
-    "no_intro_name": "Pac-Land (Japan)"
+    "no_intro_name": "Pac-Land (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "Pachio-kun_Juban",
@@ -14690,9 +14838,10 @@
       "Images-Screenshots_L-R/Pachio-kun_Juban_05.gif",
       "Images-Screenshots_L-R/Pachio-kun_Juban_06.gif"
     ],
-    "genre_category": "麻將博奕 Mahjong/Gambling",
+    "genre_category": "Gambling",
     "youtube": [],
-    "no_intro_name": "Pachio-kun - Juuban Shoubu (Japan)"
+    "no_intro_name": "Pachio-kun - Juuban Shoubu (Japan)",
+    "genre_en": "Gambling"
   },
   {
     "id": "Pachio-kun_Maboroshi",
@@ -14840,12 +14989,13 @@
       "Images-Screenshots_L-R/Paranoia_06.gif",
       "Images-Screenshots_L-R/Paranoia_05.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "bDltk1_dU7k",
       "_11XA8nfHNQ"
     ],
-    "no_intro_name": "Paranoia (Japan)"
+    "no_intro_name": "Paranoia (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Parasol_Stars",
@@ -14876,13 +15026,14 @@
       "Images-Screenshots_L-R/Parasol_Stars_05.gif",
       "Images-Screenshots_L-R/Parasol_Stars_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作",
     "youtube": [
       "6LkEA5sS4Y8",
       "KzYmT2TYE-I",
       "SK3JgweyniQ"
     ],
-    "no_intro_name": "Parasol Stars - The Story of Bubble Bobble III (Japan)"
+    "no_intro_name": "Parasol Stars - The Story of Bubble Bobble III (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Parodius",
@@ -14913,14 +15064,15 @@
       "Images-Screenshots_L-R/Parodius_06.gif",
       "Images-Screenshots_L-R/Parodius_05.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "Pxu6B0U9u2I",
       "ub3ihFS5raI",
       "Tfa1pQJjegY",
       "XjbX8_5ZgHY"
     ],
-    "no_intro_name": "Parodius Da! - Shinwa kara Owarai e (Japan)"
+    "no_intro_name": "Parodius Da! - Shinwa kara Owarai e (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Pastel_Lime",
@@ -15080,14 +15232,15 @@
       "Images-Screenshots_L-R/PC_Kid2_05.gif",
       "Images-Screenshots_L-R/PC_Kid2_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "xIoD5MINGbA",
       "XjFbJ7irMn8",
       "-4o32GS2aNg",
       "G6ochk417mg"
     ],
-    "no_intro_name": "PC Genjin 2 - Pithecanthropus Computerurus (Japan)"
+    "no_intro_name": "PC Genjin 2 - Pithecanthropus Computerurus (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "PC_Kid_3",
@@ -15118,14 +15271,15 @@
       "Images-Screenshots_L-R/PC_Kid3_05.gif",
       "Images-Screenshots_L-R/PC_Kid3_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "o-71fOI-a_s",
       "-eoozNPYe-4",
       "6nuU-qYZC0M",
       "d_CnjgEPp64"
     ],
-    "no_intro_name": "PC Genjin 3 - Pithecanthropus Computerurus (Japan)"
+    "no_intro_name": "PC Genjin 3 - Pithecanthropus Computerurus (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "PC_Pachi-Slot",
@@ -15156,9 +15310,10 @@
       "Images-Screenshots_L-R/PC_Pachi-Slot_05.gif",
       "Images-Screenshots_L-R/PC_Pachi-Slot_06.gif"
     ],
-    "genre_category": "成人 Adult",
+    "genre_category": "Gambling",
     "youtube": [],
-    "no_intro_name": "PC Pachi-Slot - Idol Gambler (Japan) (Unl)"
+    "no_intro_name": "PC Pachi-Slot - Idol Gambler (Japan) (Unl)",
+    "genre_en": "Gambling"
   },
   {
     "id": "Peter_Pack_Rat",
@@ -15452,11 +15607,12 @@
       "Images-Screenshots_L-R/Power_Eleven_05.gif",
       "Images-Screenshots_L-R/Power_Eleven_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "9keNEIzmc9k"
     ],
-    "no_intro_name": "Power Eleven (Japan)"
+    "no_intro_name": "Power Eleven (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Power_Gate",
@@ -15491,11 +15647,12 @@
       "Images-Screenshots_L-R/Powergate_05.gif",
       "Images-Screenshots_L-R/Powergate_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "vvwTknURHgs"
     ],
-    "no_intro_name": "Power Gate (Japan)"
+    "no_intro_name": "Power Gate (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Power_Golf",
@@ -15526,12 +15683,13 @@
       "Images-Screenshots_L-R/Power_Golf_05.gif",
       "Images-Screenshots_L-R/Power_Golf_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "5blANZPTJuI",
       "1EYYsd7oFHk"
     ],
-    "no_intro_name": "Power Golf (Japan)"
+    "no_intro_name": "Power Golf (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Power_Golf2",
@@ -15603,12 +15761,13 @@
       "Images-Screenshots_L-R/Power_League_05.gif",
       "Images-Screenshots_L-R/Power_League_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "IvHc6jDaaIM",
       "9o3wIlajt8U"
     ],
-    "no_intro_name": "Power League (Japan)"
+    "no_intro_name": "Power League (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Power_League_93",
@@ -15643,9 +15802,10 @@
       "Images-Screenshots_L-R/Power_League93_05.gif",
       "Images-Screenshots_L-R/Power_League93_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [],
-    "no_intro_name": "Power League '93 (Japan)"
+    "no_intro_name": "Power League '93 (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Power_League_2",
@@ -15680,9 +15840,10 @@
       "Images-Screenshots_L-R/Power_League2_05.gif",
       "Images-Screenshots_L-R/Power_League2_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [],
-    "no_intro_name": "Power League II (Japan)"
+    "no_intro_name": "Power League II (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Power_League_3",
@@ -15717,9 +15878,10 @@
       "Images-Screenshots_L-R/Power_League3_05.gif",
       "Images-Screenshots_L-R/Power_League3_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [],
-    "no_intro_name": "Power League III (Japan)"
+    "no_intro_name": "Power League III (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Power_League_4",
@@ -15754,9 +15916,10 @@
       "Images-Screenshots_L-R/Power_League4_05.gif",
       "Images-Screenshots_L-R/Power_League4_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [],
-    "no_intro_name": "Power League (Japan)"
+    "no_intro_name": "Power League (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Power_League_5",
@@ -15791,9 +15954,10 @@
       "Images-Screenshots_L-R/Power_League_V_05.gif",
       "Images-Screenshots_L-R/Power_League_V_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [],
-    "no_intro_name": "Power League (Japan)"
+    "no_intro_name": "Power League (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Power_Sports",
@@ -15824,12 +15988,13 @@
       "Images-Screenshots_L-R/Power_Sports_05.gif",
       "Images-Screenshots_L-R/Power_Sports_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "0XMS8t8yVDU",
       "XnwZyvh-rD4"
     ],
-    "no_intro_name": "Power Sports (Japan)"
+    "no_intro_name": "Power Sports (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Power_Tennis",
@@ -15860,11 +16025,12 @@
       "Images-Screenshots_L-R/Power_Tennis_05.gif",
       "Images-Screenshots_L-R/Power_Tennis_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "6bHR3tdvJEs"
     ],
-    "no_intro_name": "Power Tennis (Japan)"
+    "no_intro_name": "Power Tennis (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Prince_of_Persia",
@@ -16158,13 +16324,14 @@
       "Images-Screenshots_L-R/Psycho_Chaser_05.gif",
       "Images-Screenshots_L-R/Psycho_Chaser_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "動作",
     "youtube": [
       "UEWOsJKw7RM",
       "YfAb08DqvwU",
       "t_jFTQGw8A0"
     ],
-    "no_intro_name": "Psycho Chaser (Japan)"
+    "no_intro_name": "Psycho Chaser (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Puyo_Puyo_CD",
@@ -16262,9 +16429,10 @@
       "Images-Screenshots_L-R/Puzzle_Boy_05.gif",
       "Images-Screenshots_L-R/Puzzle_Boy_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "解謎",
     "youtube": [],
-    "no_intro_name": "Puzzle Boy (Japan)"
+    "no_intro_name": "Puzzle Boy (Japan)",
+    "genre_en": "Puzzle"
   },
   {
     "id": "Puzznic",
@@ -16299,11 +16467,12 @@
       "Images-Screenshots_L-R/Puzznic_05.gif",
       "Images-Screenshots_L-R/Puzznic_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "策略",
     "youtube": [
       "yshmEyU2GtQ"
     ],
-    "no_intro_name": "Puzznic (Japan)"
+    "no_intro_name": "Puzznic (Japan)",
+    "genre_en": "Strategy"
   },
   {
     "id": "Pro_Yakyu",
@@ -16635,9 +16804,10 @@
       "Images-Screenshots_L-R/Quiz_Toko_Shashin_05.gif",
       "Images-Screenshots_L-R/Quiz_Toko_Shashin_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "益智問答",
     "youtube": [],
-    "no_intro_name": "Quiz Toukou Shashin (Japan) (Unl)"
+    "no_intro_name": "Quiz Toukou Shashin (Japan) (Unl)",
+    "genre_en": "Quiz"
   },
   {
     "id": "Quiz_Tonosama_no_Yabo",
@@ -16732,14 +16902,15 @@
       "Images-Screenshots_A-K/COMP-R-Type_01.gif",
       "Images-Screenshots_A-K/COMP-R-Type_02.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "CrEqQvAJse0",
       "xo9PmyYCovo",
       "qftjpU5xrPo",
       "Dq3U6UJuufg"
     ],
-    "no_intro_name": "R-Type I (Japan)"
+    "no_intro_name": "R-Type I (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "R-Type_II",
@@ -16770,12 +16941,13 @@
       "Images-Screenshots_L-R/R-Type2_05.gif",
       "Images-Screenshots_L-R/R-Type2_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "CrEqQvAJse0",
       "qftjpU5xrPo"
     ],
-    "no_intro_name": "R-Type II (Japan) (v1.1)"
+    "no_intro_name": "R-Type II (Japan) (v1.1)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Rabio_Lepus_Special",
@@ -16806,11 +16978,12 @@
       "Images-Screenshots_L-R/Rabio_Lepus_05.gif",
       "Images-Screenshots_L-R/Rabio_Lepus_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "exe3b5ZpEJo"
     ],
-    "no_intro_name": "Rabio Lepus Special (Japan)"
+    "no_intro_name": "Rabio Lepus Special (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Racing_Spirits",
@@ -16877,12 +17050,13 @@
       "Images-Screenshots_A-K/COMP-Raiden_01.gif",
       "Images-Screenshots_A-K/COMP-Raiden_02.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "動作",
     "youtube": [
       "tYSYANdJuFk",
       "7uW07nHihkA"
     ],
-    "no_intro_name": "Raiden (Japan)"
+    "no_intro_name": "Raiden (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Rainbow_Islands",
@@ -17055,12 +17229,13 @@
       "Images-Screenshots_L-R/Rastan_Saga_II_05.gif",
       "Images-Screenshots_L-R/Rastan_Saga_II_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "ljYrtwSv6ZI",
       "a_HJzIMnouE"
     ],
-    "no_intro_name": "Rastan Saga II (Japan)"
+    "no_intro_name": "Rastan Saga II (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "Rayxanber_II",
@@ -17363,11 +17538,12 @@
       "Images-Screenshots_L-R/Rock_On_05.gif",
       "Images-Screenshots_L-R/Rock_On_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "d68s6CgOHsE"
     ],
-    "no_intro_name": "Rock-On (Japan)"
+    "no_intro_name": "Rock-On (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "ROMROM_Karaoke_1-Victor",
@@ -18144,9 +18320,10 @@
       "Images-Screenshots_S-Z/Shada_05.gif",
       "Images-Screenshots_S-Z/Shada_06.gif"
     ],
-    "genre_category": "角色扮演 RPG",
+    "genre_category": "角色扮演",
     "youtube": [],
-    "no_intro_name": "Makai Hakkenden Shada (Japan)"
+    "no_intro_name": "Makai Hakkenden Shada (Japan)",
+    "genre_en": "Role-playing (RPG)"
   },
   {
     "id": "SCI",
@@ -18177,11 +18354,12 @@
       "Images-Screenshots_S-Z/SCI_05.gif",
       "Images-Screenshots_S-Z/SCI_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "動作",
     "youtube": [
       "AbhT3UKzWk8"
     ],
-    "no_intro_name": "S.C.I. - Special Criminal Investigation (Japan)"
+    "no_intro_name": "S.C.I. - Special Criminal Investigation (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Sadakichi_Seven",
@@ -18212,9 +18390,10 @@
       "Images-Screenshots_S-Z/Sadakichi_Seven_05.gif",
       "Images-Screenshots_S-Z/Sadakichi_Seven_06.gif"
     ],
-    "genre_category": "冒險 Adventure",
+    "genre_category": "冒險",
     "youtube": [],
-    "no_intro_name": "Sadakichi Seven - Hideyoshi no Ougon (Japan)"
+    "no_intro_name": "Sadakichi Seven - Hideyoshi no Ougon (Japan)",
+    "genre_en": "Adventure"
   },
   {
     "id": "Saint_Dragon",
@@ -18245,11 +18424,12 @@
       "Images-Screenshots_S-Z/Saint_Dragon_05.gif",
       "Images-Screenshots_S-Z/Saint_Dragon_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "sifQbh9u8eQ"
     ],
-    "no_intro_name": "Tenseiryuu - Saint Dragon (Japan)"
+    "no_intro_name": "Tenseiryuu - Saint Dragon (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Salamander",
@@ -18286,14 +18466,15 @@
       "Images-Screenshots_A-K/COMP-Salamander_01.gif",
       "Images-Screenshots_A-K/COMP-Salamander_02.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "CYfqf_YOvv0",
       "SJehQsM16OI",
       "cMgdSrd8nY4",
       "Gbhymm3AEF8"
     ],
-    "no_intro_name": "Salamander (Japan)"
+    "no_intro_name": "Salamander (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Sangokushi",
@@ -18478,9 +18659,10 @@
       "Images-Screenshots_S-Z/Sekigahara_05.gif",
       "Images-Screenshots_S-Z/Sekigahara_06.gif"
     ],
-    "genre_category": "策略模擬 Strategy",
+    "genre_category": "策略",
     "youtube": [],
-    "no_intro_name": "Sekigahara (Japan)"
+    "no_intro_name": "Sekigahara (Japan)",
+    "genre_en": "Strategy"
   },
   {
     "id": "Sengoku_Kanto_sangokushi",
@@ -18535,9 +18717,10 @@
       "Images-Screenshots_S-Z/Sengoku_Mahjong_05.gif",
       "Images-Screenshots_S-Z/Sengoku_Mahjong_06.gif"
     ],
-    "genre_category": "麻將博奕 Mahjong/Gambling",
+    "genre_category": "棋盤桌遊",
     "youtube": [],
-    "no_intro_name": "Sengoku Mahjong (Japan)"
+    "no_intro_name": "Sengoku Mahjong (Japan)",
+    "genre_en": "Board"
   },
   {
     "id": "Sexy_Idol_Mahjong",
@@ -18695,11 +18878,12 @@
       "Images-Screenshots_S-Z/Shanghai_06.gif",
       "Images-Screenshots_S-Z/Shanghai_05.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "解謎",
     "youtube": [
       "ujw9y_m41WM"
     ],
-    "no_intro_name": "Shanghai (Japan)"
+    "no_intro_name": "Shanghai (Japan)",
+    "genre_en": "Puzzle"
   },
   {
     "id": "Shanghai_II",
@@ -18996,13 +19180,14 @@
       "Images-Screenshots_A-K/COMP-Shinobi_01.gif",
       "Images-Screenshots_A-K/COMP-Shinobi_02.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "QOpTQx_WW1k",
       "S1Nat3K0oyU",
       "SNUkoo7FiK8"
     ],
-    "no_intro_name": "Shinobi (Japan)"
+    "no_intro_name": "Shinobi (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "Shinsetsu_Shiawase_Usagi",
@@ -19165,9 +19350,10 @@
       "Images-Screenshots_S-Z/Shogi_Shodan_Icchokusen_05.gif",
       "Images-Screenshots_S-Z/Shogi_Shodan_Icchokusen_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "棋盤桌遊",
     "youtube": [],
-    "no_intro_name": "Shougi Shodan Icchokusen (Japan)"
+    "no_intro_name": "Shougi Shodan Icchokusen (Japan)",
+    "genre_en": "Board"
   },
   {
     "id": "Shogi_Shoshinsha_Muyo",
@@ -19301,11 +19487,12 @@
       "Images-Screenshots_S-Z/Silent_Debuggers_05.gif",
       "Images-Screenshots_S-Z/Silent_Debuggers_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "射擊",
     "youtube": [
       "rxbcD8-itps"
     ],
-    "no_intro_name": "Silent Debuggers (Japan)"
+    "no_intro_name": "Silent Debuggers (Japan)",
+    "genre_en": "Shooter"
   },
   {
     "id": "Silent_Mobius",
@@ -19392,9 +19579,10 @@
       "Images-Screenshots_S-Z/Sindibad_05.gif",
       "Images-Screenshots_S-Z/Sindibad_06.gif"
     ],
-    "genre_category": "角色扮演 RPG",
+    "genre_category": "角色扮演",
     "youtube": [],
-    "no_intro_name": "Sindibad - Chitei no Daimakyuu (Japan)"
+    "no_intro_name": "Sindibad - Chitei no Daimakyuu (Japan)",
+    "genre_en": "Role-playing (RPG)"
   },
   {
     "id": "Skweek",
@@ -19425,11 +19613,12 @@
       "Images-Screenshots_S-Z/Skweek_05.gif",
       "Images-Screenshots_S-Z/Skweek_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "動作",
     "youtube": [
       "AJAWUXVgz5k"
     ],
-    "no_intro_name": "Skweek (Japan)"
+    "no_intro_name": "Skweek (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Slime_World",
@@ -19653,13 +19842,14 @@
       "Images-Screenshots_S-Z/Soldier_Blade_05.gif",
       "Images-Screenshots_S-Z/Soldier_Blade_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "6A0jQpDmshQ",
       "B6JJ_6F-F3M",
       "wnnWK9coJ2c"
     ],
-    "no_intro_name": "Soldier Blade (Japan)"
+    "no_intro_name": "Soldier Blade (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Solid_Force",
@@ -19722,12 +19912,13 @@
       "Images-Screenshots_S-Z/Son_Son2_05.gif",
       "Images-Screenshots_S-Z/Son_Son2_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "冒險",
     "youtube": [
       "-FAAVVhWUFc",
       "FfmTbpX6FE4"
     ],
-    "no_intro_name": "Son Son II (Japan)"
+    "no_intro_name": "Son Son II (Japan)",
+    "genre_en": "Adventure"
   },
   {
     "id": "Sorcerian",
@@ -19920,14 +20111,15 @@
       "Images-Screenshots_A-K/COMP-Space_Harrier_02.gif",
       "Images-Screenshots_A-K/COMP-Space_Harrier_03.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "射擊",
     "youtube": [
       "8DP5NZKfZds",
       "SedM0yQfa0M",
       "t6cKK6gx8sc",
       "mqCEt9KblVI"
     ],
-    "no_intro_name": "Space Harrier (Japan)"
+    "no_intro_name": "Space Harrier (Japan)",
+    "genre_en": "Shooter"
   },
   {
     "id": "Space_Invaders",
@@ -19962,11 +20154,12 @@
       "Images-Screenshots_S-Z/Space_Invaders_05.gif",
       "Images-Screenshots_S-Z/Space_Invaders_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "射擊",
     "youtube": [
       "hMHZYBb7nb8"
     ],
-    "no_intro_name": "Space Invaders - Fukkatsu no Hi (Japan)"
+    "no_intro_name": "Space Invaders - Fukkatsu no Hi (Japan)",
+    "genre_en": "Shooter"
   },
   {
     "id": "Space_Invaders_Original",
@@ -20039,11 +20232,12 @@
       "Images-Screenshots_S-Z/Spin_Pair_05.gif",
       "Images-Screenshots_S-Z/Spin_Pair_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "解謎",
     "youtube": [
       "US3sVMlqgko"
     ],
-    "no_intro_name": "Spin Pair (Japan)"
+    "no_intro_name": "Spin Pair (Japan)",
+    "genre_en": "Puzzle"
   },
   {
     "id": "Spiral_Wave",
@@ -20074,9 +20268,10 @@
       "Images-Screenshots_S-Z/Spiral_Wave_05.gif",
       "Images-Screenshots_S-Z/Spiral_Wave_06.gif"
     ],
-    "genre_category": "角色扮演 RPG",
+    "genre_category": "射擊",
     "youtube": [],
-    "no_intro_name": "Spiral Wave (Japan)"
+    "no_intro_name": "Spiral Wave (Japan)",
+    "genre_en": "Shooter"
   },
   {
     "id": "Splash_Lake",
@@ -20142,14 +20337,15 @@
       "Images-Screenshots_S-Z/Splatterhouse_05.gif",
       "Images-Screenshots_S-Z/Splatterhouse_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作",
     "youtube": [
       "5l2_hYkPQTw",
       "sMjBZRd_cyY",
       "NOG6F7B2S2Y",
       "Cgxk1RkK7EE"
     ],
-    "no_intro_name": "Splatterhouse (Japan) (En)"
+    "no_intro_name": "Splatterhouse (Japan) (En)",
+    "genre_en": "Action"
   },
   {
     "id": "Spriggan_Mark_2",
@@ -20423,9 +20619,10 @@
       "Images-Screenshots_S-Z/Stratego_05.gif",
       "Images-Screenshots_S-Z/Stratego_06.gif"
     ],
-    "genre_category": "策略模擬 Strategy",
+    "genre_category": "棋盤桌遊",
     "youtube": [],
-    "no_intro_name": "Stratego (Japan)"
+    "no_intro_name": "Stratego (Japan)",
+    "genre_en": "Board"
   },
   {
     "id": "Street_Fighter_II",
@@ -20456,13 +20653,14 @@
       "Images-Screenshots_S-Z/Street_Fighter2_05.gif",
       "Images-Screenshots_S-Z/Street_Fighter2_06.gif"
     ],
-    "genre_category": "格鬥 Fighting",
+    "genre_category": "格鬥",
     "youtube": [
       "EFwTuB2QamQ",
       "qDeRgWMVt3I",
       "hToclCtLN1k"
     ],
-    "no_intro_name": "Street Fighter II' - Champion Edition (Japan)"
+    "no_intro_name": "Street Fighter II' - Champion Edition (Japan)",
+    "genre_en": "Fighting"
   },
   {
     "id": "Strider_Hiryu",
@@ -20531,9 +20729,10 @@
       "Images-Screenshots_S-Z/Strip_Fighter_II_05.gif",
       "Images-Screenshots_S-Z/Strip_Fighter_II_06.gif"
     ],
-    "genre_category": "格鬥 Fighting",
+    "genre_category": "動作",
     "youtube": [],
-    "no_intro_name": "Strip Fighter II (Japan) (Unl)"
+    "no_intro_name": "Strip Fighter II (Japan) (Unl)",
+    "genre_en": "Action"
   },
   {
     "id": "Summer_Carnival93",
@@ -20775,9 +20974,10 @@
       "Images-Screenshots_S-Z/Super_Metal_Crusher_05.gif",
       "Images-Screenshots_S-Z/Super_Metal_Crusher_06.gif"
     ],
-    "genre_category": "策略模擬 Strategy",
+    "genre_category": "策略",
     "youtube": [],
-    "no_intro_name": "Super Metal Crusher (Japan)"
+    "no_intro_name": "Super Metal Crusher (Japan)",
+    "genre_en": "Strategy"
   },
   {
     "id": "Super_Momotaro_Dentetsu",
@@ -20806,9 +21006,10 @@
       "Images-Screenshots_S-Z/Super_Momotaro_Dentetsu_05.gif",
       "Images-Screenshots_S-Z/Super_Momotaro_Dentetsu_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "棋盤桌遊",
     "youtube": [],
-    "no_intro_name": "Super Momotarou Dentetsu (Japan) (Alt)"
+    "no_intro_name": "Super Momotarou Dentetsu (Japan) (Alt)",
+    "genre_en": "Board"
   },
   {
     "id": "Super_Momotaro_Dentetsu2 ",
@@ -20839,9 +21040,10 @@
       "Images-Screenshots_S-Z/Super_Momotaro_Dentetsu2_05.gif",
       "Images-Screenshots_S-Z/Super_Momotaro_Dentetsu2_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "棋盤桌遊",
     "youtube": [],
-    "no_intro_name": "Super Momotarou Dentetsu II (Japan)"
+    "no_intro_name": "Super Momotarou Dentetsu II (Japan)",
+    "genre_en": "Board"
   },
   {
     "id": "Super_Momotaro_Dentetsu2",
@@ -20872,9 +21074,10 @@
       "Images-Screenshots_S-Z/Super_Momotaro_Dentetsu2_05.gif",
       "Images-Screenshots_S-Z/Super_Momotaro_Dentetsu2_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "棋盤桌遊",
     "youtube": [],
-    "no_intro_name": "Super Momotarou Dentetsu II (Japan)"
+    "no_intro_name": "Super Momotarou Dentetsu II (Japan)",
+    "genre_en": "Board"
   },
   {
     "id": "Super_Raiden",
@@ -21112,14 +21315,15 @@
       "Images-Screenshots_S-Z/Super_Star_Soldier_05.gif",
       "Images-Screenshots_S-Z/Super_Star_Soldier_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "動作",
     "youtube": [
       "pWUAlyd-aHw",
       "Ta7sUlF9T78",
       "WtqqFhbGjJ0",
       "iEG5IgDrv5Y"
     ],
-    "no_intro_name": "Super Star Soldier (Japan)"
+    "no_intro_name": "Super Star Soldier (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Super_Volleyball",
@@ -21154,12 +21358,13 @@
       "Images-Screenshots_S-Z/Super_Volleyball_05.gif",
       "Images-Screenshots_S-Z/Super_Volleyball_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "1A0eGfVEUvQ",
       "_uZr8DgGrB8"
     ],
-    "no_intro_name": "Super Volleyball (USA)"
+    "no_intro_name": "Super Volleyball (USA)",
+    "genre_en": "Sports"
   },
   {
     "id": "Susano-O_Densetsu",
@@ -21377,14 +21582,15 @@
       "Images-Screenshots_S-Z/Takahashi_Meijin_05.gif",
       "Images-Screenshots_S-Z/Takahashi_Meijin_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "icHoXZ8KpU0",
       "yb4B6zJO_gw",
       "F1II6PSehLg",
       "mBOtn4eorX4"
     ],
-    "no_intro_name": "Takahashi Meijin no Shin Bouken-jima (Japan)"
+    "no_intro_name": "Takahashi Meijin no Shin Bouken-jima (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "Takeda_Shingen",
@@ -21450,12 +21656,13 @@
       "Images-Screenshots_S-Z/TaleSpin_05.gif",
       "Images-Screenshots_S-Z/TaleSpin_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "kQQ5Ci2ZdxQ",
       "y_QNPqD8UGA"
     ],
-    "no_intro_name": "TaleSpin (USA)"
+    "no_intro_name": "TaleSpin (USA)",
+    "genre_en": "Platform"
   },
   {
     "id": "Tatsu_No_Ko_Fighter",
@@ -21520,13 +21727,14 @@
       "Images-Screenshots_A-K/COMP-Tatsujin_01.gif",
       "Images-Screenshots_A-K/COMP-Tatsujin_02.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "6gZIoBYCoA4",
       "avJnSbRhotY",
       "7RW9fwSl7hw"
     ],
-    "no_intro_name": "Tatsujin (Japan)"
+    "no_intro_name": "Tatsujin (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Tecmo_Soccer",
@@ -21709,11 +21917,12 @@
       "Images-Screenshots_S-Z/Terra_Cresta2_05.gif",
       "Images-Screenshots_S-Z/Terra_Cresta2_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "rVu2_SL--zc"
     ],
-    "no_intro_name": "Terra Cresta II - Mandoler no Gyakushuu (Japan)"
+    "no_intro_name": "Terra Cresta II - Mandoler no Gyakushuu (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Terraforming",
@@ -21787,9 +21996,10 @@
       "Images-Screenshots_S-Z/Tower_of_Druaga_06.gif",
       "Images-Screenshots_A-K/COMP-Tower_of_Druaga_01.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "角色扮演",
     "youtube": [],
-    "no_intro_name": "Tower of Druaga, The (Japan)"
+    "no_intro_name": "Tower of Druaga, The (Japan)",
+    "genre_en": "Role-playing (RPG)"
   },
   {
     "id": "TV_Show",
@@ -21849,13 +22059,14 @@
       "Images-Screenshots_S-Z/Thunder_Blade_06.gif",
       "Images-Screenshots_S-Z/Thunder_Blade_05.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "vmGYZ64L-vE",
       "UZGz5DDNE0s",
       "XSKNew7htRQ"
     ],
-    "no_intro_name": "Thunder Blade (Japan)"
+    "no_intro_name": "Thunder Blade (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Tiger_Road",
@@ -21892,13 +22103,14 @@
       "Images-Screenshots_A-K/COMP-Tiger_Road_01.gif",
       "Images-Screenshots_A-K/COMP-Tiger_Road_02.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "Ty3E6wGcQhs",
       "lcyQbi79wYA",
       "unw-bF4Qa0w"
     ],
-    "no_intro_name": "Tiger Road (USA)"
+    "no_intro_name": "Tiger Road (USA)",
+    "genre_en": "Platform"
   },
   {
     "id": "Time_Cruise",
@@ -21923,9 +22135,10 @@
       "https://raw.githubusercontent.com/libretro-thumbnails/NEC_-_PC_Engine_-_TurboGrafx_16/master/Named_Titles/Time%20Cruise%20(USA).png",
       "https://raw.githubusercontent.com/libretro-thumbnails/NEC_-_PC_Engine_-_TurboGrafx_16/master/Named_Snaps/Time%20Cruise%20(USA).png"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "彈珠台",
     "youtube": [],
-    "no_intro_name": "Time Cruise (USA)"
+    "no_intro_name": "Time Cruise (USA)",
+    "genre_en": "Pinball"
   },
   {
     "id": "Time_Cruise_II",
@@ -21956,14 +22169,15 @@
       "Images-Screenshots_S-Z/Time_Cruise_II_05.gif",
       "Images-Screenshots_S-Z/Time_Cruise_II_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "彈珠台",
     "youtube": [
       "RRTC5UXkFaw",
       "YxTFEl7kd4E",
       "jnOAAWVuVMw",
       "pP0sJ6xQgM4"
     ],
-    "no_intro_name": "Time Cruise II (Japan)"
+    "no_intro_name": "Time Cruise II (Japan)",
+    "genre_en": "Pinball"
   },
   {
     "id": "Titan",
@@ -21998,11 +22212,12 @@
       "Images-Screenshots_S-Z/Titan_05.gif",
       "Images-Screenshots_S-Z/Titan_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "策略",
     "youtube": [
       "3AKRdDExEOE"
     ],
-    "no_intro_name": "Titan (Japan)"
+    "no_intro_name": "Titan (Japan)",
+    "genre_en": "Strategy"
   },
   {
     "id": "Toilet_Kids",
@@ -22033,11 +22248,12 @@
       "Images-Screenshots_S-Z/Toilet_Kids_05.gif",
       "Images-Screenshots_S-Z/Toilet_Kids_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "動作",
     "youtube": [
       "PUcUj6fin_4"
     ],
-    "no_intro_name": "Toilet Kids (Japan)"
+    "no_intro_name": "Toilet Kids (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Tokimeki_Memorial",
@@ -22115,11 +22331,12 @@
       "Images-Screenshots_S-Z/Toy_Shop_Boys_05.gif",
       "Images-Screenshots_S-Z/Toy_Shop_Boys_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "YWbNQvA_qZw"
     ],
-    "no_intro_name": "Toy Shop Boys (Japan)"
+    "no_intro_name": "Toy Shop Boys (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Travel_Eple",
@@ -22214,11 +22431,12 @@
       "Images-Screenshots_S-Z/Tricky_05.gif",
       "Images-Screenshots_S-Z/Tricky_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "策略",
     "youtube": [
       "VCPntib7i4U"
     ],
-    "no_intro_name": "Tricky (Japan)"
+    "no_intro_name": "Tricky (Japan)",
+    "genre_en": "Strategy"
   },
   {
     "id": "Tsuppari_Dai_Sumo",
@@ -22279,9 +22497,10 @@
       "Images-Screenshots_S-Z/Tsuru_Teruhito_05.gif",
       "Images-Screenshots_S-Z/Tsuru_Teruhito_06.gif"
     ],
-    "genre_category": "策略模擬 Strategy",
+    "genre_category": "模擬",
     "youtube": [],
-    "no_intro_name": "Tsuru Teruhito no Jissen Kabushiki Bai Bai Game (Japan)"
+    "no_intro_name": "Tsuru Teruhito no Jissen Kabushiki Bai Bai Game (Japan)",
+    "genre_en": "Simulation"
   },
   {
     "id": "Turrican",
@@ -22316,14 +22535,15 @@
       "Images-Screenshots_S-Z/Turrican_05.gif",
       "Images-Screenshots_S-Z/Turrican_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作",
     "youtube": [
       "fxmSHyMm0sM",
       "HovUMUyD-do",
       "4NVhTpVhM5M",
       "31nDIC7bDZA"
     ],
-    "no_intro_name": "Turrican (USA)"
+    "no_intro_name": "Turrican (USA)",
+    "genre_en": "Action"
   },
   {
     "id": "TV_Sports_Basketball",
@@ -22354,11 +22574,12 @@
       "Images-Screenshots_S-Z/TV_Sports_Basketball_05.gif",
       "Images-Screenshots_S-Z/TV_Sports_Basketball_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "3PGHU15T6hQ"
     ],
-    "no_intro_name": "TV Sports Basketball (Japan)"
+    "no_intro_name": "TV Sports Basketball (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "TV_Sports_Football",
@@ -22389,11 +22610,12 @@
       "Images-Screenshots_S-Z/TV_Sports_Football_05.gif",
       "Images-Screenshots_S-Z/TV_Sports_Football_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "4Xsy_2aGRfY"
     ],
-    "no_intro_name": "TV Sports Football (Japan)"
+    "no_intro_name": "TV Sports Football (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "TV_Sports_Hockey",
@@ -22424,11 +22646,12 @@
       "Images-Screenshots_S-Z/TV_Sports_Hockey_05.gif",
       "Images-Screenshots_S-Z/TV_Sports_Hockey_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "252yTneEGGg"
     ],
-    "no_intro_name": "TV Sports Hockey (Japan)"
+    "no_intro_name": "TV Sports Hockey (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Ultrabox",
@@ -22649,12 +22872,13 @@
       "Images-Screenshots_S-Z/USA_Pro_Basketball_05.gif",
       "Images-Screenshots_S-Z/USA_Pro_Basketball_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "vKDEUI8MXkI",
       "0_iVpEhDzXk"
     ],
-    "no_intro_name": "USA Pro Basketball (Japan)"
+    "no_intro_name": "USA Pro Basketball (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Valis",
@@ -22943,13 +23167,14 @@
       "Images-Screenshots_S-Z/Veigues_05.gif",
       "Images-Screenshots_S-Z/Veigues_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "eW7eRurZUnA",
       "wPTK2Reobf0",
       "ldQ0gFN5sCs"
     ],
-    "no_intro_name": "Veigues - Tactical Gladiator (Japan)"
+    "no_intro_name": "Veigues - Tactical Gladiator (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Victory_Run",
@@ -22984,14 +23209,15 @@
       "Images-Screenshots_S-Z/Victory_Run_05.gif",
       "Images-Screenshots_S-Z/Victory_Run_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "競速",
     "youtube": [
       "KZY0-c96BhA",
       "1D40xq6TK5c",
       "ZqDNFOrsbzA",
       "mL242fddaug"
     ],
-    "no_intro_name": "Victory Run (USA, Europe) (Wii U Virtual Console)"
+    "no_intro_name": "Victory Run (USA, Europe) (Wii U Virtual Console)",
+    "genre_en": "Racing"
   },
   {
     "id": "Vigilante",
@@ -23022,14 +23248,15 @@
       "Images-Screenshots_S-Z/Vigilante_05.gif",
       "Images-Screenshots_S-Z/Vigilante_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作",
     "youtube": [
       "tIw5iRoI66o",
       "AdwD_Y3K8ZA",
       "Jc4rS1Xgatk",
       "JpZETuxwZ4s"
     ],
-    "no_intro_name": "Vigilante (Japan)"
+    "no_intro_name": "Vigilante (Japan)",
+    "genre_en": "Action"
   },
   {
     "id": "Violent_Soldier",
@@ -23060,14 +23287,15 @@
       "Images-Screenshots_S-Z/Violent_Soldier_05.gif",
       "Images-Screenshots_S-Z/Violent_Soldier_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "MYo-_CNU7LQ",
       "CNMbMfzG7Xs",
       "CbgnQ9Clqrs",
       "KRRVcg-NIL0"
     ],
-    "no_intro_name": "Violent Soldier (Japan)"
+    "no_intro_name": "Violent Soldier (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Virgin_Dream",
@@ -23134,13 +23362,14 @@
       "Images-Screenshots_S-Z/Volfied_05.gif",
       "Images-Screenshots_S-Z/Volfied_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "解謎",
     "youtube": [
       "firsRUHuIFo",
       "Azjuves7lyg",
       "J33tBvdZl_k"
     ],
-    "no_intro_name": "Volfied (Japan)"
+    "no_intro_name": "Volfied (Japan)",
+    "genre_en": "Puzzle"
   },
   {
     "id": "Wataru",
@@ -23171,14 +23400,15 @@
       "Images-Screenshots_S-Z/Wataru_06.gif",
       "Images-Screenshots_S-Z/Wataru_05.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "動作平台",
     "youtube": [
       "1rXppppT7Pc",
       "GYJ7tWoa8fk",
       "-Ldb8F_4F6g",
       "xjPYa_dKi0Y"
     ],
-    "no_intro_name": "Mashin Eiyuuden Wataru (Japan)"
+    "no_intro_name": "Mashin Eiyuuden Wataru (Japan)",
+    "genre_en": "Platform"
   },
   {
     "id": "W-Ring",
@@ -23209,13 +23439,14 @@
       "Images-Screenshots_S-Z/W_Ring_05.gif",
       "Images-Screenshots_S-Z/W_Ring_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "QeJtp7nDZp8",
       "RZeTy8yLIRg",
       "JvJr_5zoUPY"
     ],
-    "no_intro_name": "W-Ring - The Double Rings (Japan)"
+    "no_intro_name": "W-Ring - The Double Rings (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Wai_Wai_Mahjong",
@@ -23246,9 +23477,10 @@
       "Images-Screenshots_S-Z/Wai_Wai_Mah_Jong_05.gif",
       "Images-Screenshots_S-Z/Wai_Wai_Mah_Jong_06.gif"
     ],
-    "genre_category": "麻將博奕 Mahjong/Gambling",
+    "genre_category": "棋盤桌遊",
     "youtube": [],
-    "no_intro_name": "Wai Wai Mahjong - Yukai na Janyuu-tachi (Japan)"
+    "no_intro_name": "Wai Wai Mahjong - Yukai na Janyuu-tachi (Japan)",
+    "genre_en": "Board"
   },
   {
     "id": "Wallaby",
@@ -23279,9 +23511,10 @@
       "Images-Screenshots_S-Z/Wallaby_05.gif",
       "Images-Screenshots_S-Z/Wallaby_06.gif"
     ],
-    "genre_category": "麻將博奕 Mahjong/Gambling",
+    "genre_category": "運動",
     "youtube": [],
-    "no_intro_name": "Wallaby!! - Usagi no Kuni no Kangaroo Race (Japan)"
+    "no_intro_name": "Wallaby!! - Usagi no Kuni no Kangaroo Race (Japan)",
+    "genre_en": "Sports with Animals"
   },
   {
     "id": "Winds_of_Thunder",
@@ -23352,11 +23585,12 @@
       "Images-Screenshots_S-Z/Winning_Shot_05.gif",
       "Images-Screenshots_S-Z/Winning_Shot_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "1dmpQEfo-jw"
     ],
-    "no_intro_name": "Winning Shot (Japan)"
+    "no_intro_name": "Winning Shot (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Wizardry_I_II",
@@ -23474,11 +23708,12 @@
       "Images-Screenshots_S-Z/Wonder_Momo_05.gif",
       "Images-Screenshots_S-Z/Wonder_Momo_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "Beat'em Up",
     "youtube": [
       "HpTFV-Zv4kM"
     ],
-    "no_intro_name": "Wonder Momo (Japan)"
+    "no_intro_name": "Wonder Momo (Japan)",
+    "genre_en": "Beat'em Up"
   },
   {
     "id": "World_Beach_Volley",
@@ -23513,13 +23748,14 @@
       "Images-Screenshots_S-Z/World_Beach_Volley_05.gif",
       "Images-Screenshots_S-Z/World_Beach_Volley_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "uFnCimNqYwI",
       "WPhVTTOc1E0",
       "6mlTsjFNkq8"
     ],
-    "no_intro_name": "World Beach Volley (Japan)"
+    "no_intro_name": "World Beach Volley (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "World_Circuit",
@@ -23550,9 +23786,10 @@
       "Images-Screenshots_S-Z/World_Circuit_05.gif",
       "Images-Screenshots_S-Z/World_Circuit_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "競速",
     "youtube": [],
-    "no_intro_name": "World Circuit (Japan)"
+    "no_intro_name": "World Circuit (Japan)",
+    "genre_en": "Racing"
   },
   {
     "id": "World_Court",
@@ -23587,11 +23824,12 @@
       "Images-Screenshots_S-Z/World_Court_05.gif",
       "Images-Screenshots_S-Z/World_Court_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "IQOadV9bL6Y"
     ],
-    "no_intro_name": "Pro Tennis - World Court (Japan)"
+    "no_intro_name": "Pro Tennis - World Court (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "World_Heroes2",
@@ -23651,9 +23889,10 @@
       "Images-Screenshots_S-Z/World_Jockey_05.gif",
       "Images-Screenshots_S-Z/World_Jockey_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [],
-    "no_intro_name": "World Jockey (Japan)"
+    "no_intro_name": "World Jockey (Japan)",
+    "genre_en": "Sports with Animals"
   },
   {
     "id": "World_Stadium",
@@ -23684,11 +23923,12 @@
       "Images-Screenshots_S-Z/World_Stadium_05.gif",
       "Images-Screenshots_S-Z/World_Stadium_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "M7xxrmWjy9Y"
     ],
-    "no_intro_name": "Pro Yakyuu World Stadium '91 (Japan)"
+    "no_intro_name": "Pro Yakyuu World Stadium '91 (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "World_Stadium_91",
@@ -23719,11 +23959,12 @@
       "Images-Screenshots_S-Z/World_Stadium_91_05.gif",
       "Images-Screenshots_S-Z/World_Stadium_91_06.gif"
     ],
-    "genre_category": "運動競速 Sports",
+    "genre_category": "運動",
     "youtube": [
       "N90duTFgpiQ"
     ],
-    "no_intro_name": "Pro Yakyuu World Stadium '91 (Japan)"
+    "no_intro_name": "Pro Yakyuu World Stadium '91 (Japan)",
+    "genre_en": "Sports"
   },
   {
     "id": "Wrestling_Angels",
@@ -23847,13 +24088,14 @@
       "Images-Screenshots_S-Z/Xevious_05.gif",
       "Images-Screenshots_S-Z/Xevious_06.gif"
     ],
-    "genre_category": "射擊 Shoot 'em Up",
+    "genre_category": "Shoot'em Up",
     "youtube": [
       "CLEyPShExcw",
       "mTlY6-BECPQ",
       "-xg0Mz3feQc"
     ],
-    "no_intro_name": "Xevious - Fardraut Saga (Japan)"
+    "no_intro_name": "Xevious - Fardraut Saga (Japan)",
+    "genre_en": "Shoot'em Up"
   },
   {
     "id": "Yaksa",
@@ -24085,13 +24327,14 @@
       "Images-Screenshots_S-Z/Yo_Bro_05.gif",
       "Images-Screenshots_S-Z/Yo_Bro_06.gif"
     ],
-    "genre_category": "動作 Action",
+    "genre_category": "射擊",
     "youtube": [
       "Lqrv5u-YvQg",
       "tybEKSb7ljI",
       "o46_opQ7od4"
     ],
-    "no_intro_name": "Yo, Bro (USA)"
+    "no_intro_name": "Yo, Bro (USA)",
+    "genre_en": "Shooter"
   },
   {
     "id": "Yokai_Dochuki",
@@ -24430,11 +24673,12 @@
       "Images-Screenshots_S-Z/Zero4_Champ_05.gif",
       "Images-Screenshots_S-Z/Zero4_Champ_06.gif"
     ],
-    "genre_category": "冒險 Adventure",
+    "genre_category": "競速",
     "youtube": [
       "RBReYpZwN-U"
     ],
-    "no_intro_name": "Zero4 Champ (Japan) (Alt)"
+    "no_intro_name": "Zero4 Champ (Japan) (Alt)",
+    "genre_en": "Racing"
   },
   {
     "id": "Zero4_Champ_II",
@@ -24459,9 +24703,10 @@
       "https://raw.githubusercontent.com/libretro-thumbnails/NEC_-_PC_Engine_-_TurboGrafx_16/master/Named_Titles/Zero4%20Champ%20(Japan)%20(Alt).png",
       "https://raw.githubusercontent.com/libretro-thumbnails/NEC_-_PC_Engine_-_TurboGrafx_16/master/Named_Snaps/Zero4%20Champ%20(Japan)%20(Alt).png"
     ],
-    "genre_category": "冒險 Adventure",
+    "genre_category": "競速",
     "youtube": [],
-    "no_intro_name": "Zero4 Champ (Japan) (Alt)"
+    "no_intro_name": "Zero4 Champ (Japan) (Alt)",
+    "genre_en": "Racing"
   },
   {
     "id": "Zipang",
@@ -24496,8 +24741,9 @@
       "Images-Screenshots_S-Z/Zipang_05.gif",
       "Images-Screenshots_S-Z/Zipang_06.gif"
     ],
-    "genre_category": "益智 Puzzle",
+    "genre_category": "解謎",
     "youtube": [],
-    "no_intro_name": "Zipang (Japan)"
+    "no_intro_name": "Zipang (Japan)",
+    "genre_en": "Puzzle"
   }
 ]
