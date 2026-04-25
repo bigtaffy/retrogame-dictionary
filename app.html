@@ -816,6 +816,7 @@ const CONSOLE_CONFIG = {
   pce: {
     name: 'PC Engine',
     dataUrl: 'data/games.json',
+    imageBase: 'https://www.pcengine.co.uk/',  // PCE covers/shots stored as relative paths
     hasFormat: true,
     hasRegion: false,
     hasYoutube: true,
@@ -823,6 +824,7 @@ const CONSOLE_CONFIG = {
   gba: {
     name: 'Game Boy Advance',
     dataUrl: 'data/gba/games.json',
+    imageBase: '',
     hasFormat: false,
     hasRegion: true,
     hasYoutube: false,
@@ -830,11 +832,36 @@ const CONSOLE_CONFIG = {
   fc: {
     name: 'Famicom',
     dataUrl: 'data/fc/games.json',
+    imageBase: '',
     hasFormat: true,  // FC has Cart/Disk
     hasRegion: false,
     hasYoutube: false,
   },
 };
+
+function resolveImg(url, consoleName) {
+  if (!url) return '';
+  if (/^https?:\/\//i.test(url)) return url;
+  const base = CONSOLE_CONFIG[consoleName]?.imageBase || '';
+  if (!base) return url;
+  // strip leading ../ or ./
+  let p = url.replace(/^(\.\.\/)+/, '').replace(/^\.\//, '');
+  return base + p;
+}
+
+function normalizeGameImages(games, consoleName) {
+  for (const g of games) {
+    if (g.cover) g.cover = resolveImg(g.cover, consoleName);
+    if (Array.isArray(g.screenshots)) {
+      g.screenshots = g.screenshots.map(s => {
+        if (typeof s === 'string') return resolveImg(s, consoleName);
+        if (s && s.url) return { ...s, url: resolveImg(s.url, consoleName) };
+        return s;
+      });
+    }
+  }
+  return games;
+}
 
 const state = {
   console: 'pce',
@@ -880,7 +907,7 @@ async function loadConsole(name) {
   const inlineEl = document.getElementById(name + '-data');
   if (inlineEl) {
     try {
-      const games = JSON.parse(inlineEl.textContent);
+      const games = normalizeGameImages(JSON.parse(inlineEl.textContent), name);
       const byId = new Map(games.map(g => [String(g.id), g]));
       const data = { games, byId };
       state.cache.set(name, data);
@@ -892,7 +919,7 @@ async function loadConsole(name) {
   try {
     const res = await fetch(CONSOLE_CONFIG[name].dataUrl);
     if (!res.ok) throw new Error('Failed to fetch ' + name);
-    const games = await res.json();
+    const games = normalizeGameImages(await res.json(), name);
     const byId = new Map(games.map(g => [String(g.id), g]));
     const data = { games, byId };
     state.cache.set(name, data);
