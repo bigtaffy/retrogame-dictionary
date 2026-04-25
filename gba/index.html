@@ -580,7 +580,17 @@ header .subtitle { font-size: 14px; color: var(--text-soft); margin-top: 6px; fo
   content: "GBA";
   background: none;
 }
-/* 有封面卡片仍然 1:1 */
+/* Region 旗子 */
+.card .meta .region-flag {
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-left: auto;
+  padding-left: 6px;
+}
+.modal .region-info {
+  display: inline-flex; gap: 6px; font-size: 16px;
+  margin-left: 8px;
+}
 
 </style>
 </head>
@@ -602,6 +612,7 @@ header .subtitle { font-size: 14px; color: var(--text-soft); margin-top: 6px; fo
     </div>
     <select id="filter-format"><option value="">所有規格</option></select>
     <select id="filter-genre"><option value="">所有類型</option></select>
+    <select id="filter-region"><option value="">所有區域</option><option value="日版">🇯🇵 日版</option><option value="美版">🇺🇸 美版</option><option value="歐版">🇪🇺 歐版</option><option value="多區發行">🌍 多區發行</option><option value="中文版">🇨🇳 中文版</option><option value="未知">❓ 未知</option></select>
     <select id="filter-rating">
       <option value="">所有評等</option>
       <option value="buyit">BUY IT</option>
@@ -655,6 +666,7 @@ let currentRank = 'all';
 let currentFormat = '';
 let currentGenre = '';
 let currentRating = '';
+let currentRegion = '';
 let searchTerm = '';
 
 async function init() {
@@ -733,6 +745,7 @@ function applyFilters() {
   if (currentFormat) list = list.filter(g => g.format_category === currentFormat);
   if (currentGenre) list = list.filter(g => g.genre_category === currentGenre);
   if (currentRating) list = list.filter(g => g.rating === currentRating);
+  if (currentRegion) list = list.filter(g => g.region_category === currentRegion);
   if (searchTerm) {
     const q = searchTerm.toLowerCase();
     list = list.filter(g =>
@@ -826,7 +839,7 @@ function renderCard(g) {
       <div class="title">${withLangChip(titleFor(g))}</div>
       <div class="subtitle">${withLangChip(subtitleFor(g))}</div>
       <div class="meta">
-        <span>${escapeHTML(g.maker || '')}</span>
+        <span>${escapeHTML(g.maker || '')}</span>${g.region_flags ? `<span class="region-flag">${g.region_flags}</span>` : ''}
         ${extractYear(g.release_date) ? `<span class="dot">·</span><span>${extractYear(g.release_date)}</span>` : ''}
       </div>
       <div class="badges">
@@ -914,6 +927,8 @@ function openModal(g) {
       <dt>類型</dt><dd>${escapeHTML(g.style || '—')}</dd>
       <dt>規格</dt><dd>${escapeHTML(g.format || '—')}</dd>
       ${g.aka ? `<dt>別名</dt><dd>${escapeHTML(g.aka)}</dd>` : ''}
+      ${g.region_category ? `<dt>區域</dt><dd>${g.region_flags || ''} ${escapeHTML(g.region_category)}</dd>` : ''}
+      ${g.developer ? `<dt>開發商</dt><dd>${escapeHTML(g.developer)}</dd>` : ''}
     </dl>
     ${overviewBlock(g)}
     ${commentBlock(g)}
@@ -1100,6 +1115,7 @@ function bindEvents() {
   document.getElementById('filter-format').onchange = e => { currentFormat = e.target.value; applyFilters(); };
   document.getElementById('filter-genre').onchange = e => { currentGenre = e.target.value; applyFilters(); };
   document.getElementById('filter-rating').onchange = e => { currentRating = e.target.value; applyFilters(); };
+  document.getElementById('filter-region').onchange = e => { currentRegion = e.target.value; applyFilters(); };
   const langNames = { zh: '中文', en: 'English', jp: '日本語' };
   document.getElementById('lang-toggle').onclick = () => {
     currentLang = { zh: 'en', en: 'jp', jp: 'zh' }[currentLang];
