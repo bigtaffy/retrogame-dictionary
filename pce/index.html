@@ -449,23 +449,23 @@ header .subtitle { font-size: 14px; color: var(--text-soft); margin-top: 6px; fo
   .grid {
     padding: 0 12px 40px;
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 14px;
   }
-  /* 手機改用橫向卡片：左封面、右資訊 */
-  .card { flex-direction: row; }
+  /* 手機：直向卡片，封面撐滿整欄 */
+  .card { flex-direction: column; }
   .card .cover {
-    width: 110px; flex-shrink: 0;
-    aspect-ratio: 1;
+    width: 100%;
+    aspect-ratio: 4 / 3;
   }
-  .card .info { padding: 10px 12px; gap: 4px; flex: 1; min-width: 0; }
+  .card .info { padding: 14px 16px; gap: 5px; }
   .card .title {
-    font-size: 14px;
+    font-size: 16px;
     -webkit-line-clamp: 2;
   }
-  .card .subtitle { font-size: 12px; }
-  .card .meta { font-size: 11px; }
-  .badge { font-size: 10px; }
-  .card .badges { padding-top: 6px; }
+  .card .subtitle { font-size: 13px; }
+  .card .meta { font-size: 12px; }
+  .badge { font-size: 11px; padding: 3px 8px; }
+  .card .badges { padding-top: 8px; }
   /* hover 縮放在手機關掉 */
   .card:hover { transform: none; }
   .card:hover .cover-img { transform: none; }
