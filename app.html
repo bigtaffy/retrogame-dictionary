@@ -172,7 +172,28 @@ body::before {
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(255, 62, 200, 0.18);
   padding: 12px 0;
+  transition: padding 0.2s ease;
 }
+
+/* ---- Scroll-collapse: shrink controls when scrolled down ---- */
+.topbar, .console-pill, .console-pill .ico, .console-pill .name,
+.controls input[type=search], .controls select, .controls .pill-btn,
+.view-toggle button, .rank-bar, .az-bar, .stats {
+  transition: all 0.2s ease;
+}
+body.scrolled .topbar { padding: 6px 16px 4px; }
+body.scrolled .console-pill { padding: 4px 9px; min-width: 0; gap: 0; }
+body.scrolled .console-pill .name { font-size: 0; opacity: 0; height: 0; margin: 0; padding: 0; }
+body.scrolled .console-pill .ico { width: 26px; height: 18px; }
+body.scrolled .controls-wrap { padding: 6px 0; border-bottom-color: rgba(255, 62, 200, 0.3); }
+body.scrolled .rank-bar { max-height: 0; margin: 0; opacity: 0; overflow: hidden; padding: 0 20px; pointer-events: none; }
+body.scrolled .az-bar { max-height: 0; margin: 0; opacity: 0; overflow: hidden; padding: 0 20px; pointer-events: none; }
+body.scrolled .stats { max-height: 0; margin: 0; padding: 0; opacity: 0; overflow: hidden; }
+body.scrolled .controls input[type=search] { padding: 7px 14px 7px 36px; }
+body.scrolled .controls select, body.scrolled .controls .pill-btn { padding: 7px 10px; }
+body.scrolled .view-toggle button { padding: 6px 10px; }
+body.scrolled .lang-toggle { padding: 5px 10px; font-size: 10px; }
+body.scrolled .tabs-desktop button { padding: 5px 10px; }
 .controls {
   max-width: 1400px; margin: 0 auto; padding: 0 20px;
   display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
@@ -1680,6 +1701,22 @@ document.getElementById('lang-toggle').addEventListener('click', () => {
   document.getElementById('lang-toggle').textContent = LANG_LABELS[state.lang];
   handleRoute();
 });
+
+/* ============================================================
+   SCROLL → COLLAPSE CONTROLS
+   ============================================================ */
+let _scrollTicking = false;
+function updateScrollState() {
+  const y = window.scrollY || document.documentElement.scrollTop || 0;
+  document.body.classList.toggle('scrolled', y > 60);
+  _scrollTicking = false;
+}
+window.addEventListener('scroll', () => {
+  if (!_scrollTicking) {
+    requestAnimationFrame(updateScrollState);
+    _scrollTicking = true;
+  }
+}, { passive: true });
 
 /* ============================================================
    BOOT
