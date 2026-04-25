@@ -1,0 +1,1382 @@
+{
+  "fca001": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Argus%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Argus%20(Japan).png"
+  },
+  "fce001": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Airwolf%20(Japan)%20(Kyugo).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Airwolf%20(Japan)%20(Kyugo).png"
+  },
+  "fcki001": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Kieta%20Princess%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Kieta%20Princess%20(Japan).png"
+  },
+  "fcni001": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/2010%20Street%20Fighter%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/2010%20Street%20Fighter%20(Japan).png"
+  },
+  "fcnu001": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/19%20-%20Neunzehn%20(Japan)%20%5Bb%5D.png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/19%20-%20Neunzehn%20(Japan)%20%5Bb%5D.png"
+  },
+  "fchi001": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/B-Wings%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/B-Wings%20(Japan).png"
+  },
+  "fcma001": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Mahjong%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Mahjong%20(Japan).png"
+  },
+  "fcya001": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/4%20Nin%20Uchi%20Mahjong%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/4%20Nin%20Uchi%20Mahjong%20(Japan)%20(Rev%201).png"
+  },
+  "fcyu001": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Ice%20Hockey%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Ice%20Hockey%20(Japan).png"
+  },
+  "fcri001": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Risa%20no%20Yousei%20Densetsu%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Risa%20no%20Yousei%20Densetsu%20(Japan).png"
+  },
+  "fcwa001": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Wardner%20no%20Mori%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Wardner%20no%20Mori%20(Japan).png"
+  },
+  "fca002": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Arctic%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Arctic%20(Japan).png"
+  },
+  "fci002": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Ginga%20Denshou%20-%20Galaxy%20Odyssey%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Ginga%20Denshou%20-%20Galaxy%20Odyssey%20(Japan).png"
+  },
+  "fce002": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Air%20Fortress%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Air%20Fortress%20(Japan).png"
+  },
+  "fcki002": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Kiki%20Kaikai%20-%20Dotou%20Hen%20(Japan)%20(Rev%201)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Kiki%20Kaikai%20-%20Dotou%20Hen%20(Japan)%20(Rev%201)%20(Disk%20Writer).png"
+  },
+  "fcku002": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Goonies%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Goonies%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcsi002": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Tobidase%20Daisakusen%20(Japan)%20(Famicom%203D%20System).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Tobidase%20Daisakusen%20(Japan)%20(Famicom%203D%20System).png"
+  },
+  "fcsu002": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Suishou%20no%20Dragon%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Suishou%20no%20Dragon%20(Japan).png"
+  },
+  "fcse002": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Seiken%20Psychocalibur%20-%20Majuu%20no%20Mori%20Densetsu%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Seiken%20Psychocalibur%20-%20Majuu%20no%20Mori%20Densetsu%20(Japan).png"
+  },
+  "fcta002": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Dirty%20Pair%20-%20Project%20Eden%20(Japan)%20(Rev%201)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Dirty%20Pair%20-%20Project%20Eden%20(Japan)%20(Rev%201)%20(Disk%20Writer).png"
+  },
+  "fctu002": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/TwinBee%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/TwinBee%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fche002": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Baseball%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Baseball%20(Japan).png"
+  },
+  "fcma002": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Mahjong%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Mahjong%20(Japan).png"
+  },
+  "fcmu002": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Moonball%20Magic%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Moonball%20Magic%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcme002": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Meikyuu%20Jiin%20Dababa%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Meikyuu%20Jiin%20Dababa%20(Japan).png"
+  },
+  "fcyu002": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Yuushi%20no%20Monshou%20-%20Deep%20Dungeon%20(Japan)%20(Rev%201)%20(Disk%20Writer)%20%5Bb%5D.png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Yuushi%20no%20Monshou%20-%20Deep%20Dungeon%20(Japan)%20(Rev%201)%20(Disk%20Writer)%20%5Bb%5D.png"
+  },
+  "fce003": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Kick%20Challenger%20-%20Air%20Foot%20-%20Yasai%20no%20Kuni%20no%20Ashi%20Senshi%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Kick%20Challenger%20-%20Air%20Foot%20-%20Yasai%20no%20Kuni%20no%20Ashi%20Senshi%20(Japan).png"
+  },
+  "fco003": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Famimaga%20Disk%20Vol.%203%20-%20All%201%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Famimaga%20Disk%20Vol.%203%20-%20All%201%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcki003": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Kick%20and%20Run%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Kick%20and%20Run%20(Japan).png"
+  },
+  "fcku003": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Goonies%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Goonies%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fctu003": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/TwinBee%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/TwinBee%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcte003": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Madou%20Senki%20-%20Deep%20Dungeon%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Madou%20Senki%20-%20Deep%20Dungeon%20(Japan)%20(Rev%201).png"
+  },
+  "fcna003": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Knight%20Move%20(Japan)%20(Rev%201)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Knight%20Move%20(Japan)%20(Rev%201)%20(Disk%20Writer).png"
+  },
+  "fcni003": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Mahjong%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Mahjong%20(Japan).png"
+  },
+  "fchu003": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Golf%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Golf%20(Japan)%20(Rev%201).png"
+  },
+  "fche003": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Baseball%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Baseball%20(Japan).png"
+  },
+  "fcma003": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Mahjong%20Kazoku%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Mahjong%20Kazoku%20(Japan).png"
+  },
+  "fcmi003": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Tooyama%20no%20Kinsan%20Space%20Chou%20-%20Mr.%20Gold%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Tooyama%20no%20Kinsan%20Space%20Chou%20-%20Mr.%20Gold%20(Japan).png"
+  },
+  "fcyo003": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Youkai%20Yashiki%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Youkai%20Yashiki%20(Japan).png"
+  },
+  "fcre003": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Bubble%20Bobble%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Bubble%20Bobble%20(Japan).png"
+  },
+  "fcwa003": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Soccer%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Soccer%20(Japan).png"
+  },
+  "fca004": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Aa%20Yakyuu%20Jinsei%20Icchokusen%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Aa%20Yakyuu%20Jinsei%20Icchokusen%20(Japan).png"
+  },
+  "fce004": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Aces%20-%20Iron%20Eagle%203%20(1992-08-07)(Pack-in%20Video)(JP).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Aces%20-%20Iron%20Eagle%203%20(1992-08-07)(Pack-in%20Video)(JP).png"
+  },
+  "fco004": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Othello%20(Japan)%20(DV%202).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Othello%20(Japan)%20(DV%202).png"
+  },
+  "fcku004": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Goonies%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Goonies%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcsi004": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Soccer%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Soccer%20(Japan).png"
+  },
+  "fctu004": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/TwinBee%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/TwinBee%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcne004": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Soccer%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Soccer%20(Japan).png"
+  },
+  "fchi004": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Hikari%20Shinwa%20-%20Palthena%20no%20Kagami%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Hikari%20Shinwa%20-%20Palthena%20no%20Kagami%20(Japan)%20(Rev%201).png"
+  },
+  "fche004": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Baseball%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Baseball%20(Japan).png"
+  },
+  "fcma004": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Mahjong%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Mahjong%20(Japan).png"
+  },
+  "fcmi004": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Bakuchu%20Mondai%20(1999)(Rinkaku)(JP)%5Bh%5D%5BMickey%20Mouse%5D.png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Bakuchu%20Mondai%20(1999)(Rinkaku)(JP)%5Bh%5D%5BMickey%20Mouse%5D.png"
+  },
+  "fcyu004": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Yuu%20Maze%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Yuu%20Maze%20(Japan).png"
+  },
+  "fcwa004": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Tennis%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Tennis%20(Japan).png"
+  },
+  "fca005": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/I%20Am%20a%20Teacher%20-%20Super%20Mario%20no%20Sweater%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/I%20Am%20a%20Teacher%20-%20Super%20Mario%20no%20Sweater%20(Japan).png"
+  },
+  "fci005": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Hikari%20Shinwa%20-%20Palthena%20no%20Kagami%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Hikari%20Shinwa%20-%20Palthena%20no%20Kagami%20(Japan)%20(Rev%201).png"
+  },
+  "fcu005": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Soccer%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Soccer%20(Japan).png"
+  },
+  "fce005": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/8%20Eyes%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/8%20Eyes%20(Japan).png"
+  },
+  "fco005": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Othello%20(Japan)%20(DV%202).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Othello%20(Japan)%20(DV%202).png"
+  },
+  "fcko005": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Cocona%20World%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Cocona%20World%20(Japan).png"
+  },
+  "fcna005": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Knight%20Lore%20-%20Majou%20no%20Ookami%20Otoko%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Knight%20Lore%20-%20Majou%20no%20Ookami%20Otoko%20(Japan).png"
+  },
+  "fchi005": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Hikaru%20Genji%20-%20Roller%20Panic%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Hikaru%20Genji%20-%20Roller%20Panic%20(Japan).png"
+  },
+  "fche005": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Baseball%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Baseball%20(Japan).png"
+  },
+  "fcma005": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Professional%20Mahjong%20Gokuu%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Professional%20Mahjong%20Gokuu%20(Japan).png"
+  },
+  "fcri005": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Reflect%20World%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Reflect%20World%20(Japan).png"
+  },
+  "fcro005": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Super%20Lode%20Runner%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Super%20Lode%20Runner%20(Japan).png"
+  },
+  "fca006": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/I%20Am%20a%20Teacher%20-%20Teami%20no%20Kiso%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/I%20Am%20a%20Teacher%20-%20Teami%20no%20Kiso%20(Japan).png"
+  },
+  "fce006": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Alien%20Syndrome%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Alien%20Syndrome%20(Japan).png"
+  },
+  "fcsa006": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Golf%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Golf%20(Japan)%20(Rev%201).png"
+  },
+  "fcsi006": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Arabian%20Dream%20Scheherazade%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Arabian%20Dream%20Scheherazade%20(Japan).png"
+  },
+  "fcha006": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Golf%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Golf%20(Japan)%20(Rev%201).png"
+  },
+  "fcma006": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Mahjong%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Mahjong%20(Japan).png"
+  },
+  "fcri006": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Lutter%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Lutter%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcre006": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Wrecking%20Crew%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Wrecking%20Crew%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fca007": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Aigiina%20no%20Yogen%20-%20From%20The%20Legend%20of%20Balubalouk%20(1986-11-21)(Vic%20Tokai)(JP).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Aigiina%20no%20Yogen%20-%20From%20The%20Legend%20of%20Balubalouk%20(1986-11-21)(Vic%20Tokai)(JP).png"
+  },
+  "fce007": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/ASO%20-%20Armored%20Scrum%20Object%20(Japan)%20(En).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/ASO%20-%20Armored%20Scrum%20Object%20(Japan)%20(En).png"
+  },
+  "fcki007": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Monitor%20Puzzle%20Kineko%2C%20The%20-%20Kinetic%20Connection%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Monitor%20Puzzle%20Kineko%2C%20The%20-%20Kinetic%20Connection%20(Japan).png"
+  },
+  "fcke007": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Baken%20Hisshou%20Gaku%20-%20Gate%20In%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Baken%20Hisshou%20Gaku%20-%20Gate%20In%20(Japan).png"
+  },
+  "fcsi007": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Jikai%20Shounen%20Met%20Mag%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Jikai%20Shounen%20Met%20Mag%20(Japan).png"
+  },
+  "fcma007": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Mahjong%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Mahjong%20(Japan).png"
+  },
+  "fcmo007": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Moero%20TwinBee%20-%20Cinnamon%20Hakase%20wo%20Sukue!%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Moero%20TwinBee%20-%20Cinnamon%20Hakase%20wo%20Sukue!%20(Japan)%20(Rev%201).png"
+  },
+  "fcyu007": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Yume%20Koujou%20-%20Doki%20Doki%20Panic%20(Japan)%20(DV%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Yume%20Koujou%20-%20Doki%20Doki%20Panic%20(Japan)%20(DV%201).png"
+  },
+  "fcri007": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Link%20no%20Bouken%20-%20The%20Legend%20of%20Zelda%202%20(Japan)%20(Rev%201)%20(Collector%27s%20Edition).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Link%20no%20Bouken%20-%20The%20Legend%20of%20Zelda%202%20(Japan)%20(Rev%201)%20(Collector%27s%20Edition).png"
+  },
+  "fcre007": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Wrecking%20Crew%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Wrecking%20Crew%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fca008": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Ice%20Climber%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Ice%20Climber%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcu008": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Winter%20Games%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Winter%20Games%20(Japan).png"
+  },
+  "fce008": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Advanced%20Dungeons%20_%20Dragons%20-%20Dragons%20of%20Flame%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Advanced%20Dungeons%20_%20Dragons%20-%20Dragons%20of%20Flame%20(Japan).png"
+  },
+  "fcki008": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Monitor%20Puzzle%20Kineko%2C%20The%20-%20Kinetic%20Connection%20II%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Monitor%20Puzzle%20Kineko%2C%20The%20-%20Kinetic%20Connection%20II%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcke008": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Gokuraku%20Yuugi%20-%20Game%20Tengoku%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Gokuraku%20Yuugi%20-%20Game%20Tengoku%20(Japan).png"
+  },
+  "fcsa008": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Soccer%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Soccer%20(Japan).png"
+  },
+  "fcsu008": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Pro%20Wres%20(Japan)%20(En).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Pro%20Wres%20(Japan)%20(En).png"
+  },
+  "fcse008": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Section-Z%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Section-Z%20(Japan).png"
+  },
+  "fcso008": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Solomon%20no%20Kagi%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Solomon%20no%20Kagi%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcti008": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Chitei%20Tairiku%20Ordola%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Chitei%20Tairiku%20Ordola%20(Japan).png"
+  },
+  "fcte008": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Dig%20Dug%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Dig%20Dug%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fchi008": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Big%20Challenge!%20Gun%20Fighter%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Big%20Challenge!%20Gun%20Fighter%20(Japan).png"
+  },
+  "fcho008": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Ballblazer%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Ballblazer%20(Japan).png"
+  },
+  "fcmo008": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Moero%20TwinBee%20-%20Cinnamon%20Hakase%20wo%20Sukue!%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Moero%20TwinBee%20-%20Cinnamon%20Hakase%20wo%20Sukue!%20(Japan)%20(Rev%201).png"
+  },
+  "fcyo008": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/4%20Nin%20Uchi%20Mahjong%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/4%20Nin%20Uchi%20Mahjong%20(Japan)%20(Rev%201).png"
+  },
+  "fca009": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Ice%20Climber%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Ice%20Climber%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fce009": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Advanced%20Dungeons%20_%20Dragons%20-%20Heroes%20of%20the%20Lance%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Advanced%20Dungeons%20_%20Dragons%20-%20Heroes%20of%20the%20Lance%20(Japan).png"
+  },
+  "fco009": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Otocky%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Otocky%20(Japan).png"
+  },
+  "fcka009": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Kaettekita%20Mario%20Bros.%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Kaettekita%20Mario%20Bros.%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcsa009": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Soccer%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Soccer%20(Japan).png"
+  },
+  "fcso009": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Solomon%20no%20Kagi%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Solomon%20no%20Kagi%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcte009": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Dig%20Dug%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Dig%20Dug%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcto009": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Dr.%20Chaos%20-%20Jigoku%20no%20Tobira%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Dr.%20Chaos%20-%20Jigoku%20no%20Tobira%20(Japan).png"
+  },
+  "fcna009": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Idol%20Hotline%20-%20Nakayama%20Miho%20no%20Tokimeki%20High%20School%20(Japan)%20(DV%2010).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Idol%20Hotline%20-%20Nakayama%20Miho%20no%20Tokimeki%20High%20School%20(Japan)%20(DV%2010).png"
+  },
+  "fchi009": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Big%20Challenge!%20Go!%20Go!%20Bowling%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Big%20Challenge!%20Go!%20Go!%20Bowling%20(Japan).png"
+  },
+  "fcmo009": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Soccer%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Soccer%20(Japan).png"
+  },
+  "fcre009": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Replicart%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Replicart%20(Japan).png"
+  },
+  "fca010": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Ice%20Hockey%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Ice%20Hockey%20(Japan).png"
+  },
+  "fci010": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Igo%20-%20Kyuu%20Roban%20Taikyoku%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Igo%20-%20Kyuu%20Roban%20Taikyoku%20(Japan).png"
+  },
+  "fce010": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Advanced%20Dungeons%20_%20Dragons%20-%20Hillsfar%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Advanced%20Dungeons%20_%20Dragons%20-%20Hillsfar%20(Japan).png"
+  },
+  "fcku010": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Soccer%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Soccer%20(Japan).png"
+  },
+  "fcsu010": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Xevious%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Xevious%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcse010": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Xevious%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Xevious%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcso010": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Solomon%20no%20Kagi%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Solomon%20no%20Kagi%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcte010": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Dig%20Dug%20II%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Dig%20Dug%20II%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fchi010": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Big%20Challenge!%20Juudou%20Senshuken%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Big%20Challenge!%20Juudou%20Senshuken%20(Japan).png"
+  },
+  "fcmo010": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Tennis%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Tennis%20(Japan).png"
+  },
+  "fcre010": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Relics%20-%20Ankoku%20Yousai%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Relics%20-%20Ankoku%20Yousai%20(Japan).png"
+  },
+  "fcro010": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Roger%20Rabbit%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Roger%20Rabbit%20(Japan).png"
+  },
+  "fca011": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Ai%20Senshi%20Nicol%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Ai%20Senshi%20Nicol%20(Japan).png"
+  },
+  "fci011": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Igo%20-%20Kyuu%20Roban%20Taikyoku%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Igo%20-%20Kyuu%20Roban%20Taikyoku%20(Japan).png"
+  },
+  "fce011": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Advanced%20Dungeons%20_%20Dragons%20-%20Pool%20of%20Radiance%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Advanced%20Dungeons%20_%20Dragons%20-%20Pool%20of%20Radiance%20(Japan).png"
+  },
+  "fcse011": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Xevious%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Xevious%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcta011": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Titanic%20Mystery%20-%20Ao%20no%20Senritsu%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Titanic%20Mystery%20-%20Ao%20no%20Senritsu%20(Japan).png"
+  },
+  "fcti011": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Kick%20Challenger%20-%20Air%20Foot%20-%20Yasai%20no%20Kuni%20no%20Ashi%20Senshi%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Kick%20Challenger%20-%20Air%20Foot%20-%20Yasai%20no%20Kuni%20no%20Ashi%20Senshi%20(Japan).png"
+  },
+  "fcte011": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Dig%20Dug%20II%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Dig%20Dug%20II%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcna011": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Nazo%20no%20Kabe%20-%20Block%20Kuzushi%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Nazo%20no%20Kabe%20-%20Block%20Kuzushi%20(Japan).png"
+  },
+  "fchi011": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Big%20Challenge!%20Dogfight%20Spirit%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Big%20Challenge!%20Dogfight%20Spirit%20(Japan).png"
+  },
+  "fchu011": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Fire%20Bam%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Fire%20Bam%20(Japan).png"
+  },
+  "fca012": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Ai%20Sensei%20no%20Oshiete%20-%20Watashi%20no%20Hoshi%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Ai%20Sensei%20no%20Oshiete%20-%20Watashi%20no%20Hoshi%20(Japan).png"
+  },
+  "fce012": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/A%20Ressha%20de%20Ikou%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/A%20Ressha%20de%20Ikou%20(Japan).png"
+  },
+  "fcka012": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Pro%20Golfer%20Saru%20-%20Kage%20no%20Tournament%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Pro%20Golfer%20Saru%20-%20Kage%20no%20Tournament%20(Japan).png"
+  },
+  "fcse012": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Zelda%20no%20Densetsu%20-%20The%20Hyrule%20Fantasy%20(Japan)%20(Collector%27s%20Edition).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Zelda%20no%20Densetsu%20-%20The%20Hyrule%20Fantasy%20(Japan)%20(Collector%27s%20Edition).png"
+  },
+  "fcta012": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Titanic%20Mystery%20-%20Ao%20no%20Senritsu%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Titanic%20Mystery%20-%20Ao%20no%20Senritsu%20(Japan).png"
+  },
+  "fchu012": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Fire%20Rock%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Fire%20Rock%20(Japan).png"
+  },
+  "fce013": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Exciting%20Soccer%20-%20Konami%20Cup%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Exciting%20Soccer%20-%20Konami%20Cup%20(Japan).png"
+  },
+  "fcko013": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Konamic%20Ice%20Hockey%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Konamic%20Ice%20Hockey%20(Japan).png"
+  },
+  "fcsa013": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Zanac%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Zanac%20(Japan).png"
+  },
+  "fcse013": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Zelda%20no%20Densetsu%20-%20The%20Hyrule%20Fantasy%20(Japan)%20(Collector%27s%20Edition).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Zelda%20no%20Densetsu%20-%20The%20Hyrule%20Fantasy%20(Japan)%20(Collector%27s%20Edition).png"
+  },
+  "fcti013": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Super%20Lode%20Runner%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Super%20Lode%20Runner%20(Japan).png"
+  },
+  "fcha013": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Bio%20Miracle%20Bokutte%20Upa%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Bio%20Miracle%20Bokutte%20Upa%20(Japan).png"
+  },
+  "fcho013": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Akumajou%20Special%20-%20Boku%20Dracula-kun%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Akumajou%20Special%20-%20Boku%20Dracula-kun%20(Japan).png"
+  },
+  "fcwa013": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Wardner%20no%20Mori%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Wardner%20no%20Mori%20(Japan).png"
+  },
+  "fce014": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Exciting%20Basket%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Exciting%20Basket%20(Japan).png"
+  },
+  "fco014": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Omoikkiri%20Tanteidan%20HaadoGumi%20-%20Matenrou%20no%20Chousenjou%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Omoikkiri%20Tanteidan%20HaadoGumi%20-%20Matenrou%20no%20Chousenjou%20(Japan).png"
+  },
+  "fcha014": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Bio%20Miracle%20Bokutte%20Upa%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Bio%20Miracle%20Bokutte%20Upa%20(Japan).png"
+  },
+  "fce015": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Exciting%20Billiard%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Exciting%20Billiard%20(Japan).png"
+  },
+  "fcko015": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Konamic%20Tennis%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Konamic%20Tennis%20(Japan).png"
+  },
+  "fcse015": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/All-Pro%20Basketball%20(USA).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/All-Pro%20Basketball%20(USA).png"
+  },
+  "fca016": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Aoki%20Ookami%20to%20Shiroki%20Mejika%20-%20Genchou%20Hishi%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Aoki%20Ookami%20to%20Shiroki%20Mejika%20-%20Genchou%20Hishi%20(Japan).png"
+  },
+  "fce016": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Exciting%20Baseball%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Exciting%20Baseball%20(Japan).png"
+  },
+  "fcku016": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Green%20Beret%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Green%20Beret%20(Japan).png"
+  },
+  "fcke016": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Arctic%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Arctic%20(Japan).png"
+  },
+  "fcko016": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Koneko%20Monogatari%20-%20The%20Adventures%20of%20Chatran%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Koneko%20Monogatari%20-%20The%20Adventures%20of%20Chatran%20(Japan).png"
+  },
+  "fcsi016": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Gyruss%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Gyruss%20(Japan).png"
+  },
+  "fcsu016": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Pinball%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Pinball%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcmo016": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Bakushou!%20Star%20Monomane%20Shitennou%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Bakushou!%20Star%20Monomane%20Shitennou%20(Japan).png"
+  },
+  "fca017": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Aoki%20Ookami%20to%20Shiroki%20Mejika%20-%20Genghis%20Khan%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Aoki%20Ookami%20to%20Shiroki%20Mejika%20-%20Genghis%20Khan%20(Japan).png"
+  },
+  "fcku017": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Clu%20Clu%20Land%20(Japan)%20(En)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Clu%20Clu%20Land%20(Japan)%20(En)%20(Disk%20Writer).png"
+  },
+  "fcti017": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Baseball%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Baseball%20(Japan).png"
+  },
+  "fchu017": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Famicom%20Grand%20Prix%20-%20F1%20Race%20(Japan)%20(DV%201)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Famicom%20Grand%20Prix%20-%20F1%20Race%20(Japan)%20(DV%201)%20(Disk%20Writer).png"
+  },
+  "fcme017": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Metroid%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Metroid%20(Japan)%20(Rev%201).png"
+  },
+  "fca018": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Final%20Command%20-%20Akai%20Yousai%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Final%20Command%20-%20Akai%20Yousai%20(Japan).png"
+  },
+  "fcku018": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Clu%20Clu%20Land%20(Japan)%20(En)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Clu%20Clu%20Land%20(Japan)%20(En)%20(Disk%20Writer).png"
+  },
+  "fcsu018": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Super%20Boy%20Allan%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Super%20Boy%20Allan%20(Japan).png"
+  },
+  "fci019": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Ishidou%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Ishidou%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcu019": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Ultraman%20-%20Kaijuu%20Teikoku%20no%20Gyakushuu%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Ultraman%20-%20Kaijuu%20Teikoku%20no%20Gyakushuu%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcka019": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Kattobi!%20Douji%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Kattobi!%20Douji%20(Japan).png"
+  },
+  "fcsu019": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Super%20Mario%20Bros.%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Super%20Mario%20Bros.%20(Japan).png"
+  },
+  "fcna019": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Namida%20no%20Soukoban%20Special%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Namida%20no%20Soukoban%20Special%20(Japan).png"
+  },
+  "fca020": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Akagawa%20Jirou%20no%20Yuurei%20Ressha%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Akagawa%20Jirou%20no%20Yuurei%20Ressha%20(Japan).png"
+  },
+  "fcu020": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Ultraman%202%20-%20Shutsugeki%20Katoku%20Tai%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Ultraman%202%20-%20Shutsugeki%20Katoku%20Tai%20(Japan).png"
+  },
+  "fcki020": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Galaga%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Galaga%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcsu020": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Super%20Mario%20Bros.%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Super%20Mario%20Bros.%20(Japan).png"
+  },
+  "fcto020": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Topple%20Zip%20(Japan)%20(Project%20EGG).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Topple%20Zip%20(Japan)%20(Project%20EGG).png"
+  },
+  "fcha020": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Hao-kun%20no%20Fushigi%20na%20Tabi%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Hao-kun%20no%20Fushigi%20na%20Tabi%20(Japan).png"
+  },
+  "fchi020": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/100%20Man%20Dollar%20Kid%20-%20Maboroshi%20no%20Teiou%20Hen%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/100%20Man%20Dollar%20Kid%20-%20Maboroshi%20no%20Teiou%20Hen%20(Japan).png"
+  },
+  "fcma020": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Magma%20Project%20-%20Hacker%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Magma%20Project%20-%20Hacker%20(Japan).png"
+  },
+  "fca021": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Akira%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Akira%20(Japan).png"
+  },
+  "fcki021": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Galaga%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Galaga%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcsa021": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Samurai%20Sword%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Samurai%20Sword%20(Japan).png"
+  },
+  "fcsu021": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Super%20Mario%20Bros.%202%20(Japan)%20(En)%20(Game%20_%20Watch%20-%20Super%20Mario%20Bros.).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Super%20Mario%20Bros.%202%20(Japan)%20(En)%20(Game%20_%20Watch%20-%20Super%20Mario%20Bros.).png"
+  },
+  "fchu021": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Famicom%20Tantei%20Club%20-%20Kieta%20Koukeisha%20-%20Kouhen%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Famicom%20Tantei%20Club%20-%20Kieta%20Koukeisha%20-%20Kouhen%20(Japan).png"
+  },
+  "fca022": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Akuu%20Senki%20Raijin%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Akuu%20Senki%20Raijin%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fci022": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/1999%20-%20Hore%2C%20Mitakotoka!%20Seikimatsu%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/1999%20-%20Hore%2C%20Mitakotoka!%20Seikimatsu%20(Japan).png"
+  },
+  "fcu022": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Ultraman%20Club%20-%20Chikyuu%20Dakkan%20Sakusen%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Ultraman%20Club%20-%20Chikyuu%20Dakkan%20Sakusen%20(Japan)%20(Rev%201).png"
+  },
+  "fcki022": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Galaxian%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Galaxian%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcsu022": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Super%20Mario%20Bros.%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Super%20Mario%20Bros.%20(Japan).png"
+  },
+  "fcna022": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Mahjong%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Mahjong%20(Japan).png"
+  },
+  "fcha022": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Bakushou%20Ai%20no%20Gekijou%20(1990-12-29)(Coconuts%20Japan)(JP).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Bakushou%20Ai%20no%20Gekijou%20(1990-12-29)(Coconuts%20Japan)(JP).png"
+  },
+  "fchu022": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Famicom%20Tantei%20Club%20-%20Kieta%20Koukeisha%20-%20Kouhen%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Famicom%20Tantei%20Club%20-%20Kieta%20Koukeisha%20-%20Kouhen%20(Japan).png"
+  },
+  "fcmo022": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Monty%20on%20the%20Run%20-%20Monty%20no%20Doki%20Doki%20Dai%20Dassou%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Monty%20on%20the%20Run%20-%20Monty%20no%20Doki%20Doki%20Dai%20Dassou%20(Japan).png"
+  },
+  "fca023": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Akuma-kun%20-%20Makai%20no%20Wana%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Akuma-kun%20-%20Makai%20no%20Wana%20(Japan).png"
+  },
+  "fci023": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/1942%20(Japan%2C%20USA)%20(En).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/1942%20(Japan%2C%20USA)%20(En).png"
+  },
+  "fcu023": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Ultraman%20Club%20-%20Chikyuu%20Dakkan%20Sakusen%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Ultraman%20Club%20-%20Chikyuu%20Dakkan%20Sakusen%20(Japan)%20(Rev%201).png"
+  },
+  "fce023": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/SD%20Gundam%20World%20-%20Gachapon%20Senshi%20-%20Scramble%20Wars%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/SD%20Gundam%20World%20-%20Gachapon%20Senshi%20-%20Scramble%20Wars%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcki023": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Galaxian%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Galaxian%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcku023": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Cleopatra%20no%20Mahou%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Cleopatra%20no%20Mahou%20(Japan).png"
+  },
+  "fcko023": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Golf%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Golf%20(Japan)%20(Rev%201).png"
+  },
+  "fcsu023": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Super%20Mario%20Bros.%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Super%20Mario%20Bros.%20(Japan).png"
+  },
+  "fcto023": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Tobidase%20Daisakusen%20(Japan)%20(Famicom%203D%20System).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Tobidase%20Daisakusen%20(Japan)%20(Famicom%203D%20System).png"
+  },
+  "fcna023": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Nankin%20no%20Adventure%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Nankin%20no%20Adventure%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcha023": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Bakushou!!%20Jinsei%20Gekijou%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Bakushou!!%20Jinsei%20Gekijou%20(Japan).png"
+  },
+  "fchu023": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Famicom%20Tantei%20Club%20Part%20II%20-%20Ushiro%20ni%20Tatsu%20Shoujo%20-%20Kouhen%20(Japan)%20(DV%203%2C%204).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Famicom%20Tantei%20Club%20Part%20II%20-%20Ushiro%20ni%20Tatsu%20Shoujo%20-%20Kouhen%20(Japan)%20(DV%203%2C%204).png"
+  },
+  "fca024": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Akumajou%20Densetsu%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Akumajou%20Densetsu%20(Japan).png"
+  },
+  "fci024": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/1943%20(Japan)%20(FamicomBox).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/1943%20(Japan)%20(FamicomBox).png"
+  },
+  "fce024": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/SD%20Gundam%20World%20-%20Gachapon%20Senshi%20-%20Scramble%20Wars%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/SD%20Gundam%20World%20-%20Gachapon%20Senshi%20-%20Scramble%20Wars%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcko024": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Golf%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Golf%20(Japan)%20(Rev%201).png"
+  },
+  "fcta024": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Time%20Twist%20-%20Rekishi%20no%20Katasumi%20de...%20-%20Kouhen%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Time%20Twist%20-%20Rekishi%20no%20Katasumi%20de...%20-%20Kouhen%20(Japan).png"
+  },
+  "fcha024": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Bakushou!!%20Jinsei%20Gekijou%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Bakushou!!%20Jinsei%20Gekijou%20(Japan).png"
+  },
+  "fchu024": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Famicom%20Tantei%20Club%20Part%20II%20-%20Ushiro%20ni%20Tatsu%20Shoujo%20-%20Kouhen%20(Japan)%20(DV%203%2C%204).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Famicom%20Tantei%20Club%20Part%20II%20-%20Ushiro%20ni%20Tatsu%20Shoujo%20-%20Kouhen%20(Japan)%20(DV%203%2C%204).png"
+  },
+  "fca025": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Akumajou%20Dracula%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Akumajou%20Dracula%20(Japan).png"
+  },
+  "fci025": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Omoikkiri%20Tanteidan%20HaadoGumi%20-%20Matenrou%20no%20Chousenjou%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Omoikkiri%20Tanteidan%20HaadoGumi%20-%20Matenrou%20no%20Chousenjou%20(Japan).png"
+  },
+  "fcko025": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Golf%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Golf%20(Japan)%20(Rev%201).png"
+  },
+  "fcta025": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Time%20Twist%20-%20Rekishi%20no%20Katasumi%20de...%20-%20Kouhen%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Time%20Twist%20-%20Rekishi%20no%20Katasumi%20de...%20-%20Kouhen%20(Japan).png"
+  },
+  "fcna025": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Baseball%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Baseball%20(Japan).png"
+  },
+  "fcha025": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Bakushou!!%20Jinsei%20Gekijou%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Bakushou!!%20Jinsei%20Gekijou%20(Japan).png"
+  },
+  "fca026": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Akumajou%20Dracula%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Akumajou%20Dracula%20(Japan).png"
+  },
+  "fci026": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Mahjong%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Mahjong%20(Japan).png"
+  },
+  "fcka026": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Kamen%20Rider%20Black%20-%20Taiketsu%20Shadow%20Moon%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Kamen%20Rider%20Black%20-%20Taiketsu%20Shadow%20Moon%20(Japan).png"
+  },
+  "fcko026": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Golf%20-%20Japan%20Course%20(Japan)%20(DV%200).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Golf%20-%20Japan%20Course%20(Japan)%20(DV%200).png"
+  },
+  "fcna026": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Baseball%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Baseball%20(Japan).png"
+  },
+  "fcha026": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Bakutoushi%20Patton-kun%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Bakutoushi%20Patton-kun%20(Japan).png"
+  },
+  "fca027": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Akuma%20no%20Shoutaijou%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Akuma%20no%20Shoutaijou%20(Japan).png"
+  },
+  "fci027": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Mahjong%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Mahjong%20(Japan).png"
+  },
+  "fcku027": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Famimaga%20Disk%20Vol.%203%20-%20All%201%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Famimaga%20Disk%20Vol.%203%20-%20All%201%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcko027": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Golf%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Golf%20(Japan)%20(Rev%201).png"
+  },
+  "fcsu027": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Baseball%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Baseball%20(Japan).png"
+  },
+  "fcte027": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Dead%20Zone%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Dead%20Zone%20(Japan).png"
+  },
+  "fcna027": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Baseball%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Baseball%20(Japan).png"
+  },
+  "fcho027": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Famimaga%20Disk%20Vol.%201%20-%20Hong%20Kong%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Famimaga%20Disk%20Vol.%201%20-%20Hong%20Kong%20(Japan).png"
+  },
+  "fca028": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Astro%20Fang%20-%20Super%20Machine%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Astro%20Fang%20-%20Super%20Machine%20(Japan).png"
+  },
+  "fcko028": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Golf%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Golf%20(Japan)%20(Rev%201).png"
+  },
+  "fcsu028": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Super%20Lode%20Runner%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Super%20Lode%20Runner%20(Japan).png"
+  },
+  "fcto028": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Dracula%20II%20-%20Noroi%20no%20Fuuin%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Dracula%20II%20-%20Noroi%20no%20Fuuin%20(Japan).png"
+  },
+  "fchi028": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Pinball%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Pinball%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcma028": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Mahjong%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Mahjong%20(Japan).png"
+  },
+  "fca029": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Astro%20Robo%20Sasa%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Astro%20Robo%20Sasa%20(Japan).png"
+  },
+  "fcsu029": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Super%20Lode%20Runner%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Super%20Lode%20Runner%20(Japan).png"
+  },
+  "fchi029": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Pinball%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Pinball%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcma029": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Comic%20Sakka%20Series%20Touma%20Senki%20%231%20-%20Mashoujo%20Gakuen%20Evil%20(Japan)%20(Unl).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Comic%20Sakka%20Series%20Touma%20Senki%20%231%20-%20Mashoujo%20Gakuen%20Evil%20(Japan)%20(Unl).png"
+  },
+  "fca030": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Aspic%20-%20Majaou%20no%20Noroi%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Aspic%20-%20Majaou%20no%20Noroi%20(Japan).png"
+  },
+  "fce030": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/SD%20Gundam%20World%20-%20Gachapon%20Senshi%20-%20Scramble%20Wars%20-%20Map%20Collection%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/SD%20Gundam%20World%20-%20Gachapon%20Senshi%20-%20Scramble%20Wars%20-%20Map%20Collection%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcha030": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Puzzle%20Boys%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Puzzle%20Boys%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fchi030": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Pinball%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Pinball%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcho030": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Bomberman%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Bomberman%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fca031": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Asmik-kun%20Land%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Asmik-kun%20Land%20(Japan).png"
+  },
+  "fcki031": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Mahjong%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Mahjong%20(Japan).png"
+  },
+  "fcsa031": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Santa%20Claus%20no%20Takarabako%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Santa%20Claus%20no%20Takarabako%20(Japan).png"
+  },
+  "fcsi031": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Famimaga%20Disk%20Vol.%206%20-%20Janken%20Disk%20Jou%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Famimaga%20Disk%20Vol.%206%20-%20Janken%20Disk%20Jou%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcho031": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Bomberman%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Bomberman%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fca032": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Attack%20Animal%20Gakuen%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Attack%20Animal%20Gakuen%20(Japan).png"
+  },
+  "fcka032": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Karate%20Champ%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Karate%20Champ%20(Japan).png"
+  },
+  "fcho032": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Bomberman%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Bomberman%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fca033": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Apple%20Town%20Monogatari%20-%20Little%20Computer%20People%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Apple%20Town%20Monogatari%20-%20Little%20Computer%20People%20(Japan).png"
+  },
+  "fcka033": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Kalin%20no%20Tsurugi%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Kalin%20no%20Tsurugi%20(Japan).png"
+  },
+  "fca034": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Adian%20no%20Tsue%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Adian%20no%20Tsue%20(Japan).png"
+  },
+  "fce034": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Esper%20Dream%20(Japan)%20(Rev%201)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Esper%20Dream%20(Japan)%20(Rev%201)%20(Disk%20Writer).png"
+  },
+  "fcte034": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Tennis%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Tennis%20(Japan).png"
+  },
+  "fchu034": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Family%20Composer%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Family%20Composer%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fca035": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Athena%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Athena%20(Japan).png"
+  },
+  "fce035": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Esper%20Dream%20(Japan)%20(Rev%201)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Esper%20Dream%20(Japan)%20(Rev%201)%20(Disk%20Writer).png"
+  },
+  "fcka035": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Gall%20Force%20-%20Eternal%20Story%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Gall%20Force%20-%20Eternal%20Story%20(Japan).png"
+  },
+  "fcte035": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Tennis%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Tennis%20(Japan).png"
+  },
+  "fca036": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Adventures%20of%20Lolo%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Adventures%20of%20Lolo%20(Japan).png"
+  },
+  "fcha036": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/%2789%20Dennou%20Kyuusei%20Uranai%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/%2789%20Dennou%20Kyuusei%20Uranai%20(Japan).png"
+  },
+  "fca037": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Adventures%20of%20Lolo%202%20(USA).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Adventures%20of%20Lolo%202%20(USA).png"
+  },
+  "fca038": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Atlantis%20no%20Nazo%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Atlantis%20no%20Nazo%20(Japan).png"
+  },
+  "fcka038": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Gun.Smoke%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Gun.Smoke%20(Japan).png"
+  },
+  "fcto038": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Bad%20Dudes%20vs.%20Dragon%20Ninja%20(Europe).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Bad%20Dudes%20vs.%20Dragon%20Ninja%20(Europe).png"
+  },
+  "fchu038": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Tennis%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Tennis%20(Japan).png"
+  },
+  "fca039": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Abadox%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Abadox%20(Japan).png"
+  },
+  "fchu039": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Athletic%20World%20(USA).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Athletic%20World%20(USA).png"
+  },
+  "fca040": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Abarenbou%20Tengu%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Abarenbou%20Tengu%20(Japan).png"
+  },
+  "fcki040": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Ginga%20Denshou%20-%20Galaxy%20Odyssey%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Ginga%20Denshou%20-%20Galaxy%20Odyssey%20(Japan).png"
+  },
+  "fca041": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/After%20Burner%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/After%20Burner%20(Japan).png"
+  },
+  "fca042": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/America%20Oudan%20Ultra%20Quiz%20-%20Shijou%20Saidai%20no%20Tatakai%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/America%20Oudan%20Ultra%20Quiz%20-%20Shijou%20Saidai%20no%20Tatakai%20(Japan)%20(Rev%201).png"
+  },
+  "fca043": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/America%20Daitouryou%20Senkyo%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/America%20Daitouryou%20Senkyo%20(Japan).png"
+  },
+  "fce043": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Famicom%20Grand%20Prix%20-%20F1%20Race%20(Japan)%20(DV%201)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Famicom%20Grand%20Prix%20-%20F1%20Race%20(Japan)%20(DV%201)%20(Disk%20Writer).png"
+  },
+  "fcsu043": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Ice%20Hockey%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Ice%20Hockey%20(Japan).png"
+  },
+  "fcma043": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Matou%20no%20Houkai%20-%20The%20Hero%20of%20Babel%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Matou%20no%20Houkai%20-%20The%20Hero%20of%20Babel%20(Japan).png"
+  },
+  "fca044": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/American%20Dream%20(1989-09-23)(Coconuts%20Japan)(JP).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/American%20Dream%20(1989-09-23)(Coconuts%20Japan)(JP).png"
+  },
+  "fcki045": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Kinnikuman%20-%20Kinnikusei%20Oui%20Soudatsusen%20(Japan)%20(Rev%201)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Kinnikuman%20-%20Kinnikusei%20Oui%20Soudatsusen%20(Japan)%20(Rev%201)%20(Disk%20Writer).png"
+  },
+  "fcta045": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Pro%20Wres%20(Japan)%20(En).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Pro%20Wres%20(Japan)%20(En).png"
+  },
+  "fcte045": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/10-Yard%20Fight%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/10-Yard%20Fight%20(Japan)%20(Rev%201).png"
+  },
+  "fca046": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Arkanoid%20(Japan)%20(En).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Arkanoid%20(Japan)%20(En).png"
+  },
+  "fcha046": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Backgammon%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Backgammon%20(Japan).png"
+  },
+  "fca047": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Arkanoid%20(Japan)%20(En).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Arkanoid%20(Japan)%20(En).png"
+  },
+  "fcta047": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/3-in-1%20Super%20Mario%20Bros.%20%2B%20Duck%20Hunt%20%2B%20World%20Class%20Track%20Meet%20Rev%20PRG0%20(1990-12)(Nintendo)(US).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/3-in-1%20Super%20Mario%20Bros.%20%2B%20Duck%20Hunt%20%2B%20World%20Class%20Track%20Meet%20Rev%20PRG0%20(1990-12)(Nintendo)(US).png"
+  },
+  "fcha047": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Pac-Man%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Pac-Man%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcma047": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Golf%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Golf%20(Japan)%20(Rev%201).png"
+  },
+  "fca048": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Argos%20no%20Senshi%20(Japan)%20(FamicomBox).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Argos%20no%20Senshi%20(Japan)%20(FamicomBox).png"
+  },
+  "fcsi048": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Radical%20Bomber!!%20Jirai-kun%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Radical%20Bomber!!%20Jirai-kun%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcha048": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Pac-Man%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Pac-Man%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fchu048": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Pinball%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Pinball%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcma048": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/All%20Night%20Nippon%20Super%20Mario%20Bros.%20(Japan)%20(Promo).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/All%20Night%20Nippon%20Super%20Mario%20Bros.%20(Japan)%20(Promo).png"
+  },
+  "fca049": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Artelius%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Artelius%20(Japan).png"
+  },
+  "fce049": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Electrician%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Electrician%20(Japan).png"
+  },
+  "fca050": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Armadillo%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Armadillo%20(Japan).png"
+  },
+  "fcsi050": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Silviana%20-%20Ai%20Ippai%20no%20Little%20Angel%20(Japan)%20%5Bb%5D.png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Silviana%20-%20Ai%20Ippai%20no%20Little%20Angel%20(Japan)%20%5Bb%5D.png"
+  },
+  "fcto050": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Mahjong%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Mahjong%20(Japan).png"
+  },
+  "fcha050": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Golf%20(Japan)%20(Rev%201).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Golf%20(Japan)%20(Rev%201).png"
+  },
+  "fca051": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Armana%20no%20Kiseki%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Armana%20no%20Kiseki%20(Japan).png"
+  },
+  "fcta051": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Tanigawa%20Kouji%20no%20Shougi%20Shinan%20II%20-%20Meijin%20e%20no%20Michi%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Tanigawa%20Kouji%20no%20Shougi%20Shinan%20II%20-%20Meijin%20e%20no%20Michi%20(Japan).png"
+  },
+  "fca052": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Ankoku%20Shinwa%20-%20Yamato%20Takeru%20Densetsu%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Ankoku%20Shinwa%20-%20Yamato%20Takeru%20Densetsu%20(Japan).png"
+  },
+  "fchu053": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Mahjong%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Mahjong%20(Japan).png"
+  },
+  "fcsi054": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Tantei%20Jinguuji%20Saburou%20-%20Shinjuku%20Chuuou%20Kouen%20Satsujin%20Jiken%20(Japan)%20(Rev%201)%20(Disk%20Writer)%20%5Bb%5D.png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Tantei%20Jinguuji%20Saburou%20-%20Shinjuku%20Chuuou%20Kouen%20Satsujin%20Jiken%20(Japan)%20(Rev%201)%20(Disk%20Writer)%20%5Bb%5D.png"
+  },
+  "fchu054": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Mahjong%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Mahjong%20(Japan).png"
+  },
+  "fcto055": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Druid%20-%20Kyoufu%20no%20Tobira%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Druid%20-%20Kyoufu%20no%20Tobira%20(Japan).png"
+  },
+  "fcto056": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Doremikko%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Doremikko%20(Japan).png"
+  },
+  "fchu056": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Falsion%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Falsion%20(Japan).png"
+  },
+  "fcsu057": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Smash%20Ping%20Pong%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Smash%20Ping%20Pong%20(Japan).png"
+  },
+  "fcto057": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Donkey%20Kong%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Donkey%20Kong%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcsu058": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Famicom%20Grand%20Prix%20II%20-%203D%20Hot%20Rally%20(Japan)%20(DV%205)%20(Famicom%203D%20System).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Famicom%20Grand%20Prix%20II%20-%203D%20Hot%20Rally%20(Japan)%20(DV%205)%20(Famicom%203D%20System).png"
+  },
+  "fcto058": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Donkey%20Kong%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Donkey%20Kong%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcto059": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Donkey%20Kong%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Donkey%20Kong%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcta060": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Tama%20_%20Friends%20-%203%20Choume%20Daibouken%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Tama%20_%20Friends%20-%203%20Choume%20Daibouken%20(Japan).png"
+  },
+  "fcto060": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Donkey%20Kong%20Jr.%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Donkey%20Kong%20Jr.%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fchu060": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Vs.%20Excitebike%20(Japan%2C%20USA)%20(En)%20(Virtual%20Console).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Vs.%20Excitebike%20(Japan%2C%20USA)%20(En)%20(Virtual%20Console).png"
+  },
+  "fcta061": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Mahjong%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Mahjong%20(Japan).png"
+  },
+  "fcto061": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Donkey%20Kong%20Jr.%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Donkey%20Kong%20Jr.%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcha061": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Baseball%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Baseball%20(Japan).png"
+  },
+  "fcta062": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Tarot%20Uranai%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Tarot%20Uranai%20(Japan).png"
+  },
+  "fcto062": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Donkey%20Kong%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Donkey%20Kong%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fchu063": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Fuuun%20Shourin%20Ken%20-%20Ankoku%20no%20Maou%20(Japan)%20(Famicom%203D%20System).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Fuuun%20Shourin%20Ken%20-%20Ankoku%20no%20Maou%20(Japan)%20(Famicom%203D%20System).png"
+  },
+  "fcta065": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Dandy%20-%20Zeuon%20no%20Fukkatsu%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Dandy%20-%20Zeuon%20no%20Fukkatsu%20(Japan).png"
+  },
+  "fcha065": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Famimaga%20Disk%20Vol.%202%20-%20Panic%20Space%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Famimaga%20Disk%20Vol.%202%20-%20Panic%20Space%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcha066": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Bubble%20Bobble%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Bubble%20Bobble%20(Japan).png"
+  },
+  "fchu066": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Fairytale%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Fairytale%20(Japan).png"
+  },
+  "fcta067": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Tantei%20Jinguuji%20Saburou%20-%20Kiken%20na%20Futari%20-%20Kouhen%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Tantei%20Jinguuji%20Saburou%20-%20Kiken%20na%20Futari%20-%20Kouhen%20(Japan).png"
+  },
+  "fcha067": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Bubble%20Bobble%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Bubble%20Bobble%20(Japan).png"
+  },
+  "fcha068": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Babel%20no%20Tou%20(Japan)%20(Namcot%20Collection).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Babel%20no%20Tou%20(Japan)%20(Namcot%20Collection).png"
+  },
+  "fcha075": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Balloon%20Fight%20(Japan)%20(En)%20(GameCube%20Edition).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Balloon%20Fight%20(Japan)%20(En)%20(GameCube%20Edition).png"
+  },
+  "fchu075": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Famimaga%20Disk%20Vol.%205%20-%20Puyo%20Puyo%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Famimaga%20Disk%20Vol.%205%20-%20Puyo%20Puyo%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcha076": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Pulsar%20no%20Hikari%20-%20Space%20Wars%20Simulation%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Pulsar%20no%20Hikari%20-%20Space%20Wars%20Simulation%20(Japan).png"
+  },
+  "fchu076": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Famimaga%20Disk%20Vol.%205%20-%20Puyo%20Puyo%20(Japan)%20(Disk%20Writer).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Famimaga%20Disk%20Vol.%205%20-%20Puyo%20Puyo%20(Japan)%20(Disk%20Writer).png"
+  },
+  "fcha078": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Snaps/Baltron%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Titles/Baltron%20(Japan).png"
+  },
+  "fcha079": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Halley%20Wars%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Halley%20Wars%20(Japan).png"
+  },
+  "fchu082": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Breeder%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Breeder%20(Japan).png"
+  },
+  "fcha084": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Soccer%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Soccer%20(Japan).png"
+  },
+  "fchu090": {
+    "snap": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Snaps/Pro%20Golfer%20Saru%20-%20Kage%20no%20Tournament%20(Japan).png",
+    "title": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Family_Computer_Disk_System/master/Named_Titles/Pro%20Golfer%20Saru%20-%20Kage%20no%20Tournament%20(Japan).png"
+  }
+}
