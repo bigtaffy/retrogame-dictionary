@@ -945,10 +945,20 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
   .grid.list .card .fav-btn { top: auto; bottom: 6px; right: 6px; width: 28px; height: 28px; }
 
   .topbar { padding: 8px 10px 4px; }
-  .topbar-row { gap: 8px; }
-  .console-pill { padding: 4px 6px 10px; }
-  .console-pill .ico-img { height: 64px; }
-  body.scrolled .console-pill .ico-img { height: 40px; }
+  .topbar-row { gap: 8px; flex-wrap: nowrap; }
+  .console-picker {
+    flex: 1 1 auto; min-width: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+    flex-wrap: nowrap;
+  }
+  .console-picker::-webkit-scrollbar { display: none; }
+  .console-pill { padding: 4px 4px 10px; flex-shrink: 0; }
+  .console-pill .ico-img { height: 56px; }
+  body.scrolled .console-pill .ico-img { height: 36px; }
+  .topbar-right { flex-shrink: 0; }
   .controls-wrap { padding: 10px 0; }
   .controls { padding: 0 12px; gap: 6px; }
   .detail { padding: 16px 14px 30px; }
@@ -968,6 +978,12 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
     <div class="console-picker" id="console-picker">
       <button class="console-pill" data-console="pce" title="PC Engine">
         <img class="ico-img" src="icons/pce.png" alt="PCE" draggable="false">
+      </button>
+      <button class="console-pill" data-console="gb" title="Game Boy">
+        <img class="ico-img" src="icons/gb.png" alt="GB" draggable="false">
+      </button>
+      <button class="console-pill" data-console="gbc" title="Game Boy Color">
+        <img class="ico-img" src="icons/gbc.png" alt="GBC" draggable="false">
       </button>
       <button class="console-pill" data-console="gba" title="Game Boy Advance">
         <img class="ico-img" src="icons/gba.png" alt="GBA" draggable="false">
@@ -1038,8 +1054,6 @@ const CONSOLE_CONFIG = {
   pce: {
     name: 'PC Engine',
     dataUrl: 'data/games.json',
-    // PCE images stored as relative paths; original host (pcengine.co.uk) is slow & rate-limits.
-    // Proxied through weserv.nl CDN cache for fast, reliable delivery.
     imageBase: 'https://images.weserv.nl/?url=www.pcengine.co.uk/',
     hasFormat: true,
     hasRegion: false,
@@ -1057,7 +1071,23 @@ const CONSOLE_CONFIG = {
     name: 'Famicom',
     dataUrl: 'data/fc/games.json',
     imageBase: '',
-    hasFormat: true,  // FC has Cart/Disk
+    hasFormat: true,
+    hasRegion: false,
+    hasYoutube: false,
+  },
+  gb: {
+    name: 'Game Boy',
+    dataUrl: 'data/gb/games.json',
+    imageBase: '',
+    hasFormat: false,
+    hasRegion: false,
+    hasYoutube: false,
+  },
+  gbc: {
+    name: 'Game Boy Color',
+    dataUrl: 'data/gbc/games.json',
+    imageBase: '',
+    hasFormat: false,
     hasRegion: false,
     hasYoutube: false,
   },
