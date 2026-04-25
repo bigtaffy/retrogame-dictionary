@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FC 遊戲字典</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+/* ============= TOKENS ============= */
+:root {
+  --bg: #0d1117;
+  --bg-raised: #161b22;
+  --bg-hover: #1c2128;
+  --border: #30363d;
+  --border-soft: #21262d;
+  --text: #e6edf3;
+  --text-soft: #8b949e;
+  --text-subtle: #6e7681;
+  --accent: #2f81f7;
+  --accent-hover: #388bfd;
+  --accent-bg: rgba(47, 129, 247, 0.1);
+  --green: #3fb950;
+  --yellow: #d29922;
+  --red: #f85149;
+  --orange: #f0883e;
+  --purple: #a371f7;
+  --shadow-lg: 0 12px 32px rgba(0,0,0,0.5);
+}
+
+/* ============= BASE ============= */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: "Inter", "Noto Sans TC", system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+button { cursor: pointer; font-family: inherit; font-size: 14px; }
+input, select, button { font-size: 14px; }
+
+/* ============= HEADER ============= */
+header {
+  padding: 48px 24px 32px;
+  text-align: center;
+  background: radial-gradient(ellipse at top, rgba(47, 129, 247, 0.12), transparent 70%);
+}
+header h1 {
+  font-size: clamp(28px, 5vw, 44px);
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  background: linear-gradient(135deg, #fff 30%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+header .subtitle { font-size: 14px; color: var(--text-soft); margin-top: 6px; font-weight: 500; }
+
+/* ============= CONTROLS (STICKY) ============= */
+.controls-wrap {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(13, 17, 23, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-soft);
+  padding: 12px 0;
+}
+.controls {
+  max-width: 1400px; margin: 0 auto; padding: 0 24px;
+  display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+}
+.search-wrap { position: relative; flex: 1 1 280px; min-width: 0; }
+
+/* Autocomplete 下拉 */
+.suggestions {
+  position: absolute; top: calc(100% + 6px); left: 0; right: 0;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: var(--shadow-lg);
+  max-height: 70vh; overflow-y: auto;
+  z-index: 60;
+  display: none;
+}
+.suggestions.show { display: block; }
+.suggestion {
+  display: flex; gap: 12px; align-items: center;
+  padding: 10px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border-soft);
+  transition: background 0.1s;
+}
+.suggestion:last-child { border-bottom: 0; }
+.suggestion:hover, .suggestion.active {
+  background: var(--bg-hover);
+}
+.suggestion.active {
+  background: var(--accent-bg);
+}
+.suggestion-cover {
+  width: 44px; height: 44px; flex-shrink: 0;
+  background: var(--bg) center/cover no-repeat;
+  border-radius: 6px;
+  border: 1px solid var(--border-soft);
+}
+.suggestion-info {
+  flex: 1; min-width: 0;
+  display: flex; flex-direction: column; gap: 2px;
+}
+.suggestion-title {
+  font-size: 13px; font-weight: 600;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.suggestion-sub {
+  font-size: 11px; color: var(--text-subtle);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.suggestion-meta {
+  font-size: 10px; color: var(--text-soft);
+  display: flex; gap: 6px; flex-shrink: 0;
+}
+.suggestions-empty {
+  padding: 20px; text-align: center;
+  color: var(--text-subtle); font-size: 13px;
+}
+.suggestions-footer {
+  padding: 8px 12px;
+  font-size: 11px; color: var(--text-subtle);
+  background: var(--bg);
+  border-top: 1px solid var(--border-soft);
+  text-align: center;
+}
+.highlight {
+  background: rgba(47, 129, 247, 0.25);
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+/* ========== 語言標籤 + 字型 ========== */
+.lang-chip {
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 9.5px; font-weight: 700;
+  font-family: "Inter", system-ui, sans-serif;
+  min-width: 18px; height: 16px;
+  padding: 0 4px;
+  border-radius: 4px;
+  margin-right: 6px;
+  vertical-align: 1px;
+  letter-spacing: 0.3px;
+  flex-shrink: 0;
+}
+.lang-chip.zh { background: rgba(255,255,255,0.10); color: #fff; border: 1px solid rgba(255,255,255,0.18); }
+.lang-chip.en { background: rgba(47,129,247,0.18); color: #58a6ff; border: 1px solid rgba(47,129,247,0.35); }
+.lang-chip.jp { background: rgba(163,113,247,0.18); color: #c8a4ff; border: 1px solid rgba(163,113,247,0.35); }
+
+.text-zh { font-family: "Noto Sans TC", system-ui, sans-serif; letter-spacing: 0.3px; }
+.text-en { font-family: "Inter", "Noto Sans TC", system-ui, sans-serif; }
+.text-jp { font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, sans-serif; letter-spacing: 0.5px; }
+.search-wrap svg {
+  position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+  color: var(--text-subtle); pointer-events: none;
+}
+.controls input[type=search] {
+  width: 100%; padding: 10px 14px 10px 40px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-raised); color: var(--text);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.controls input[type=search]:focus {
+  outline: 0; border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-bg);
+}
+.controls select {
+  padding: 10px 32px 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-raised); color: var(--text);
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%238b949e' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+.controls select:focus { outline: 0; border-color: var(--accent); }
+.controls button {
+  padding: 10px 14px; border-radius: 8px; border: 1px solid var(--border);
+  background: var(--bg-raised); color: var(--text);
+  display: inline-flex; align-items: center; gap: 6px;
+  font-weight: 500; transition: all 0.15s;
+}
+.controls button:hover { background: var(--bg-hover); border-color: var(--text-subtle); }
+.controls button.primary {
+  background: var(--accent); color: #fff; border-color: var(--accent);
+  font-weight: 600;
+}
+.controls button.primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
+
+/* ============= RANK BAR ============= */
+.rank-bar {
+  max-width: 1400px; margin: 16px auto 0; padding: 0 24px;
+  display: flex; flex-wrap: wrap; gap: 6px;
+}
+.rank-bar button {
+  padding: 6px 12px; border-radius: 999px; border: 1px solid var(--border-soft);
+  background: transparent; color: var(--text-soft); font-size: 13px;
+  transition: all 0.15s;
+}
+.rank-bar button:hover { border-color: var(--text-subtle); color: var(--text); }
+.rank-bar button.active {
+  background: var(--accent-bg); border-color: var(--accent);
+  color: var(--accent); font-weight: 600;
+}
+
+/* ============= AZ BAR ============= */
+.az-bar {
+  max-width: 1400px; margin: 12px auto 0; padding: 0 24px;
+  display: flex; flex-wrap: wrap; gap: 2px; justify-content: center;
+}
+.az-bar button {
+  width: 30px; height: 30px; padding: 0;
+  border: 0; border-radius: 6px;
+  background: transparent; color: var(--text-soft); font-size: 12px;
+  font-weight: 600; transition: all 0.12s;
+}
+.az-bar button:hover:not(:disabled) { background: var(--bg-hover); color: var(--text); }
+.az-bar button.active { background: var(--accent); color: #fff; }
+.az-bar button.all { width: auto; padding: 0 10px; font-size: 11px; }
+.az-bar button:disabled { opacity: 0.25; cursor: default; }
+
+/* ============= STATS ============= */
+.stats {
+  text-align: center; color: var(--text-subtle);
+  font-size: 13px; margin: 20px 0 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ============= GRID ============= */
+.grid {
+  max-width: 1400px; margin: 0 auto; padding: 0 24px 60px;
+  display: grid; gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.card {
+  background: var(--bg-raised);
+  border: 1px solid var(--border-soft);
+  border-radius: 12px; overflow: hidden;
+  display: flex; flex-direction: column;
+  cursor: pointer;
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 0.2s, box-shadow 0.2s;
+  animation: cardFadeIn 0.3s ease-out backwards;
+}
+@keyframes cardFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  box-shadow: var(--shadow-lg);
+}
+.card:hover .cover-img { transform: scale(1.06); }
+
+.card .cover {
+  width: 100%; aspect-ratio: 1;
+  background: linear-gradient(135deg, #1c2128 0%, #0d1117 100%);
+  position: relative; overflow: hidden;
+}
+.card .cover-img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.card .cover.no-img::after {
+  content: "No Cover"; position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-subtle); font-size: 12px; font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.card .info { padding: 12px 14px 14px; flex: 1; display: flex; flex-direction: column; gap: 4px; }
+.card .title {
+  font-size: 14px; font-weight: 600; line-height: 1.35;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: var(--text);
+}
+.card .subtitle {
+  font-size: 11.5px; color: var(--text-subtle); line-height: 1.35;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  min-height: 1em;
+}
+.card .meta {
+  font-size: 11px; color: var(--text-subtle);
+  display: flex; gap: 6px; margin-top: 2px;
+  overflow: hidden; white-space: nowrap;
+}
+.card .meta span { overflow: hidden; text-overflow: ellipsis; }
+.card .meta .dot { color: var(--border); }
+.card .badges { display: flex; gap: 4px; flex-wrap: wrap; margin-top: auto; padding-top: 10px; }
+
+.badge {
+  font-size: 10px; padding: 2px 6px; border-radius: 4px;
+  font-weight: 600; letter-spacing: 0.3px; white-space: nowrap;
+}
+.badge.format-hucard { background: rgba(240, 136, 62, 0.15); color: var(--orange); border: 1px solid rgba(240, 136, 62, 0.3); }
+.badge.format-cd { background: rgba(47, 129, 247, 0.12); color: #58a6ff; border: 1px solid rgba(47, 129, 247, 0.3); }
+.badge.format-scd { background: rgba(163, 113, 247, 0.12); color: var(--purple); border: 1px solid rgba(163, 113, 247, 0.3); }
+.badge.format-sg { background: rgba(248, 81, 73, 0.12); color: var(--red); border: 1px solid rgba(248, 81, 73, 0.3); }
+.badge.format-arcade { background: rgba(210, 153, 34, 0.15); color: var(--yellow); border: 1px solid rgba(210, 153, 34, 0.3); }
+.badge.format-other { background: rgba(139, 148, 158, 0.12); color: var(--text-soft); border: 1px solid rgba(139, 148, 158, 0.3); }
+.badge.rating-buyit { background: rgba(63, 185, 80, 0.15); color: var(--green); border: 1px solid rgba(63, 185, 80, 0.3); }
+.badge.rating-tryit { background: rgba(210, 153, 34, 0.15); color: var(--yellow); border: 1px solid rgba(210, 153, 34, 0.3); }
+.badge.rating-avoid { background: rgba(248, 81, 73, 0.15); color: var(--red); border: 1px solid rgba(248, 81, 73, 0.3); }
+.badge.rating-unrated { background: transparent; color: var(--text-subtle); border: 1px solid var(--border); }
+
+/* ============= EMPTY ============= */
+.empty { grid-column: 1 / -1; text-align: center; padding: 80px 20px; color: var(--text-subtle); }
+.empty svg { width: 48px; height: 48px; margin-bottom: 16px; opacity: 0.5; }
+.empty h3 { font-size: 18px; margin-bottom: 6px; color: var(--text-soft); }
+.empty p { font-size: 13px; }
+
+/* ============= MODAL ============= */
+.modal-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: none; align-items: center; justify-content: center;
+  z-index: 200; padding: 20px;
+  animation: fadeIn 0.2s ease-out;
+}
+.modal-overlay.show { display: flex; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+.modal {
+  max-width: 780px; width: 100%; max-height: 90vh; overflow-y: auto;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: 14px; padding: 28px;
+  box-shadow: var(--shadow-lg);
+  animation: slideUp 0.25s ease-out;
+  position: relative;
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+.modal::-webkit-scrollbar { width: 8px; }
+.modal::-webkit-scrollbar-track { background: transparent; }
+.modal::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+.modal .close {
+  position: absolute; top: 16px; right: 16px;
+  width: 32px; height: 32px; border: 0; border-radius: 8px;
+  background: var(--bg-hover); color: var(--text-soft);
+  font-size: 20px; display: flex; align-items: center; justify-content: center;
+  transition: all 0.15s;
+}
+.modal .close:hover { background: var(--red); color: #fff; }
+.modal .header-row { display: flex; gap: 24px; flex-wrap: wrap; margin-bottom: 20px; padding-right: 40px; }
+.modal .cover-large {
+  width: 180px; aspect-ratio: 1;
+  background: var(--bg) center/cover no-repeat;
+  border-radius: 8px; flex-shrink: 0;
+  border: 1px solid var(--border);
+}
+.modal .header-info { flex: 1; min-width: 200px; }
+.modal h2 { font-size: 24px; font-weight: 700; letter-spacing: -0.3px; margin-bottom: 6px; }
+.modal .jp-title { color: var(--text-soft); font-size: 15px; margin-bottom: 16px; font-weight: 500; }
+.modal .header-badges { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 12px; }
+.modal dl {
+  display: grid; grid-template-columns: auto 1fr;
+  gap: 8px 16px; font-size: 14px;
+  margin-top: 16px; padding-top: 16px;
+  border-top: 1px solid var(--border-soft);
+}
+.modal dt { color: var(--text-soft); font-weight: 500; }
+.modal dd { color: var(--text); }
+.modal .overview {
+  margin-top: 20px; padding-top: 20px;
+  border-top: 1px solid var(--border-soft);
+  line-height: 1.7; color: var(--text); font-size: 14px;
+}
+.modal .overview h3 {
+  font-size: 13px; font-weight: 600;
+  color: var(--text-soft);
+  margin-top: 16px; margin-bottom: 6px;
+  text-transform: uppercase; letter-spacing: 1px;
+}
+.modal .overview h3:first-child { margin-top: 0; }
+.modal .source-link {
+  display: inline-flex; align-items: center; gap: 6px;
+  margin-top: 24px; font-size: 13px;
+  padding: 8px 12px; border-radius: 6px;
+  background: var(--accent-bg); color: var(--accent);
+  transition: background 0.15s;
+}
+.modal .source-link:hover { background: rgba(47, 129, 247, 0.18); text-decoration: none; }
+
+/* YouTube videos section */
+.modal .videos {
+  margin-top: 20px; padding-top: 20px;
+  border-top: 1px solid var(--border-soft);
+}
+.modal .videos h3 {
+  font-size: 13px; font-weight: 600;
+  color: var(--text-soft);
+  margin-bottom: 10px;
+  text-transform: uppercase; letter-spacing: 1px;
+}
+.modal .videos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 12px;
+}
+.modal .video-thumb {
+  position: relative; aspect-ratio: 16/9;
+  background: #000 center/cover no-repeat;
+  border-radius: 8px; cursor: pointer;
+  overflow: hidden;
+  border: 1px solid var(--border-soft);
+  transition: transform 0.15s, border-color 0.15s;
+}
+.modal .video-thumb:hover {
+  transform: scale(1.02);
+  border-color: var(--accent);
+}
+.modal .video-thumb::before {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(transparent 60%, rgba(0,0,0,0.6));
+}
+.modal .video-thumb::after {
+  content: "▶";
+  position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 56px; height: 56px;
+  background: rgba(255, 0, 0, 0.9);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; font-size: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  transition: transform 0.15s;
+}
+.modal .video-thumb:hover::after { transform: translate(-50%, -50%) scale(1.1); }
+.modal .video-thumb iframe {
+  width: 100%; height: 100%; border: 0;
+}
+.modal .video-thumb.playing::before, .modal .video-thumb.playing::after { display: none; }
+
+/* Screenshot gallery */
+.modal .gallery {
+  margin-top: 20px; padding-top: 20px;
+  border-top: 1px solid var(--border-soft);
+}
+.modal .gallery h3 {
+  font-size: 13px; font-weight: 600;
+  color: var(--text-soft);
+  margin-bottom: 10px;
+  text-transform: uppercase; letter-spacing: 1px;
+}
+.modal .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 8px;
+}
+.modal .screenshot {
+  aspect-ratio: 4/3;
+  background: var(--bg) center/cover no-repeat;
+  border-radius: 6px;
+  border: 1px solid var(--border-soft);
+  cursor: zoom-in;
+  transition: transform 0.15s, border-color 0.15s;
+}
+.modal .screenshot:hover {
+  transform: scale(1.03);
+  border-color: var(--accent);
+}
+
+/* Lightbox for full-size screenshot */
+.lightbox {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.92);
+  display: none; align-items: center; justify-content: center;
+  z-index: 300; padding: 20px; cursor: zoom-out;
+  animation: fadeIn 0.2s ease-out;
+}
+.lightbox.show { display: flex; }
+.lightbox img {
+  max-width: 100%; max-height: 90vh;
+  border-radius: 8px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+  image-rendering: pixelated;  /* 保留像素風 */
+  image-rendering: crisp-edges;
+}
+.lightbox .nav {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  background: rgba(255,255,255,0.1); border: 0;
+  width: 44px; height: 44px; border-radius: 50%;
+  color: #fff; font-size: 20px;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; transition: background 0.15s;
+}
+.lightbox .nav:hover { background: rgba(255,255,255,0.2); }
+.lightbox .nav.prev { left: 20px; }
+.lightbox .nav.next { right: 20px; }
+.lightbox .counter {
+  position: absolute; bottom: 20px; left: 50%;
+  transform: translateX(-50%);
+  color: #fff; font-size: 13px;
+  background: rgba(0,0,0,0.6); padding: 6px 12px;
+  border-radius: 20px;
+}
+
+/* ============= MOBILE ============= */
+@media (max-width: 640px) {
+  header { padding: 32px 16px 20px; }
+  header h1 { font-size: 26px; }
+  .controls { padding: 0 12px; gap: 6px; }
+  .search-wrap { flex: 1 1 100%; }
+  .controls select { flex: 1 1 48%; min-width: 0; font-size: 13px; }
+  .controls button { flex: 1 1 auto; }
+  .controls button.primary { flex: 1 1 100%; }
+  .rank-bar { padding: 0 12px; }
+  .rank-bar button { font-size: 12px; padding: 5px 10px; }
+  .az-bar { padding: 0 12px; gap: 1px; }
+  .az-bar button { width: 26px; height: 26px; font-size: 11px; }
+  .az-bar button.all { padding: 0 8px; }
+  .grid {
+    padding: 0 12px 40px;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  /* 手機：直向卡片，封面撐滿整欄 */
+  .card { flex-direction: column; }
+  .card .cover {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+  }
+  .card .info { padding: 14px 16px; gap: 5px; }
+  .card .title {
+    font-size: 16px;
+    -webkit-line-clamp: 2;
+  }
+  .card .subtitle { font-size: 13px; }
+  .card .meta { font-size: 12px; }
+  .badge { font-size: 11px; padding: 3px 8px; }
+  .card .badges { padding-top: 8px; }
+  /* hover 縮放在手機關掉 */
+  .card:hover { transform: none; }
+  .card:hover .cover-img { transform: none; }
+  .modal { padding: 20px; }
+  .modal h2 { font-size: 20px; }
+  .modal .cover-large { width: 100%; max-width: 240px; margin: 0 auto; }
+  .modal .header-row { gap: 16px; }
+  .modal dl { grid-template-columns: 1fr; gap: 4px; }
+  .modal dt { font-size: 12px; }
+}
+
+/* FC 版隱藏不適用元件 */
+#filter-format, #filter-rating, .rank-bar { display: none !important; }
+.modal .header-badges { display: none !important; }
+
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Famicom 遊戲字典</h1>
+  <div class="subtitle">紅白機 (FC) · 1,242 款 · 資料來源 famicom.tw</div>
+</header>
+
+<div class="controls-wrap">
+  <div class="controls">
+    <div class="search-wrap">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+      </svg>
+      <input type="search" id="search" placeholder="搜尋遊戲名、發行商、類型…" autocomplete="off">
+      <div class="suggestions" id="suggestions"></div>
+    </div>
+    <select id="filter-format"><option value="">所有規格</option></select>
+    <select id="filter-genre"><option value="">所有類型</option></select>
+    <select id="filter-rating">
+      <option value="">所有評等</option>
+      <option value="buyit">BUY IT</option>
+      <option value="tryit">TRY IT</option>
+      <option value="avoid">AVOID</option>
+      <option value="unrated">UNRATED</option>
+    </select>
+    <button id="lang-toggle" title="切換顯示語言">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10z"/></svg>
+      <span id="lang-label">中文</span>
+    </button>
+    <button class="primary" id="random-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><circle cx="15.5" cy="15.5" r="1.5" fill="currentColor"/><circle cx="15.5" cy="8.5" r="1.5" fill="currentColor"/><circle cx="8.5" cy="15.5" r="1.5" fill="currentColor"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/></svg>
+      隨機
+    </button>
+  </div>
+  <div class="rank-bar">
+    <button data-rank="all" class="active">全部</button>
+    <button data-rank="buyit">🏆 BUY IT</button>
+    <button data-rank="tryit">👍 TRY IT</button>
+    <button data-rank="avoid">⚠️ AVOID</button>
+    <button data-rank="unrated">未評等</button>
+  </div>
+  <div class="az-bar" id="az-bar"></div>
+</div>
+
+<div class="stats" id="stats">載入中…</div>
+
+<div class="grid" id="grid"></div>
+
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal">
+    <button class="close" onclick="closeModal()">×</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="nav prev" onclick="event.stopPropagation();lightboxNav(-1)">‹</button>
+  <img id="lightbox-img" alt="">
+  <button class="nav next" onclick="event.stopPropagation();lightboxNav(1)">›</button>
+  <div class="counter" id="lightbox-counter"></div>
+</div>
+
+<script>
+let games = [];
+let filtered = [];
+let currentLang = 'zh';
+let currentLetter = 'ALL';
+let currentRank = 'all';
+let currentFormat = '';
+let currentGenre = '';
+let currentRating = '';
+let searchTerm = '';
+
+async function init() {
+  try {
+    const r = await fetch('games.json');
+    games = await r.json();
+  } catch (e) {
+    document.getElementById('stats').textContent = '載入 games.json 失敗：' + e.message;
+    return;
+  }
+  populateFormatFilter();
+  populateGenreFilter();
+  buildAZBar();
+  applyFilters();
+  bindEvents();
+}
+
+function populateFormatFilter() {
+  const cats = [...new Set(games.map(g => g.format_category).filter(Boolean))].sort();
+  const sel = document.getElementById('filter-format');
+  cats.forEach(c => {
+    const o = document.createElement('option');
+    o.value = c; o.textContent = c;
+    sel.appendChild(o);
+  });
+}
+
+function populateGenreFilter() {
+  // 帶上各類型的遊戲數
+  const counts = {};
+  games.forEach(g => {
+    const c = g.genre_category || '其他 Other';
+    counts[c] = (counts[c] || 0) + 1;
+  });
+  const sel = document.getElementById('filter-genre');
+  // 按遊戲數排序
+  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  sorted.forEach(([name, n]) => {
+    const o = document.createElement('option');
+    o.value = name; o.textContent = `${name} (${n})`;
+    sel.appendChild(o);
+  });
+}
+
+function buildAZBar() {
+  const letters = new Set(games.map(g => g.letter));
+  const bar = document.getElementById('az-bar');
+  const btnAll = mkButton('ALL', () => { currentLetter = 'ALL'; applyFilters(); highlightAZ(); });
+  btnAll.dataset.letter = 'ALL';
+  btnAll.classList.add('all', 'active');
+  bar.appendChild(btnAll);
+  for (const L of '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ') {
+    const b = mkButton(L, () => { currentLetter = L; applyFilters(); highlightAZ(); });
+    b.dataset.letter = L;
+    if (!letters.has(L)) b.disabled = true;
+    bar.appendChild(b);
+  }
+}
+
+function mkButton(text, onclick) {
+  const b = document.createElement('button');
+  b.textContent = text; b.onclick = onclick;
+  return b;
+}
+
+function highlightAZ() {
+  document.querySelectorAll('.az-bar button').forEach(b => {
+    b.classList.toggle('active', b.dataset.letter === currentLetter);
+  });
+}
+
+function applyFilters() {
+  let list = games;
+  if (currentLetter !== 'ALL') list = list.filter(g => g.letter === currentLetter);
+  if (currentRank !== 'all') list = list.filter(g => g.rating === currentRank);
+  if (currentFormat) list = list.filter(g => g.format_category === currentFormat);
+  if (currentGenre) list = list.filter(g => g.genre_category === currentGenre);
+  if (currentRating) list = list.filter(g => g.rating === currentRating);
+  if (searchTerm) {
+    const q = searchTerm.toLowerCase();
+    list = list.filter(g =>
+      (g.title_en || '').toLowerCase().includes(q) ||
+      (g.title_jp || '').toLowerCase().includes(q) ||
+      (g.title_zh || '').toLowerCase().includes(q) ||
+      (g.maker || '').toLowerCase().includes(q) ||
+      (g.style || '').toLowerCase().includes(q)
+    );
+  }
+  filtered = list;
+  render();
+}
+
+function render() {
+  const grid = document.getElementById('grid');
+  const stats = document.getElementById('stats');
+  stats.textContent = `顯示 ${filtered.length.toLocaleString()} / ${games.length.toLocaleString()} 款遊戲`;
+
+  grid.innerHTML = '';
+  if (filtered.length === 0) {
+    grid.innerHTML = `
+      <div class="empty">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <h3>沒有符合條件的遊戲</h3>
+        <p>試著清除篩選條件或換個關鍵字</p>
+      </div>`;
+    return;
+  }
+
+  const frag = document.createDocumentFragment();
+  filtered.forEach((g, i) => {
+    const c = renderCard(g);
+    c.style.animationDelay = (Math.min(i, 20) * 15) + 'ms';
+    frag.appendChild(c);
+  });
+  grid.appendChild(frag);
+}
+
+function titleFor(g) {
+  if (currentLang === 'zh') {
+    if (g.title_zh) return { text: g.title_zh, lang: 'zh' };
+    return { text: g.title_en || '(無題)', lang: 'en' };
+  }
+  if (currentLang === 'jp') {
+    if (g.title_jp) return { text: g.title_jp, lang: 'jp' };
+    return { text: g.title_en || '(無題)', lang: 'en' };
+  }
+  return { text: g.title_en || '(無題)', lang: 'en' };
+}
+
+function subtitleFor(g) {
+  if (currentLang === 'zh' && g.title_zh) return { text: g.title_en || '', lang: 'en' };
+  if (currentLang === 'en') return { text: g.title_jp || '', lang: 'jp' };
+  if (currentLang === 'jp') return { text: g.title_en || '', lang: 'en' };
+  // 預設：副標放日文
+  return { text: g.title_jp || '', lang: 'jp' };
+}
+
+const LANG_LABEL = { zh: '中', en: 'EN', jp: '日' };
+function withLangChip(textLang) {
+  if (!textLang || !textLang.text) return '';
+  const { text, lang } = textLang;
+  return `<span class="lang-chip ${lang}">${LANG_LABEL[lang]}</span><span class="text-${lang}">${escapeHTML(text)}</span>`;
+}
+
+function coverUrl(g) {
+  if (!g.cover) return '';
+  if (g.cover.startsWith('http')) return g.cover;
+  return 'https://www.pcengine.co.uk/' + g.cover.replace(/^\.\.\//, '');
+}
+
+function formatBadgeClass(cat) {
+  return {
+    'HuCard': 'format-hucard', 'CD-ROM': 'format-cd',
+    'Super CD-ROM': 'format-scd', 'SuperGrafx': 'format-sg',
+    'Arcade Card CD-ROM': 'format-arcade',
+  }[cat] || 'format-other';
+}
+
+function renderCard(g) {
+  const card = document.createElement('div');
+  card.className = 'card';
+  const url = coverUrl(g);
+  const coverHTML = url
+    ? `<div class="cover"><img class="cover-img" src="${url}" alt="" loading="lazy" onerror="this.parentElement.classList.add('no-img');this.remove();"></div>`
+    : `<div class="cover no-img"></div>`;
+  card.innerHTML = `
+    ${coverHTML}
+    <div class="info">
+      <div class="title">${withLangChip(titleFor(g))}</div>
+      <div class="subtitle">${withLangChip(subtitleFor(g))}</div>
+      <div class="meta">
+        <span>${escapeHTML(g.maker || '')}</span>
+        ${extractYear(g.release_date) ? `<span class="dot">·</span><span>${extractYear(g.release_date)}</span>` : ''}
+      </div>
+      <div class="badges">
+        <span class="badge ${formatBadgeClass(g.format_category)}">${escapeHTML(g.format_category || g.format)}</span>
+        ${g.rating ? `<span class="badge rating-${g.rating}">${g.rating.toUpperCase()}</span>` : ''}
+      </div>
+    </div>`;
+  card.onclick = () => openModal(g);
+  return card;
+}
+
+function extractYear(s) { const m = (s || '').match(/\d{4}/); return m ? m[0] : ''; }
+function escapeHTML(s) {
+  return (s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+}
+
+function modalSubtitles(g) {
+  // 在 modal 副標位置顯示「另外兩種語言」的標題
+  const out = [];
+  const main = titleFor(g);
+  if (main.lang !== 'en' && g.title_en) out.push(withLangChip({ text: g.title_en, lang: 'en' }));
+  if (main.lang !== 'jp' && g.title_jp) out.push(withLangChip({ text: g.title_jp, lang: 'jp' }));
+  if (main.lang !== 'zh' && g.title_zh) out.push(withLangChip({ text: g.title_zh, lang: 'zh' }));
+  return out.join('<br>');
+}
+
+function overviewBlock(g) {
+  if (currentLang === 'zh' && g.overview_zh) {
+    return `<div class="overview"><h3>遊戲簡介</h3>${escapeHTML(g.overview_zh)}${g.overview_en ? `<details style="margin-top:8px;color:var(--text-soft);font-size:13px;"><summary style="cursor:pointer;">原文 (English)</summary><div style="margin-top:6px;">${escapeHTML(g.overview_en)}</div></details>` : ''}</div>`;
+  }
+  if (g.overview_en) return `<div class="overview"><h3>Overview</h3>${escapeHTML(g.overview_en)}</div>`;
+  return '';
+}
+function commentBlock(g) {
+  if (currentLang === 'zh' && g.comment_zh) {
+    return `<div class="overview"><h3>評論</h3>${escapeHTML(g.comment_zh)}${g.comment_en ? `<details style="margin-top:8px;color:var(--text-soft);font-size:13px;"><summary style="cursor:pointer;">原文 (English)</summary><div style="margin-top:6px;">${escapeHTML(g.comment_en)}</div></details>` : ''}</div>`;
+  }
+  if (g.comment_en) return `<div class="overview"><h3>Comment</h3>${escapeHTML(g.comment_en)}</div>`;
+  return '';
+}
+
+function screenUrl(path) {
+  if (!path) return '';
+  if (path.startsWith('http')) return path;
+  return 'https://www.pcengine.co.uk/' + path.replace(/^\.\.\//, '');
+}
+
+let currentScreens = [];
+let currentScreenIdx = 0;
+
+function openModal(g) {
+  const url = coverUrl(g);
+  const screens = (g.screenshots || []).map(screenUrl);
+  const galleryHTML = screens.length ? `
+    <div class="gallery">
+      <h3>遊戲畫面 · ${screens.length}</h3>
+      <div class="gallery-grid">
+        ${screens.map((s, i) => `<div class="screenshot" style="background-image:url('${s}')" onclick="openLightbox(${i})"></div>`).join('')}
+      </div>
+    </div>` : '';
+  const videos = g.youtube || [];
+  const videosHTML = videos.length ? `
+    <div class="videos">
+      <h3>遊戲影片 · ${videos.length}</h3>
+      <div class="videos-grid">
+        ${videos.map(vid => `<div class="video-thumb" data-vid="${vid}" style="background-image:url('https://img.youtube.com/vi/${vid}/mqdefault.jpg')" onclick="playVideo(this)"></div>`).join('')}
+      </div>
+    </div>` : '';
+
+  document.getElementById('modal-content').innerHTML = `
+    <div class="header-row">
+      ${url ? `<div class="cover-large" style="background-image:url('${url}')"></div>` : `<div class="cover-large"></div>`}
+      <div class="header-info">
+        <h2>${withLangChip(titleFor(g))}</h2>
+        <div class="jp-title">${modalSubtitles(g)}</div>
+        <div class="header-badges">
+          <span class="badge ${formatBadgeClass(g.format_category)}">${escapeHTML(g.format_category || g.format)}</span>
+          ${g.rating ? `<span class="badge rating-${g.rating}">${g.rating.toUpperCase()}</span>` : ''}
+        </div>
+      </div>
+    </div>
+    <dl>
+      <dt>發行商</dt><dd>${escapeHTML(g.maker || '—')}</dd>
+      <dt>發行日</dt><dd>${escapeHTML(g.release_date || '—')}</dd>
+      <dt>類型</dt><dd>${escapeHTML(g.style || '—')}</dd>
+      <dt>規格</dt><dd>${escapeHTML(g.format || '—')}</dd>
+      ${g.aka ? `<dt>別名</dt><dd>${escapeHTML(g.aka)}</dd>` : ''}
+      ${g.fc_no ? `<dt>FC 編號</dt><dd>${escapeHTML(g.fc_no)}</dd>` : ''}
+      ${g.price ? `<dt>定價</dt><dd>${escapeHTML(g.price)} 円</dd>` : ''}
+      ${g.media ? `<dt>媒介</dt><dd>${escapeHTML(g.media)}</dd>` : ''}
+      ${g.product_code ? `<dt>產品碼</dt><dd>${escapeHTML(g.product_code)}</dd>` : ''}
+    </dl>
+    ${overviewBlock(g)}
+    ${commentBlock(g)}
+    ${videosHTML}
+    ${galleryHTML}
+    <a class="source-link" href="${g.source_url}" target="_blank" rel="noopener">
+      查看原始條目
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10M7 17 17 7"/></svg>
+    </a>
+  `;
+  currentScreens = screens;
+  document.getElementById('modal-overlay').classList.add('show');
+  document.body.style.overflow = 'hidden';
+}
+
+function playVideo(el) {
+  const vid = el.dataset.vid;
+  if (!vid) return;
+  el.classList.add('playing');
+  el.innerHTML = `<iframe src="https://www.youtube.com/embed/${vid}?autoplay=1&rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+  el.onclick = null;
+}
+
+function openLightbox(idx) {
+  if (!currentScreens.length) return;
+  currentScreenIdx = idx;
+  const img = document.getElementById('lightbox-img');
+  img.src = currentScreens[idx];
+  document.getElementById('lightbox-counter').textContent = `${idx + 1} / ${currentScreens.length}`;
+  document.getElementById('lightbox').classList.add('show');
+}
+function closeLightbox() { document.getElementById('lightbox').classList.remove('show'); }
+function lightboxNav(dir) {
+  currentScreenIdx = (currentScreenIdx + dir + currentScreens.length) % currentScreens.length;
+  openLightbox(currentScreenIdx);
+}
+function closeModal() {
+  document.getElementById('modal-overlay').classList.remove('show');
+  document.body.style.overflow = '';
+}
+
+// ============ AUTOCOMPLETE ============
+let suggestionIdx = -1;
+let currentSuggestions = [];
+
+function findSuggestions(q) {
+  if (!q || q.length < 1) return [];
+  const ql = q.toLowerCase();
+  // 比對：title_zh / title_en / title_jp / aka / maker
+  // 評分：title 開頭 > title 包含 > maker 包含
+  const scored = [];
+  for (const g of games) {
+    const fields = [
+      { v: (g.title_zh || '').toLowerCase(), w: 30 },
+      { v: (g.title_en || '').toLowerCase(), w: 30 },
+      { v: (g.title_jp || '').toLowerCase(), w: 30 },
+      { v: (g.aka || '').toLowerCase(), w: 20 },
+      { v: (g.maker || '').toLowerCase(), w: 10 },
+    ];
+    let score = 0;
+    for (const f of fields) {
+      if (!f.v) continue;
+      if (f.v === ql) { score = Math.max(score, f.w * 3); break; }
+      if (f.v.startsWith(ql)) score = Math.max(score, f.w * 2);
+      else if (f.v.includes(ql)) score = Math.max(score, f.w);
+    }
+    if (score > 0) scored.push({ g, score });
+  }
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, 10).map(x => x.g);
+}
+
+function highlightMatch(text, q) {
+  if (!text || !q) return escapeHTML(text || '');
+  const ql = q.toLowerCase();
+  const tl = text.toLowerCase();
+  const idx = tl.indexOf(ql);
+  if (idx < 0) return escapeHTML(text);
+  return escapeHTML(text.slice(0, idx)) +
+    `<span class="highlight">${escapeHTML(text.slice(idx, idx + q.length))}</span>` +
+    escapeHTML(text.slice(idx + q.length));
+}
+
+function renderSuggestions(q) {
+  const box = document.getElementById('suggestions');
+  if (!q) { box.classList.remove('show'); return; }
+  const list = findSuggestions(q);
+  currentSuggestions = list;
+  suggestionIdx = -1;
+  if (list.length === 0) {
+    box.innerHTML = '<div class="suggestions-empty">沒有符合的遊戲，按 Enter 直接搜尋</div>';
+    box.classList.add('show');
+    return;
+  }
+  const html = list.map((g, i) => {
+    const url = coverUrl(g);
+    // 主標題：優先中文 → 英文
+    const mainText = g.title_zh || g.title_en || '';
+    const mainLang = g.title_zh ? 'zh' : 'en';
+    // 副標：另一種語言（有日文優先日，否則英文）
+    let subText = '', subLang = '';
+    if (g.title_zh && g.title_en) { subText = g.title_en; subLang = 'en'; }
+    else if (g.title_jp) { subText = g.title_jp; subLang = 'jp'; }
+    const yr = extractYear(g.release_date);
+    return `
+      <div class="suggestion" data-idx="${i}">
+        <div class="suggestion-cover" ${url ? `style="background-image:url('${url}')"` : ''}></div>
+        <div class="suggestion-info">
+          <div class="suggestion-title"><span class="lang-chip ${mainLang}">${LANG_LABEL[mainLang]}</span><span class="text-${mainLang}">${highlightMatch(mainText, q)}</span></div>
+          ${subText ? `<div class="suggestion-sub"><span class="lang-chip ${subLang}">${LANG_LABEL[subLang]}</span><span class="text-${subLang}">${highlightMatch(subText, q)}</span></div>` : ''}
+        </div>
+        <div class="suggestion-meta">
+          ${yr ? `<span>${yr}</span>` : ''}
+          ${g.format_category ? `<span>${escapeHTML(g.format_category)}</span>` : ''}
+        </div>
+      </div>`;
+  }).join('') + `<div class="suggestions-footer">↑↓ 選擇 · Enter 開啟詳細頁 · Esc 關閉</div>`;
+  box.innerHTML = html;
+  box.classList.add('show');
+  // 綁定 click
+  box.querySelectorAll('.suggestion').forEach(el => {
+    el.onclick = () => {
+      const i = +el.dataset.idx;
+      const g = currentSuggestions[i];
+      if (g) {
+        document.getElementById('suggestions').classList.remove('show');
+        document.getElementById('search').blur();
+        openModal(g);
+      }
+    };
+  });
+}
+
+function highlightSuggestion(idx) {
+  const box = document.getElementById('suggestions');
+  box.querySelectorAll('.suggestion').forEach((el, i) => {
+    el.classList.toggle('active', i === idx);
+  });
+  const active = box.querySelector('.suggestion.active');
+  if (active) active.scrollIntoView({ block: 'nearest' });
+}
+
+function bindEvents() {
+  let searchTimer;
+  const searchInput = document.getElementById('search');
+  searchInput.oninput = e => {
+    clearTimeout(searchTimer);
+    const q = e.target.value;
+    // 即時推薦（30ms 防抖）
+    setTimeout(() => renderSuggestions(q), 30);
+    // 較慢的網格更新（120ms）
+    searchTimer = setTimeout(() => { searchTerm = q; applyFilters(); }, 120);
+  };
+  searchInput.onfocus = () => {
+    if (searchInput.value) renderSuggestions(searchInput.value);
+  };
+  searchInput.onkeydown = e => {
+    const box = document.getElementById('suggestions');
+    if (!box.classList.contains('show')) return;
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      suggestionIdx = Math.min(suggestionIdx + 1, currentSuggestions.length - 1);
+      highlightSuggestion(suggestionIdx);
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      suggestionIdx = Math.max(suggestionIdx - 1, -1);
+      highlightSuggestion(suggestionIdx);
+    } else if (e.key === 'Enter' && suggestionIdx >= 0 && currentSuggestions[suggestionIdx]) {
+      e.preventDefault();
+      box.classList.remove('show');
+      searchInput.blur();
+      openModal(currentSuggestions[suggestionIdx]);
+    } else if (e.key === 'Escape') {
+      box.classList.remove('show');
+      searchInput.blur();
+    }
+  };
+  // 點外面關閉推薦
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.search-wrap')) {
+      document.getElementById('suggestions').classList.remove('show');
+    }
+  });
+  document.getElementById('filter-format').onchange = e => { currentFormat = e.target.value; applyFilters(); };
+  document.getElementById('filter-genre').onchange = e => { currentGenre = e.target.value; applyFilters(); };
+  document.getElementById('filter-rating').onchange = e => { currentRating = e.target.value; applyFilters(); };
+  const langNames = { zh: '中文', en: 'English', jp: '日本語' };
+  document.getElementById('lang-toggle').onclick = () => {
+    currentLang = { zh: 'en', en: 'jp', jp: 'zh' }[currentLang];
+    document.getElementById('lang-label').textContent = langNames[currentLang];
+    render();
+  };
+  document.getElementById('random-btn').onclick = () => {
+    if (!games.length) return;
+    const g = games[Math.floor(Math.random() * games.length)];
+    openModal(g);
+  };
+  document.querySelectorAll('.rank-bar button').forEach(b => {
+    b.onclick = () => {
+      document.querySelectorAll('.rank-bar button').forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      currentRank = b.dataset.rank;
+      applyFilters();
+    };
+  });
+  document.getElementById('modal-overlay').onclick = e => {
+    if (e.target.id === 'modal-overlay') closeModal();
+  };
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      if (document.getElementById('lightbox').classList.contains('show')) closeLightbox();
+      else closeModal();
+    }
+    if (document.getElementById('lightbox').classList.contains('show')) {
+      if (e.key === 'ArrowLeft') lightboxNav(-1);
+      if (e.key === 'ArrowRight') lightboxNav(1);
+    }
+  });
+}
+
+init();
+</script>
+</body>
+</html>
