@@ -569,6 +569,60 @@ header .subtitle { font-size: 14px; color: var(--text-soft); margin-top: 6px; fo
 .card .badges .format-other { display: none; }
 .modal .header-badges { display: none !important; }
 
+
+/* ===== GBA 版專用：文字優先卡片 ===== */
+/* 隱藏封面區域 */
+.card .cover { display: none !important; }
+.card { 
+  flex-direction: column; 
+  padding: 0;
+  min-height: 140px;
+}
+.card .info {
+  padding: 16px 18px !important;
+  gap: 6px !important;
+  flex: 1;
+  border-left: 3px solid var(--border-soft);
+  transition: border-color 0.2s;
+  position: relative;
+}
+.card:hover .info {
+  border-left-color: var(--accent);
+}
+.card .title { 
+  font-size: 15px !important;
+  -webkit-line-clamp: 2 !important;
+}
+.card .subtitle { 
+  font-size: 12.5px !important;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.card .meta { 
+  font-size: 11.5px !important;
+  margin-top: 4px;
+}
+/* 類型徽章顯眼一點 */
+.badge.format-other { 
+  background: rgba(47,129,247,0.12) !important;
+  color: #58a6ff !important;
+  border: 1px solid rgba(47,129,247,0.3) !important;
+}
+/* 桌機網格密一點 */
+.grid {
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)) !important;
+  gap: 12px !important;
+}
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+  .card { min-height: 100px; }
+  .card .info { padding: 12px 14px !important; }
+}
+
 </style>
 </head>
 <body>
