@@ -1189,7 +1189,7 @@ function makeCard(g, consoleName) {
   el.className = 'card';
   el.dataset.id = g.id;
 
-  const cover = g.cover ? `<img class="cover-img" src="${escapeHtml(g.cover)}" alt="" loading="lazy">` : '';
+  const cover = g.cover ? `<img class="cover-img" src="${escapeHtml(g.cover)}" alt="" decoding="async">` : '';
   const coverCls = g.cover ? '' : 'no-img';
   const lang = detectLang(g);
   const title = pickTitle(g);
@@ -1363,7 +1363,7 @@ async function renderDetail(consoleName, id) {
       <div class="section">
         <div class="section-title">▦ Screenshots</div>
         <div class="gallery">
-          ${shots.slice(0, 12).map(s => `<img src="${escapeHtml(s.url || s)}" alt="" loading="lazy" data-shot="${escapeHtml(s.url || s)}">`).join('')}
+          ${shots.slice(0, 12).map(s => `<img src="${escapeHtml(s.url || s)}" alt="" decoding="async" data-shot="${escapeHtml(s.url || s)}">`).join('')}
         </div>
       </div>` : ''}
 
