@@ -920,7 +920,7 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
 .settings-control button.danger { color: var(--red); border-color: var(--red); }
 
 /* ============================================================
-   SPINNER (loading overlay)
+   SPINNER (loading overlay) + Progress bar
    ============================================================ */
 .spinner-wrap {
   display: flex; flex-direction: column; align-items: center; justify-content: center;
@@ -946,6 +946,38 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
   font-family: var(--pixel-en); font-size: 12px; letter-spacing: 2px;
   color: var(--cyan); text-shadow: var(--glow-cyan);
   text-transform: uppercase;
+}
+.progress-wrap {
+  width: 280px; max-width: 80vw;
+  display: flex; flex-direction: column; gap: 6px; align-items: center;
+}
+.progress-bar {
+  width: 100%; height: 8px;
+  background: rgba(26, 13, 62, 0.7);
+  border: 1px solid rgba(255, 62, 200, 0.4);
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--pink), var(--cyan));
+  box-shadow: 0 0 8px var(--pink), 0 0 14px rgba(255, 62, 200, 0.6);
+  transition: width 0.15s ease;
+  width: 0;
+}
+.progress-bar-fill.indeterminate {
+  width: 40%;
+  animation: progressIndeterminate 1.6s ease-in-out infinite;
+}
+@keyframes progressIndeterminate {
+  0%   { transform: translateX(-100%); }
+  100% { transform: translateX(250%); }
+}
+.progress-text {
+  font-family: var(--pixel-en); font-size: 11px;
+  color: var(--text-soft);
+  font-variant-numeric: tabular-nums;
 }
 
 /* ============================================================
@@ -1253,6 +1285,12 @@ function navigate(path) { location.hash = '#/' + path.replace(/^\/?/, ''); }
 /* ============================================================
    DATA LOADING (with spinner)
    ============================================================ */
+function fmtBytes(n) {
+  if (n < 1024) return `${n} B`;
+  if (n < 1024 * 1024) return `${(n/1024).toFixed(0)} KB`;
+  return `${(n/1024/1024).toFixed(1)} MB`;
+}
+
 async function loadConsole(name) {
   if (state.cache.has(name)) return state.cache.get(name);
   // 1) Try inline embedded data (works on file://)
@@ -1266,12 +1304,36 @@ async function loadConsole(name) {
       return data;
     } catch (e) { console.warn('inline data parse failed', e); }
   }
-  // 2) Fall back to fetch (works on http(s)://)
-  showLoading('Loading ' + CONSOLE_CONFIG[name].name + '...');
+  // 2) Fetch with streaming progress
+  showLoading('載入 ' + CONSOLE_CONFIG[name].name + '...', /*withProgress=*/true);
   try {
     const res = await fetch(CONSOLE_CONFIG[name].dataUrl);
     if (!res.ok) throw new Error('Failed to fetch ' + name);
-    const games = normalizeGameImages(await res.json(), name);
+    // Content-Length is the *compressed* size when CDN sends gzip/brotli.
+    // Browser auto-decompresses; reader.read() yields decompressed bytes.
+    // So total may be smaller than received bytes — we cap at 100%.
+    const total = +res.headers.get('content-length') || 0;
+    const reader = res.body.getReader();
+    const chunks = [];
+    let received = 0;
+    let lastUpdate = 0;
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      chunks.push(value);
+      received += value.length;
+      // Throttle UI updates (every 50ms)
+      const now = performance.now();
+      if (now - lastUpdate > 50) {
+        updateProgress(received, total);
+        lastUpdate = now;
+      }
+    }
+    updateProgress(received, total, true); // final 100%
+    // Parse JSON (small synchronous pause)
+    const blob = new Blob(chunks);
+    const text = await blob.text();
+    const games = normalizeGameImages(JSON.parse(text), name);
     const byId = new Map(games.map(g => [String(g.id), g]));
     const data = { games, byId };
     state.cache.set(name, data);
@@ -1279,17 +1341,42 @@ async function loadConsole(name) {
   } catch (e) {
     console.error(e);
     document.getElementById('view-container').innerHTML =
-      `<div class="empty"><h3>Load Failed</h3><p>無法載入 ${CONSOLE_CONFIG[name].name} 資料。請用 http server 開啟（python3 -m http.server）或使用 bundled 版本。</p></div>`;
+      `<div class="empty"><h3>載入失敗</h3><p>無法載入 ${CONSOLE_CONFIG[name].name} 資料。請用 http server 開啟（python3 -m http.server）或使用 bundled 版本。</p></div>`;
     return { games: [], byId: new Map() };
   }
 }
 
-function showLoading(label) {
+function updateProgress(received, total, finalize = false) {
+  const fill = document.getElementById('progress-fill');
+  const text = document.getElementById('progress-text');
+  if (!fill || !text) return;
+  if (total > 0) {
+    const pct = Math.min(100, Math.round(received / total * 100));
+    fill.classList.remove('indeterminate');
+    fill.style.width = pct + '%';
+    text.textContent = `${fmtBytes(received)} (${pct}%)`;
+  } else {
+    // Total unknown — show received bytes + indeterminate animation
+    fill.classList.add('indeterminate');
+    text.textContent = `${fmtBytes(received)} 已下載`;
+  }
+  if (finalize) {
+    fill.classList.remove('indeterminate');
+    fill.style.width = '100%';
+  }
+}
+
+function showLoading(label, withProgress = false) {
   const c = document.getElementById('view-container');
   c.innerHTML = `
     <div class="spinner-wrap">
       <div class="spinner"></div>
-      <div class="spinner-label">${escapeHtml(label || 'Loading...')}</div>
+      <div class="spinner-label">${escapeHtml(label || '載入中...')}</div>
+      ${withProgress ? `
+        <div class="progress-wrap">
+          <div class="progress-bar"><div class="progress-bar-fill indeterminate" id="progress-fill"></div></div>
+          <div class="progress-text" id="progress-text">準備中...</div>
+        </div>` : ''}
     </div>`;
 }
 
