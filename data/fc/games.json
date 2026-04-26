@@ -101,7 +101,7 @@
       "https://famicom.tw/img/soft/0086b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "The Mad Overlord Trebor was once only power-mad, but went off the deep end after he acquired a magical amulet of immense power, only to have it stolen from him by his nemesis, the evil archmage Werdna. Werdna, not quite sure how to use the amulet properly, accidentally causes an earthquake which creates a ten-level dungeon beneath Trebor's castle. To avoid looking silly, Werdna declares the dungeon to be the new lair for him and his monster hordes. Trebor, not to be outdone, declares the labyrinth his new Proving Grounds where adventurers must prove themselves for membership in his elite honor guard, and incidentally retrieve his amulet in the process.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -113,7 +113,9 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "W",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_en_source": "thegamesdb",
+    "tgdb_id": 1395
   },
   {
     "id": "fce001",
@@ -140,7 +142,7 @@
       "https://famicom.tw/img/soft/0110b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Deep within enemy territory, your fellow countrymen are imprisoned. Only one man in the free world would dare attempt to save them. You, Stringfellow Hawke, commander of Airwolf. And yet, as you strap yourself into the cockpit of your supersonic jet copter, you know this is the most dangerous assignment you have ever flown.\r\n\r\nYour mission is mapped out. Airwolf's heat-seeking missiles and superpowered machine guns are fired up, ready to blow the terrorists away. But can you evade enemy radar time after time? Can you sneak behind the enemy lines, find the captives and bring them to safety before you crash land or worse?\r\n\r\nHeadquarters knows that you have the skill and firepower it takes. You say you've got the guts... now prove it!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -153,7 +155,11 @@
     "letter": "A",
     "no_intro_name": "Airwolf (Japan) (Kyugo)",
     "genre_en": "Shooter",
-    "genre_raw": "射擊"
+    "genre_raw": "射擊",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "Not Rated",
+    "tgdb_id": 329
   },
   {
     "id": "fco001",
@@ -2080,7 +2086,7 @@
       "https://famicom.tw/img/soft/0350b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "The main objective is to cross different USA cities and reach the predetermined scores to go ahead. But remember: you'll have only 16 balls and every error can be lethal!\r\n\r\nThe game also comes with modes for 2 players with two variants: 2P Pocket Game (the traditional mode) and 2P 9-Ball Game, where the premise is to sink 9 balls before the other player makes them first. If you prefer, test your target in Trick Game or even hear your favorite song in Jukebox.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -2092,7 +2098,9 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "其他 (TBG)",
-    "genre_en": "Board / Card"
+    "genre_en": "Board / Card",
+    "overview_en_source": "thegamesdb",
+    "tgdb_id": 1415
   },
   {
     "id": "fcsi002",
@@ -2729,7 +2737,7 @@
       "https://famicom.tw/img/soft/1007b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Baseball is a simple baseball video game made by Nintendo in 1983 for the Nintendo Family Computer, making it one of the first games released for the Famicom. It was later one of the NES's 18 launch titles when it was released in 1985 in the United States. As in real baseball, the object of the game is to score the most runs. Up to two players are supported. Each player can select from one of six teams. Although there is no difference between them other than uniform color, they are meant to represent the six members of the Japanese Central League.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -2742,7 +2750,11 @@
     "letter": "B",
     "no_intro_name": "Baseball (Japan)",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "Not Rated",
+    "tgdb_id": 335
   },
   {
     "id": "fcho002",
@@ -2767,7 +2779,7 @@
       "https://famicom.tw/img/soft/1026b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Despite being rather short on story and depth, this game was nevertheless fairly popular. The game flashes three \"cardboard cut-outs\" of a mixture of bad guys and innocent civilians. The player needs to react quickly and shoot the thugs while sparing the bystanders and other friendlies (such as police officers). The game gets more difficult and faster as it progresses",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -2779,7 +2791,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "H",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1317
   },
   {
     "id": "fcma002",
@@ -3296,7 +3312,7 @@
       "https://famicom.tw/img/soft/0003b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Duke it out with the computer or take on a friend in a battle of brute strength and wits in Urban Champion. You and your opponent each start with 200 stamina points. Flower pots falling from the building above will cause you to lose five stamina points, and you'll lose even more for being punched or kicked. When you've managed to get your opponent's stamina points down to zero, you've won the round. A round can also be won by pushing your opponent off of the screen. Also, if time runs out the losing fighter will be taken away by a cop car, or a player can lose by falling into an open manhole. A match has been won after you've defeated your opponent three times. After winning, you will be declared the Urban Champion.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -3308,7 +3324,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "U",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "Not Rated",
+    "tgdb_id": 1390
   },
   {
     "id": "fci003",
@@ -4323,7 +4343,7 @@
       "https://famicom.tw/img/soft/1008b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Baseball is a simple baseball video game made by Nintendo in 1983 for the Nintendo Family Computer, making it one of the first games released for the Famicom. It was later one of the NES's 18 launch titles when it was released in 1985 in the United States. As in real baseball, the object of the game is to score the most runs. Up to two players are supported. Each player can select from one of six teams. Although there is no difference between them other than uniform color, they are meant to represent the six members of the Japanese Central League.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -4336,7 +4356,11 @@
     "letter": "B",
     "no_intro_name": "Baseball (Japan)",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "Not Rated",
+    "tgdb_id": 335
   },
   {
     "id": "fcho003",
@@ -5243,7 +5267,7 @@
       "https://famicom.tw/img/soft/0321b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "The game has four modes: World Cup, Tournament, Shoot Competition, and Vs. Mode. The object of the game is the same as in real football; one team must score more goals than the other to win.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -5255,7 +5279,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "G",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "tgdb_id": 1294
   },
   {
     "id": "fcsa004",
@@ -5431,7 +5458,7 @@
       "https://famicom.tw/img/soft/0518b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Sharpen the Blade. Summon the Magic. Your Enemies Await! You are the Sword Master - the supreme warrior. Unleash your magic when a sword won't cut it. A kingdom to save... a slew of deadly levels to conquer! Huge enemies only a Sword Master would love. Razor-sharp graphics. Explosive special effects. Get airborne with the exclusive \"Multi-Jump\" feature.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -5443,7 +5470,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "tgdb_id": 1460
   },
   {
     "id": "fcta004",
@@ -6576,7 +6606,7 @@
       "https://famicom.tw/img/soft/0114b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "CONTROL MAN AND BIRD IN A FIGHT FOR THE EIGHT JEWELS OF POWER!\r\n\r\nAfter hundreds of years of chaos, mankind has finally emerged from the ruins of nuclear war. This world of the distant future has once again fluorished under the guidance of the Great King, who harnessed the power of the 8 Eyes to rebuild the planet.\r\n\r\nThese strange jewels of power were formed at the eyes, or centers, of the eight nuclear explosions which nearly destroyed the Earth. In the wrong hands, the 8 Eyes could cause untold destruction...And now, they have been seized by the Great King's eight Dukes, in a desperate bid to gain control of the world for themselves. They have banished the King to the nuclear wastelands, and already their squabbling threatens to plunge the world into war once again!\r\n\r\nThe task of retrieving the 8 Eyes falls to you, Orin the Falconer, the bravest and mightiest of the King's Guardsmen. With your fighting falcon, Cutrus, you must penetrate each of the eight Dukes' castles. There you will face the Dukes' soldiers, and battle strange nuclear mutants such as living skeletons, giant wasps, and mud men. You must defeat the monstrous Boss of each castle to retrieve the Jewel of Power he guards.\r\n\r\nThen, to complete your quest, return the 8 Eyes to the Altar of Peace to await the return on the Great King, so that he may finish the rebuilding of Earth. Your reward will be the the eternal gratitude of all mankind!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -6589,7 +6619,11 @@
     "letter": "#",
     "no_intro_name": "8 Eyes (Japan)",
     "genre_en": "Adventure",
-    "genre_raw": "冒險"
+    "genre_raw": "冒險",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 316
   },
   {
     "id": "fco005",
@@ -6879,7 +6913,7 @@
       "https://famicom.tw/img/soft/0388b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "George must save Planet M38 from Cogswell's destruction! Elroy, Jane, Judy, Astro and Rosie the Robot will give George the things he needs to meet the challenge. Using his anti-gravity boots, glider, and jet board, George will be walking on ceilings, dodging aliens and flying through danger on his way to stop Cogswell. Leap into the future and rescue another world with the JETSONS!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -6891,7 +6925,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "tgdb_id": 1865
   },
   {
     "id": "fcsu005",
@@ -7029,7 +7066,7 @@
       "https://famicom.tw/img/soft/0531b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Tiger Heli is the name of your helicopter, according to the box the result of a billion-dollar defense project and forged from ebony metal and glistening chrome. Your goal is to defeat the country of Cantun, which is run by terrorists and has become completely power hungry with an aim to take over the whole world.\r\n\r\nYou're shooting tanks, ships, aircraft carriers and trains while flying towards the impenetrable military base. You shoot crates to get pickups. If you shoot the crate when it is green you get a bomb pickup, if you shoot it when it is red you get a mini helicopter that attaches to one of your sides shooting sideways, and if you shoot it when it is white you get a mini helicopter shooting forward. If you shoot 10 crates with a yellow diamond shape you get an extra life.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -7041,7 +7078,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "Not Rated",
+    "tgdb_id": 387
   },
   {
     "id": "fcti005",
@@ -7897,7 +7938,7 @@
       "https://famicom.tw/img/soft/1219b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "The player controls a stick figure who must collect all the gold in a level while avoiding guards who try to catch the player. After collecting all the gold, the player must travel to the top of the screen to reach the next level. There are 150 levels in the game which progressively challenge players' problem-solving abilities or reaction times.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -7910,7 +7951,11 @@
     "letter": "L",
     "no_intro_name": "Super Lode Runner (Japan)",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 955
   },
   {
     "id": "fcwa005",
@@ -8088,7 +8133,7 @@
       "https://famicom.tw/img/soft/0115b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "The extra-terrestrials in this game are anything but friendly. They're slimy monsters that are holding space colonists captive aboard seven alien starships.\r\n\r\nFor one or two players, this super action game challenges you to free the helpless hostages. Search each ship's deadly levels, using flamethrowers and laser cannons to vaporize alien scum. Look for maps to help you find your way.\r\n\r\nAfter you've saved all the captives from one ship, you must destroy its powerful leader before you can move on to the next ship. Remember, to the aliens, you're slime. And they want you good... and dead!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -8101,7 +8146,10 @@
     "letter": "A",
     "no_intro_name": "Alien Syndrome (Japan)",
     "genre_en": "Shooter",
-    "genre_raw": "射擊"
+    "genre_raw": "射擊",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "tgdb_id": 1614
   },
   {
     "id": "fco006",
@@ -8652,7 +8700,7 @@
       "https://famicom.tw/img/soft/0629b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Teenage Mutant Ninja Turtles is a 1989 NES video game developed by Konami and released by Ultra Games in the USA on June 25, 1989.\r\n\r\nCarnivorous robots chow-down in China Town, while brutal Ninjitsu Warriors, blood descendants of the deadly \"Foot\" Clan, bust-up bystanders from the Bronx to Broadway. Police SWAT Teams can't stop them, but the Teenage Mutant Ninja Turtles can! 'Cause, powered by slices of pizza, they're always ready to rumble - with nunchukus, Katana Blades, and a party bus loaded with Anti-Foot Clan Missiles. So team up with the turtles, Raphael, Leonardo, Michaelangelo and Donatello, then switch on the tortoise radar, following your map and sixth sense past savage traps and secret sewage passages. Knock heads with the nasty Ninjitsu and either splatter them senseless or get yourself turned into turtle soup!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -8664,7 +8712,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 383
   },
   {
     "id": "fcto006",
@@ -8951,7 +9003,7 @@
       "https://famicom.tw/img/soft/1011b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Hop on your bike for a free-wheeling ride up the avenues of not-so-typical suburbia. There are papers to be delivered, robbers to be foiled, and fame and fortune to be won as you brave the mean streets. Avoid motorcycles, tricycles, traffic, tires, gratings, curbs, dogs, skateboarders, breakdancers, bad guys, and other hazards as you deliver to your customers. Earn bonus points by hitting targets along the obstacle course at the end of your route. With superb animation and sound effects, Paperboy brings home all the thrills, spills, challenge, and excitement you loved in the arcades.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -8963,7 +9015,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "P",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "tgdb_id": 371
   },
   {
     "id": "fcho006",
@@ -9328,7 +9383,7 @@
       "https://famicom.tw/img/soft/1210b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Wrecking Crew is a 1985 NES video game developed by Nintendo R&D1 and Intelligent Systems and released by Nintendo of America in the USA on October 18, 1985.\r\n\r\nThe player controls Mario and attempts to destroy all of a certain set of objects with a large hammer on each of 100 levels. Mario cannot jump because of the hammer's weight. Each level takes place on a playfield divided into an invisible grid, each space of which can contain one object. Objects include destructible walls, pillars, and ladders, indestructible barrels and ladders, bombs that destroy all connected destructible objects, and various enemies that Mario must avoid. Doors may also exist, which can be opened to cause enemies to move harmlessly into the background.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -9341,7 +9396,11 @@
     "letter": "W",
     "no_intro_name": "Wrecking Crew (Japan) (Disk Writer)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 321
   },
   {
     "id": "fcro006",
@@ -9517,7 +9576,7 @@
       "https://famicom.tw/img/soft/0092b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Long ago, in a time of magic and sorcery, an evil sorceress named Queen Bavmorda ruled the land under a reign of terror.\r\nA baby has been born who, legend foretells, will destroy the wicked ruler but the Queen vows the slay the child first. Now the villagers of Nelwyn must band together to assist Willow, the child's chosen protector.\r\nAs Willow, you must travel through mysterious forests and villages - first evading the Queen and her demons, then plotting to end her reign of terror. You will accumulate an arsenal of swords, shield, and most importantly magic, which are necessary for your final confrontation. Outnumbered by the Nockmaar Army, you must rely on inner strength and determination to destroy the evil Queen - before it's too late!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -9531,7 +9590,9 @@
     "genre_raw": "動作角色扮演 (ARPG)",
     "genre_en": "RPG",
     "genre_subtype": "動作角扮",
-    "genre_subtype_en": "Action RPG"
+    "genre_subtype_en": "Action RPG",
+    "overview_en_source": "thegamesdb",
+    "tgdb_id": 1393
   },
   {
     "id": "fce007",
@@ -10767,7 +10828,7 @@
       "https://famicom.tw/img/screen/1211.gif"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Wrecking Crew is a 1985 NES video game developed by Nintendo R&D1 and Intelligent Systems and released by Nintendo of America in the USA on October 18, 1985.\r\n\r\nThe player controls Mario and attempts to destroy all of a certain set of objects with a large hammer on each of 100 levels. Mario cannot jump because of the hammer's weight. Each level takes place on a playfield divided into an invisible grid, each space of which can contain one object. Objects include destructible walls, pillars, and ladders, indestructible barrels and ladders, bombs that destroy all connected destructible objects, and various enemies that Mario must avoid. Doors may also exist, which can be opened to cause enemies to move harmlessly into the background.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -10780,7 +10841,11 @@
     "letter": "W",
     "no_intro_name": "Wrecking Crew (Japan) (Disk Writer)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 321
   },
   {
     "id": "fcro007",
@@ -10842,7 +10907,7 @@
       "https://famicom.tw/img/soft/1243b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "You palm sweats as you grip your Zapper™ light gun. The Outlaw's eyes flash. He yells \"Fire!\" And suddenly you're in the middle of a Wild West shootout! Get the Outlaw before he gets you, and you'll win a reward! But watch out - the more you win the tougher it becomes, because this gunman has some very nasty friends. You can take on one outlaw, two outlaws - or the whole wild gang. And you up to the action? Because it's fast and furious in this quick -on- the-trigger Nintendo Light Gun game!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -10854,7 +10919,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "W",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "Not Rated",
+    "tgdb_id": 1603
   },
   {
     "id": "fca008",
@@ -10881,7 +10950,7 @@
       "https://famicom.tw/img/soft/0008b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Ice Climber is a 1985 NES video game developed by Nintendo R&D1 and released by Nintendo of America in the USA on October 18, 1985.\r\n\r\nThe first player controls Popo, a boy wearing a blue Eskimo parka, while the second player controls Nana, a girl wearing a pink Eskimo parka. The only tool they carry is a wooden mallet to carve openings in the ice above and to club enemies. Each mountain level consists of eight layers of colorful ice and a bonus stage. Standard, dull ice blocks pose no threat other than an easily disposed of barrier and platform. Square ice blocks with higher detail are indestructible forcing the player to take another path",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -10894,7 +10963,11 @@
     "letter": "I",
     "no_intro_name": "Ice Climber (Japan) (Disk Writer)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1326
   },
   {
     "id": "fci008",
@@ -10998,7 +11071,7 @@
       "https://famicom.tw/img/soft/0117b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Advanced Dungeons & Dragons: Dragons of Flame is a role-playing game and the sequel to Advanced Dungeons & Dragons: Heroes of the Lance, developed by Atelier Double and published by Pony Canyon. Its release for the Famicom in 1992 was exclusive to Japan.\r\n\r\nThe dragonmen have taken Solace. Its beautiful tree houses lie black and battered amid the stumps of great vallenwood trees. Kapak Draconians, armed with poisoned weapons, enforce a crutal martial law on the survivors.\r\n\r\nAnd Solace is only one outpost: the dragonarmies control the plains. Only the elven kingdom of Qualinesti stands unconquered. The rest of the plainsmen suffer the most: a long slave caravan hauls hundreds of them to the fortress prison of Pax Tharkas.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -11011,7 +11084,11 @@
     "letter": "A",
     "no_intro_name": "Advanced Dungeons _ Dragons - Dragons of Flame (Japan)",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "Not Rated",
+    "tgdb_id": 1020
   },
   {
     "id": "fco008",
@@ -12294,7 +12371,7 @@
       "https://famicom.tw/img/screen/0009.gif"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Ice Climber is a 1985 NES video game developed by Nintendo R&D1 and released by Nintendo of America in the USA on October 18, 1985.\r\n\r\nThe first player controls Popo, a boy wearing a blue Eskimo parka, while the second player controls Nana, a girl wearing a pink Eskimo parka. The only tool they carry is a wooden mallet to carve openings in the ice above and to club enemies. Each mountain level consists of eight layers of colorful ice and a bonus stage. Standard, dull ice blocks pose no threat other than an easily disposed of barrier and platform. Square ice blocks with higher detail are indestructible forcing the player to take another path",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -12307,7 +12384,11 @@
     "letter": "I",
     "no_intro_name": "Ice Climber (Japan) (Disk Writer)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1326
   },
   {
     "id": "fci009",
@@ -12408,7 +12489,7 @@
       "https://famicom.tw/img/soft/0118b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "While Heroes of the Lance is a faithful representation of the books it is based on, it was a departure from the usual RPG style of most Dungeons & Dragons games, and many players lamented its difficult game play interface which consists of using one character at a time in horizontally-scrolling fighting. Each character has different types of attacks and spells making them more suited to fighting different enemies but they merely act as \"lives\" for the player as in more traditional fighting games, removing one of the main strategies of role-playing games from the game.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -12421,7 +12502,11 @@
     "letter": "A",
     "no_intro_name": "Advanced Dungeons _ Dragons - Heroes of the Lance (Japan)",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1021
   },
   {
     "id": "fco009",
@@ -13587,7 +13672,7 @@
       "https://famicom.tw/img/soft/0010b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "It's fast skatin', hip checkin', high scoring action. Lead your team into center ice, over the opponent's blue line. Pass over to the point and set up for the tip in - Score! Choose a country for you and your opponent, select a level of play and face off at center ice to become the top goal scorer in Nintendo's Ice Hockey! Get charged with a penalty and test your defense. Or attack on a power play and use your puck handling skills to catch your opponents off guard. Either way, you can become a superstar in the league of Nintendo Ice Hockey!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -13600,7 +13685,11 @@
     "letter": "I",
     "no_intro_name": "Ice Hockey (Japan)",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1375
   },
   {
     "id": "fci010",
@@ -13704,7 +13793,7 @@
       "https://famicom.tw/img/soft/0119b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Hillsfar is a single-hero role-playing game (in comparison to other Advanced Dungeons & Dragons role-playing games, where the player usually controls a group of characters). A combination of first person perspective (when traveling in the city of Hillsfar) and third person perspective (usually in some action-style mini-quests) viewpoints.\r\n\r\nAs a would-be-hero, four classes are available in a randomly generated mission-based plot: fighter, thief, cleric, or magic-user. Each class to a certain extent, have different assigned quests given by each respective guild.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -13717,7 +13806,11 @@
     "letter": "A",
     "no_intro_name": "Advanced Dungeons _ Dragons - Hillsfar (Japan)",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "Not Rated",
+    "tgdb_id": 1608
   },
   {
     "id": "fco010",
@@ -14275,7 +14368,7 @@
       "https://famicom.tw/img/soft/0678b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Dr. Mario is a 1990 NES video game developed by Nintendo R&D1 and released by Nintendo of America in the USA on October 14, 1990.\r\n\r\nA puzzle game similar to Tetris, Dr. Mario features Nintendo mascot Mario as a doctor. Gameplay consists of dropping two-sided vitamin capsules into a playing field 8 blocks wide by 16 blocks high resembling a medicine bottle, populated by viruses of three colors",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -14287,7 +14380,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "D",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 344
   },
   {
     "id": "fcna010",
@@ -15000,7 +15097,7 @@
       "https://famicom.tw/img/soft/0120b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Pool of Radiance takes place in the Forgotten Realms fantasy world. The main setting is the city of Phlan, located on the northern shore of the Moonsea, situated between Zhentil Keep and Melvaunt. The party begins in the civilized section of \"New Phlan\" that is governed by a council. This portion of the city hosts businesses, including shopkeepers who sell holy items for each temple's worshipers, a jewelry shop, and retailers who provide arms and armor. A party can also contract with the clerk of the city council for various commissions; proclamations fastened to the halls within City Hall offer bits of information to aid the party. These coded clues can be deciphered by using the Adventurer's Journal, included with the game.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -15013,7 +15110,10 @@
     "letter": "A",
     "no_intro_name": "Advanced Dungeons _ Dragons - Pool of Radiance (Japan)",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "tgdb_id": 1505
   },
   {
     "id": "fco011",
@@ -16249,7 +16349,7 @@
       "https://famicom.tw/img/soft/0171b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "The object of the game is to rescue the five hostages in the concentration camp. The game is divided into six stages: Communication Setup, Jungle, Village, Powder Magazine, Concentration Camp, and Airport. Completion of each stage advances the story. For example, upon completing the Jungle stage, an enemy leader is interrogated and the location of the enemy's concentration camp is found. This was one of the first shooter games to feature a storyline, and it had some similarities to real special operations missions.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -16261,7 +16361,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "O",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "tgdb_id": 1378
   },
   {
     "id": "fcka012",
@@ -16708,7 +16811,7 @@
       "https://famicom.tw/img/soft/0606b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "The object of the game is the same as a regular game of bowling; score the highest to win.  The game utilizes factors such as left or right-handedness, spin, power and weight of the ball which can affect the outcome of a throw.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -16720,7 +16823,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "C",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_en_source": "thegamesdb",
+    "players": 4,
+    "tgdb_id": 1246
   },
   {
     "id": "fcte012",
@@ -16745,7 +16851,7 @@
       "https://famicom.tw/img/soft/0635b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Okay pal, here's the set-up: You wake up on the floor and you don't know who you are or how you got there. You're searching through a seedy Chicago casino, decorated with one somewhat familiar, but very dead, body.\r\n\r\nYou gotta find out who you are and who iced this guy... In a hurry! Otherwise, the cops are gonna peg you for Murder One. Deja Vu. In this case, what you don't know can kill you!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -16757,7 +16863,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "D",
     "genre_raw": "冒險 (ADV)",
-    "genre_en": "Adventure"
+    "genre_en": "Adventure",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "Not Rated",
+    "tgdb_id": 1265
   },
   {
     "id": "fcto012",
@@ -17081,7 +17191,7 @@
       "https://famicom.tw/img/soft/1069b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "You and Jack must challenge the King Demon Beelzebut to a final fight to the bitter end. Beelzebut has abducted the merciful King Pamera, his Queen and the fair Princess. He has imprisoned them in his cursed pyramid.\r\nThe Mighty Brothers fought bravely against Beelzebut and failed. Jack -- the youngest of all the brothers -- must restore peace and order in the world. He needs your help.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -17093,7 +17203,9 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "M",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "tgdb_id": 1437
   },
   {
     "id": "fcmi012",
@@ -17565,7 +17677,7 @@
       "https://famicom.tw/img/soft/0280b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Gradius is a 1986 NES video game developed by Konami and released by Konami Inc. in the USA on December 1, 1986.\r\n\r\nOne of the defining characteristics of the Gradius series is the use of a \"power meter.\" The power meter is powered by a power-up item, whose purpose, when collected, is to move a highlight to the next power-up on the power meter. When a power-up that the player wants becomes highlighted, he or she may activate it, also causing the highlight to reset.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -17577,7 +17689,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "G",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1297
   },
   {
     "id": "fcke013",
@@ -17681,7 +17797,7 @@
       "https://famicom.tw/img/soft/0361b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "The \"system\" was created by an organic intelligence body many milleniums ago and began attacking the human race. The earth was thrown into turmoil with only one hope for salvation. Fighter model AFX-6502 ZANAC was perfected by the 256th Riot Fleet to ward off the enemy system. It's your job, as ZANAC, to save the human race. Using eight special weapons and secret power forces buried along the way, guide ZANAC through 12 screens of enemy creatures to victory.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -17694,7 +17810,11 @@
     "letter": "Z",
     "no_intro_name": "Zanac (Japan)",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "Not Rated",
+    "tgdb_id": 1595
   },
   {
     "id": "fcsi013",
@@ -17719,7 +17839,7 @@
       "https://famicom.tw/img/soft/0396b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "The main character in the game is a female driver, Clarice, of a Honda City (the North American version features a male driver) on a tour of all the sights and roads across the world. To prove that she has visited a particular location, she must drive around the location painting every section of the road white. However, the police, who have no tolerance for vandalism, attempt to stop the driver from completing her goal. The player's car can jump and fire cans of oil. To avoid forcing the player from retracing the same roads again, the roads change color when the car drives over them, indicating that that specific road has been painted. There are three main obstacles: police, cats and spikes. The police chase after the car and if a police car comes into contact with the main character's car, the car \"explodes\" by turning into a group of hearts and the player loses a life. To combat this, the player can obtain cans of oil, which can be used to cause the police cars to spin out of control, allowing the player to bump them off the screen. Other enemies include a cat, which, when hit, causes the player to lose an extra life as the cat goes diagonally off the screen (but does not cause the car to \"explode\") with playing of a comical music, \"Der Flohwalzer\", known as \"Neko Funjatta\" (I Stepped on the Cat) in Japan. There is also spikes, which make the car \"explode\" on contact. Occasionally, a balloon may float by during any given stage. If the car touches one of these balloons, it collects it and collecting three such balloons will activate a warp that sends the car multiple stages ahead and provides significant bonus points. Although the city you travel to will change, the difficulty pattern of the road will remain the same. As the number of cities you travel to loop endlessly, the game is not shortened by taking a warp. One particular thing about this game is the \"catchy\" tune that plays in the background as you enter a new city. Although it uses \"ethnic\" variations according to the destination, it's an adaptation of a famous classic piece, \"Allegro non troppo e molto maestoso\", from Tchaikovsky's Piano Concerto No.1.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -17731,7 +17851,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "C",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1674
   },
   {
     "id": "fcsu013",
@@ -18141,7 +18265,7 @@
       "https://famicom.tw/img/soft/0918b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Unlock doors of legend on your journey through Faxanadu!\r\n\r\nYou are the elves’ last hope. Outside the town walls lurk monsters with the power to destroy anything in their path. Inside the walls, water and time are running out. Soon the ancient elf town of Eolis will vanish into eternity. Only you can save Eolis. No one else dares to venture beyond the walls, onto the World Tree, where towns and fortresses precariously await the whims of fate at the hands of the Evil.\r\n\r\nYou are searching for the water source and for an antidote to the poison that makes the water undrinkable. To find them you’ll need gold and food and magic, speed with a sword … and luck.\r\n\r\nEvery town holds a new mystery, every fortress a new danger. Merchants will sell you magic and valuable tools, but it’s up to you to figure out what you need. Long, secret mantras help you slip through the mists, but will you survive the next challenge?\r\n\r\nThis is Faxanadu, the legend, the adventure – the incredible journey on the World Tree.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -18155,7 +18279,10 @@
     "genre_raw": "動作角色扮演 (ARPG)",
     "genre_en": "RPG",
     "genre_subtype": "動作角扮",
-    "genre_subtype_en": "Action RPG"
+    "genre_subtype_en": "Action RPG",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "tgdb_id": 1283
   },
   {
     "id": "fche013",
@@ -18294,7 +18421,7 @@
       "https://famicom.tw/img/soft/1119b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "The gameplay of Millipede is similar to Centipede but differs mostly in enemies:\r\n\r\nEarwig: same as the scorpion in Centipede, making mushrooms poisonous so that the millipede will charge straight to the bottom of the screen after touching them.\r\nBee: same as the flea in Centipede, dropping mushrooms in a vertical line and requiring two shots to kill.\r\nSpider: same behavior as in Centipede, bouncing irregularly across the lower portion of the screen. Multiple spiders can appear at the same time on higher levels.\r\nInchworm: when hit, slows all enemies for a short period of time.\r\nBeetle: crawls around the player area for a while, then climbs up and leaves the screen, turning any mushrooms it touches into indestructible flowers. When hit, everything on the screen scrolls down one row.\r\nDragonfly: drops mushrooms while zigzagging down, and can be destroyed with a single shot.\r\nMosquito: bounces off the sides of the screen as it descends. When hit, everything on the screen scrolls up one row.\r\nDDT bomb (stationary): can be blown up with one shot, destroying all enemies and mushrooms within the blast radius. Whenever the mushrooms scroll down, a new bomb is added at the top of the screen. Up to four bombs can be in play at one time.\r\nAll flowers and poisoned/partially destroyed mushrooms revert to normal, whole mushrooms when the player loses a life.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -18306,7 +18433,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "M",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "Not Rated",
+    "tgdb_id": 1438
   },
   {
     "id": "fcme013",
@@ -18331,7 +18462,7 @@
       "https://famicom.tw/img/soft/1138b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Outer Heaven leader CaTaffy has activated the ultimate super weapon: Metal Gear! Responding to the crisis, covert unit \"Fox Hound\" is called into action, and that's where you come into play. Trained in hand-to-hand combat and skilled in every weapon known to man, you're Fox Hound's lethal fighting machine, code named \"Solid Snake\". But on this mission you better be sly as well, to surprise heavily-armed enemies, busting 'em up quietly and rescuing their hostages before alarms are triggered. Plus you gotta maintain radio contact with Commander South, who'll feed you crucial info on Metal Gear's whereabouts. To survive, capture sub-machine guns, Barettas, grenade launchers, and plastic explosives, until you find and destroy Metal Gear, ending CaTaffy's reign of terror!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -18343,7 +18474,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "M",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 365
   },
   {
     "id": "fcmo013",
@@ -20024,7 +20159,7 @@
       "https://famicom.tw/img/soft/0363b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "The rumor is true that they will open the International Anglers Fishing Tournament with a selected 200 professional anglers at your NES. The shadow of the fish appears from the depths of the lake. This is a real simulation game between man and fish. THE BLACK BASS makes a fantasy dream competition come true. THE BLACK BASS will jump up and try to hide at the bottom of the trees in the four different lakes. Now the Tournament is ready to start!\r\n\r\nThe objective is for the player to catch as many black bass as possible from sunrise to sunset. The player may select a beginner's game or ranking game. A ranking game requires a password. From here, a player may select a location on the lake to start at and begin fishing. Simply tossing a lure out with the desired power will start the process. A fish can be lured in by moving the lure around and if it bites, then the player can try reeling it in. Too much constant reeling leads to the line breaking and the loss of both the fish and the lure.\r\n\r\nBetween casting rounds, the player can make certain selections. Among the selections available is the option to change the type and or color of lure being used.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -20036,7 +20171,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1650
   },
   {
     "id": "fcsi015",
@@ -20286,7 +20425,7 @@
       "https://famicom.tw/img/soft/0683b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "The sun shimmers on the horizon as your armed-to-the-teeth Navy fighter screams from the carrier deck, accelerating into the danger zone. High above hostile waters your mission is to defend the task force from enemy attack. Suddenly, bogeys flash onto your radar. They're everywhere, diving toward you at Mach 2. Only a second to react, you go to guns and arm missiles. Your heart pounds and palms sweat as you blast into the dogfight with cannons blazing. Tracers zip past your engines. Shells shatter your senses. Now it's just you against them. And to survive you'll need more than speed and firepower. You'll need guts and instinct. You'll need to be a \"TOP GUN\" pilot!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -20298,7 +20437,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "Not Rated",
+    "tgdb_id": 389
   },
   {
     "id": "fcna015",
@@ -20510,7 +20653,7 @@
       "https://famicom.tw/img/soft/1020b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Heavy Barrel is a shooter with a top-down view similar to Commando and Ikari Warriors. Terrorists have seized the underground control complex of a nuclear missile site. It is up to the player to infiltrate the installation and eliminate the leader of the terrorist army before they can launch the missiles. To stop the terrorists you will need the powerful weapon Heavy Barrel. The problem is that the weapon still is in the installation. Before the fortress fell the weapon was taken apart and locked in six different storage lockers. To defeat the terrorists you must collect all keys and reassemble the weapon. The game supports co-op for two players.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -20522,7 +20665,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "H",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 352
   },
   {
     "id": "fcho015",
@@ -20658,7 +20805,7 @@
       "https://famicom.tw/img/soft/1160b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "This special MONOPOLY game brings to life all the wheeling, dealing, money-making fun of the world's most popular board game - and adds the fast action, hands-on excitement of the NES! There's visual entertainment with the animated Rich Uncle Pennybags and Community Chest and Chance Cards, and the speedy sports car and other tokens that zoom around the board. Now listen for voice enhancements such as the \"jailer\" who kicks Rich Uncle Pennybags out of Jail, and the digitized sound of the train whistles on the Railroad spaces. Like a real estate big shot, you let computer \"accounting\" keep track of your cash, assets, properties, houses and hotels. You can play with real, live real estate moguls, or take on the computer opponents, who might be beginners - or savvy big-time traders! The MONOPOLY game everyone grows up with, plus the NES... all in all, it's a real sweet deal!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -20670,7 +20817,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "M",
     "genre_raw": "其他 (TBG)",
-    "genre_en": "Board / Card"
+    "genre_en": "Board / Card",
+    "overview_en_source": "thegamesdb",
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1145
   },
   {
     "id": "fcro015",
@@ -21156,7 +21306,7 @@
       "https://famicom.tw/img/soft/0399b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "It's A.D. 2500 and mankind has penetrated the galaxy's fringes, establishing colonies of peace from Mercury to Pluto. Suddenly, the tranquility of the Milky Way erupts into a frothing fury as armadas of alien deathships swarm into our solar system like killer bees preying on an innocent bystander. No one is spared. Even beloved Mother Earth is stung. These vicious cosmic Visigoths are war starved Gyrusians. And, led by the immortal Genghis Khan (whom they recruited from Mongolia centuries ago), they're out to trash civilization. With our galactic fleet flattened, you're the lone space cowboy who escaped the Gyruss shroud of doom. Now you must scorch through the galaxy, freeing planets by zapping endless enemy attacks with Neo-Bomb-Blastic Cannons and Ultra-Lazonic Phasers. So prepare for the fight of your life. And don't flinch, or else the entire universe will get pulverized!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -21169,7 +21319,11 @@
     "letter": "G",
     "no_intro_name": "Gyruss (Japan)",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1302
   },
   {
     "id": "fcsu016",
@@ -22058,7 +22212,7 @@
       "https://famicom.tw/img/soft/0284b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Clu Clu Land is a 1985 NES video game developed by Nintendo R&D1 and released by Nintendo of America in the USA on October 18, 1985.\r\n\r\nAre you clever enough to unravel the mystery of Clu Clu Land?\r\n\r\nThe evil Sea Urchin has hidden all the gold in Clu Clu Land in an underground mystery maze. It's up to you to find the gold before time runs out! But beware. The Sea Urchin will do everything in his power to stop you. He'll set up traps to trick you, like inviting you into his house, where you'll be swallowed alive! Or bounce you against the Rubber Trap, and land you flat on your back. But if you, or you and a friend, can control the Sea Urchin by stunning him with electric shock waves, you just might find out where he's hidden the gold and move on to an exciting bonus round.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -22071,7 +22225,11 @@
     "letter": "C",
     "no_intro_name": "Clu Clu Land (Japan) (En) (Disk Writer)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 340
   },
   {
     "id": "fcke017",
@@ -22135,7 +22293,7 @@
       "https://famicom.tw/img/soft/0334b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Cobra Command is a 1988 arcade game developed and published by Data East that was later ported to the NES. It is a side-scroller in which the player flies a heavily armoured helicopter through six stages to destroy enemy tanks, cannons, submarines and gunboats.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -22147,7 +22305,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "C",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "tgdb_id": 1676
   },
   {
     "id": "fcsa017",
@@ -22172,7 +22333,7 @@
       "https://famicom.tw/img/soft/0365b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Catch this! Your chance to reel in the action! HOT-B presents the exhilarating and backbreaking challenge of saltwater fishing for your NES. Below the warm blue waters, off the world's most famous deep sea fishing destinations, awaits the ultimate fishing trophy - THE BLUE MARLIN. Match your strength against the writhing frenzy of the powerful Blue Marlin. THE BLUE MARLIN is not another fish story, it's a realistic fishing simulation guaranteed to get you hooked!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -22184,7 +22345,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "Not Rated",
+    "tgdb_id": 1652
   },
   {
     "id": "fcsi017",
@@ -22283,7 +22448,7 @@
       "https://famicom.tw/img/soft/0543b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "These Tiny Toons have big problems. That's right. The arch enemy of Acme Acres, Montana Max, has kidnapped the ever-so-popular Babs Bunny. Now the furry female's fate rests in the paws of Buster Bunny and his crime fighting pals - Dizzy Devil, Furrball and Plucky Duck. Four kooky buddies with their own special talent. Buster can bounce over bad guys with the best of them. Furrball uses his feline claws to climb walls. Dizzy Devil prefers to spin through them. And Plucky can glide through the air and swim like a fish. Choose which partner you want at the beginning of each level before you face-off against time and goofballs gone bad in 6 zany wonderlands. So you better get jumping or it will be curtains for our playful pals!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -22295,7 +22460,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "tgdb_id": 1384
   },
   {
     "id": "fcti017",
@@ -22735,7 +22903,7 @@
       "https://famicom.tw/img/soft/1142b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Metroid is a 1987 NES video game developed by Nintendo R&D1 and Intelligent Systems and released by Nintendo of America in the USA on August 15, 1987.\r\n\r\nIt's you against the evil Mother Brain in the thrilling battle of Metroid!\r\n\r\nYou’re inside the fortress planet Zebes.  The planet of endless secret passageways where the Metroid are multiplying.  Left alone the Metroid are harmless.  But in the wrong hands they could destroy the galaxy.  It’s up to you to prevent the Mother Brain that controls Zebes from using the Metroid for evil purposes.  But that won’t be easy.  You’ll have to use your spacesuit to absorb valuable energy for your search to gain the use of power items like the Ice Beam, Wave Beam, High Jump Boots and Varia.  If you survive, it will be you and your acquired powers against the Mother Brain.\r\n\r\nWorth Noting: \r\nMetroid introduced nonlinear, side-scroller, maze-like, gameplay, in a platform, shooter. Metroid required players to discover permanent power-ups to progress further along; while backtracking through previously visited areas. The style is affectionately known as Metroid-vania' (Castlevania: Symphony of the Night being the second half to the term, mirrored the concept).\r\n\r\nMetroid also used a password system to resume progression of the game (Before the addition of battery backups and save files in console cartridges). Additionally the password system could be used for cheat codes: 'JUSTIN BAILEY ------ ------' (Just in Ballet) being famous, would remove Samus' power suit and start the player with many of the power-ups and fairly progressed through the game.\r\n\r\nCompleting the game in time and with enough power-ups revealed different endings. At the end Samus removes the helmet or power suit (depending) to a reveal a shocking suprise that endeared the character and broke new ground in gaming.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -22748,7 +22916,11 @@
     "letter": "M",
     "no_intro_name": "Metroid (Japan) (Rev 1)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 123
   },
   {
     "id": "fcmo017",
@@ -24236,7 +24408,7 @@
       "https://famicom.tw/img/soft/0459b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Super Mario Bros. is a 1985 NES video game developed by Nintendo R&D4 and released by Nintendo of America in the USA on October 18, 1985.\r\n\r\nDo you have what it takes to save the Mushroom Princess?  You’ll have to think fast and move even faster to complete this quest!  The Mushroom Princess is being held captive by the evil Koopa tribe of turtles.  It’s up to you to rescue her from the clutches of the Koopa King before time runs out.  But it won’t be easy.  To get to the Princess, you’ll have to climb mountains, cross seas, avoid bottomless pits, fight off turtle soldiers and a host of black magic traps that only a Koopa King can devise.  It’s another non-stop adventure from the Super Mario Bros.!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -24249,7 +24421,11 @@
     "letter": "S",
     "no_intro_name": "Super Mario Bros. (Japan)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 140
   },
   {
     "id": "fcta019",
@@ -24758,7 +24934,7 @@
       "https://famicom.tw/img/soft/1233b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "A sadistic crime wave is sweeping through old Detroit. The situation is explosive - in fact, it is so bad, a private corporation, O.C.P., has assumed control of the police force. Then, a research team creates an unstoppable, indestructible law enforcement cyborg - named RoboCop. Using a wild assortment of weapons, including RoboCop's Special Issue Auto-9, you must stop every sleazeball criminal you encounter with deadly, piercing accuracy. But beware, there are forces on the street - and within O.C.P. - that will stop at nothing to see RoboCop eliminated. Make your way past 6 levels of street thugs, Boddicker and the powerful ED-209 to your final battle with Dick Jones. Prepare yourself for non-stop action in one of the most explosive games you will ever play. It's going to take more than a cop to clean up the scum of old Detroit - it's going to take RoboCop. \"Your move, creep.\"",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -24770,7 +24946,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "R",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "tgdb_id": 375
   },
   {
     "id": "fca020",
@@ -25215,7 +25394,7 @@
       "https://famicom.tw/img/soft/0460b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Super Mario Bros. is a 1985 NES video game developed by Nintendo R&D4 and released by Nintendo of America in the USA on October 18, 1985.\r\n\r\nDo you have what it takes to save the Mushroom Princess?  You’ll have to think fast and move even faster to complete this quest!  The Mushroom Princess is being held captive by the evil Koopa tribe of turtles.  It’s up to you to rescue her from the clutches of the Koopa King before time runs out.  But it won’t be easy.  To get to the Princess, you’ll have to climb mountains, cross seas, avoid bottomless pits, fight off turtle soldiers and a host of black magic traps that only a Koopa King can devise.  It’s another non-stop adventure from the Super Mario Bros.!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -25228,7 +25407,11 @@
     "letter": "S",
     "no_intro_name": "Super Mario Bros. (Japan)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 140
   },
   {
     "id": "fcta020",
@@ -25253,7 +25436,7 @@
       "https://famicom.tw/img/soft/0546b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "There are 40 terrorists scattered throughout the building and John McClane's task is to clear each floor of terrorists and he can then use the stairwell or the express elevator to travel upwards, to a maximum of floors 31-35 (more floors are unlocked in \"Advanced\" mode). In addition, by shooting at grids in the wall, John is able to climb in the vents, dropping into a designated spot or moving down or up a floor. At the start of the game, the player character can only use a pistol (with 15 bullets) and his fists to dispose of enemies, but later acquires several weapons, such as submachine guns, explosives and flashbangs which the terrorists can also use. When McClane is shot, a few picked up items can drop where he must pick them up again. However, bullets have minimal range, only shooting straight or on a 45 degree angle. McClane's health, which is drained by bullet wounds, can be restored by collecting soda cans from either enemies, snack machines (by shooting several bullets at them) or empty rooms. The player loses the game when all life is lost. The player has about four minutes before one of the six locks are opened, but can gain more time by destroying the main computer on the fifth level. Once all the locks have been opened, the vault is opened and the game's final battle is triggered. The player has only a few minutes to go to the 30th floor, for a final confrontation with Karl, Hans and any of the 40 terrorists left alive. One interesting aspect of the game allows the player to listen to Hans shouting orders to his guards through a two-way radio. However, after the second lock is opened, Hans will tell everyone to not use the radio. Also notable is the \"foot meter\". The meter starts out full, but will eventually decrease if the player character steps on shattered glass or runs around. If the meter becomes empty, McClane will walk much slower than he does when the foot meter is full. It can be restored by collecting med-kits. The game features cinematic sequences which change the story depending on which actions the player takes. For example, if there is fewer than one minute left and the player defeats Karl, the last scene with John and Holly will tell the player the roof has been destroyed by the helicopter sent by Hans.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -25265,7 +25448,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "D",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "tgdb_id": 1695
   },
   {
     "id": "fcti020",
@@ -26165,7 +26351,7 @@
       "https://famicom.tw/img/soft/0461b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Super Mario Bros. 2 is a 1988 NES video game developed by Nintendo R&D4 and released by Nintendo of America in the USA on October 9, 1988.\r\n\r\nMario’s back! Bigger and badder than ever before! This time it’s a fierce action-packed battle to free the land of Subcon from the curse of the evil Wart. It’s up to you, along with Mario, Luigi, Toad and the Princess, to fight your way through bizarre multi-level worlds and find him! This time you’ve got a brand new kind of power - plucking power - and now anything you find can be a weapon. But beware! You’ve never seen creatures like these! Shyguys and Tweeters! Ninji and Beezos! And you’ve never had an adventure like this! Only cunning and speed can save you now…",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -26178,7 +26364,11 @@
     "letter": "S",
     "no_intro_name": "Super Mario Bros. 2 (Japan) (En) (Game _ Watch - Super Mario Bros.)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 171
   },
   {
     "id": "fcta021",
@@ -27072,7 +27262,7 @@
       "https://famicom.tw/img/soft/0462b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Super Mario Bros. 3 is a 1990 NES video game developed by Nintendo R&D4 and released by Nintendo of America in the USA on February 12, 1990.\r\n\r\nFight monsters and mini-bosses, avoid ghosts and the burning sun. Make your way through water and quicksand. Dodge cannonballs and bullets and rescue the King’s wand!\r\n\r\nIn Super Mario Bros. 3, there are more warps, more chances at extra lives, and new special suits! The raccoon suit lets you fly and knock out blocks. The frog suit helps you out-swim the deadly fish. There are suits for every occasion!\r\n\r\nStore up flowers and mushrooms to use later on. Play game-show type bonus rounds! Go back to that last screen and get a mushroom! Pause to take a break, then continue where you left off!\r\n\r\nSuper Mario Bros. 3 is fun to play alone, or team up with a buddy to prolong the adventure!\r\n\r\nNote: Turn based Co-op as players work in turn to clear individual levels in a world. There is also a vs. mini-game where players try to steal items from each other.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -27085,7 +27275,11 @@
     "letter": "S",
     "no_intro_name": "Super Mario Bros. (Japan)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 112
   },
   {
     "id": "fcta022",
@@ -27110,7 +27304,7 @@
       "https://famicom.tw/img/soft/0548b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Times of Lore is an action game with light role-playing elements, which follows the adventures of a young warrior (strong barbarian, armored knight, or quick valkyrie) to assist a weakened kingdom from various threats, and to recover special Artifacts that once made the kingdom strong.\r\n\r\nGameplay consists of moving the protagonist in real-time (day and night) through various terrains, like forests, towns, and dungeons. The player character gathers basic items, like health and magic potions, and increasingly powerful weapons as he completes tasks and advances the plot. Conversations are handled through key phrases. Battles involve a few types of creatures (skeletons, orcs, rogues) of which there can be various flavors.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -27122,7 +27316,9 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_en_source": "thegamesdb",
+    "tgdb_id": 1426
   },
   {
     "id": "fcte022",
@@ -27147,7 +27343,7 @@
       "https://famicom.tw/img/soft/0645b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "You've trained for it in the arcade. Now, strap on your helmet and go for it! Organize your own roster and write your own game plan. Match your gridiron skills against the computer or another player. From the snap, total control of every pass, block, run, and tackle is in your hands. Tecmo Bowl. The game of guts and glory!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -27159,7 +27355,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1383
   },
   {
     "id": "fcto022",
@@ -27848,7 +28048,7 @@
       "https://famicom.tw/img/soft/0340b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Nintendo's Golf lets you choose your clubs, change your stance, control your swings - even select the angle of impact! You'll view the hole from both close up and far away, judge the changing conditions of the green, and measure the wind velocity. But watch out! When the wind changes, so does the flight of your ball. With Nintendo's state-of-the-art graphics and realistic game play, you'll really believe you're on the fairways. So play Nintendo's Golf, because there's not a video golf game on par with it anywhere!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -27861,7 +28061,11 @@
     "letter": "G",
     "no_intro_name": "Golf (Japan) (Rev 1)",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 350
   },
   {
     "id": "fcsa023",
@@ -28617,7 +28821,7 @@
       "https://famicom.tw/img/soft/0341b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Nintendo's Golf lets you choose your clubs, change your stance, control your swings - even select the angle of impact! You'll view the hole from both close up and far away, judge the changing conditions of the green, and measure the wind velocity. But watch out! When the wind changes, so does the flight of your ball. With Nintendo's state-of-the-art graphics and realistic game play, you'll really believe you're on the fairways. So play Nintendo's Golf, because there's not a video golf game on par with it anywhere!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -28630,7 +28834,11 @@
     "letter": "G",
     "no_intro_name": "Golf (Japan) (Rev 1)",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 350
   },
   {
     "id": "fcsa024",
@@ -29034,7 +29242,7 @@
       "https://famicom.tw/img/soft/1048b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Are you ready to climb ladders, jump landings, eat spinach and punch-out Brutus, Seahag and the flying Bernard? Because that's what it takes to win Olive Oyl's hand in marriage. You'll score points by defeating your enemies and collecting the \"love tokens\" Olive drops from her window. The more you collect, the more points you'll score and the faster you'll win her love. But watch out. Around every corner lurks another jealous suitor. You'll have to think with your head as well as your heart to win this fast action love affair!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -29046,7 +29254,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "P",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "Not Rated",
+    "tgdb_id": 1442
   },
   {
     "id": "fcma024",
@@ -30857,7 +31069,7 @@
       "https://famicom.tw/img/soft/0410b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "A hidden key unlocks an ancient castle's door. As it creaks open on rusted hinges, the whisper of a dank, stale wind delivers this chilling warning: Danger awaits you. Yet within these dark and ominous walls lies your quest. Welcome to the Castle Shadowgate. Your destiny, as the last of a great line of hero-kings, is to terminate the diabolical Warlock Lord before his dreaded black magic unleashes the hideous behemoth and destroys the world. With a strong heart and shining armor, you carefully choose your path of travel throughout the castle's sinister grounds. \r\n\r\nAlong the way you'll discover strange and wondrous objects. Some things may be useful on your journey, others may be deadly to the touch. 3-D images, unsurpassed graphics, and special sound effects unfold as you venture through those grave ruins. But beware! Your next move could be your last. Using screens and graphics like those in the best interactive PC games, Shadowgate is the most challenging, participatory adventure you've ever experienced on the NES! Shadowgate. Enter if you dare!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -30869,7 +31081,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "冒險 (ADV)",
-    "genre_en": "Adventure"
+    "genre_en": "Adventure",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "tgdb_id": 1412
   },
   {
     "id": "fcsu027",
@@ -31314,7 +31529,7 @@
       "https://famicom.tw/img/soft/0083b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Mankind struggles to survive! Without warning they came... And laid waste to the moon and man's bases on it. Ill-prepared and outgunned, Earth scientists worked feverishly to build a weapon to turn the tide. The \"OF-1\" is the ultimate fighter. Even as the crews prepare to fight, industrial and military space complexes disappear, one by one. Viewing screens, hooked to spy satellites, flash images of unidentified fighter attacks and a strange vegetation coiling itself around the moon's computer like an insidious serpent. Victory will come only to the worthy. Are you?",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -31326,7 +31541,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "I",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "tgdb_id": 1856
   },
   {
     "id": "fce028",
@@ -31771,7 +31989,7 @@
       "https://famicom.tw/img/soft/0903b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Be a pinball wizard, right in your own home! Bank off bumpers, flip double flippers - even win a bonus round - in Nintendo's lightning-fast PINBALL! You'll have the time of your life as you flip from upper to lower game screens, rack up points to beat your opponent, and, if you're lucky, progress to the bonus round where you'll save the falling maiden in this video version of the real thing!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -31784,7 +32002,11 @@
     "letter": "P",
     "no_intro_name": "Pinball (Japan) (Disk Writer)",
     "genre_raw": "其他 (TBG)",
-    "genre_en": "Board / Card"
+    "genre_en": "Board / Card",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 372
   },
   {
     "id": "fchu028",
@@ -32411,7 +32633,7 @@
       "https://famicom.tw/img/screen/0904.gif"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Be a pinball wizard, right in your own home! Bank off bumpers, flip double flippers - even win a bonus round - in Nintendo's lightning-fast PINBALL! You'll have the time of your life as you flip from upper to lower game screens, rack up points to beat your opponent, and, if you're lucky, progress to the bonus round where you'll save the falling maiden in this video version of the real thing!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -32424,7 +32646,11 @@
     "letter": "P",
     "no_intro_name": "Pinball (Japan) (Disk Writer)",
     "genre_raw": "其他 (TBG)",
-    "genre_en": "Board / Card"
+    "genre_en": "Board / Card",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 372
   },
   {
     "id": "fchu029",
@@ -32757,7 +32983,7 @@
       "https://famicom.tw/img/soft/0347b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Contra is a 1988 NES video game developed by Konami and released by Konami Inc. in the USA on February 2, 1988.\r\n\r\nThe universe teeters on the brink of total annihilation at the hands of the vile alien warmonger, Red Falcon. Earth's only hope rests with you, a courageous member of the Special Forces elite commando squad. Your mission: Battle deep into the deadly Amazon jungle, where the Red Falcon and his galactic henchmen have transformed ancient Mayan temples into awesome monuments dedicated to mass destruction. A multitude of weapons, from rapid-fire machine guns to high-tech lasers are at your disposal as you sweat blood, fighting past 3-D mazes, underground security systems, and tropical forests surrounded by giant waterfalls and alien cannons. This is the ultimate test for the ultimate guerilla warrior. And if you survive, Earth survives!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -32769,7 +32995,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "C",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1258
   },
   {
     "id": "fcsa030",
@@ -32794,7 +33024,7 @@
       "https://famicom.tw/img/soft/0378b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "In the future, combat pilots do battle in the air, under water, deep within the earth and far into outer space! Are you tough enough to join the Thunderbirds, the world's elite fighting force? If you're a red-hot gun, you'll find dozens of secret weapons and special power-ups! War zones of the future include explosive volcanic deserts, deadly ocean depths, and the stark terrors of space. Five different fighter craft to choose from. Lots of cool enemies, including poisonous space scorpions, fire-spitting volcanoes, mutant sea worms, and dozens more!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -32806,7 +33036,9 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_en_source": "thegamesdb",
+    "tgdb_id": 1425
   },
   {
     "id": "fcsi030",
@@ -32868,7 +33100,7 @@
       "https://famicom.tw/img/soft/0470b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "You are the legendary Red Baron, flying a plane through a horizontal side-scrolling scenery set during World War I. To complete a mission, you simply need to get to the landing spot on the other side without being shot down, but you can gain extra points by destroying enemy vehicles and planes. For huge points, pick up a bomb hidden in the level (you will be warned by a sound when approaching it) and drop it on a large structure. If you fail to land on the landing strip, you run out of fuel and crash.\r\n\r\nYou can only shoot horizontally and diagonally by tilting the plane's nose. When in trouble, perform an aerial loop with the secondary button, this often destroys other planes and avoids bullets. There is a co-op mode with the character Max as well.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -32880,7 +33112,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 378
   },
   {
     "id": "fcta030",
@@ -33057,7 +33293,7 @@
       "https://famicom.tw/img/soft/0905b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Don't let the name fool you - Pinball Quest is much more than video pinball. In fact, it's the first-ever multi-screen fantasy in a pinball format! Every move you make tells a story; every shot takes you another step closer in your quest to rescue the captive princess of the castle. Along the way you'll meet ghosts, goblins, witches and demons, in an endless labyrinth of treacherous passages and deadly doorways. It takes a fearless heart and a fast mind to conquer Pinball Quest. It also takes the skills of a true pinball wizard... which you can hone on the three other video pinball games included on this cartridge! So before you pour any more money into your NES library, get the one title that's a library all by itself! No matter how hard you try, you can't get enough of Pinball Quest!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -33070,7 +33306,9 @@
     "letter": "P",
     "no_intro_name": "Pinball (Japan) (Disk Writer)",
     "genre_raw": "其他 (TBG)",
-    "genre_en": "Board / Card"
+    "genre_en": "Board / Card",
+    "overview_en_source": "thegamesdb",
+    "tgdb_id": 373
   },
   {
     "id": "fchu030",
@@ -33134,7 +33372,7 @@
       "https://famicom.tw/img/soft/1054b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Bomberman is a robot engaged in the production of bombs. Like his fellow robots, he had been put to work in an underground compound at the center of the Earth. Bomberman found it to be an unbearably dreadful existence.\r\n\r\nOne day, he learned that any robot escaping from the center of the Earth and make it to the surface will become human. Bomberman jumped at the opportunity. Alerted to Bomberman's betrayal, large numbers of enemy characters were sent out in pursuit.\r\n\r\nBomberman can only rely on bombs of his production for his defense. Will Bomberman ever make it to the surface? Once there, will he really become human?",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -33147,7 +33385,11 @@
     "letter": "B",
     "no_intro_name": "Bomberman (Japan) (Disk Writer)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1040
   },
   {
     "id": "fcma030",
@@ -33365,7 +33607,7 @@
       "https://famicom.tw/img/soft/0348b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Conflict is a hex-based NES war game where the player is a three-star general who must accompany his troops to the ultimate victory. The player can earn or lose victory points by occupying cities and destroying units of the opponent's army. The player controls the Western Bloc while the computer (or second player) controls Eastern Bloc troops. A sequel was released for the Super NES entitled Super Conflict.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -33377,7 +33619,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "C",
     "genre_raw": "策略 (SLG)",
-    "genre_en": "Strategy"
+    "genre_en": "Strategy",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "tgdb_id": 1680
   },
   {
     "id": "fcsa031",
@@ -33557,7 +33802,7 @@
       "https://famicom.tw/img/soft/0654b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Tetris is a 1989 NES video game developed by Nintendo R&D1 and released by Nintendo of America in the USA on November 1, 1989.\r\n\r\nA random sequence of tetrominoes (sometimes called \"tetrads\" in older versions)—shapes composed of four square blocks each—fall down the playing field (a rectangular vertical shaft, called the \"well\" or \"matrix\"). The objective of the game is to manipulate these tetrominoes, by moving each one sideways and rotating it by 90 degree units, with the aim of creating a horizontal line of blocks without gaps. When such a line is created, it disappears, and any block above the deleted line will fall. With every ten lines that are cleared, the game enters a new level. As the game progresses, each level causes the tetrominoes to fall faster, and the game ends when the stack of tetrominoes reaches the top of the playing field and no new tetrominoes are able to enter. In certain versions, the game can also end if the player is able to get all the way to level 15.\r\n\r\nAll of the tetrominoes are capable of single and double clears. I, J, and L are able to clear triples. Only the I tetromino has the capacity to clear four lines simultaneously, and this is referred to as a \"tetris\". (This may vary depending on the rotation and compensation rules of each specific Tetris implementation. For instance, in the Super Rotation System used in most recent implementations, called \"Easy Spin\" in Tetris Worlds, certain rare situations allow T, S and Z to 'snap' into tight spots and clear triples.)",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -33569,7 +33814,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1424
   },
   {
     "id": "fcto031",
@@ -33706,7 +33955,7 @@
       "https://famicom.tw/img/screen/1055.gif"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Bomberman is a robot engaged in the production of bombs. Like his fellow robots, he had been put to work in an underground compound at the center of the Earth. Bomberman found it to be an unbearably dreadful existence.\r\n\r\nOne day, he learned that any robot escaping from the center of the Earth and make it to the surface will become human. Bomberman jumped at the opportunity. Alerted to Bomberman's betrayal, large numbers of enemy characters were sent out in pursuit.\r\n\r\nBomberman can only rely on bombs of his production for his defense. Will Bomberman ever make it to the surface? Once there, will he really become human?",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -33719,7 +33968,11 @@
     "letter": "B",
     "no_intro_name": "Bomberman (Japan) (Disk Writer)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1040
   },
   {
     "id": "fcma031",
@@ -33860,7 +34113,7 @@
       "https://famicom.tw/img/soft/0206b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Your karate championship is at stake. Can you master all the lunges, kicks, spins, somersaults, foot sweeps, reverse punches, and defensive blocks needed to retain your title? Move fast and play smart or you'll get flattened before you can grunt! Compete against a friend or challenge the computer. Nine different picturesque settings (plus three challenging bonus screens) provide the backdrops for your matches. Hiiiiieeeeeooooo!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -33873,7 +34126,10 @@
     "letter": "K",
     "no_intro_name": "Karate Champ (Japan)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "tgdb_id": 1470
   },
   {
     "id": "fcki032",
@@ -34916,7 +35172,7 @@
       "https://famicom.tw/img/soft/0208b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "KARNOV, the fire-breathing Russian, is seeking the lost treasure of Babylon. He runs, swims, jumps, climbs and flies through nine levels of game play. Countless bizarre enemies of various sizes and strengths are out to prevent KARNOV from finding the treasure!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -34928,7 +35184,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "K",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "tgdb_id": 1472
   },
   {
     "id": "fcki034",
@@ -35140,7 +35399,7 @@
       "https://famicom.tw/img/soft/0657b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Whether it's singles or doubles you'll love the non-stop action of this amazingly real tennis game!\r\n\r\n   Slam a serve, fire a blazing backhand, smash a forehand volley - you call the shots in Nintendo TENNIS!  Nintendo lets you choose an opponent from five different skill levels.  So as your game improves, so does your playing partner!  Plus, you can actually gauge the speed of your serve!  The better your timing, the faster it moves across the net.  You'll have hours of fun rushing the net, playing the baseline or roaming the court.  With Nintendo's state-of-the-art graphics and realistic game play, you'll really believe you're at center court!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -35153,7 +35412,11 @@
     "letter": "T",
     "no_intro_name": "Tennis (Japan)",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "Not Rated",
+    "tgdb_id": 384
   },
   {
     "id": "fcto034",
@@ -35333,7 +35596,7 @@
       "https://famicom.tw/img/soft/0035b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "I am ATHENA. They call me the Goddess of Wisdom, but I have grown weary of my dull life in the castle. The Fantasy World beyond the castle walls beckons to me! Strange and fearsome creatures will attack me at every turn. But I will find weapons along the way: a ball and chain, a bow and arrow, or a mighty sword will be my defense! In the Fantasy World, I can put on wings and take to the sky, or become a mermaid to explore the ocean depths. There, the Goddess of Wisdom can become the Princess of Victory!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -35348,7 +35611,11 @@
     "genre_en": "Action",
     "genre_raw": "動作平台",
     "genre_subtype": "動作平台",
-    "genre_subtype_en": "Action Platformer"
+    "genre_subtype_en": "Action Platformer",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "Not Rated",
+    "tgdb_id": 1621
   },
   {
     "id": "fce035",
@@ -35642,7 +35909,7 @@
       "https://famicom.tw/img/soft/0658b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Whether it's singles or doubles you'll love the non-stop action of this amazingly real tennis game!\r\n\r\n   Slam a serve, fire a blazing backhand, smash a forehand volley - you call the shots in Nintendo TENNIS!  Nintendo lets you choose an opponent from five different skill levels.  So as your game improves, so does your playing partner!  Plus, you can actually gauge the speed of your serve!  The better your timing, the faster it moves across the net.  You'll have hours of fun rushing the net, playing the baseline or roaming the court.  With Nintendo's state-of-the-art graphics and realistic game play, you'll really believe you're at center court!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -35655,7 +35922,11 @@
     "letter": "T",
     "no_intro_name": "Tennis (Japan)",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "Not Rated",
+    "tgdb_id": 384
   },
   {
     "id": "fcto035",
@@ -35791,7 +36062,7 @@
       "https://famicom.tw/img/soft/1092b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Grip the handles of your futuristic motorcycle. Feel the freezing wind crack against your cheeks. Suddenly you're off! Riding at speeds up to 500 miles per hour in a desperate attempt to save the planet. You'll love every hair pin curve because you've created this daredevil course yourself. Along the way you'll be challenged by an endless array of ruthless villains who will do everything in their power to destroy you and your planet. You'll defend yourself with a specially mounted Power Blaster. But watch out! The action is fast. The danger is imminent. Design your own course or ride one of ours, in this lightning fast Nintendo Programmable game!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -35803,7 +36074,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "M",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 358
   },
   {
     "id": "fca036",
@@ -35830,7 +36105,7 @@
       "https://famicom.tw/img/soft/0036b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Adventures of Lolo is a 1989 NES video game developed by HAL Laboratory and released by HAL America in the USA on April 20, 1989.\r\n\r\nPrince Lolo of Gentryland visited Eden, a country of love and peace, and enjoyed many pleasant days with Princess Lala of Eden. But one day, Egger, the King of Darkness, who had an evil plot to conquer Eden, spirited the Princess away before Lolo's eyes.\r\nAfter a long and difficult journey, Lolo has come to the evil Castle of the Labyrinth. The castle is guarded by an army of evil monsters led by Egger, the King of Darkness.\r\n\r\nCan Lolo solve the seemingly endless series of mazes and save Lala? Lolo is not gifted with strength or agility, but has great courage and patience. Now the battle of wits begins. Good luck, Lolo!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -35843,7 +36118,11 @@
     "letter": "A",
     "no_intro_name": "Adventures of Lolo (Japan)",
     "genre_en": "Strategy",
-    "genre_raw": "策略"
+    "genre_raw": "策略",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 328
   },
   {
     "id": "fce036",
@@ -36016,7 +36295,7 @@
       "https://famicom.tw/img/soft/0476b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Only the people who made the movie could bring you this much action and adventure... Control your favorite Star Wars heroes - Luke Skywalker, Han Solo, Princess Leia. Enlist the help of Obi-Wan Kenobi, C-3PO, and R2-D2. Outfight and outsmart the intergalactic bad guys - stormtroopers, jawas, Banthas, bounty hunters, sinister droids, and more. Explore the spectacular worlds of Star Wars - from the Tatooine Desert to the Mos Eisley Spaceport to inside the Death Star. And if you get very, very good... destroy the Death Star and save the Rebel Alliance from Darth Vader!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -36028,7 +36307,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "tgdb_id": 381
   },
   {
     "id": "fcta036",
@@ -36280,7 +36562,7 @@
       "https://famicom.tw/img/soft/0037b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Our hero Lolo has charmed and enchanted puzzle-loving game players around the world with his unfailing courage and plucky persistence - and now he's off for his second quest!\r\n\r\nJoin forces with Lolo and his faithful sidekick Lala for another journey full of puzzles and pitfalls. The whole crew is back - Snakey, Leeper, Medusa, Gol, Don Medusa, Rocky, and of course our favorite, Alma.\r\nImproved graphics, increased difficulty, and a few new tricks and techniques will keep you guessing through every fun-filled moment. A game for mental giants of all ages!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -36293,7 +36575,11 @@
     "letter": "A",
     "no_intro_name": "Adventures of Lolo 2 (USA)",
     "genre_en": "Strategy",
-    "genre_raw": "策略"
+    "genre_raw": "策略",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "Not Rated",
+    "tgdb_id": 1610
   },
   {
     "id": "fce037",
@@ -36466,7 +36752,7 @@
       "https://famicom.tw/img/soft/0477b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Only the people who made the movie could bring you this much action and adventure... Control your favorite Star Wars heroes - Luke Skywalker, Han Solo, Princess Leia. Enlist the help of Obi-Wan Kenobi, C-3PO, and R2-D2. Outfight and outsmart the intergalactic bad guys - stormtroopers, jawas, Banthas, bounty hunters, sinister droids, and more. Explore the spectacular worlds of Star Wars - from the Tatooine Desert to the Mos Eisley Spaceport to inside the Death Star. And if you get very, very good... destroy the Death Star and save the Rebel Alliance from Darth Vader!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -36478,7 +36764,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "tgdb_id": 381
   },
   {
     "id": "fcta037",
@@ -36805,7 +37094,7 @@
       "https://famicom.tw/img/soft/0212b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Gun.Smoke by Capcom takes you back to the days of the Gold Rush, to a small, bustling mining town of the Old West. Ruthless gold-stealing bandits are terrorizing the townsfolk - and it's up to you to stop them!\r\n\r\nThe thieves are notorious killers, and when they challenge you to a draw, they're playing for keeps! Although your gunslinging prowess is legendary, this may be the toughest High Noon you'll ever face. But you've got to stand your ground - this town ain't big enough for both you and them!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -36818,7 +37107,11 @@
     "letter": "G",
     "no_intro_name": "Gun.Smoke (Japan)",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1300
   },
   {
     "id": "fcki038",
@@ -36919,7 +37212,7 @@
       "https://famicom.tw/img/soft/0478b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "The Empire Must Be Stopped. Trust Your Instincts. Use The Force.\r\n\r\nBattle vicious Wampas and destroy the Imperial probe droid. Defend the Rebel base against an onslaught of Stormtroopers and armored transports. Take command of a wild Tauntaun, an armored Snowspeeder, and an X-Wing fighter... your intergalactic transportation for the trip to Hoth and points beyond. From there, it's a treacherous journey to meet with the Jedi Master himself, Yoda, who instructs you on the ways of the Force. With your special Force powers, you will be ready for the ultimate challenge: rescue Princess Leia and destroy Darth Vader.\r\n\r\nOutmaneuver Imperial walkers in a Rebel Snowspeeder.\r\n\r\nDefeat the Wampa in the ice cave beneath Hoth.\r\n\r\nSeek the Jedi Master and learn the ways of the Force.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -36931,7 +37224,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "tgdb_id": 1356
   },
   {
     "id": "fcta038",
@@ -39563,7 +39859,7 @@
       "https://famicom.tw/img/soft/0265b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Four brave warriors have set out into the Kingdom of Izander to rescue Princess Claire from the grip of a fiendish Dragon. Through five thrilling, fast-action stages, our gallant heroes, a Knight, a Wizard, a Monster, and a Thief, will take on incredible enemies. Join in and help this tough team reach their goal!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -39575,7 +39871,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "K",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "tgdb_id": 355
   },
   {
     "id": "fcsi044",
@@ -40163,7 +40462,7 @@
       "https://famicom.tw/img/soft/0668b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "The game is viewed in a top-down perspective and is vertical scrolling. The player does not select plays for either offense or defense. On offense, the player simply receives the ball upon the snap and either attempt to run with the quarterback, toss the ball to one of two running backs, or throw the ball to the one long distance receiver - basically the option offense. On defense, the player chooses one of two players to control, and the computer manipulates the others. The ball can also be punted or a field goal can be attempted.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -40176,7 +40475,11 @@
     "letter": "#",
     "no_intro_name": "10-Yard Fight (Japan) (Rev 1)",
     "genre_en": "Sports",
-    "genre_raw": "運動"
+    "genre_raw": "運動",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 317
   },
   {
     "id": "fcto045",
@@ -40238,7 +40541,7 @@
       "https://famicom.tw/img/soft/0833b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "BUCKY'S GONNA NEED A LOT OF LUCK FROM HIS RABBIT'S FOOT!\r\n\r\nToday's newest renegade space hero, Captain Bucky O'Hare, faces his greatest challenge. His crew, Dead Eye Duck, Blinky, Jenny the Aldeberan Cat and the genius earth boy Willy DuWitt, have been captured by the Toad Empire. Now you must play the role of Bucky, blasting past the fiercest toads in the Aniverse. It's an intense arcade action battle with eight hare-raising levels. Luckily, when you rescue a crew member you can assume their identity and take advantage of their unique fighting skills, like Jenny's Super Mind Blast and Willy's Laser Cannon... WE INTERUPT THIS PACKAGE FOR A SPECIAL BULLETIN FROM TOAD HEADQUARTERS!\r\n\r\nGreetings, warthead. This is the Toad Air Marshall, coming to you live from the Toad Magma Tanker. I'm here to smash an ugly rumor goin' around that says you're thinking about becoming Bucky O'Hare in a futile attempt to rescue the captured crew of the Righteous Ingignation.\r\n\r\nFool! Those lunkhead traitors are guided by the elite Storm Toad Troopers in four toad prisons hidden throughout the planetoid belt, from the Way-Cool Ice Planet to the Burnin' Hunk of Lava Star. So don't even mess with us toads, you wart for brains hare-ball. 'Cause it you do, I'll have to blast ya Toad Battle Cruisers and Double Bubble High Speed Toad Armada Tanks. That ain't the worst of it, pal! Once I've got your pointy ears in my sights, I'll drop the big bomb with Crater Centipedes, Robosnakes and triple threat Triborgs that your laser-guided Wart Remover doesn't have a shot against.\r\n\r\nFace it rabbit. Try to croak us toads, and you'll be one unlucky Bucky!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -40250,7 +40553,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "B",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "Not Rated",
+    "tgdb_id": 1044
   },
   {
     "id": "fchu045",
@@ -40915,7 +41222,7 @@
       "https://famicom.tw/img/soft/0487b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "The black Spy and the white Spy are out to beat each other before the time bell rings. Find the needed objects by digging through drawers, closets and furniture in the house. Foil your opponent by setting creative booby traps in the various rooms (a bomb in a dresser drawer, for instance). Fights ensue when both spies enter the same room. Find hidden weapons in the rooms to help with those fights, since one of you will die if you run into each other.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -40927,7 +41234,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1451
   },
   {
     "id": "fcta047",
@@ -40954,7 +41265,7 @@
       "https://famicom.tw/img/soft/0573b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Duck Hunt is a 1985 NES video game developed by Nintendo R&D1 and Intelligent Systems and released by Nintendo of America in the USA on October 18, 1985.\r\n\r\nIn Duck Hunt, players use the Nintendo Zapper Light Gun and attempt to shoot down either ducks or clay pigeons in mid-flight.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -40967,7 +41278,11 @@
     "letter": "D",
     "no_intro_name": "3-in-1 Super Mario Bros. + Duck Hunt + World Class Track Meet Rev PRG0 (1990-12)(Nintendo)(US)",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 346
   },
   {
     "id": "fcto047",
@@ -41457,7 +41772,7 @@
       "https://famicom.tw/img/soft/1105b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Mario Bros. is a 1986 NES video game developed by Nintendo R&D2 and Intelligent Systems and released by Nintendo of America in the USA on June 1, 1986.\r\n\r\nMario and Luigi are doing some underground plumbing when all sorts of weird creatures come flying out of the pipes. Turtles, crabs - even fighterflies - attack the helpless Mario Bros. It's up to you to kick, punch, and knock out these sewer pests before time runs out! But beware. Just when you think you got rid of them, they come back for more! Play against the computer, or with a friend - either way, this is one underground classic you'll want to play time and time again!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -41470,7 +41785,11 @@
     "letter": "M",
     "no_intro_name": "All Night Nippon Super Mario Bros. (Japan) (Promo)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 189
   },
   {
     "id": "fca049",
@@ -41874,7 +42193,7 @@
       "https://famicom.tw/img/soft/0159b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "The player assumes the role of a spy who infiltrates a building filled with elevators. He must collect secret documents from the building and traverse the 30 levels of the building using an increasingly complex series of elevators. The player is pursued by enemy agents who appear from behind closed doors. The player must outwit them via force or evasion. Successful completion of a level involves collecting all the secret documents and traversing the building from top to bottom. In the lower floors of the building, the elevator systems are so complex that some puzzle-solving skills are needed.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -41886,7 +42205,10 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "E",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "tgdb_id": 348
   },
   {
     "id": "fcsi050",
@@ -43122,7 +43444,7 @@
       "https://famicom.tw/img/soft/0842b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "The player assumes the role of Hudson Hawk, a cat burglar. He is sent on a mission to steal three Da Vinci artifacts. Walking through various levels in this platform game, the player must avoid sounding alarms. In addition, security guards and dogs show up to hamper the mission. Hudson Hawk can pacify the enemies by punching them or throwing a \"ball\" at them.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -43134,7 +43456,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "H",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 353
   },
   {
     "id": "fchu054",
@@ -43537,7 +43863,7 @@
       "https://famicom.tw/img/soft/0582b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Double Dragon is a 1988 NES video game developed by Technos Japan and released by Tradewest in the USA on June 1, 1988.\r\n\r\nDouble Dragon is the story of Billy and Jimmy Lee, twin brothers who learned to fight on the cold, tough streets of the city. Their expert knowledge of the martial arts combined with their street smarts, has made them both formidable fighting machines. But now Billy is faced with his greatest challenge. Marian has been kidnapped by the Black Warriors, the savage street gang of the mysterious Shadow Boss! Using whatever weapons come to hand - knives, whips, bats, rocks, oil drums, even dynamite - Billy must pursue the gang through the slums, factories, and wooded outskirts of the city to reach the hideout for his final confrontation with the Shadow Boss... his brother Jimmy!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -43549,7 +43875,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "D",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E10+ - Everyone 10+",
+    "tgdb_id": 208
   },
   {
     "id": "fcto056",
@@ -43807,7 +44137,7 @@
       "https://famicom.tw/img/soft/0725b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Donkey Kong is a 1986 NES video game developed by Nintendo R&D2 and released by Nintendo of America in the USA on June 1, 1986.\r\n\r\nCan you save Mario's girl from the clutches of Donkey Kong? Donkey Kong has kidnapped Mario's girlfriend Pauline and taken her to the top of a construction site. It's up to you to help Mario save Pauline before time runs out. But it won't be easy. Donkey Kong will do everything in his power to stop you. He'll throw barrel bombs, flaming fireballs and anything else he can get his hands on. So if you're looking for action, don't monkey around. Get the original Donkey Kong from the Nintendo Arcade Classics Series!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -43820,7 +44150,11 @@
     "letter": "D",
     "no_intro_name": "Donkey Kong (Japan) (Disk Writer)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 5
   },
   {
     "id": "fcha057",
@@ -43882,7 +44216,7 @@
       "https://famicom.tw/img/soft/0962b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Imagine the wildest, wackiest place in the Universe and you've got Fantasy Zone! As Opa-Opa, a living spaceship, you'll marvel at the incredible landscapes filled with the strangest creatures. Watch out! They may look cute and innocent, but they're Menons, nasty aliens that have overrun the eight planets that make up Fantasy Zone. Your job is to clear each world of Menons. Every time you zap one, it turns into a coin. Collect enough coins and you can buy power-up items like deadlier weapons and mightier engines. At the end of every planet lurks a super-powerful boss. Find a way to blast past these monsters in order to continue your exciting journey in the Fantasy Zone!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -43894,7 +44228,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "F",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1824
   },
   {
     "id": "fcsu058",
@@ -43997,7 +44335,7 @@
       "https://famicom.tw/img/screen/0726.gif"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Donkey Kong is a 1986 NES video game developed by Nintendo R&D2 and released by Nintendo of America in the USA on June 1, 1986.\r\n\r\nCan you save Mario's girl from the clutches of Donkey Kong? Donkey Kong has kidnapped Mario's girlfriend Pauline and taken her to the top of a construction site. It's up to you to help Mario save Pauline before time runs out. But it won't be easy. Donkey Kong will do everything in his power to stop you. He'll throw barrel bombs, flaming fireballs and anything else he can get his hands on. So if you're looking for action, don't monkey around. Get the original Donkey Kong from the Nintendo Arcade Classics Series!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -44010,7 +44348,11 @@
     "letter": "D",
     "no_intro_name": "Donkey Kong (Japan) (Disk Writer)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 5
   },
   {
     "id": "fcha058",
@@ -44185,7 +44527,7 @@
       "https://famicom.tw/img/soft/0727b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Donkey Kong is at it again! This time he's loose in the greenhouse. And he's got company: a swarm of very pesky bees! It's up to you to get Donkey Kong out of the greenhouse and exterminate the bees... without hurting the flowers. But that's easier said than done! Because Donkey Kong has plenty of coconuts to hurl at you, and those bees know just where to sting you so it hurts. But, if you keep your wits about you, you'll score lots of points and have lots of laughs in the best Donkey Kong of them all... DONKEY KONG 3!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -44198,7 +44540,11 @@
     "letter": "D",
     "no_intro_name": "Donkey Kong (Japan) (Disk Writer)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1269
   },
   {
     "id": "fcha059",
@@ -44339,7 +44685,7 @@
       "https://famicom.tw/img/soft/0728b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Donkey Kong Jr. is a 1986 NES video game developed by Nintendo R&D2 and released by Nintendo of America in the USA on June 1, 1986.\r\n\r\nMario has gone mad! He's turned the tables on Donkey Kong and locked him in a cage. It's up to you, as Donkey Kong Jr., to rescue your father by stealing Mario's set of keys. But it won't be easy. You'll have to fight off ape-eating Snapjaws, jump onto moving islands and break through a jungle of vines to get to the keys that will free Donkey Kong. Can you handle the action? Because this off-the-wall monkey business will have you going bananas!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -44352,7 +44698,11 @@
     "letter": "D",
     "no_intro_name": "Donkey Kong Jr. (Japan) (Disk Writer)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1270
   },
   {
     "id": "fcha060",
@@ -44495,7 +44845,7 @@
       "https://famicom.tw/img/screen/0729.gif"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Donkey Kong Jr. is a 1986 NES video game developed by Nintendo R&D2 and released by Nintendo of America in the USA on June 1, 1986.\r\n\r\nMario has gone mad! He's turned the tables on Donkey Kong and locked him in a cage. It's up to you, as Donkey Kong Jr., to rescue your father by stealing Mario's set of keys. But it won't be easy. You'll have to fight off ape-eating Snapjaws, jump onto moving islands and break through a jungle of vines to get to the keys that will free Donkey Kong. Can you handle the action? Because this off-the-wall monkey business will have you going bananas!",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -44508,7 +44858,11 @@
     "letter": "D",
     "no_intro_name": "Donkey Kong Jr. (Japan) (Disk Writer)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 1270
   },
   {
     "id": "fcha061",
@@ -46014,7 +46368,7 @@
       "https://famicom.tw/img/soft/0863b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Balloon Fight is a 1986 NES video game developed by Nintendo R&D1 and HAL Laboratory and released by Nintendo of America in the USA on June 18, 1986.\r\n\r\nThe player controls the unnamed Balloon Fighter with two balloons attached to his back. Repeatedly pressing the A or B buttons causes the Balloon Fighter to flap his arms and rise into the air. If a balloon is popped, the player's flotation is decreased, making it harder to rise. A life is lost if both balloons are popped by enemy Balloon Fighters, if the player falls in the water, gets eaten by the large fish near the surface of the water, or is hit by lightning.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -46029,7 +46383,11 @@
     "genre_en": "Action",
     "genre_raw": "動作平台",
     "genre_subtype": "動作平台",
-    "genre_subtype_en": "Action Platformer"
+    "genre_subtype_en": "Action Platformer",
+    "overview_en_source": "thegamesdb",
+    "players": 2,
+    "age_rating": "E - Everyone",
+    "tgdb_id": 333
   },
   {
     "id": "fchu075",
@@ -46173,7 +46531,7 @@
       "https://famicom.tw/img/soft/0865b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "The game's protagonist is called \"Rockford\". He must dig through caves collecting gems and diamonds and reach the exit within a time limit, while avoiding various types of dangerous creatures as well as obstacles like falling rocks and the constant danger of being crushed or trapped by an avalanche, or killed by an underground explosion.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -46185,7 +46543,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "B",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "Not Rated",
+    "tgdb_id": 1041
   },
   {
     "id": "fchu077",
@@ -46210,7 +46572,7 @@
       "https://famicom.tw/img/soft/0982b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Burai Fighter is a side-scrolling shooting video game released for the Nintendo Entertainment System in 1990.  The setting for Burai Fighter, according to the manual, is to fend off seven bases of Burai, super-intelligent cyborgs.  The player starts out with a relatively weak cannon but can upgrade to ring, laser and missile weapons, which are much more powerful.  The player can also choose from three difficulty settings: Eagle, Albatross and Ace, but the fourth difficulty setting, Ultimate, must be unlocked.  One proceeds by controlling the character in 8 directions and can shoot in a different direction from the direction he is looking.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -46222,7 +46584,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "B",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "Not Rated",
+    "tgdb_id": 1659
   },
   {
     "id": "fcha078",
@@ -46816,7 +47182,7 @@
       "https://famicom.tw/img/soft/0990b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "It's prehistoric pandemonium as your favorite cave family, the Flintstones, get a visit from the 30th century. The clever scientist, Dr. Butler, needs some dinosaurs for the Orbit City Zoo, and he's invented a time machine to capture Dino and Hoppy. Can Fred find all the pieces that the Great Gazoo needs to build a time machine of his own? Can he make a jump into the future with the help of Wilma, Barney and Betty and rescue his prehistoric pals? Who says history has to be boring?",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -46828,7 +47194,11 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "players": 1,
+    "age_rating": "Not Rated",
+    "tgdb_id": 1288
   },
   {
     "id": "fcha086",
@@ -47038,7 +47408,7 @@
       "https://famicom.tw/img/soft/0994b.jpg"
     ],
     "youtube": [],
-    "overview_en": "",
+    "overview_en": "Predator is a side-scrolling platformer which uses the imagery and characters from the classic Arnie movie of the same name. The game is not a faithfully conversion of the movie however - your unit has already been killed off when the game starts and you will battle scorpions, enemy soldiers and dodge obstacles etc, before facing the Predator itself a number of times.\r\n\r\nThe game is a fairly standard run-jump-shoot platformer, except that you start with no weapons at all and must collect them as the game goes on.",
     "overview_zh": "",
     "comment_en": "",
     "comment_zh": "",
@@ -47050,7 +47420,9 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "P",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_en_source": "thegamesdb",
+    "tgdb_id": 374
   },
   {
     "id": "fchu090",
