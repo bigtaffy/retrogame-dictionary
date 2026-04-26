@@ -1077,6 +1077,9 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
       <button class="console-pill" data-console="fc" title="Famicom">
         <img class="ico-img" src="icons/fc.png" alt="FC" draggable="false">
       </button>
+      <button class="console-pill" data-console="md" title="Mega Drive">
+        <img class="ico-img" src="icons/md.png" alt="MD" draggable="false">
+      </button>
     </div>
 
     <div class="topbar-right">
@@ -1180,6 +1183,14 @@ const CONSOLE_CONFIG = {
     dataUrl: 'data/gbc/games.json',
     imageBase: '',
     hasFormat: false,
+    hasRegion: true,
+    hasYoutube: false,
+  },
+  md: {
+    name: 'Mega Drive',
+    dataUrl: 'data/md/games.json',
+    imageBase: '',
+    hasFormat: true,    // Cartridge / CD-ROM
     hasRegion: true,
     hasYoutube: false,
   },
