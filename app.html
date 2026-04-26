@@ -28,6 +28,9 @@
    SYNTHWAVE TOKENS
    ============================================================ */
 :root {
+  /* Text size scale — controlled by [data-text-size] on <html> */
+  --text-scale: 1.12;          /* default = L (a bit bigger) */
+
   --bg: #0b0420;
   --bg-raised: #1a0d3e;
   --bg-hover: #2a1855;
@@ -184,6 +187,32 @@ body::before {
   transform: scale(1.08) rotate(-8deg);
 }
 .search-icon-btn:active { transform: scale(0.92); }
+
+.text-size-btn {
+  width: 36px; height: 36px; border-radius: 50%;
+  border: 1px solid rgba(0, 240, 255, 0.5); color: var(--cyan);
+  display: inline-flex; align-items: baseline; justify-content: center;
+  background: rgba(26, 13, 62, 0.5);
+  font-family: var(--body-cjk); font-weight: 700;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+  gap: 1px;
+  padding: 0 0 2px 0;
+}
+.text-size-btn .a-small { font-size: 11px; line-height: 1; }
+.text-size-btn .a-large { font-size: 16px; line-height: 1; }
+.text-size-btn:hover {
+  background: rgba(0, 240, 255, 0.15);
+  box-shadow: var(--glow-cyan);
+  transform: scale(1.08);
+}
+.text-size-btn:active { transform: scale(0.92); }
+.text-size-btn .level-dot {
+  position: absolute; bottom: 4px; right: 4px;
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--cyan);
+  box-shadow: 0 0 4px var(--cyan);
+}
 
 /* ============================================================
    SEARCH OVERLAY (full-screen zoom-in)
@@ -498,15 +527,17 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
 .card .info { padding: 12px 14px 14px; flex: 1; display: flex; flex-direction: column; gap: 5px; min-width: 0; }
 .card .title {
   font-family: var(--pixel-cjk);
-  font-size: 16px; letter-spacing: 0.5px; line-height: 1.3;
+  font-size: calc(16px * var(--text-scale));
+  letter-spacing: 0.5px; line-height: 1.3;
   overflow: hidden;
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
   white-space: normal;
   word-break: break-word;
   overflow-wrap: anywhere;
 }
-.card .title.text-en { font-family: var(--pixel-en); letter-spacing: 0.8px; text-transform: uppercase; font-size: 15px; }
+.card .title.text-en { font-family: var(--pixel-en); letter-spacing: 0.8px; text-transform: uppercase; font-size: calc(15px * var(--text-scale)); }
 .card .title.text-jp { font-family: var(--pixel-cjk); }
+.card .subtitle { font-size: calc(11.5px * var(--text-scale)); }
 .card .subtitle {
   font-family: var(--body-cjk);
   font-size: 11.5px; color: var(--cyan); opacity: 0.78;
@@ -582,10 +613,11 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
 .grid.list .card .badges { padding-top: 6px; }
 .grid.list .card .meta { padding-top: 6px; }
 .grid.list .card .title {
-  font-size: 17px; -webkit-line-clamp: 3;
+  font-size: calc(17px * var(--text-scale));
+  -webkit-line-clamp: 3;
   white-space: normal; word-break: break-word; overflow-wrap: anywhere;
 }
-.grid.list .card .title.text-en { font-size: 15px; }
+.grid.list .card .title.text-en { font-size: calc(15px * var(--text-scale)); }
 /* star to bottom-right in list mode */
 .grid.list .card .fav-btn { top: auto; bottom: 8px; right: 8px; }
 
@@ -619,12 +651,13 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
 .detail .header-actions { justify-content: center; }
 .detail h2 {
   font-family: var(--pixel-en);
-  font-size: clamp(22px, 4vw, 36px); letter-spacing: 1.5px;
+  font-size: calc(clamp(22px, 4vw, 36px) * var(--text-scale));
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   background: linear-gradient(135deg, var(--pink), var(--cyan));
   -webkit-background-clip: text; background-clip: text; color: transparent;
   filter: drop-shadow(0 0 12px rgba(255, 62, 200, 0.4));
-  margin-bottom: 8px; line-height: 1.1;
+  margin-bottom: 8px; line-height: 1.15;
 }
 .detail h2.cjk {
   font-family: var(--pixel-cjk);
@@ -632,13 +665,13 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
 }
 .detail .subtitle-jp {
   font-family: var(--pixel-cjk);
-  font-size: 16px; color: var(--yellow);
+  font-size: calc(16px * var(--text-scale)); color: var(--yellow);
   text-shadow: 0 0 8px rgba(255, 225, 74, 0.4);
   margin-bottom: 4px; letter-spacing: 0.5px;
 }
 .detail .subtitle-zh {
   font-family: var(--body-cjk);
-  font-size: 15px; color: var(--text-soft); margin-bottom: 16px;
+  font-size: calc(15px * var(--text-scale)); color: var(--text-soft); margin-bottom: 16px;
 }
 .detail .header-badges { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 14px; }
 .detail .header-actions { display: flex; gap: 8px; margin-top: 18px; flex-wrap: wrap; }
@@ -677,7 +710,7 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
 .detail .specs dd { color: var(--text); font-family: var(--body-cjk); }
 .detail .desc {
   font-family: var(--body-cjk);
-  line-height: 1.8; font-size: 14.5px; color: var(--text);
+  line-height: 1.8; font-size: calc(14.5px * var(--text-scale)); color: var(--text);
 }
 .detail .desc + .desc { margin-top: 16px; }
 .detail .desc-label {
@@ -966,9 +999,9 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
   .grid .card { flex-direction: column; height: auto; }
   .grid .card .cover { width: 100%; height: auto; aspect-ratio: 1; border-right: 0; border-bottom: 1px solid rgba(0, 240, 255, 0.2); }
   .grid .card .info { padding: 14px 16px 16px; gap: 6px; }
-  .grid .card .title { font-size: 18px; -webkit-line-clamp: 2; }
-  .grid .card .title.text-en { font-size: 16px; }
-  .grid .card .subtitle { font-size: 13px; }
+  .grid .card .title { font-size: calc(18px * var(--text-scale)); -webkit-line-clamp: 2; }
+  .grid .card .title.text-en { font-size: calc(16px * var(--text-scale)); }
+  .grid .card .subtitle { font-size: calc(13px * var(--text-scale)); }
   .grid .card .meta { font-size: 11px; padding-top: 6px; }
   .grid .card .badges { padding-top: 8px; gap: 5px; }
   .grid .card .badge { font-size: 10px; padding: 3px 7px; }
@@ -979,10 +1012,10 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
   .grid.list .card .cover { width: 50%; max-width: none; min-width: 0; aspect-ratio: 1; border-bottom: 0; border-right: 1px solid rgba(0, 240, 255, 0.2); }
   .grid.list .card .info { padding: 10px 12px 40px; gap: 4px; }
   .grid.list .card .title {
-    font-size: 15px; -webkit-line-clamp: 3;
+    font-size: calc(15px * var(--text-scale)); -webkit-line-clamp: 3;
     white-space: normal; word-break: break-word; overflow-wrap: anywhere;
   }
-  .grid.list .card .title.text-en { font-size: 13.5px; }
+  .grid.list .card .title.text-en { font-size: calc(13.5px * var(--text-scale)); }
   .grid.list .card .fav-btn { top: auto; bottom: 6px; right: 6px; width: 28px; height: 28px; }
 
   .topbar { padding: 8px 8px 4px; }
@@ -1053,6 +1086,9 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
         <button data-tab="discover"><span>🎲</span> Discover</button>
         <button data-tab="settings"><span>⚙</span> Settings</button>
       </div>
+      <button class="text-size-btn" id="text-size-btn" title="字級" aria-label="調整字級" style="position:relative">
+        <span class="a-small">A</span><span class="a-large">A</span>
+      </button>
       <button class="search-icon-btn" id="search-icon-btn" title="Search" aria-label="Search">
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.8"/><path d="M11 11L14.5 14.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
       </button>
@@ -1925,6 +1961,40 @@ document.querySelectorAll('#tabs-desktop button, #tabbar button').forEach(b => {
     else navigate(t);
   });
 });
+
+/* ============================================================
+   TEXT SIZE TOGGLE  (M=1.0 / L=1.12 default / XL=1.28 / 2XL=1.45)
+   ============================================================ */
+const TEXT_SIZES = [
+  { key: 'M',   scale: 1.00, label: 'M' },
+  { key: 'L',   scale: 1.12, label: 'L' },
+  { key: 'XL',  scale: 1.28, label: 'XL' },
+  { key: '2XL', scale: 1.45, label: '2XL' },
+];
+function applyTextSize(key) {
+  const def = TEXT_SIZES.find(s => s.key === key) || TEXT_SIZES[1];
+  document.documentElement.style.setProperty('--text-scale', def.scale);
+  document.documentElement.dataset.textSize = def.key;
+  localStorage.setItem('rgd-text-size', def.key);
+  // Update button label
+  const btn = document.getElementById('text-size-btn');
+  if (btn) {
+    btn.title = `字級：${def.label}（點擊切換）`;
+    // Tiny dot indicator: number of dots = level (1..4)
+    const idx = TEXT_SIZES.findIndex(s => s.key === def.key);
+    const dots = '●'.repeat(idx + 1);
+    let dot = btn.querySelector('.level-dot');
+    if (!dot) { dot = document.createElement('span'); dot.className = 'level-dot'; btn.appendChild(dot); }
+  }
+}
+function cycleTextSize() {
+  const cur = localStorage.getItem('rgd-text-size') || 'L';
+  const idx = TEXT_SIZES.findIndex(s => s.key === cur);
+  const next = TEXT_SIZES[(idx + 1) % TEXT_SIZES.length];
+  applyTextSize(next.key);
+}
+applyTextSize(localStorage.getItem('rgd-text-size') || 'L');
+document.getElementById('text-size-btn').addEventListener('click', cycleTextSize);
 
 /* ============================================================
    SEARCH OVERLAY EVENTS
