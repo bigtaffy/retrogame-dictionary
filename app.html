@@ -1857,8 +1857,16 @@ function renderSettings() {
 /* ============================================================
    ROUTER ENTRY
    ============================================================ */
+// Remember scroll position per hash so back-button restores correctly
+const _scrollPositions = new Map();
+let _prevHash = location.hash;
 async function handleRoute() {
   const r = parseRoute();
+  // Save scroll for the route we're leaving
+  if (_prevHash && _prevHash !== location.hash) {
+    _scrollPositions.set(_prevHash, window.scrollY || 0);
+  }
+  _prevHash = location.hash;
   state.tab = r.tab;
   // Reset console-specific filters (format/genre/region/letter) when switching consoles.
   // Search stays since user may want to find same title across consoles.
@@ -1889,6 +1897,16 @@ async function handleRoute() {
     renderDiscover();
   } else if (r.tab === 'settings') {
     renderSettings();
+  }
+
+  // Scroll restoration: detail/discover/settings always start at top.
+  // Library restores prior scroll if user navigated back via browser back button.
+  const savedY = _scrollPositions.get(location.hash);
+  if (r.tab === 'library' && typeof savedY === 'number') {
+    // Defer until grid finishes layout
+    requestAnimationFrame(() => requestAnimationFrame(() => window.scrollTo(0, savedY)));
+  } else {
+    window.scrollTo(0, 0);
   }
 }
 
