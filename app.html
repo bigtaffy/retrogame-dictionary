@@ -191,16 +191,14 @@ body::before {
 .text-size-btn {
   width: 36px; height: 36px; border-radius: 50%;
   border: 1px solid rgba(0, 240, 255, 0.5); color: var(--cyan);
-  display: inline-flex; align-items: baseline; justify-content: center;
+  display: inline-flex; align-items: center; justify-content: center;
   background: rgba(26, 13, 62, 0.5);
-  font-family: var(--body-cjk); font-weight: 700;
   transition: all 0.2s ease;
   flex-shrink: 0;
-  gap: 1px;
-  padding: 0 0 2px 0;
+  padding: 0;
+  position: relative;
 }
-.text-size-btn .a-small { font-size: 11px; line-height: 1; }
-.text-size-btn .a-large { font-size: 16px; line-height: 1; }
+.text-size-btn svg { display: block; }
 .text-size-btn:hover {
   background: rgba(0, 240, 255, 0.15);
   box-shadow: var(--glow-cyan);
@@ -212,6 +210,7 @@ body::before {
   width: 6px; height: 6px; border-radius: 50%;
   background: var(--cyan);
   box-shadow: 0 0 4px var(--cyan);
+  pointer-events: none;
 }
 
 /* ============================================================
@@ -1086,8 +1085,11 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
         <button data-tab="discover"><span>🎲</span> Discover</button>
         <button data-tab="settings"><span>⚙</span> Settings</button>
       </div>
-      <button class="text-size-btn" id="text-size-btn" title="字級" aria-label="調整字級" style="position:relative">
-        <span class="a-small">A</span><span class="a-large">A</span>
+      <button class="text-size-btn" id="text-size-btn" title="字級" aria-label="調整字級">
+        <svg width="22" height="16" viewBox="0 0 22 16" xmlns="http://www.w3.org/2000/svg">
+          <text x="1"  y="14" fill="currentColor" font-size="11" font-weight="700" font-family="-apple-system, system-ui, sans-serif">A</text>
+          <text x="9"  y="14" fill="currentColor" font-size="15" font-weight="800" font-family="-apple-system, system-ui, sans-serif">A</text>
+        </svg>
       </button>
       <button class="search-icon-btn" id="search-icon-btn" title="Search" aria-label="Search">
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.8"/><path d="M11 11L14.5 14.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
