@@ -598,6 +598,19 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
 
 /* List view styling: horizontal card with cover at ~50% width */
 .grid.list { grid-template-columns: 1fr; gap: 12px; max-width: 900px; }
+
+/* Desktop: 寬螢幕展兩欄。≥1280px 才開（單欄 900px + gap），不然 card 太擠 */
+@media (min-width: 1280px) {
+  .grid.list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 1700px;
+    gap: 16px;
+  }
+}
+@media (min-width: 1800px) {
+  /* 超寬：3 欄 */
+  .grid.list { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 2400px; }
+}
 .grid.list .card {
   flex-direction: row; aspect-ratio: auto; height: auto; min-height: 130px;
   position: relative;
