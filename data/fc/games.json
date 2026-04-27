@@ -25,7 +25,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Argus》（アーガス）是日本 Micom 開發開發、Jaleco 於 1986 年 1 月發行的大型電玩遊戲。本作以宇宙戰爭為題材，屬於縱向卷軸射擊遊戲，後也移植到 Famicom 等家用主機。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -39,7 +39,8 @@
     "genre_en": "Shooter",
     "genre_raw": "彈幕射擊",
     "genre_subtype": "彈幕射擊",
-    "genre_subtype_en": "Shoot 'em Up"
+    "genre_subtype_en": "Shoot 'em Up",
+    "overview_jp": "『アーガス』（Argus）は日本マイコン開発が開発し、1986年1月にジャレコが発売した業務用ビデオゲーム。宇宙戦争を題材にした縦スクロールシューティングゲームである。"
   },
   {
     "id": "fci001",
@@ -65,7 +66,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "功夫，不僅是搏擊術和單純的拳腳運動，現在，“功夫”有了更深刻的內涵：它講究的不再僅僅是武藝高強，而是剛柔並濟、內外兼修，即習武之人被要求擁有高尚的品德或情操。\n功夫有兩種外在表現形式，一種是套路演練形式，另一種是格鬥對抗形式，一般上講的功夫是實用性格鬥對抗形式。\n「功夫」一詞最早被廣泛認識的是在二十世紀六十至七十年代，由李小龍開始把這兩個字發揚光大；因李氏對武術界的貢獻和影響力，所以功夫的粵語音譯「Kung Fu」一詞被寫入英文字典內。\n當今，功夫在世界上影響廣泛，不僅有大量功夫題材的中外影視作品，世界各地的功夫館也使功夫得到了廣泛傳揚。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -102,7 +103,7 @@
     ],
     "youtube": [],
     "overview_en": "The Mad Overlord Trebor was once only power-mad, but went off the deep end after he acquired a magical amulet of immense power, only to have it stolen from him by his nemesis, the evil archmage Werdna. Werdna, not quite sure how to use the amulet properly, accidentally causes an earthquake which creates a ten-level dungeon beneath Trebor's castle. To avoid looking silly, Werdna declares the dungeon to be the new lair for him and his monster hordes. Trebor, not to be outdone, declares the labyrinth his new Proving Grounds where adventurers must prove themselves for membership in his elite honor guard, and incidentally retrieve his amulet in the process.",
-    "overview_zh": "",
+    "overview_zh": "《巫術 狂王的試煉場》（Wizardry: Proving Grounds of the Mad Overlord）是電腦 RPG《巫術》系列首作，由 Andrew Greenberg 與 Robert Woodhead 開發。1980 年於波士頓電腦展發表 Beta 版，1981 年由 Sir-tech 公司正式推出。本作是將《龍與地下城》式 RPG 帶上電腦的開創性作品之一。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -115,7 +116,8 @@
     "genre_raw": "角色扮演 (RPG)",
     "genre_en": "RPG",
     "overview_en_source": "thegamesdb",
-    "tgdb_id": 1395
+    "tgdb_id": 1395,
+    "overview_jp": "『ウィザードリィ 狂王の試練場』（ウィザードリィ きょうおうのしれんじょう、英語: Wizardry: Proving Grounds of the Mad Overlord）はコンピュータRPG『ウィザードリィ』シリーズの第1作となる作品。アンドリュー・グリーンバーグとロバート・ウッドヘッドによって開発された。1980年にノーマン・シロテックはサーテック社を立ち上げ、同年のボストン・コンピュータ・コンベンションでこの作品のベータ版を発表し、製品版は1981年にリリースされた。\nこの作品は、『ダンジョンズ&ドラゴンズ』形式のロール・プレイング・ゲームをコンピュータで遊べるようにした嚆矢の一つであり、その種のゲームでカラー表示を実現した初の作品である。また、複数のキャラクターを登録して進めるパーティ形式のシステムを、コンピュータRPGとして初めて実現した作品でもある。\nこの作品は結果的に、第2作『ダイヤモンドの騎士』と第3作『リルガミンの遺産』を含む三部作の第1作となった。"
   },
   {
     "id": "fce001",
@@ -143,7 +145,7 @@
     ],
     "youtube": [],
     "overview_en": "Deep within enemy territory, your fellow countrymen are imprisoned. Only one man in the free world would dare attempt to save them. You, Stringfellow Hawke, commander of Airwolf. And yet, as you strap yourself into the cockpit of your supersonic jet copter, you know this is the most dangerous assignment you have ever flown.\r\n\r\nYour mission is mapped out. Airwolf's heat-seeking missiles and superpowered machine guns are fired up, ready to blow the terrorists away. But can you evade enemy radar time after time? Can you sneak behind the enemy lines, find the captives and bring them to safety before you crash land or worse?\r\n\r\nHeadquarters knows that you have the skill and firepower it takes. You say you've got the guts... now prove it!",
-    "overview_zh": "",
+    "overview_zh": "《飛狼》（英語：Airwolf）是1980年代在美國製作播出的電視電影以及電視影集。本片在美國哥倫比亞廣播公司（CBS）電視網從1984年到1986年期間共播映三季，全55集。後來又在1987年於有線頻道美國電視網（USA Network）以新的演員陣容和製作公司另行製播了24集（通常列為第四季）。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -159,7 +161,8 @@
     "overview_en_source": "thegamesdb",
     "players": 1,
     "age_rating": "Not Rated",
-    "tgdb_id": 329
+    "tgdb_id": 329,
+    "overview_jp": "『超音速攻撃ヘリ エアーウルフ』（ちょうおんそくこうげきヘリ エアーウルフ、『AIRWOLF』）はアメリカ合衆国のテレビドラマ。\n本項では続編の『新エアーウルフ 復讐編』についても扱う。"
   },
   {
     "id": "fco001",
@@ -185,7 +188,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《美味大挑戰 究極菜單三本勝負》是 Sinsei Kogyo 於 1989 年 7 月 25 日發行的 Famicom 冒險遊戲，改編自原作漫畫《美味大挑戰》。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -196,7 +199,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "O",
     "genre_raw": "冒險 (ADV)",
-    "genre_en": "Adventure"
+    "genre_en": "Adventure",
+    "overview_jp": "『美味しんぼ 究極のメニュー三本勝負』（おいしんぼ きゅうきょくのメニューさんぼんしょうぶ）は、1989年7月25日にシンセイ（新正工業）より発売されたファミリーコンピュータ用アドベンチャーゲーム。原作漫画『美味しんぼ』を題材にしている。"
   },
   {
     "id": "fcka001",
@@ -222,7 +226,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Guardic 外傳》是 Irem 為 Famicom 發行的動作射擊遊戲。Irem 於宣傳廣告中標榜為「3 次元 SF 壯觀射擊與 RPG 遊戲」。本作由 Compile 開發，為其 1986 年 MSX 射擊遊戲《Guardic》的外傳作品，包裝插畫由加藤直之繪製。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -233,7 +237,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "G",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『ガーディック外伝』（ガーディックがいでん）は、アイレムがファミコン用に発売したアクションシューティングゲームである。アイレム販売の広告では「3次元SFスペクタクル・シューティング&RPGゲーム」と銘打たれていた。\n開発はコンパイル。同社が発売したMSX用シューティングゲーム『ガーディック』（1986年）の外伝作品に当たる。パッケージのイラストは加藤直之が担当。"
   },
   {
     "id": "fcki001",
@@ -261,7 +266,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《消失的公主》（消えたプリンセス、Kieta Princess）是 Imagineer 於 1986 年 12 月 20 日發行的 Famicom 磁碟機遊戲。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -273,7 +278,8 @@
     "letter": "K",
     "no_intro_name": "Kieta Princess (Japan)",
     "genre_raw": "冒險 (ADV)",
-    "genre_en": "Adventure"
+    "genre_en": "Adventure",
+    "overview_jp": "『消えたプリンセス』（きえたプリンセス）は、1986年12月20日にイマジニアから発売された、ファミリーコンピュータ ディスクシステム用のゲーム。"
   },
   {
     "id": "fcku001",
@@ -299,7 +305,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Quinty》是 Namco 於 1989 年 6 月 27 日發行的 Famicom 動作解謎遊戲，北美由 Hudson USA 隔年以《Mendel Palace》為名推出。玩家操控 Carton 與 Parton 救回被擄走的戀人 Jenny，每關採 5×7 鋪格地板掀翻地板攻擊敵人。本作由 Game Freak 與 KID 開發，田尻智擔任製作與設計。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -310,7 +316,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "Q",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『クインティ』 (Quinty) は、日本で1989年6月27日にナムコより発売されたファミリーコンピュータ用のアクションパズル。「ナムコット ファミリーコンピュータゲームシリーズ」第60弾。北米では『Mendel Palace』の名称で翌年10月にハドソンUSAより発売された。\n主人公のカートンおよびパートンを操作し、3人の兄と妹のクインティに攫われた恋人のジェニーを救出する事を目的としたゲーム。ステージ毎に5×7に敷き詰められたパネルをめくって敵に攻撃するシステムとなっている。\n開発はゲームフリークおよびKIDが行い、プロデュースおよびディレクター、ゲーム・デザインを田尻智が担当、音楽は増田順一、キャラクター・デザインは杉森建が担当している。\n長らく他機種への移植版が存在しない状態であったが、2014年にWii U用ソフトとしてバーチャルコンソールにて配信されたほか、2020年6月18日発売のNintendo Switch用ソフト『ナムコットコレクション』にも収録された。また、2026年4月9日に『ファミリーコンピュータ Nintendo Classics』にて配信が開始された。"
   },
   {
     "id": "fcke001",
@@ -336,7 +343,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《計算遊戲 算數一年級》（けいさんゲームさんすう1年）是東京書籍發行的 Famicom 教育娛樂軟體系列其中一作，針對小學一年級程度的算術練習設計，以遊戲化方式輔助學習。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -347,7 +354,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "其他 (ETC)",
-    "genre_en": "Other"
+    "genre_en": "Other",
+    "overview_jp": "『けいさんゲーム』は、東京書籍より発売されたファミリーコンピュータ用エデュテインメントソフトのシリーズ。"
   },
   {
     "id": "fcko001",
@@ -373,7 +381,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "甲子園（日語：甲子園／こうしえん，羅馬化：kōshien）可以指：\n\n甲子園 (地名)\n阪神甲子園球場，日本職業棒球隊阪神虎的主場，因建於大正甲子歲（1924年）而得名。\n選拔高等學校棒球大會，通稱「春季甲子園」，日本全國高中棒球聯賽之一。\n全國高等學校野球選手權大會，通稱「夏季甲子園」，日本全國高中棒球聯賽之一。\n甲子園 (遊戲)\n甲子園 (福山雅治單曲)",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -384,7 +392,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "K",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_jp": "甲子園（こうしえん）は、兵庫県西宮市にある地名である。同地に存在する阪神甲子園球場、また同球場で毎年春と夏に開催される高校野球全国大会で知られており、これらの略称・通称としても使われる。"
   },
   {
     "id": "fcsa001",
@@ -410,7 +419,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "馬戲團，一般指包括有雜技、受訓過的動物、小丑、魔術及其他特技的表演，以娛樂觀眾為目的。\n桓寬《鹽鐵論》有「馬戲鬥虎」的記載。唐代馬戲表演「透劍門伎」，表演者乘小馬，奔騰跳躍，飄忽而過。1871年玲玲馬戲團（Ringling Bros.and Barnum & Bailey）成立，1919年成立莫斯科大馬戲團，擁有超過4,000名錶演者及1,000名工作人員，1956年到美國首演。加上1977年成立的大蘋果馬戲團（Big Apple Circus），號稱世界三大馬戲團。中國齊齊哈爾馬戲團始建於1952年，是中國著名的馬戲表演團體。1982年加拿大魁北克人建立太陽馬戲團（Cirque Du Soleil），經過二十餘年的經營，成為世界規模最大的馬戲團。2003年太陽馬戲團合作創始人之一諾曼·拉杜勒(Normand Latourelle) 揉合馬術與表演藝術、多媒體投映、及奇幻特技，創作了Cavalia。 \n由於對動物權利的保護意識加強，且曾發生表演的動物被虐待、遺棄，以及攻擊人的事件，有些國家已立法禁止使用動物作為表演工具，因此部份馬戲團不再有動物表演了。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -484,7 +493,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《水滸傳 天命的誓約》是日本光榮於 1989 年 3 月發行的 PC-88SR 歷史模擬遊戲，題材取自中國明代四大奇書之一的小說《水滸傳》。本作支援最多 7 人多人遊玩，導入人物相性、玩家不在場領地無法直接下令、需累積一定人氣才能進攻敵方據點、以及遊戲內時間限制等多項新機制。製作人為襟川陽一（Shibusawa Kou）。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -495,7 +504,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "策略 (SLG)",
-    "genre_en": "Strategy"
+    "genre_en": "Strategy",
+    "overview_jp": "『水滸伝・天命の誓い』（すいこでん・てんめいのちかい）は、1989年3月に日本の光栄から発売されたPC-88SR用歴史シミュレーションゲーム。\n中国の明の時代に書かれた四大奇書の一つである小説『水滸伝』を題材にしている。7人までのマルチプレイが可能。人物同士の相性、プレーヤー本人のいない領土には直接命令できない、勢力拡大などによって一定の人気を得ないと敵の本拠地に攻め込むことができない、ゲーム内でのタイムリミットの設定など新趣向が多く盛り込まれた。\n開発は光栄が行い、プロデューサーはシブサワ・コウ、音楽は後にハドソンのNINTENDO 64用ソフト『デュアルヒーローズ』（1997年）を手掛けた木下伸司、サンテックジャパンのPlayStation用ソフト『里見の謎』（1996年）を手掛けた三井一正、エンディング曲はシンガーソングライターでもある滝沢洋一が担当している。\n1989年から1990年にかけて様々な日本国産パソコン各機種に移植され、1990年にはファミリーコンピュータ、1996年にはPlayStation、セガサターンなどの家庭用ゲーム機に移植された。また、北米においてはPC/AT互換機、Classic Mac OS、Amiga用ソフトとして『Bandit Kings of Ancient China』のタイトルで発売された。2004年には携帯電話ゲームとして配信された。\n後に廉価版として『コーエー定番シリーズ』として発売、Windows版はデジキューブやソースネクスト(2005年6月9日発表)からも販売され、コーエーのサイトでのダウンロード販売も行われた。またPC-9801版の復刻版が『コーエー25周年記念パック Vol.6』に収録され、「my GAMECITY クラシックゲーム館」でブラウザゲームとして配信、また「シブサワ・コウ アーカイブス」としてSteamにてダウンロード販売も行われている。"
   },
   {
     "id": "fcse001",
@@ -595,7 +605,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《蝙蝠俠：黑暗騎士》（英語：The Dark Knight，馬來西亞譯《蝙蝠俠2：黑暗騎士》，新加坡譯《蝙蝠俠—黑夜騎士》，香港譯《蝙蝠俠—黑夜之神》，臺灣譯《黑暗騎士》）是一部於2008年上映的超級英雄電影，由克里斯多福·諾蘭編劇、監製及執導。本片是諾蘭所執導的黑暗騎士三部曲中的第二部，以DC漫畫旗下角色蝙蝠俠為主角，是2005年電影《蝙蝠俠：開戰時刻》的續集。影片由克里斯汀·貝爾、希斯·萊傑、麥可·凱恩、亞倫·艾克哈特、蓋瑞·歐德曼、瑪姬·葛倫霍及摩根·弗里曼等人主演。電影中，布魯斯·韋恩／蝙蝠俠（貝爾飾演）、詹姆斯·高登（歐德曼飾演）與哈維·丹特（艾克哈特飾演）聯手打擊高譚市的黑幫，但其行動被高智商罪犯小丑（萊傑飾演）所破壞，後者企圖削弱蝙蝠俠的影響力，並讓高譚市陷入混亂。導演對本片的基本概念，分別來自小丑在1940年首次登場的漫畫章節，另外包含著名漫畫《蝙蝠俠：致命玩笑》及《蝙蝠俠：漫長的萬聖節》中的故事。\n上映後，電影收穫積極的評價，部分影評人將其列入2000年代最佳的電影及超級英雄電影之一。除此之外，電影也在票房方面打破許多紀錄，並成為首部全球票房逾10億美元的蝙蝠俠電影和2008年全球票房最高的電影，以及克里斯多福·諾蘭首部全球票房逾10億美元的電影。而在第81屆奧斯卡金像獎上，《黑暗騎士》共奪得八項提名，最後榮獲最佳男配角以及最佳音效剪輯兩項大獎，前者由在拍完該片後去世的萊傑拿下。續集《黑暗騎士：黎明昇起》是三部曲中的最後一部，於2012年7月20日發行。2020年，《黑暗騎士》以其「文化上、歷史上、美學上」的重要價值，獲選為美國國家電影保護局典藏。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -606,7 +616,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "D",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_jp": "ダークロードとは、フィクションにおける敵役の首魁に特有の類型を指すアーキタイプである。このアーキタイプは、特にファンタジーというジャンルにおいて典型的である。ダークロードの人物像は通例男性であり、権力への渇望や、悪魔や反キリストとの関連で特徴づけられる。『エンサイクロペディア・オブ・ファンタジー』はダークロードの人物像によく見られるテーマとして、「かつて敗北しているが永遠に殺されたままではない」「大地の破壊」など涜聖の儀式に従事する、などがあるとする。\nワーグナーの『ニーベルングの指環』に登場するアルベリヒがダークロードの原型である。\n文芸におけるダークロードの注目すべき例としてはこの他に、「サウロン（指輪物語）」「モルゴス（シルマリルの物語）」「嵐の王イネルキー（いばらの秘剣）」「ヴォルデモート卿（ハリー・ポッター）」などが挙げられる。映画においては、『スターウォーズ』シリーズのダースベイダーとパルパティーン皇帝が通常「シスの暗黒卿（ダークロード）」と呼ばれている。\nフィリップ・プルマンは、文学におけるダークロードというアーキタイプというものについて、「悪というのは通常一人の人間の形で化身し、影響力を及ぼすために高い身分を求める物である」と人々が信じていることが反映されたものであるが、これはハンナ・アーレントの「悪の陳腐さ（イエルサレムのアイヒマン）」という概念とは正反対の物であると批判的に述べている。"
   },
   {
     "id": "fcti001",
@@ -643,7 +654,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "C",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_jp": ""
   },
   {
     "id": "fctu001",
@@ -669,7 +681,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Twin Eagle》是 Seta 開發、Taito 於 1988 年發行的大型電玩縱向卷軸射擊遊戲。據傳背景是以實際拍攝的微縮模型擷取影像而成，畫面精緻；遊戲中插入的「歌曲」也成為話題。本作是 Seta 推出的第一款射擊遊戲。1989 年於北美 NES 發行，1991 年在日本登上 Famicom。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -680,7 +692,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『ツインイーグル』（TWIN EAGLE）は、セタが開発し、タイトーから1988年に稼働されたアーケード用縦スクロールシューティングゲームである。\n実際にジオラマを制作し画像取り込みしたと言われる美麗な背景や、ゲーム中に流れる「歌」が話題になった。セタが制作したシューティングゲームの第一弾である。\n1989年に北米にてNES用ソフトとして発売され、1991年には日本でもファミリーコンピュータ用ソフトとして発売された。"
   },
   {
     "id": "fcte001",
@@ -706,7 +719,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《超人迪瓦》（日語：ディーヴァ ナーサティアの玉座）是一款由東芝EMI製作和發行的電子遊戲。 遊戲後移植至其他平臺。本遊戲於1986年12月5日在日本地區FC遊戲機發行。\n遊戲為橫向卷軸遊戲，玩家需要進行射擊。玩家需要注意敵人的戰機，因為他們會攻擊玩家的星球。玩家在佔領一個星球之後，將在此星球登陸。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -743,7 +756,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Door Door》（ドアドア）是 Enix 於 1983 年發行的電腦遊戲，原為 PC 版作品，後也移植到 Famicom 平台，是 Enix 早期的代表作之一。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -754,7 +767,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "D",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_jp": "『ドアドア』 (Door Door) は、1983年にエニックスから発売されたコンピュータゲーム。"
   },
   {
     "id": "fcna001",
@@ -936,7 +950,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "美國內戰（英語：American Civil War），中文通稱南北戰爭，是美國自1861年至1865年發生的內戰，交戰雙方為北方的聯邦陣營（the Union，或稱\"the North\"）以及南方的邦聯陣營（the Confederacy，或稱\"the South\"）。戰爭爆發的起因為蓄奴州及自由州之間的政治對立，後來隨著維持蓄奴的南方各州脫離聯邦另立「美利堅聯盟國」而演變為全面內戰，最終以北方聯邦陣營的獲勝與美國奴隸制度的廢除落幕。\n美國內部長期深陷奴隸制爭議，並於1860年美國總統選舉共和黨代表林肯當選後全面爆發。南方七個蓄奴州為反對廢奴主義者林肯，宣佈脫離美國成立邦聯，並接管南方的聯邦要塞與資產。1861年4月12日，邦聯砲擊南卡羅來納州的薩姆特堡，戰爭正式爆發。南北雙方迅速動員，徵兵人數激增。其後又有四個州加入邦聯，在總統傑佛遜·戴維斯領導下，邦聯共由十一州組成，人口約佔全國三分之一。隨後四年間，雙方主要多在南方交戰。\n1861至1862年間，聯邦在西部戰場逐步取得優勢，但東部戰局則一度陷入僵持。1863年1月1日，林肯發布《解放奴隸宣言》，宣佈叛亂各州的奴隸為自由人，使廢除奴隸製成為聯邦的重要戰爭目標。聯邦在西部先後摧毀邦聯的河上艦隊，奪取新奧爾良，並在1863年攻下維克斯堡，將邦聯沿密西西比河分割為兩部分。與此同時，邦聯將領羅伯特·李北上進攻，在蓋茨堡之戰中失利。聯邦將領尤利西斯·格蘭特因戰功顯著，於1864年被任命為全軍統帥。\n聯邦對邦聯港口實施日益嚴密的海上封鎖，並集中資源從多個方向發動攻勢。1864年，舍曼攻下亞特蘭大，隨後展開「向大海進軍」，最終奪取薩凡納。戰爭最後階段的主要戰鬥集中於彼得斯堡圍城戰，該地為通往邦聯首都裡士滿的關鍵據點。邦聯最終放棄裡士滿，1865年4月9日，李在阿波馬托克斯戰役後向格蘭特投降，戰爭遂告結束。林肯雖見證勝利，但於4月14日遇刺，次日去世。\n戰後，南方大量基礎設施遭到破壞，邦聯瓦解，奴隸制度正式廢除，數百萬黑人獲得自由。隨後美國進入「重建時期」，致力於恢復國家秩序、讓南方重新融入聯邦，並保障解放奴隸的公民權利。此戰為美國史上研究最為深入的事件之一，至今仍在文化與史學上引發討論，例如「敗局命定論」的觀點。此外，此戰亦為早期工業化戰爭的重要例證，鐵路、電報、蒸汽船、鐵甲艦及大規模製造的武器均被廣泛運用。戰爭約造成七十萬士兵死亡，另有不詳數量的平民傷亡，為美國歷史上最為慘烈的衝突之一。其所展現的技術運用與戰爭規模，亦預示了日後世界大戰的型態。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -973,7 +987,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《漢堡時間》（Burgertime）是 Data East 於 1982 年發行的大型電玩動作遊戲，使用 DECO Cassette System。日本初版原名《Hamburger》，海外版為避免商標問題改名為《Burgertime》，之後包含 Bandai 推出的 LSI 遊戲版及國內各種移植版皆統一使用此名。本作移植到日本與北美多款家用電腦及主機，也曾推出手機版。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -984,7 +998,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "B",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『バーガータイム』 (Burgertime) は、1982年にデータイーストから発売されたアーケード用アクションゲーム。デコカセットシステムを使用。最初に日本国内で発売された本作の題名は『ハンバーガー』であったが、日本国外版では商標問題を避ける目的で『バーガータイム』と改名してリリースしている。以後、バンダイから発売されたLSIゲーム版をはじめ、国内の移植版も含めて作品タイトルは全て現在の題名で統一されている。\n日本や北米にて各種ホビーパソコンやコンシューマーゲームに移植された他、携帯電話ゲームとして配信された（#他機種版）。"
   },
   {
     "id": "fchi001",
@@ -1100,7 +1115,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "H",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": ""
   },
   {
     "id": "fcho001",
@@ -1126,7 +1142,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Dr. Jekyll 的遭遇之刻》是東寶於 1988 年 4 月 8 日發行的 Famicom 橫向卷軸動作遊戲，海外版標題為《Dr. Jekyll and Mr. Hyde》。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -1137,7 +1153,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "H",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ジーキル博士の彷魔が刻』（ジーキルはかせのほうまがとき）は、1988年4月8日に東宝より発売されたファミリーコンピュータ用の横スクロールアクションゲーム。「おうまがとき」と読むのは誤りである。\n日本国外版のタイトルは『Dr. Jekyll and Mr. Hyde』となっている。"
   },
   {
     "id": "fcma001",
@@ -1165,7 +1182,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "麻雀或麻將是一種源自中國的傳統牌類遊戲，濫觴於晚清，後廣泛流傳於東亞及東南亞等漢字文化圈。麻將通常由四人進行，基本目標為搶先拼湊出積分較高之牌型並完成勝出條件，同時阻止對手達成相同目的。麻雀結合運氣與技巧，側重記憶力與策略判斷，娛樂用途外亦常作為玩家間聯絡情感的媒介。\n麻雀牌的構成在各地大同小異，基本牌組包含兩大類共34種牌。第一類為數牌，包括「筒/餅」、「索/條」、「萬」三門，每門數字從一至九各四張，共計108張。第二類為字牌，包括四種風牌（東、南、西、北）及三種箭牌（中、發、白），亦各四張，共28張。標準牌組共136張，部分地區另增設百搭牌或花牌，如「春、夏、秋、冬」、「梅、蘭、菊、竹」等。\n傳統麻雀牌以骨、竹或象牙製成，現代則普遍使用塑膠或壓克力材質。遊戲除牌張外，亦需使用骰子等其他輔助道具，部分地區如日本會使用點棒，而大多數玩法設有標示莊家與圈風的裝置。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -1177,7 +1194,8 @@
     "letter": "M",
     "no_intro_name": "Mahjong (Japan)",
     "genre_en": "Board / Card",
-    "genre_raw": "棋盤桌遊"
+    "genre_raw": "棋盤桌遊",
+    "overview_jp": "麻雀（マージャン、繁体字中国語: 麻將、簡体字中国語: 麻将、英語: Mahjong）は、テーブルゲーム、ボードゲームの一種。牌を使い、原則として4人で行われる。中国を起源とし、世界中で親しまれている。\n本記事では、麻雀というゲーム一般について説明するとともに、その中でも特に「リーチ麻雀（英語: Riichi Mahjong）」とも称される日本式麻雀について詳述する。"
   },
   {
     "id": "fcmi001",
@@ -1240,7 +1258,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Moon Crystal》（ムーンクリスタル）是 Hect 於 1992 年 8 月 28 日發行的日版 Famicom 動作遊戲，是 FC 後期的代表作之一。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -1251,7 +1269,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "M",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ムーンクリスタル』 (MOON CRYSTAL) は、1992年8月28日にヘクトより発売された日本のファミリーコンピュータ用アクションゲームソフト。"
   },
   {
     "id": "fcme001",
@@ -1277,7 +1296,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《迷宮組曲 米隆的大冒險》（迷宮組曲 ミロンの大冒険、Milon's Secret Castle）是 Hudson 於 1986 年 11 月 13 日發行的 Famicom 遊戲，主角為小男孩米隆，是 Hudson 早期的代表作之一。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -1288,7 +1307,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "M",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『迷宮組曲 ミロンの大冒険』（めいきゅうくみきょく ミロンのだいぼうけん、英: Milon's Secret Castle）は、1986年11月13日にハドソンから発売されたファミリーコンピュータ用ゲームソフト。"
   },
   {
     "id": "fcmo001",
@@ -1314,7 +1334,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Moai 君》（モアイくん）是 Konami（現 Konami Digital Entertainment）發行的 Famicom 解謎動作遊戲，主角為復活節島石像造型的 Moai 君。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -1325,7 +1345,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "M",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_jp": "『モアイくん』は、コナミ（現・コナミデジタルエンタテインメント）から発売されたパズルアクションパズルゲーム。"
   },
   {
     "id": "fcya001",
@@ -1353,7 +1374,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《役滿》是任天堂發行的麻將遊戲系列，同時也是任天堂麻將牌的品牌名。其中 Famicom 版正式名稱為《新四人打麻將 役滿天國》。系列陣容尚包括 Game Boy 版、GBA 版《何處皆對局 役滿 Advance》、DS 版、Wii 版、Wii U／3DS 版《役滿 鳳凰》等多款作品。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -1365,7 +1386,8 @@
     "letter": "S",
     "no_intro_name": "4 Nin Uchi Mahjong (Japan) (Rev 1)",
     "genre_en": "Board / Card",
-    "genre_raw": "棋盤桌遊"
+    "genre_raw": "棋盤桌遊",
+    "overview_jp": "『役満』（やくまん）は、任天堂より発売された麻雀ゲームソフトのシリーズ、または任天堂より発売されている麻雀牌のブランド名である。\n電子ゲーム版『コンピュータマージャン役満』についても本項にて記載する。\nゲームソフトの『役満』シリーズのラインナップは以下の通り。\n\n役満（ゲームボーイ）\n新4人打ちマージャン 役満天国（ファミリーコンピュータ）\nどこでも対局 役満アドバンス（ゲームボーイアドバンス）\n役満DS（ニンテンドーDS）\nWi-Fi対応 役満DS（ニンテンドーDS）\n役満Wii 井出洋介の健康麻将（Wii）\n役満 鳳凰（Wii U、ニンテンドー3DS）"
   },
   {
     "id": "fcyu001",
@@ -1431,7 +1453,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《妖怪俱樂部》（妖怪倶楽部、Yokai Club）是 TOSE 開發、Jaleco 於 1987 年 5 月 19 日發行的 Famicom 動作遊戲，以妖怪為主題的橫向卷軸動作冒險。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -1442,7 +1464,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "Y",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『妖怪倶楽部』（ようかいくらぶ、Yokai Club）は、トーセが開発しジャレコより1987年5月19日に発売されたファミリーコンピュータ用アクションゲームである。"
   },
   {
     "id": "fcra001",
@@ -1468,7 +1491,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Lagrange Point》（ラグランジュポイント）是 Konami 於 1991 年 4 月 26 日發行的 Famicom 遊戲，是一款以科幻世界觀展開的電腦角色扮演遊戲，搭載 VRC7 音源晶片，音質為 FC 末期之最。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -1479,7 +1502,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "L",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_jp": "『ラグランジュポイント』 (LAGRANGE POINT) は、1991年4月26日にコナミから発売されたファミリーコンピュータ用ゲームソフト。SFの世界観で展開されるコンピュータRPGである。"
   },
   {
     "id": "fcri001",
@@ -1507,7 +1531,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《理佐的妖精傳說》是 Konami（現 Konami Digital Entertainment）於 1988 年 6 月 21 日發行的跨媒體冒險遊戲，宣傳標語為「請將你的勇氣與智慧借給理佐」。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -1519,7 +1543,8 @@
     "letter": "R",
     "no_intro_name": "Risa no Yousei Densetsu (Japan)",
     "genre_raw": "冒險 (ADV)",
-    "genre_en": "Adventure"
+    "genre_en": "Adventure",
+    "overview_jp": "『リサの妖精伝説』 （リサのようせいでんせつ） は、コナミ（現・コナミデジタルエンタテインメント）が1988年6月21日に発売したメディアミックス・アドベンチャーゲームである。　キャッチ・コピーは『あなたの勇気と知恵を、理佐にください。』"
   },
   {
     "id": "fcru001",
@@ -1545,7 +1570,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Route 16》（ルート16）是 1981 年由 Sun Electronics（Sunsoft）開發、岐阜特機發行的大型電玩遊戲，本 Famicom 版本為《Route-16 Turbo》增強移植版。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -1556,7 +1581,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "R",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ルート16』（ルートシックスティーン）は、1981年にサン電子が開発し、岐阜特機より発売されたアーケードゲームである。"
   },
   {
     "id": "fcre001",
@@ -1593,7 +1619,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "R",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": ""
   },
   {
     "id": "fcro001",
@@ -1619,7 +1646,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Royal Blood》是光榮於 1991 年 8 月 29 日發行的 Famicom 模擬遊戲。本作為光榮在以史實為基礎的歷史模擬遊戲之外，新推出的「Imagination Game」系列首作，採用原創世界觀與人物。玩家須收集散落於 Ishmeria 大陸的 6 顆寶石與 1 頂王冠，征服 30 個國家成為國王。製作人為襟川陽一。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -1630,7 +1657,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "R",
     "genre_raw": "策略 (SLG)",
-    "genre_en": "Strategy"
+    "genre_en": "Strategy",
+    "overview_jp": "『ロイヤルブラッド』 (Royal Blood) は、1991年8月29日に光栄から発売されたファミリーコンピュータ用シミュレーションゲーム。\n史実をベースとする歴史シミュレーションゲームを主に発売していた同社による、オリジナルの世界観と登場人物を導入した新シリーズ「イマジネーションゲーム」の第1作として発売された作品。イシュメリア大陸に散乱した6つの宝石と1つの王冠を集めて30か国におよぶ国家を支配し王となる事を目的としたターン制ストラテジーゲームである。\n開発は光栄が行い、プロデューサーはシブサワ・コウ、音楽は後にパソコン用ソフト『EMIT』（1994年）を手掛けた伊藤ヨシユキおよびナムコのアーケードゲーム『ソウルエッジ』（1996年）を手掛けたシンガーソングライターの新田真澄が担当している。\nパソコン用ソフトを主力としていた同社の作品としては珍しく、ファミリーコンピュータ版が初出となっている。その後、さまざまな日本国産パソコン機種にされ、北米では『Gemfire』のタイトルでPC/AT互換機に移植された。メガドライブ等の家庭用ゲーム機にも移植されており、スーパーファミコン版は『スーパーロイヤルブラッド』のタイトルで発売された。PC-9801版を復刻収録した『コーエー25周年記念パック Vol.2』も発売され、後に『コーエー定番シリーズ』として単品発売もされている。\n後に本作のタイトルを受け継いだ『ロイヤルブラッドII 〜ディナール王国年代記〜』も発売されたが、ストーリー的な繋がりはない。"
   },
   {
     "id": "fcwa001",
@@ -1658,7 +1686,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Wardner 之森》（ワードナの森）是 Taito 於 1987 年發行的大型電玩遊戲，由東亞 Plan 開發，海外版以《Wardner》為名上市，類型為橫向卷軸動作遊戲。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -1670,7 +1698,8 @@
     "letter": "W",
     "no_intro_name": "Wardner no Mori (Japan)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ワードナの森』（ワードナのもり）は、1987年にタイトーより稼働されたアーケードゲーム。\n開発は東亜プラン。日本国外では『Wardner』（ワードナ）のタイトルで稼働された。"
   },
   {
     "id": "fca002",
@@ -1698,7 +1727,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "北極星是指最靠近北天極的恆星，距離地球約433光年，質量太陽的4.5倍，是北半球能見到的極星。現在的北極星是小熊座α星（勾陳一）。由於歲差的關係，不同時期的北極星是不同的。\n4800年前，當時的北極星是天龍座α星。古希臘時代的北極星是小熊座β星。到2100年左右，目前的小熊座α和北極的夾角才會變成最小（只有27'38\"）。到31世紀後，少衛增八（仙王座γ）將會成為北極星。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -1710,7 +1739,8 @@
     "letter": "A",
     "no_intro_name": "Arctic (Japan)",
     "genre_en": "Strategy",
-    "genre_raw": "策略"
+    "genre_raw": "策略",
+    "overview_jp": "アークティック (Arctic)\n\n北極 - 地域/海域（北極点に限定されない）。\n船舶\nアークティック (砕氷船) - カナダの砕氷貨物船。1978年竣工。\nアークティック (高速戦闘支援艦) - アメリカの軍艦。1995年就役。\nアークティック (企業) - スイスのPC部品メーカー。\nアークティック (ゲーム) - アートディンクが開発・発売したパズルゲーム。"
   },
   {
     "id": "fci002",
@@ -1752,7 +1782,8 @@
     "genre_raw": "動作角色扮演 (ARPG)",
     "genre_en": "RPG",
     "genre_subtype": "動作角扮",
-    "genre_subtype_en": "Action RPG"
+    "genre_subtype_en": "Action RPG",
+    "overview_jp": ""
   },
   {
     "id": "fcu002",
@@ -1817,7 +1848,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《空中要塞》（日語：エアーフォートレス，英語：Air Fortress）是一款由HAL研究所製作和發行的平臺類遊戲。遊戲於1987年8月17日在日本地區FC遊戲機發行，1989年在北美地區發行。\nFarmel行星的人們最近獲得了大空旅行的技術。當他們急切地希望探索宇宙時，發行一大群空中要塞向他們方向駛來。\n玩家逐漸進入更具挑戰性的空中要塞。每一個空中要塞具有兩個等級：空中基地和空中要塞。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -1894,7 +1925,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《加菲貓》（英語：Garfield），部份書本譯作《加菲爾》，是一部美國漫畫，由吉姆·戴維斯（James Robert \"Jim\" Davis）創作。首部加菲貓漫畫於1978年6月19日推出。\n主角加菲（Garfield）是一隻橙色的異國短毛貓，同伴包括一隻不太聰明的寵物狗歐迪（Odie）及牠們的主人喬恩·艾伯克（Jon Arbuckle，又譯阿北、老薑）。加菲的名字取自吉姆·戴維斯的祖父詹姆斯·加菲爾·戴維斯（James Garfield Davis）。\n加菲貓自推出以來受到眾多觀眾的喜愛，是一個成功的虛擬角色。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -1905,7 +1936,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "G",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ガーフィールドの一週間』（ガーフィールドのいっしゅうかん）は、ジム・デイビスのコミックストリップ『ガーフィールド』を原作とするビデオゲームである。"
   },
   {
     "id": "fcki002",
@@ -1973,7 +2005,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《七寶奇謀》（The Goonies）是改編自 1985 年同名美國電影的遊戲，包括美國 Datasoft 開發的固定畫面動作遊戲，以及由日本 Konami 開發的 MSX 版動作遊戲與 Famicom 版橫向卷軸動作遊戲。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -1985,7 +2017,8 @@
     "letter": "T",
     "no_intro_name": "Goonies (Japan) (Disk Writer)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『グーニーズ』（The Goonies）は、1985年公開のアメリカ映画『グーニーズ』を原作とするゲームソフト。アメリカのデータソフトが開発した固定画面アクションゲームと、日本のコナミが開発したアクションゲーム（MSX版）および横スクロールアクションゲーム（ファミリーコンピュータ版）が存在する。"
   },
   {
     "id": "fcke002",
@@ -2011,7 +2044,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《計算遊戲 算數二年級》（けいさんゲーム算数2年）是東京書籍發行的 Famicom 教育娛樂軟體系列其中一作，針對小學二年級程度的算術練習設計，以遊戲化方式輔助學習。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -2022,7 +2055,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "其他 (ETC)",
-    "genre_en": "Other"
+    "genre_en": "Other",
+    "overview_jp": "『けいさんゲーム』は、東京書籍より発売されたファミリーコンピュータ用エデュテインメントソフトのシリーズ。"
   },
   {
     "id": "fcko002",
@@ -2087,7 +2121,7 @@
     ],
     "youtube": [],
     "overview_en": "The main objective is to cross different USA cities and reach the predetermined scores to go ahead. But remember: you'll have only 16 balls and every error can be lethal!\r\n\r\nThe game also comes with modes for 2 players with two variants: 2P Pocket Game (the traditional mode) and 2P 9-Ball Game, where the premise is to sink 9 balls before the other player makes them first. If you prefer, test your target in Trick Game or even hear your favorite song in Jukebox.",
-    "overview_zh": "",
+    "overview_zh": "花式撞球（英語：Pool），是撞球運動的一種型別，使用有六個球袋的球桌，以擊球入袋為主要目的。花式撞球有很多不同的玩法，每個都有其特定的名稱；一些比較知名的包括8號球、英式8號球及其變體黑球、9號球、10號球、7號球、14.1、一袋球和灌袋撞球。\n花式撞球有時亦稱為「落袋撞球」（英語：pocket billiards），但在技術觀點上，該名詞適用於更廣泛的分類，因為包括司諾克、俄式撞球和凱沙撞球等，都屬於落袋撞球，但並非花式撞球。\n還有一些混合式撞球，結合了花式撞球和開侖撞球的特性，如美式四球撞球、瓶式花式撞球、牛仔花式撞球和英式撞球。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -2100,7 +2134,8 @@
     "genre_raw": "其他 (TBG)",
     "genre_en": "Board / Card",
     "overview_en_source": "thegamesdb",
-    "tgdb_id": 1415
+    "tgdb_id": 1415,
+    "overview_jp": "『サイドポケット』は1986年にデータイーストより稼働されたアーケードゲーム。1987年10月にはデータイースト開発、ナムコ（現：バンダイナムコエンターテインメント）発売でファミリーコンピュータにも移植された。メガドライブ、ゲームボーイ、スーパーファミコン等にも移植され、『ポケットギャル』のタイトルでアーケードゲームに逆移植された。\nファミリーコンピュータ版以外は発売もデータイーストが担当している。現在はジー・モードが版権を所有する。\nなお、続編『サイドポケット2 伝説のハスラー』についても本記事で述べる。\nさらに続編としてセガサターンでは1997年7月18日（廉価版の「サタコレ」は1998年11月19日）に、PlayStationでは1998年4月16日に『サイドポケット3』が発売されている。"
   },
   {
     "id": "fcsi002",
@@ -2168,7 +2203,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《水晶之龍》是 Square（現 Square Enix）於 1986 年 12 月 15 日發行的 Famicom 磁碟機遊戲，以 DOG（Disk Original Group）品牌推出，屬指令選擇式冒險遊戲。本作以科幻世界為背景，主角少年 Hugh 須揭開出現在宇宙的水晶之龍以及夥伴失蹤事件的真相。Square 擅長的動畫式視覺場景在本作中尤以女性角色描繪見長。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -2180,7 +2215,8 @@
     "letter": "S",
     "no_intro_name": "Suishou no Dragon (Japan)",
     "genre_raw": "冒險 (ADV)",
-    "genre_en": "Adventure"
+    "genre_en": "Adventure",
+    "overview_jp": "『水晶の龍』（すいしょうのドラゴン）は、スクウェア（現・スクウェア・エニックス）より1986年12月15日に発売されたファミリーコンピュータ ディスクシステム用ゲームソフト。スクウェアがDOG（Disk Original Group）ブランドで発売した作品で、コマンド選択型のアドベンチャーゲーム。\n本作はSFをモチーフとした世界を舞台に、主人公の少年・ヒューが、宇宙空間に現れた水晶の龍の謎や、仲間たちの失踪事件の真相を解き明かす様子が描かれている。\nスクウェアが当時から得意だったアニメーションを多用したビジュアルシーンは、本作品でも特に女性の絵を中心に発揮された。また、本編中のキャラクターデザインと作画協力を佐藤元、アニメーション部分を日本サンライズ（現・サンライズ）が担当した点でも話題を呼んだ。\n発売直後の1986年に上記のアニメーションとともにシンシアの声が挿入されたテレビCMが放映された。"
   },
   {
     "id": "fcse002",
@@ -2248,7 +2284,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《索斯機械獸 2 捷尼巴斯的反擊》是東芝 EMI（現環球音樂）於 1989 年 1 月 27 日發行的 Famicom 遊戲，為前作《索斯機械獸 中央大陸的戰鬥》之續篇。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -2261,7 +2297,8 @@
     "genre_raw": "動作角色扮演 (ARPG)",
     "genre_en": "RPG",
     "genre_subtype": "動作角扮",
-    "genre_subtype_en": "Action RPG"
+    "genre_subtype_en": "Action RPG",
+    "overview_jp": "『ゾイド2 ゼネバスの逆襲』（ゾイドツー ゼネバスのぎゃくしゅう）は、1989年1月27日に東芝EMI（現・ユニバーサル ミュージック）から発売されたファミリーコンピュータ用ソフト。\n前作『ゾイド 中央大陸の戦い』の続編にあたる。"
   },
   {
     "id": "fcta002",
@@ -2366,7 +2403,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《兵蜂》（日語：ツインビー）是一款由科樂美公司製作的具有卡通風格的縱向卷軸射擊遊戲。遊戲首先於1985年在科樂美的投幣式Bubble System發行，之後1986年移植至FC遊戲機和MSX平臺。\n遊戲可以最多同時2個人進行。玩家控制著具有卡通式風格的戰艦。在遊戲中，玩家可以進行向上射擊或者投擲炸彈。在射擊雲層後，玩家可以打出一個黃色的鈴鐺。透過不斷射擊鈴鐺，鈴鐺會轉變成紅色、白色或藍色。\n任天堂3DS版《兵蜂》在Metacritic上得到68/100的分數。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -2378,7 +2415,8 @@
     "letter": "T",
     "no_intro_name": "TwinBee (Japan) (Disk Writer)",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『ツインビー』（TwinBee）は、コナミの縦スクロールシューティングゲーム。1985年3月5日にアーケードゲームとして稼働開始した。コナミのアーケードゲーム基板「バブルシステム」を初めて搭載した作品であり、また、2人同時プレイが可能なシューティングゲームとして草分け的な存在である。\n本作以降シリーズ化され、一方で1990年代には同シリーズを基にした各種メディアミックスが展開された。その後、アーケード版の各種権利が2016年11月1日にコナミデジタルエンタテインメントからコナミアミューズメントへ再継承され、現在に至っている（コナミグループ再編によるもの）。現在でもコナミアミューズメントのWebサイト内にある「アーケードゲーム」のページを開くと、アドレス欄などに表示されるファビコンとしてツインビーが用いられている。\n1986年にファミリーコンピュータおよびMSXに移植され、1988年にX68000およびディスクシステムに移植された。2003年には携帯電話ゲームとして配信された。ファミリーコンピュータ版は2004年にゲームボーイアドバンス用ソフトとしてファミコンミニシリーズとして発売された他、バーチャルコンソール対応ソフトとして2008年にWii、2013年にWii Uにて配信された。MSX版は2014年にWindows用ソフトとしてプロジェクトEGGにて配信された他、2015年にWii U用ソフトとしてバーチャルコンソールにて配信された。"
   },
   {
     "id": "fcte002",
@@ -2441,7 +2479,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "東海道五十三次，指的是日本江戶時代從江戶到京都的驛道──東海道──途中所經過的53個宿場。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -2452,7 +2490,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "K",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『かんしゃく玉なげカン太郎の東海道五十三次』（かんしゃくだまなげかんたろうのとうかいどうごじゅうさんつぎ）は、サン電子より1986年7月3日に発売されたファミリーコンピュータ用横スクロールアクションゲーム。\nこのゲームは日本を舞台にしたアクションゲームとしては最高クラスの難易度を誇るとされている。また、このゲームのフォントはアルファベットが1文字もなく、すべて日本語の文字のひらがなのみ（あいうえお…など）。\n2008年10月からMARS SIXTEENとのコラボレーションTシャツが発売されている。"
   },
   {
     "id": "fcna002",
@@ -2552,7 +2591,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《熱血格鬥傳說》（日語：熱血格闘伝説）是一款由Technōs Japan開發並發行在紅白機上的格鬥遊戲，於1992年12月23日在日本發售。\n本作是第一款在紅白機平臺上允許最多4名玩家同時對戰的格鬥遊戲（由於任天堂官方只有NES Four Score，並無支援紅白機的相應配件，因此需要使用第三方配件，例如Hori的4 Players Adapter）。\n本作由亞克系統於2020年2月20日在任天堂Switch和PlayStation 4歐美地區發行的《雙截龍系列 + 熱血系列懷舊合集》（Double Dragon & Kunio-kun: Retro Brawler Bundle）中收錄，並首次英文字地化。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -2563,7 +2602,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "N",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『熱血格闘伝説』（ねっけつかくとうでんせつ）は、テクノスジャパンより1992年12月23日に発売されたファミリーコンピュータ用ゲームソフト。"
   },
   {
     "id": "fcno002",
@@ -2589,7 +2629,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《信長之野望 戰國群雄傳》是日本光榮於 1988 年 12 月發行的 PC-88SR 歷史模擬遊戲，亦簡稱「群雄傳」。為《信長之野望》系列第三作，以戰國時代為背景，玩家操作各方戰國大名追求全國統一。基本系統承襲前作，新增屬下武將、戰場晝夜概念與攻城戰等要素。製作人為襟川陽一，部分音樂由菅野洋子擔任。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -2600,7 +2640,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "N",
     "genre_raw": "策略 (SLG)",
-    "genre_en": "Strategy"
+    "genre_en": "Strategy",
+    "overview_jp": "『信長の野望・戦国群雄伝』（のぶながのやぼう・せんごくぐんゆうでん）は、1988年12月に日本の光栄から発売されたPC-88SR用歴史シミュレーションゲーム。「群雄伝」とも略される。\n同社の『信長の野望シリーズ』第3作目。日本の戦国時代を舞台に、様々な戦国大名を操作して全国統一を果たす事を目的としている。基本的なシステムは前作から引き継いでおり、新たに配下武将の存在や戦闘時の昼夜の概念、篭城戦などが追加された。\n開発は光栄が行い、プロデューサーはシブサワ・コウ、音楽は前作に引き続き菅野よう子が担当した他、一部の曲は『維新の嵐』（1988年）を手掛けた山本光男が担当している。\n1989年には様々な日本国産パソコン機種に移植され、1990年にはファミリーコンピュータ、1998年にはPlayStation、セガサターンなどの家庭用ゲーム機に移植された。\n1999年には、本作をベースとしたゲームボーイカラー用ソフト『信長の野望 ゲームボーイ版2』（1999年）が発売された。また、北米においてはPC/AT互換機用ソフトとして『Nobunaga's Ambition II』のタイトルで発売された。2001年にはコーエー定番シリーズの1作としてWindowsにてリメイク版が発売された他、『コーエー25周年記念パックVol.4』（2003年）にはPC-9801版が収録された。2007年には携帯電話ゲームとして配信された。"
   },
   {
     "id": "fcha002",
@@ -2699,7 +2740,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《火焰之紋章外傳》（日語：ファイアーエムブレム外伝）是一款由Intelligent Systems開發、任天堂發行的戰略角色扮演遊戲，適用於紅白機平臺。這款遊戲是火焰之紋章系列的第二款作品，同時是最後一款發行於紅白機的作品。遊戲以前作《暗黑龍與光之劍》的玩法為基礎，並加入多項新的遊戲元素。在故事方面，遊戲與前作共享同一個世界觀，但背景則設定於瓦倫西亞大陸上，主要描寫阿雷武及賽莉卡這兩位主角。而遊戲亦是系列內首部採用男女雙主角的作品。\n在系列首作《暗黑龍與光之劍》發售並獲得商業上的成功後，遊戲的開發工作亦於1990年展開。加賀昭三擔任遊戲總監、設計師及編劇，而橫井軍平及辻橫由佳則分別擔任遊戲製作人及作曲家。加賀在遊戲設計中改善了前作一些備受批評的遊戲元素，並希望加深玩家與角色單位之間的關係。1992年3月14日，遊戲在日本國內發行，後來更取得商業上的成功，亦獲得遊戲評論家們的正面評價。儘管大多新增的遊戲元素在系列之後的作品中被捨棄，但部份設定卻被保留下來並應用於後續作品。2017年，任天堂在全球發行適用於任天堂3DS平臺的遊戲重製版《火焰之紋章 回聲 另一位英雄王》。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -2710,7 +2751,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "F",
     "genre_raw": "策略 (SLG)",
-    "genre_en": "Strategy"
+    "genre_en": "Strategy",
+    "overview_jp": "『ファイアーエムブレム外伝』（ファイアーエムブレムがいでん）は、ファイアーエムブレムシリーズの二作目で、1992年3月14日ファミリーコンピュータ用ソフトとして任天堂より発売されたシミュレーションRPG（戦略シミュレーションゲーム）である。"
   },
   {
     "id": "fche002",
@@ -2738,7 +2780,7 @@
     ],
     "youtube": [],
     "overview_en": "Baseball is a simple baseball video game made by Nintendo in 1983 for the Nintendo Family Computer, making it one of the first games released for the Famicom. It was later one of the NES's 18 launch titles when it was released in 1985 in the United States. As in real baseball, the object of the game is to score the most runs. Up to two players are supported. Each player can select from one of six teams. Although there is no difference between them other than uniform color, they are meant to represent the six members of the Japanese Central League.",
-    "overview_zh": "",
+    "overview_zh": "棒球（英語：Baseball，閩語稱為棍球，日語、臺語、韓語稱為野球。），為一種團體球類運動，由人數最少為9人的兩支隊伍在一個扇形的棒球場進行攻擊與守備。棒球球員分為進攻方與防守方，攻方球員利用球棒將守方投擲的球擊出，隨後以逆時針方向沿著四個壘位進行跑壘，當成功回到本壘就可得1分；而守方則利用手套將攻方擊出的球接住或透過傳球，將攻方球員封殺或觸殺出局。比賽中，兩隊輪流攻守，比賽結束後，得分較高的一隊會勝出；若雙方得分仍相同，則進入延長賽；在延長賽中每一局規則均按照正規賽最後一個半局計算，在該局下半局結束後若分數有差距即結束比賽。延長賽在各國職業賽場上有不同規定，中華職棒大聯盟例行賽最多到12局(即延長三局)，未能分出勝負即和局，美國職棒則是無限延長直至分出勝負。國際賽或總冠軍，則視規定情況比賽至分出勝負。近年多國職棒採取突破僵局制，避免延長賽無限延長過久，其規則為當比賽進入延長時每半局開始即有一位跑者先站在二壘提高得分可能。\n棒球起源於19世紀的英格蘭，後流傳到北美洲；在美國成為國民運動後，分別流傳至中南美洲及亞洲東部；目前在中美洲、日本、韓國、臺灣為當地數一數二受歡迎的體育運動；而在美國近年該運動的人氣則有逐漸下降的趨勢。棒球曾經在1992年至2008年為奧林匹克運動會的正式專案，但之後被從正式專案中移除，自此之後並非每屆舉辦。目前棒球的主要一級國際賽事有世界棒球經典賽與世界棒球12強賽與前述的奧運棒球賽事。全球有多個地區設有職業棒球聯盟，而美國職棒大聯盟被公認是世界強度最高的職業棒球聯盟。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -2754,7 +2796,8 @@
     "overview_en_source": "thegamesdb",
     "players": 2,
     "age_rating": "Not Rated",
-    "tgdb_id": 335
+    "tgdb_id": 335,
+    "overview_jp": "『ベースボール』 (BASEBALL) は、1983年12月7日に任天堂から発売された、ファミリーコンピュータ（ファミコン）用ゲームソフトである。1986年2月21日にディスクシステムへ移植されている。"
   },
   {
     "id": "fcho002",
@@ -2780,7 +2823,7 @@
     ],
     "youtube": [],
     "overview_en": "Despite being rather short on story and depth, this game was nevertheless fairly popular. The game flashes three \"cardboard cut-outs\" of a mixture of bad guys and innocent civilians. The player needs to react quickly and shoot the thugs while sparing the bystanders and other friendlies (such as police officers). The game gets more difficult and faster as it progresses",
-    "overview_zh": "",
+    "overview_zh": "光線槍系列（光線銃シリーズ）是任天堂推出、運用光感技術的射擊玩具系列，由 Game & Watch 創始人橫井軍平構思設計。本作《打擊壞人》（Hogan's Alley）為對應 Famicom 光線槍周邊的射擊遊戲。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -2795,7 +2838,8 @@
     "overview_en_source": "thegamesdb",
     "players": 1,
     "age_rating": "E - Everyone",
-    "tgdb_id": 1317
+    "tgdb_id": 1317,
+    "overview_jp": "光線銃シリーズ（こうせんじゅうシリーズ）は、任天堂より発売された光を用いた射撃玩具。考案者はゲーム&ウオッチ等を手掛けた横井軍平。"
   },
   {
     "id": "fcma002",
@@ -2861,7 +2905,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《水島新司之大甲子園》是 Capcom 於 1990 年 10 月 26 日發行的 Famicom 棒球模擬遊戲。本作忠實重現水島新司棒球漫畫《大飯桶》（1972–1981）至《大甲子園》（1983–1987）的劇情，玩家可使用明訓高校挑戰賽事。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -2872,7 +2916,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "M",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_jp": "『水島新司の大甲子園』（みずしましんじのだいこうしえん）は、1990年10月26日にカプコンから発売されたファミリーコンピュータ用の野球シミュレーションゲーム。\n水島新司の野球漫画『ドカベン』（1972年 - 1981年）から『大甲子園』（1983年 - 1987年）までのストーリーを忠実に再現し、明訓高校を使用して勝ち進むシミュレーション野球ゲームである。"
   },
   {
     "id": "fcmu002",
@@ -2899,7 +2944,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "彈珠臺（英語：Pinball）是由雷蒙·莫洛尼於西元1934年所發明，是一種投幣式街機，利用金屬球與機械進行遊戲。後來也演變成為了一種電腦遊戲。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -2911,7 +2956,8 @@
     "letter": "M",
     "no_intro_name": "Moonball Magic (Japan) (Disk Writer)",
     "genre_raw": "其他 (TGB)",
-    "genre_en": "Other"
+    "genre_en": "Other",
+    "overview_jp": "『ムーンボールマジック』（Moon Ball Magic）は、1988年7月12日よりDOGブランドから発売されたファミリーコンピュータ ディスクシステム用のピンボールゲーム。開発はシステムサコム。"
   },
   {
     "id": "fcme002",
@@ -2939,7 +2985,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《迷宮寺院 Dababa》（迷宮寺院ダババ、Meikyuu Jiin Dababa）是 Konami 於 1987 年 5 月 29 日發行的 Famicom 磁碟機遊戲，類型為動作冒險。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -2951,7 +2997,8 @@
     "letter": "M",
     "no_intro_name": "Meikyuu Jiin Dababa (Japan)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『迷宮寺院ダババ』（めいきゅうじいんダババ）は、コナミが1987年5月29日に発売したファミリーコンピュータ ディスクシステム用ソフト。"
   },
   {
     "id": "fcmo002",
@@ -3054,7 +3101,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《妖怪道中記》是日本Namco（當時為Namcot）公司推出的動作遊戲之一，於1987年首度推出街機版本。\n除街機外，遊戲亦推出紅白機、PC Engine及Wii的Virtual Console版本，但遊戲配置、佈景等均與街機版本不同。\n故事講述一位名為Tarosuke的主角，跑往地獄之路冒險去，途中需攻擊敵人及拿取金錢，而主角在遊戲的表現將決定其結局。\n遊戲結局共有5個，包括主角會進入天界、回到人間、打落畜生界、餓鬼界或地獄界。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -3065,7 +3112,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "Y",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『妖怪道中記』（ようかいどうちゅうき）は、1987年4月に稼働したナムコのアーケード用横スクロールアクションゲーム。\n後にゲームシステムが変更されてPCエンジンやファミリーコンピュータなどの他機種でも発売された（#移植版）。"
   },
   {
     "id": "fcra002",
@@ -3091,7 +3139,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《拉薩爾石井的 Childs Quest》是 Namco 於 1989 年 6 月 23 日發行的 Famicom 角色扮演遊戲，一般稱為「Childs Quest」，公式簡稱「Chai Que」。為「Namcot Famicom Game 系列」第 59 彈。標題雖冠上拉薩爾石井之名，實際是因為他擔任旗下搞笑偶像團體「Childs」的製作人；石井本人並未實際參與企劃開發。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -3102,7 +3150,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "R",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_jp": "『ラサール石井のチャイルズクエスト』（ラサールいしいのチャイルズクエスト）は、1989年6月23日にナムコから発売されたファミリーコンピュータ用ロールプレイングゲーム。一般的には「チャイルズクエスト」と呼ばれ、公式な略称は「チャイクエ」。「ナムコット ファミリーコンピュータゲームシリーズ」第59弾。\nタイトルにラサール石井の名前を冠しているが、あくまで同社所属のお笑いアイドルグループ「チャイルズ」をプロデュースしている意味合いからであるとされている。そのため、石井本人は本作の企画、開発にはほとんど関与していない。"
   },
   {
     "id": "fcri002",
@@ -3128,7 +3177,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Lipple Island》是日本 Sunsoft（Sun Electronics）於 1988 年 1 月 23 日發行的 Famicom 指令選擇式冒險遊戲。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -3139,7 +3188,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "L",
     "genre_raw": "冒險 (ADV)",
-    "genre_en": "Adventure"
+    "genre_en": "Adventure",
+    "overview_jp": "『リップルアイランド』は、1988年1月23日に日本のサンソフト（サン電子）から発売されたファミリーコンピュータ用のコマンド選択式アドベンチャーゲームである。"
   },
   {
     "id": "fcru002",
@@ -3165,7 +3215,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "花式撞球（英語：Pool），是撞球運動的一種型別，使用有六個球袋的球桌，以擊球入袋為主要目的。花式撞球有很多不同的玩法，每個都有其特定的名稱；一些比較知名的包括8號球、英式8號球及其變體黑球、9號球、10號球、7號球、14.1、一袋球和灌袋撞球。\n花式撞球有時亦稱為「落袋撞球」（英語：pocket billiards），但在技術觀點上，該名詞適用於更廣泛的分類，因為包括司諾克、俄式撞球和凱沙撞球等，都屬於落袋撞球，但並非花式撞球。\n還有一些混合式撞球，結合了花式撞球和開侖撞球的特性，如美式四球撞球、瓶式花式撞球、牛仔花式撞球和英式撞球。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -3176,7 +3226,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "L",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_jp": "『ルナーボール』 (Lunar Ball) は、1985年にコンパイルが開発し、ポニーキャニオンが販売したゲームソフト。ビリヤードをモチーフにしてアレンジを加えたテーブルゲームである。\n1985年6月にPC-8800シリーズ版が、同年12月にMSX版およびファミリーコンピュータ版が発売された。ファミリーコンピュータ版は北米、欧州では『Lunar Pool』というタイトルで発売された。"
   },
   {
     "id": "fcre002",
@@ -3202,7 +3253,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《女超人蕾拉》（日語：レイラ）是一款由dB-SOFT製作和發行的動作類遊戲。 本遊戲於1986年12月20日在日本地區FC遊戲機發行。\n17歲的少女蕾拉需要去營救她的同伴和朋友Iris。她被惡魔博士Manitoka所誘拐。\n本遊戲原計劃在9月上市，遊戲被標註為第二款女性英雄角色的FC遊戲。緊接著《女武士大冒險 時之鑰傳說》。（《銀河戰士》的主角薩姆斯此時的性別是個秘密）《週刊Fami通》的四名遊戲評論者給與本遊戲26/40的分數（5、7、7、7）。《Marukatsu FC》的三名遊戲評論者給與本遊戲11/15的分數（4、4、3）。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -3213,7 +3264,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "L",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『レイラ』 (Layla) は、1986年12月20日にデービーソフト/dB-SOFT（現：ネットファーム・コミュニケーションズ）より発売されたファミリーコンピュータ用ゲームソフト。"
   },
   {
     "id": "fcro002",
@@ -3276,7 +3328,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Warpman》是 Namco 於 1985 年 7 月 12 日發行的 Famicom 動作射擊遊戲，為「Namcot Famicom Game 系列」第 8 彈。本作是 1981 年大型電玩《Warp & Warp》的進化移植版。原本由深谷正一負責程式，因其於開發中過世，由大森田不可止接手完成。2020 年也作為 Switch《Namcot Collection》的 DLC 重新發行。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -3287,7 +3339,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "W",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ワープマン』（WARPMAN）は、1985年7月12日にナムコよりファミリーコンピュータ用として発売されたアクションシューティングゲーム。「ナムコット ファミリーコンピュータゲームシリーズ」第8弾。2020年8月20日にはNintendo Switch用ソフト『ナムコットコレクション』の追加DLCとしてファミコン版が移植配信されている。\nアーケードゲーム『ワープ&ワープ』（1981年7月、後述）のグレードアップ移植作品でもある。\n開発もナムコが担当し、プログラムは深谷正一が手掛けていたが開発中に死去したため、残りは大森田不可止によって仕上げた。"
   },
   {
     "id": "fca003",
@@ -3313,7 +3366,7 @@
     ],
     "youtube": [],
     "overview_en": "Duke it out with the computer or take on a friend in a battle of brute strength and wits in Urban Champion. You and your opponent each start with 200 stamina points. Flower pots falling from the building above will cause you to lose five stamina points, and you'll lose even more for being punched or kicked. When you've managed to get your opponent's stamina points down to zero, you've won the round. A round can also be won by pushing your opponent off of the screen. Also, if time runs out the losing fighter will be taken away by a cop car, or a player can lose by falling into an open manhole. A match has been won after you've defeated your opponent three times. After winning, you will be declared the Urban Champion.",
-    "overview_zh": "",
+    "overview_zh": "《Urban Champion》是任天堂於 1984 年 11 月 14 日發表的 Famicom 對戰格鬥遊戲，是 Famicom 平台上首款對戰格鬥遊戲。同年也以《VS. Urban Champion》之名推出大型電玩版。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -3328,7 +3381,8 @@
     "overview_en_source": "thegamesdb",
     "players": 2,
     "age_rating": "Not Rated",
-    "tgdb_id": 1390
+    "tgdb_id": 1390,
+    "overview_jp": "『アーバンチャンピオン』（URBAN CHAMPION）は、1984年11月14日に任天堂より発表されたファミリーコンピュータ初の対戦型格闘ゲーム。同年に『VS.アーバンチャンピオン』としてアーケード版が稼働されている。"
   },
   {
     "id": "fci003",
@@ -3509,7 +3563,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《快傑洋槍丸》（快傑ヤンチャ丸、Kid Niki: Radical Ninja）是 Irem 於 1986 年推出的大型電玩遊戲。翌年 9 月 26 日推出 Famicom 版，11 月於北美推出 NES 版，並移植到 Apple II 及 Commodore 64 等平台。FC 版後收錄於 3DS《柏青嫂 3D Deluxe 海物語》合輯中。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -3520,7 +3574,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "K",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『快傑ヤンチャ丸』（かいけつやんちゃまる、英題：『Kid Niki: Radical Ninja』）は、1986年にアイレム（現・アイレムソフトウェアエンジニアリング）から稼動されたアーケードゲーム。\n翌年9月26日には日本国内にてファミリーコンピュータ版が発売され、北米においては11月にNES版が発売された他、Apple II、コモドール64版が発売された。\nファミリーコンピュータ版は後にニンテンドー3DS用ソフト『パチパラ3D デラックス海物語 ～パチプロ風雲録・花 孤島の勝負師たち～』（2013年）に収録され、アーケード版はPlayStation 4およびNintendo Switch用ソフトとしてアーケードアーカイブスにて配信された。"
   },
   {
     "id": "fcki003",
@@ -3625,7 +3680,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《計算遊戲 算數三年級》（けいさんゲーム算数3年）是東京書籍發行的 Famicom 教育娛樂軟體系列其中一作，針對小學三年級程度的算術練習設計，以遊戲化方式輔助學習。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -3636,7 +3691,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "其他 (ETC)",
-    "genre_en": "Other"
+    "genre_en": "Other",
+    "overview_jp": "『けいさんゲーム』は、東京書籍より発売されたファミリーコンピュータ用エデュテインメントソフトのシリーズ。"
   },
   {
     "id": "fcko003",
@@ -3673,7 +3729,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "G",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": ""
   },
   {
     "id": "fcsa003",
@@ -3699,7 +3756,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《西遊記 World》是 Jaleco 於 1988 年 11 月 11 日發行的 Famicom 動作 RPG。續作《西遊記 World II 天上界的魔神》亦在此一併介紹。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -3710,7 +3767,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『西遊記ワールド』（さいゆうきワールド）は、1988年11月11日にジャレコより発売されたファミリーコンピュータ用アクションRPG。続編の『西遊記ワールドII 天上界の魔神』についても、取り上げる。"
   },
   {
     "id": "fcsi003",
@@ -3810,7 +3868,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《聖鈴傳說 Lickle》（聖鈴伝説リックル、Little Samson）是 Taito 於 1992 年 6 月 26 日發行的日版 Famicom 動作遊戲，是 FC 末期備受好評的高品質作品。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -3821,7 +3879,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『聖鈴伝説リックル』（せいれいでんせつリックル、英題：Little Samson）は、1992年6月26日にタイトーより発売された日本のファミリーコンピュータ用ゲームソフト。"
   },
   {
     "id": "fcso003",
@@ -3959,7 +4018,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《TwinBee》是 Konami 推出的縱向卷軸射擊遊戲，1985 年 3 月 5 日以大型電玩形式推出，是 Konami 大型電玩基板「Bubble System」首款搭載作品，也是支援雙人同時遊玩的射擊遊戲先驅。本作之後系列化，1990 年代並推出多種跨媒體作品。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -3971,7 +4030,8 @@
     "letter": "T",
     "no_intro_name": "TwinBee (Japan) (Disk Writer)",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『ツインビー』（TwinBee）は、コナミの縦スクロールシューティングゲーム。1985年3月5日にアーケードゲームとして稼働開始した。コナミのアーケードゲーム基板「バブルシステム」を初めて搭載した作品であり、また、2人同時プレイが可能なシューティングゲームとして草分け的な存在である。\n本作以降シリーズ化され、一方で1990年代には同シリーズを基にした各種メディアミックスが展開された。その後、アーケード版の各種権利が2016年11月1日にコナミデジタルエンタテインメントからコナミアミューズメントへ再継承され、現在に至っている（コナミグループ再編によるもの）。現在でもコナミアミューズメントのWebサイト内にある「アーケードゲーム」のページを開くと、アドレス欄などに表示されるファビコンとしてツインビーが用いられている。\n1986年にファミリーコンピュータおよびMSXに移植され、1988年にX68000およびディスクシステムに移植された。2003年には携帯電話ゲームとして配信された。ファミリーコンピュータ版は2004年にゲームボーイアドバンス用ソフトとしてファミコンミニシリーズとして発売された他、バーチャルコンソール対応ソフトとして2008年にWii、2013年にWii Uにて配信された。MSX版は2014年にWindows用ソフトとしてプロジェクトEGGにて配信された他、2015年にWii U用ソフトとしてバーチャルコンソールにて配信された。"
   },
   {
     "id": "fcte003",
@@ -4076,7 +4136,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Knight Move》（ナイトムーブ）是任天堂於 1990 年 6 月 5 日發行的 Famicom 磁碟機動作解謎遊戲，以西洋棋騎士的走法為核心玩法設計。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -4088,7 +4148,8 @@
     "letter": "K",
     "no_intro_name": "Knight Move (Japan) (Rev 1) (Disk Writer)",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_jp": "『ナイトムーブ』 (KNIGHT MOVE) は、1990年6月5日にファミリーコンピュータ ディスクシステム用ゲームとして、任天堂より発売されたアクションパズルゲームである。"
   },
   {
     "id": "fcni003",
@@ -4154,7 +4215,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《熱血高校躲避球部》（熱血高校ドッジボール部）是 Technos Japan 於 1987 年 11 月發表的大型電玩遊戲，後續推出大量主機移植版及續作，是熱血系列重要作品之一。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -4165,7 +4226,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "N",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_jp": "『熱血高校ドッジボール部』（ねっけつこうこうドッジボールぶ）は、テクノスジャパンより1987年11月に発表されたアーケードゲーム。のちにハードウェア移植や続編が数多く発表された（#移植版・続編・関連商品を参照）。"
   },
   {
     "id": "fcno003",
@@ -4228,7 +4290,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Barcode World》（バーコードワールド）是 Sunsoft 於 1992 年 12 月 18 日發行的 Famicom 角色扮演遊戲，特色是利用條碼讀取機產生敵人或道具的玩法。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -4239,7 +4301,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "B",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_jp": "『バーコードワールド』は、1992年12月18日にサンソフトから発売されたファミリーコンピュータ用ロールプレイングゲーム。"
   },
   {
     "id": "fchi003",
@@ -4386,7 +4449,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《港都連續殺人事件》是堀井雄二設計的冒險遊戲。1983 年 6 月由 Enix（現 Square Enix）首先在 PC-6001 上發行，當時移植到多款電腦平台。1985 年 11 月 29 日推出 Famicom 移植版，是 Famicom 上首款冒險遊戲。2001 年另推出功能型手機（i-mode 等）的重製版。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -4397,7 +4460,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "P",
     "genre_raw": "冒險 (AVG)",
-    "genre_en": "Adventure"
+    "genre_en": "Adventure",
+    "overview_jp": "『ポートピア連続殺人事件』（ポートピアれんぞくさつじんじけん）は、堀井雄二がデザインしたアドベンチャーゲーム。\n1983年6月にエニックス（現在のスクウェア・エニックス）よりPC-6001版から発売され、当時の多くのパソコンに移植された。1985年11月29日にファミリーコンピュータ（以下、ファミコン/FC）移植版が発売され、FC初のアドベンチャーゲームとなった。\n2001年にはフィーチャーフォン用の携帯電話ゲーム（携帯アプリ）としてリメイク版も配信された。"
   },
   {
     "id": "fcma003",
@@ -4540,7 +4604,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《迷宮島》是 Irem 於 1988 年推出的大型電玩動作解謎遊戲，1990 年 6 月 29 日推出 Famicom 版。1991 年原本預計以《迷宮島 Special》之名移植到 PC Engine，但因故取消發行。本作運作前的開發名稱為《Kickle Cubicle》，主角名稱「Kickle」即為當時遺跡。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -4551,7 +4615,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "M",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_jp": "『迷宮島』（めいきゅうじま）は、1988年にアイレムが稼動したアーケード用のアクションパズルゲーム。\n1990年6月29日にはファミリーコンピュータ用ソフトとして発売された。なお、1991年に『迷宮島 Special』という名称でPCエンジンへの移植版が発売予定だったが、諸事情により発売中止となった。\n本作の稼動前のタイトルは『キックルキューブル』であった。そのため1988年に発売されたサウンドトラックCD『アール・タイプ〜アイレム・ゲーム・ミュージック』に収録されている本作の曲は、『キックルキューブル』の曲として表記されている。また、主人公の名前がキックルであるなど、多少の名残がある。また、日本国外では『Kickle Cubicle』（キックル・キュービクル）のタイトルで発売されている。\nなお、以下の内容はファミリーコンピュータ版のものである。"
   },
   {
     "id": "fcmo003",
@@ -4655,7 +4720,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《妖怪屋敷》（ようかいやしき、Youkai Yashiki）是 CASIO 計算機於 1986 年發行的 MSX 動作遊戲，後續另有移植到 Famicom 等平台的版本。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -4667,7 +4732,8 @@
     "letter": "Y",
     "no_intro_name": "Youkai Yashiki (Japan)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『妖怪屋敷』（ようかいやしき）は、カシオ計算機より1986年に発売されたMSX用アクションゲーム。\nなお、本項では移植版についても併せて記載する。"
   },
   {
     "id": "fcra003",
@@ -4693,7 +4759,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Last Armageddon》是日本 Brain Grey 於 1988 年 6 月發行的 PC-8801 角色扮演遊戲。背景設定在人類滅亡後的地球，描繪倖存怪物與突然降臨的外星人之間的抗爭。本作沒有可購買道具的商店，且角色升級時外觀會隨之變化。企劃與劇本由日後操刀 River Hill Soft《BURAI》的飯島健男擔任。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -4704,7 +4770,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "L",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_jp": "『ラストハルマゲドン』（LAST ARMAGEDDON）は、1988年6月に日本のブレイングレイから発売されたPC-8801用ロールプレイングゲーム。\n人類滅亡後の地球を舞台に、生き残ったモンスターと突如として現れたエイリアンとの抗争を描いている。アイテムを購入する店舗が存在しない事や、レベルアップする事でキャラクターの容姿が変化していく事などが特徴。\n開発はブレイングレイが行い、企画およびシナリオは後にリバーヒルソフトのパソコン用ソフト『BURAI』（1989年）を手掛けた飯島健男が担当、音楽は後にPCエンジン用ソフト『改造町人シュビビンマン2 -新たなる敵-』（1991年）を手掛けた葉山宏治が担当している。発売当時、ブレイングレイに直接ハガキを送ると『ラストハルマゲドンモンスター図鑑』がもらえた。これは『抜忍伝説番外編』と同じ手法である。\n後に日本国産パソコン各種に移植された他、PCエンジンCD-ROM²やファミリーコンピュータなどの家庭用ゲーム機にも移植された。続編企画としては、パソコン版で日本妖怪対西洋妖怪の対決を描くラストハルマゲドン番外編『妖怪変紀行』、PCエンジン版『ラストハルマゲドンII』が発表されたが、いずれも発売には至らなかった。"
   },
   {
     "id": "fcri003",
@@ -4806,7 +4873,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《彩虹島》（Rainbow Islands）是 Taito 於 1987 年開發發行的大型電玩縱向卷軸動作遊戲，副標為「THE STORY OF BUBBLE BOBBLE 2」，是前一年作品《泡泡龍》的續篇。劇情、遊戲設計與角色設計由三辻富貴朗操刀，音樂由相澤靜夫負責。前作結尾從泡泡龍變回人類的兄弟 Bubby 與 Bobby 將運用父母授予的彩虹魔法擊敗敵人並展開冒險。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -4818,7 +4885,8 @@
     "letter": "R",
     "no_intro_name": "Bubble Bobble (Japan)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『レインボーアイランド』（Rainbow Islands）は、1987年にタイトーが開発・販売したアーケード用縦スクロールアクションゲーム。\n副題に「THE STORY OF BUBBLE BOBBLE 2」と書かれている通り、前年に発表された同社のアーケードゲーム『バブルボブル』（1986年）の続編である。ストーリー、ゲーム・デザイン、キャラクター・デザインは三辻富貴朗、音楽は相澤静夫が担当している。ゲーム内容は前作のエンディングで「泡はきドラゴン」の姿から人間に戻ったバビーとボビーの兄弟が、両親より授かった虹の魔法を使って敵を倒しながら冒険するというもの。翌年には、序盤の難易度を高くし後半の難易度を抑え、面の順番を入れ替えると同時に、永久パターン対策も行われた、「エキストラ・バージョン」（レインボーアイランド・エキストラ）も稼働された。\nファミリーコンピュータやメガドライブ、PCエンジンCD-ROM²などの家庭用ゲーム機や、欧州では各種ホビーパソコンに移植された他、携帯電話アプリゲームとしても配信された。アーケードのオリジナル版は後に日本国内でWindows用ソフトとして単品で発売された他、欧米ではPlayStation 2およびXbox用ソフト『Taito Legends』（2005年）、日本ではPlayStation 2用ソフト『タイトーメモリーズII 上巻』（2007年）に収録された。アーケードのエキストラ版はPlayStation Portable用ソフト『タイトーメモリーズ ポケット』（2006年）やPlayStation 2用ソフト『タイトーメモリーズII 下巻』（2007年）に収録された。\nアーケード版はゲーム誌『ゲーメスト』の企画「第2回ゲーメスト大賞」（1988年度）にてベストエンディング賞6位を獲得した。\n後に『バブルボブルシリーズ』の第三弾として、本作の続編となるPCエンジン用ソフト『パラソルスター』（1991年）が発売された他、同じく『バブルボブルシリーズ』第三弾と銘打たれたアーケードゲーム『バブルメモリーズ』（1996年）が稼働されている。"
   },
   {
     "id": "fcro003",
@@ -4844,7 +4912,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Road Fighter》是 Konami 於 1984 年開發發行的大型電玩，類型為競速形式的動作遊戲，原本名稱為《Red Car》。後移植到 Famicom、MSX 及手機應用程式等平台。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -4855,7 +4923,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "R",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ロードファイター』 (Road Fighter) は、1984年にコナミがアーケードゲームとして開発・販売したレースゲーム形式のアクションゲームである。当初の名称は『レッドカー』。ファミリーコンピュータやMSX、携帯電話アプリに移植された。"
   },
   {
     "id": "fcwa003",
@@ -5079,7 +5148,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "黑白棋（Othello、Reversi）是兩位玩家輪流在棋盤上落子、藉由夾住對手棋子翻轉成自己顏色，最後比較棋子數量的桌上遊戲。源自 19 世紀後期英國的 Reversi，1973 年在日本以「Othello」之名上市並引發熱潮。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -5091,7 +5160,8 @@
     "letter": "O",
     "no_intro_name": "Othello (Japan) (DV 2)",
     "genre_raw": "其他 (TBG)",
-    "genre_en": "Board / Card"
+    "genre_en": "Board / Card",
+    "overview_jp": "オセロ（Othello、Reversi）は、2人のプレイヤーが交互に盤面へ石を打ちながら、相手の石を自分の石で挟むことによって自分の石へと換えていき、最終的な盤上の石の個数を競うボードゲームである。イギリスで19世紀後半に考案されたリバーシ（Reversi）の一形態が1973年に日本でオセロとして発売され、爆発的な人気を呼んだ。オセロゲーム（Othello Game）とも呼ぶ。"
   },
   {
     "id": "fcka004",
@@ -5117,7 +5187,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《快傑洋槍丸 2 機關王國》（快傑ヤンチャ丸2 からくりランド）是 Irem 於 1991 年 8 月 30 日發行的 Famicom 遊戲，類型為橫向卷軸動作遊戲，為《快傑洋槍丸》系列續作。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -5128,7 +5198,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "K",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『快傑ヤンチャ丸2 からくりランド』（かいけつやんちゃまる－）は、1991年8月30日にアイレムが発売したファミリーコンピュータ用ソフト。ジャンルは横スクロールアクションゲーム。"
   },
   {
     "id": "fcki004",
@@ -5193,7 +5264,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《七寶奇謀 2 弗拉泰利最後的挑戰》（グーニーズ2 フラッテリー最後の挑戦、THE GOONIES II）是 Konami 於 1987 年 3 月 18 日發行的 Famicom 遊戲，為前作《七寶奇謀》之續篇。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -5205,7 +5276,8 @@
     "letter": "T",
     "no_intro_name": "Goonies (Japan) (Disk Writer)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『グーニーズ2 フラッテリー最後の挑戦』（THE GOONIES II -、グーニーズツー フラッテリーさいごのちょうせん）は、コナミが1987年3月18日に発売したファミリーコンピュータ用のゲームソフト。"
   },
   {
     "id": "fcke004",
@@ -5231,7 +5303,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《計算遊戲 算數四年級》（けいさんゲーム算数4年）是東京書籍發行的 Famicom 教育娛樂軟體系列其中一作，針對小學四年級程度的算術練習設計，以遊戲化方式輔助學習。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -5242,7 +5314,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "其他 (ETC)",
-    "genre_en": "Other"
+    "genre_en": "Other",
+    "overview_jp": "『けいさんゲーム』は、東京書籍より発売されたファミリーコンピュータ用エデュテインメントソフトのシリーズ。"
   },
   {
     "id": "fcko004",
@@ -5347,7 +5420,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《J 聯盟戰鬥足球》是日本 IGS 於 1992 年 12 月 27 日發行的 Game Boy 足球遊戲，於 1993 年 J 聯盟開幕前推出，是首款獲得 J 聯盟官方授權的遊戲。收錄 J 聯盟成立時 10 支球隊，使用真實選手姓名。Famicom 版於 1993 年發行。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -5359,7 +5432,8 @@
     "letter": "J",
     "no_intro_name": "Soccer (Japan)",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_jp": "『Jリーグ ファイティングサッカー』とは、1992年12月27日に日本のIGSから発売されたゲームボーイ用サッカーゲーム。\nゲームボーイ版は1993年のJリーグ開幕前に発売しており、初のJリーグ公認ゲームとなった。チームはJリーグ開幕時の10チーム、選手データは実名を使用。\n開発はグラフィックリサーチが行い、バップの『パワー・ミッション』（1990年）を手掛けたスタッフが参加しており、ゲーム・デザインはおおぬまいさむ、音楽は玉山文人が担当している。\n1993年にはファミリーコンピュータ版も発売された。"
   },
   {
     "id": "fcsu004",
@@ -5385,7 +5459,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Arabian》（アラビアン）是 Sun Electronics（Sunsoft）於 1983 年製作的大型電玩遊戲。本 Famicom 版本《Super Arabian》為其家用主機移植版。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -5396,7 +5470,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『アラビアン』は、1983年にサン電子が製作したアーケードゲーム。"
   },
   {
     "id": "fcse004",
@@ -5510,7 +5585,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": ""
   },
   {
     "id": "fcti004",
@@ -5575,7 +5651,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《TwinBee 3 波可波可大魔王》（ツインビー3 ポコポコ大魔王）是 Konami 於 1989 年 9 月 29 日發行的 Famicom 縱向卷軸射擊遊戲，為 Famicom 上 TwinBee 系列第三作。玩家操控 TwinBee 與 WinBee 擊敗波可波可大魔王，救出被擄的 GwinBee。本作回歸純縱向卷軸與雙人同時遊玩。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -5587,7 +5663,8 @@
     "letter": "T",
     "no_intro_name": "TwinBee (Japan) (Disk Writer)",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『ツインビー3 ポコポコ大魔王』（ツインビースリー ポコポコだいまおう）は、1989年9月29日にコナミから発売されたファミリーコンピュータ用縦スクロールシューティングゲーム。\n同社の『ツインビー』（1985年）、『もえろツインビー シナモン博士を救え!』（1986年）に続くファミリーコンピュータ用ツインビーシリーズの第三作目。自機のツインビーおよびウインビーを操作し、ポコポコ大魔王を倒して攫われたグインビーを救出する事を目的としている。\n前作『もえろ』は横スクロールのステージを導入していたが、本作では初代同様、縦スクロールのみになっている。また、前作にあった3人同時プレイもなくなり2人同時プレイまでとなっている。魂復活システムや、「せってい」により難易度や自機の残機数の変更ができるなど、かなり難易度が抑えられ、明るい雰囲気と相まってゲーム初心者でも楽しめるようになっている。その他、デルタPCMの利用により「ポコポコ」と言うコンガの音が入ったり、ステージ開始時にステージ名を音声合成でしゃべるようになっている。\n開発はコナミ開発三部が行い、音楽は『コナミワイワイワールド』（1988年）を手掛けた藤尾敦、『ドラキュラ伝説』（1989年）を手掛けた船内秀浩、『夢ペンギン物語』（1991年）を手掛けた鈴木勝彦が担当している。\n2006年4月14日にはWindows用ソフトとしてi-revoにて配信された。"
   },
   {
     "id": "fcte004",
@@ -5650,7 +5727,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《鬥魂俱樂部》（闘魂倶楽部、とうこんくらぶ）是 Jaleco 於 1992 年 7 月 24 日發行的 Famicom 摔角遊戲，類型為職業摔角，是 FC 後期的運動類作品。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -5661,7 +5738,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_jp": "『闘魂倶楽部』（とうこんくらぶ）は、1992年7月24日にジャレコから発売されたファミリーコンピュータ用プロレスゲーム。"
   },
   {
     "id": "fcna004",
@@ -5877,7 +5955,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《光神話 帕露蒂娜之鏡》（光神話 パルテナの鏡、Kid Icarus）是任天堂於 1986 年 12 月 19 日發行的 Famicom 磁碟機動作遊戲，是任天堂著名的奇幻動作系列開山之作。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -5889,7 +5967,8 @@
     "letter": "H",
     "no_intro_name": "Hikari Shinwa - Palthena no Kagami (Japan) (Rev 1)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『光神話 パルテナの鏡』（ひかりしんわ パルテナのかがみ、英題：Kid Icarus）は、1986年12月19日に任天堂から発売されたファミリーコンピュータ ディスクシステム用アクションゲームである。"
   },
   {
     "id": "fchu004",
@@ -6071,7 +6150,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《米奇老鼠 不可思議國度的大冒險》是 Hudson 開發、1987 年 3 月 6 日發行的 Famicom 遊戲，主角為米老鼠與米妮老鼠。標題畫面僅顯示米老鼠 Logo 與版權宣告，未列副標題，因此也常被稱為「Famicom 的米老鼠」或「Hudson 的米老鼠」。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -6083,7 +6162,8 @@
     "letter": "M",
     "no_intro_name": "Bakuchu Mondai (1999)(Rinkaku)(JP)[h][Mickey Mouse]",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ミッキーマウス 不思議の国の大冒険』（ミッキーマウス ふしぎのくにのだいぼうけん）とはハドソンが開発し、1987年3月6日に発売されたファミリーコンピュータ（以下ファミコン）用のゲームソフト。主人公にはミッキーマウスとミニーマウスが起用されている。\nタイトル画面ではMickey Mouseのロゴと著作権表記のみ表示され、副題は記載されていない。このため、単に「ファミコンのミッキーマウス」、「ハドソンのミッキーマウス」などとも呼ばれる。"
   },
   {
     "id": "fcmu004",
@@ -6109,7 +6189,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《六三四之劍 修行中》是 Taito 於 1986 年 8 月 8 日發行的 Famicom 遊戲，改編自村上元晴的漫畫《六三四之劍》（1981–1985），開發由 Seta 負責。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -6120,7 +6200,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "M",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『六三四の剣 ただいま修行中』（むさしのけん ただいましゅぎょうちゅう）は、1986年8月8日に発売されたタイトーのファミリーコンピュータ用ゲームソフト。村上もとかの漫画『六三四の剣』（1981年 - 1985年）を原作としたゲームである。開発はセタが行っている。"
   },
   {
     "id": "fcme004",
@@ -6194,7 +6275,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "M",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": ""
   },
   {
     "id": "fcyu004",
@@ -6222,7 +6304,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《RAIMAIS》是 Taito 於 1988 年推出的大型電玩點點吃豆類遊戲。玩家操控自機「Organizer」躲避敵人、收集迷宮中的能量板、最終救出被擄走的弟弟。同年以《遊 Maze》之名移植到 Famicom 磁碟機。大型電玩版後收錄於 PS2《Taito Memories 下卷》及歐美《Taito Legends 2》合輯。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -6234,7 +6316,8 @@
     "letter": "Y",
     "no_intro_name": "Yuu Maze (Japan)",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_jp": "『レイメイズ』 (RAIMAIS) は、1988年にタイトーよりアーケードゲームとして稼働を開始したドットイートゲームである。\n自機「オルガナイザー」を操作し、敵を避けながら迷路内に点在するエナジープレートを全て取って脱出し、捕らわれた弟を救出するのがゲームの目的である。\n同年にディスクシステム用ソフトとして『遊メイズ』のタイトルで移植された。\nアーケード版は、日本国内ではPlayStation 2用ソフト『タイトーメモリーズ 下巻』（2005年）に収録された他、欧州や北米ではPlayStation 2ならびにXbox、Windows用ソフトとして発売された『Taito Legends 2 』（2006年）に収録された。その他、PlayStation Portable用ソフト『タイトーメモリーズ ポケット』（2006年）にも収録されている。\n2021年にアーケードアーカイブスの1作品としてPlayStation 4版とNintendo Switch版が配信。"
   },
   {
     "id": "fcyo004",
@@ -6345,7 +6428,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "L",
     "genre_raw": "策略 (SLG)",
-    "genre_en": "Strategy"
+    "genre_en": "Strategy",
+    "overview_jp": ""
   },
   {
     "id": "fcre004",
@@ -6371,7 +6455,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Racer 迷你四驅 Japan Cup》（レーサーミニ四駆 ジャパンカップ）是為 Famicom 發行的遊戲，以發售當時在小學生間爆紅的迷你四驅車為題材，類型為桌上遊戲（棋盤遊戲）。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -6382,7 +6466,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "R",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_jp": "『レーサーミニ四駆 ジャパンカップ』（レーサーミニよんく ジャパンカップ）は、ファミリーコンピュータ向けに発売されたコンピュータゲームである。発売当時小学生を中心に爆発的人気だったミニ四駆を題材にした、ボードゲームである。"
   },
   {
     "id": "fcro004",
@@ -6527,7 +6612,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《怒》（怒 IKARI、英文名 IKARI WARRIORS）是 SNK 於 1986 年製作推出的大型電玩縱向卷軸動作射擊遊戲，後也移植到 Famicom 等家用主機，為 SNK 早期代表作。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -6539,7 +6624,8 @@
     "letter": "I",
     "no_intro_name": "Hikari Shinwa - Palthena no Kagami (Japan) (Rev 1)",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『怒』（いかり、英：IKARI WARRIORS）は、1986年にSNKがアーケードゲーム用として制作・稼働した縦スクロール型アクションシューティングゲーム。"
   },
   {
     "id": "fcu005",
@@ -6763,7 +6849,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Quarth》是 Konami 於 1989 年推出的大型電玩。類型為固定畫面射擊遊戲兼解謎遊戲：規則屬於解謎，操作則採用射擊風格。大型電玩版宣傳標語為「前所未見的射擊解謎」。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -6774,7 +6860,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "Q",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_jp": "『クォース』 （QUARTH）は、1989年にコナミがリリースしたアーケードゲーム。\nジャンルとしては固定画面シューティングゲームでありパズルゲーム。ゲームルールはパズルゲームで、操作方法はシューティングゲームとなっている。\nアーケード版でのキャッチコピーは「前代未聞のシューティングパズル」。"
   },
   {
     "id": "fcke005",
@@ -6839,7 +6926,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Cocona World》是日本 Sofel 於 1987 年 4 月 10 日發行的 Famicom 磁碟機動作冒險與小遊戲合輯。玩家操作住在童話世界 Pine 星的公主 Cocona，體驗其日常；採俯視視角操作。遊戲中可玩到星座占卜、賓果等小遊戲。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -6851,7 +6938,8 @@
     "letter": "C",
     "no_intro_name": "Cocona World (Japan)",
     "genre_raw": "其他 (ETC)",
-    "genre_en": "Other"
+    "genre_en": "Other",
+    "overview_jp": "『ココナワールド』は、1987年4月10日に日本のソフエルから発売されたファミリーコンピュータ ディスクシステム用のアクションアドベンチャーゲームおよびミニゲーム集。\nメルヘンチックな世界に住む、パイン星の王女ココナの日常を体験するアドベンチャーゲーム。見下ろし型のフィールド上でプレイヤーがココナを操作することでゲームは進行する。ゲーム中には星占いやビンゴなどがプレイ可能であり、ミニゲーム集の側面を持っている。\n開発はソフエルが行い、プロデューサーは同社の『ザ・マネーゲーム』（1988年）を手掛けたひさとみけんじが担当、ディレクターはほりまさと、音楽は『ザ・マネーゲーム』を手掛けたどいこうじおよび『100万$キッド 幻の帝王編』（1989年）を手掛けた村井俊夫が担当している。"
   },
   {
     "id": "fcsa005",
@@ -6877,7 +6965,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《魁！男塾 疾風一號生》（魁!!男塾 疾風一号生）是 Bandai 於 1989 年 3 月 3 日發行的 Famicom 遊戲，類型為動作遊戲，改編自宮下亞喜羅的同名漫畫。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -6888,7 +6976,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『魁!!男塾 疾風一号生』（さきがけ おとこじゅく しっぷういちごうせい）は、1989年3月3日にバンダイから発売されたファミリーコンピュータ用のゲームソフトである。ジャンルはアクションゲーム。"
   },
   {
     "id": "fcsi005",
@@ -6991,7 +7080,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《聖鬥士星矢 黃金傳說》是 Bandai 發行的 Famicom 遊戲，改編自車田正美漫畫及動畫《聖鬥士星矢》，屬於動作冒險模擬遊戲。重現原作從開頭到十二宮黃金聖鬥士之戰的劇情。同條目亦介紹續作《黃金傳說 完結篇》及將兩作合一的重製版《聖鬥士星矢 黃金傳說篇 Perfect Edition》。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -7004,7 +7093,8 @@
     "genre_raw": "動作角色扮演 (ARPG)",
     "genre_en": "RPG",
     "genre_subtype": "動作角扮",
-    "genre_subtype_en": "Action RPG"
+    "genre_subtype_en": "Action RPG",
+    "overview_jp": "『聖闘士星矢 黄金伝説』（セイントセイヤ おうごんでんせつ）は、バンダイが発売したファミリーコンピュータ用ゲームソフト。車田正美の漫画、およびアニメ『聖闘士星矢』を原作とするアクションアドベンチャーシミュレーションゲームである。原作の冒頭から十二宮での黄金聖闘士との戦いまでをゲームで再現している。\n本稿では、続編となる『聖闘士星矢 黄金伝説完結編』（セイントセイヤ おうごんでんせつかんけつへん）、および『黄金伝説』と『黄金伝説完結編』をまとめた1本のゲームソフトとしてリメイクした『聖闘士星矢 黄金伝説編 Perfect Edition』（セイントセイヤ おうごんでんせつへん パーフェクト エディション）についても併せて述べる。"
   },
   {
     "id": "fcso005",
@@ -7030,7 +7120,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Softball 天國》（ソフトボール天国）是 Tonkin House 於 1989 年 10 月 27 日發行的 Famicom 壘球運動遊戲，是 FC 上少見的壘球題材作品。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -7041,7 +7131,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_jp": "『ソフトボール天国』（ソフトボールてんごく）とは、1989年10月27日にトンキンハウスより発売されたファミリーコンピュータ用のソフトボールゲームである。"
   },
   {
     "id": "fcta005",
@@ -7067,7 +7158,7 @@
     ],
     "youtube": [],
     "overview_en": "Tiger Heli is the name of your helicopter, according to the box the result of a billion-dollar defense project and forged from ebony metal and glistening chrome. Your goal is to defeat the country of Cantun, which is run by terrorists and has become completely power hungry with an aim to take over the whole world.\r\n\r\nYou're shooting tanks, ships, aircraft carriers and trains while flying towards the impenetrable military base. You shoot crates to get pickups. If you shoot the crate when it is green you get a bomb pickup, if you shoot it when it is red you get a mini helicopter that attaches to one of your sides shooting sideways, and if you shoot it when it is white you get a mini helicopter shooting forward. If you shoot 10 crates with a yellow diamond shape you get an extra life.",
-    "overview_zh": "",
+    "overview_zh": "《Tiger-Heli》是 1985 年推出的大型電玩縱向卷軸射擊遊戲，發行為 Taito，製作為東亞 Plan，是東亞 Plan 的首款射擊遊戲。1986 年移植到 Famicom，大型電玩版亦收錄於 PS《東亞 Plan Shooting Battle 1》（1996）。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -7082,7 +7173,8 @@
     "overview_en_source": "thegamesdb",
     "players": 2,
     "age_rating": "Not Rated",
-    "tgdb_id": 387
+    "tgdb_id": 387,
+    "overview_jp": "『タイガーヘリ』（TIGER-HELI）は、1985年に稼働されたアーケード用縦スクロールシューティングゲーム。販売はタイトー、製作は東亜プラン。\n東亜プランとしては初のシューティングゲーム（以下STG）である。\n1986年にはファミリーコンピュータに移植された他、アーケード版はPlayStation用ソフト『東亜プラン シューティングバトル1』（1996年）に収録された。"
   },
   {
     "id": "fcti005",
@@ -7145,7 +7237,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《突つき戰爭》（つっぱりウォーズ、Delinquent Wars）是 Sammy 於 1991 年 6 月 28 日發行的 Famicom 模擬遊戲，玩家率領不良少年陣營進行對戰。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -7156,7 +7248,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "つっぱりウォーズ（英：Delinquent Wars\" ）は1991年6月28日にサミーより、発売されたファミリーコンピュータ用シミュレーションゲームである。"
   },
   {
     "id": "fcte005",
@@ -7219,7 +7312,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《東方見文錄》是 Natsume 於 1988 年 11 月 10 日發行的 Famicom 遊戲，類型為冒險遊戲。標題並非「東方見聞錄」，而是指主角的名字「東方見文錄」。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -7230,7 +7323,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "冒險 (ADV)",
-    "genre_en": "Adventure"
+    "genre_en": "Adventure",
+    "overview_jp": "『東方見文録』（とうほうけんぶんろく）は、1988年11月10日にナツメから発売されたファミリーコンピュータ用ゲームソフト。ジャンルはアドベンチャーゲーム。タイトルは「東方見聞録」ではなく、主人公の名前である「東方見文録」を指している。"
   },
   {
     "id": "fcna005",
@@ -7333,7 +7427,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《熱血硬派國夫君》是 Technos Japan 開發、Taito 於 1986 年 5 月推出的大型電玩橫向卷軸動作遊戲。玩家操作主角國夫，為動不動就被惡黨找麻煩的好友 Hiroshi 復仇。雖然橫向卷軸範圍有限，但畫面中成群登場的敵人與肉搏戰鬥的核心玩法已成形，被視為清版動作遊戲的始祖。海外版改名為《RENEGADE》，多數角色圖像也作了改動。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -7344,7 +7438,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "N",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『熱血硬派くにおくん』（ねっけつこうはくにおくん）は、テクノスジャパンが開発を行い、1986年5月にタイトーから稼働されたアーケード用ベルトスクロールアクションゲーム。\n主人公の「くにお」を操作し、ことあるごとに悪人に絡まる友人「ヒロシ」の敵討ちを目的としたゲーム。後の同ジャンル作品と異なり限られた範囲内での横スクロールのみだが、画面内に集団で出現する敵相手に格闘を駆使して立ち回り戦うという基礎的な部分は既に確立されており、同ジャンルの始祖的な作品として認識されている。\n日本国外版は『RENEGADE』とタイトル名が変更され、ほとんどの登場人物のグラフィックも変更されている、発売元はタイトーアメリカ（国内版「くにおくん」のインストカード及びチラシにタイトーのロゴマークが記載されており、RENEGADEのタイトル画面にタイトーアメリカの表記がテクノスジャパンの表記と連名で見られる）。\n1987年にファミリーコンピュータに移植された他、欧米では1987年から1989年にかけて各種パソコンに移植、1993年には欧州でのみセガ・マスターシステムに移植された。ファミリーコンピュータ版は2003年以降に携帯電話アプリゲームとして配信された他、バーチャルコンソール対応ソフトとして2008年にWii、2013年にニンテンドー3DS、2014年にWii Uにてそれぞれ配信された。また、アーケード版はWindows用ソフトとしてプロジェクトEGGにて配信された他、PlayStation 4およびNintendo Switch用ソフトとしてアーケードアーカイブスにて配信された。2011年にはニンテンドー3DSでリメイク作『熱血硬派くにおくん すぺしゃる』が発売されている。\n後に同社より本作の登場人物を引き継いだアーケードゲーム『熱血高校ドッジボール部』（1987年）が稼働され、以後『くにおくんシリーズ』としてシリーズ化された。その他、本作を題材としたテレビドラマ『熱血硬派くにおくん』（2013年）がNOTTVにて配信された（後述）。"
   },
   {
     "id": "fcha005",
@@ -7447,7 +7542,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《太空戰士》（Final Fantasy，簡稱 FF）是日本 Square 於 1987 年 12 月 18 日發行的 Famicom 電腦 RPG，是 Final Fantasy 系列的第一部作品。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -7458,7 +7553,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "F",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_jp": "『ファイナルファンタジー』（FINAL FANTASY、略称: FF、ファイファンなど）は、1987年12月18日に日本のスクウェアから発売されたファミリーコンピュータ用コンピューターRPG。ファイナルファンタジーシリーズの第1作目。"
   },
   {
     "id": "fche005",
@@ -7638,7 +7734,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《武藏的冒險》（ムサシの冒険、Musashi no Bouken）是 Quest 開發、Sigma 商事於 1990 年 12 月 22 日發行的 Famicom 角色扮演遊戲。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -7649,7 +7745,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "M",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_jp": "『ムサシの冒険』（ムサシのぼうけん）は、クエストが開発しシグマ商事が1990年12月22日に発売したファミリーコンピュータ用ロールプレイングゲーム。"
   },
   {
     "id": "fcme005",
@@ -7675,7 +7772,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《名偵探福爾摩斯 霧之倫敦殺人事件》（名探偵ホームズ 霧のロンドン殺人事件）是 1988 年 5 月 13 日發行的 Famicom 遊戲，主角為英國名偵探夏洛克・福爾摩斯。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -7686,7 +7783,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "M",
     "genre_raw": "冒險 (ADV)",
-    "genre_en": "Adventure"
+    "genre_en": "Adventure",
+    "overview_jp": "『名探偵ホームズ 霧のロンドン殺人事件』（めいたんていホームズ きりのロンドンさつじんじけん）は、1988年5月13日に発売されたファミリーコンピュータ用ゲームソフト。"
   },
   {
     "id": "fcmo005",
@@ -7786,7 +7884,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《偵探 神宮寺三郎 橫濱港連續殺人事件》是 Data East 於 1988 年 2 月 26 日發行的 Famicom 遊戲。為硬派冒險遊戲《偵探 神宮寺三郎》系列第 2 作。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -7797,7 +7895,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "冒險 (ADV)",
-    "genre_en": "Adventure"
+    "genre_en": "Adventure",
+    "overview_jp": "『探偵 神宮寺三郎 横浜港連続殺人事件』（たんてい じんぐうじさぶろう よこはまこうれんぞくさつじんじけん）は、データイーストが1988年2月26日に発売したファミリーコンピュータ用ゲームソフト。ハードボイルドアドベンチャーゲーム『探偵 神宮寺三郎シリーズ』の第2作目。"
   },
   {
     "id": "fcra005",
@@ -7939,7 +8038,7 @@
     ],
     "youtube": [],
     "overview_en": "The player controls a stick figure who must collect all the gold in a level while avoiding guards who try to catch the player. After collecting all the gold, the player must travel to the top of the screen to reach the next level. There are 150 levels in the game which progressively challenge players' problem-solving abilities or reaction times.",
-    "overview_zh": "",
+    "overview_zh": "《Lode Runner》是由 Douglas E. Smith 構思、Broderbund 於 1983 年發行的動作解謎遊戲。與《Bungeling Bay》《Choplifter》並列「Bungeling 帝國三部曲」。後另推出進階版《Championship Lode Runner》。標題的「Lode」並非 Road（道路）或 Load（負荷），而是 Lode（礦脈）。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -7955,7 +8054,8 @@
     "overview_en_source": "thegamesdb",
     "players": 2,
     "age_rating": "E - Everyone",
-    "tgdb_id": 955
+    "tgdb_id": 955,
+    "overview_jp": "『ロードランナー』（Lode Runner）は、ダグラス・E・スミスにより考案され、ブローダーバンドから1983年に発売されたアクションパズルゲーム。『バンゲリング ベイ』『チョップリフター』とともに、バンゲリング帝国三部作の一つである。後に上級編として『チャンピオンシップロードランナー』も発売された。なおタイトルの「ロード」の綴りは''Road''（道）、''Load''（負荷）ではなく ''Lode''（鉱脈）である。"
   },
   {
     "id": "fcwa005",
@@ -8134,7 +8234,7 @@
     ],
     "youtube": [],
     "overview_en": "The extra-terrestrials in this game are anything but friendly. They're slimy monsters that are holding space colonists captive aboard seven alien starships.\r\n\r\nFor one or two players, this super action game challenges you to free the helpless hostages. Search each ship's deadly levels, using flamethrowers and laser cannons to vaporize alien scum. Look for maps to help you find your way.\r\n\r\nAfter you've saved all the captives from one ship, you must destroy its powerful leader before you can move on to the next ship. Remember, to the aliens, you're slime. And they want you good... and dead!",
-    "overview_zh": "",
+    "overview_zh": "《Alien Syndrome》是 Sega Enterprises（現 Sega）開發的動作射擊遊戲，1987 年於日本以大型電玩形式推出，使用 Sega System 16 基板。本作之後在 Sega 早期作品中算是被頻繁移植到家用主機的代表之一。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -8149,7 +8249,8 @@
     "genre_raw": "射擊",
     "overview_en_source": "thegamesdb",
     "players": 2,
-    "tgdb_id": 1614
+    "tgdb_id": 1614,
+    "overview_jp": "『エイリアンシンドローム』 (ALIEN SYNDROME) は、セガ・エンタープライゼス（現在のセガ）が開発したアクションシューティングゲーム。日本では1987年にアーケードゲームとして稼働を開始した。アーケード版の使用システム基板は「セガ・システム16」を使用している。 \nセガレトロゲームの中では家庭用ゲーム機へ移植される機会が比較的多い。それらの詳細な事例については#他機種版の節を参照。"
   },
   {
     "id": "fco006",
@@ -8212,7 +8313,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《貝獸物語》是 Namco（後 Bandai Namco Entertainment）於 1988 年 11 月 18 日發行的 Famicom 角色扮演遊戲，由 Birthday 開發，英文標題為《SHELL SAURS STORY》。本作之後系列化，續作主要由 Hudson 發行。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -8223,7 +8324,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "K",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_jp": "『貝獣物語』（かいじゅうものがたり）は、1988年11月18日にナムコ（後のバンダイナムコエンターテインメント）から発売されたファミリーコンピュータ用ロールプレイングゲームソフト。開発はバースデイ。英題は『SHELL SAURS STORY』（シェル・サウルス・ストーリー）。\n以後シリーズ化され、続編は主にハドソンから発売されている。"
   },
   {
     "id": "fcki006",
@@ -8323,7 +8425,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Geimos》（ゲイモス）是 Ascii 於 1985 年 8 月 28 日發行的 Famicom 遊戲，類型為宇宙射擊，是 Ascii 早期推出的 FC 軟體之一。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -8334,7 +8436,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "G",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『ゲイモス』は、1985年8月28日にアスキーより発売されたファミリーコンピュータ用ソフト。"
   },
   {
     "id": "fcko006",
@@ -8360,7 +8463,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Cocoron》（ココロン、COCORON）是 Takeru 於 1991 年 5 月 3 日發行的日版 Famicom 遊戲，類型為動作遊戲，標題同時也是作品中登場的虛構妖精角色名稱。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -8371,7 +8474,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "C",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ココロン』（COCORON）は、1991年5月3日にタケルより発売された日本のファミリーコンピュータ用ゲームソフト。またその作品中に登場する架空のキャラクター（妖精）の名称でもある。"
   },
   {
     "id": "fcsa006",
@@ -8477,7 +8581,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《超級魂斗羅 異形的反擊》（Super Contra）是 Konami 開發、1988 年起推出的大型電玩動作射擊遊戲，為《魂斗羅》系列第 2 作。1990 年發行的 Famicom 移植版，日本版簡稱《超級魂斗羅》、北美為《Super C》、歐洲為《Probotector II: Return of the Evil Forces》。本作後來移植到多個平台。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -8488,7 +8592,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『スーパー魂斗羅 エイリアンの逆襲』（スーパーコントラ エイリアンのぎゃくしゅう、英題：Super Contra）は、コナミが開発し1988年より稼働開始したアーケード用アクションシューティングゲーム。『魂斗羅』シリーズの第2作にあたる。\n1990年に発売されたファミリーコンピュータ移植版のタイトルは、日本では副題のない『スーパー魂斗羅』、北米では『Super C』、欧州では『Probotector II: Return of the Evil Forces』となっている。その他、様々なプラットフォームに移植されている。"
   },
   {
     "id": "fcse006",
@@ -8514,7 +8619,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《聖鬥士星矢 黃金傳說》是 Bandai 發行的 Famicom 遊戲，改編自車田正美漫畫與動畫《聖鬥士星矢》，屬於動作冒險模擬遊戲。重現原作從開頭至十二宮黃金聖鬥士之戰。本條目同時介紹續作《黃金傳說 完結篇》及將兩作合一重製的《聖鬥士星矢 黃金傳說篇 Perfect Edition》。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -8527,7 +8632,8 @@
     "genre_raw": "動作角色扮演 (ARPG)",
     "genre_en": "RPG",
     "genre_subtype": "動作角扮",
-    "genre_subtype_en": "Action RPG"
+    "genre_subtype_en": "Action RPG",
+    "overview_jp": "『聖闘士星矢 黄金伝説』（セイントセイヤ おうごんでんせつ）は、バンダイが発売したファミリーコンピュータ用ゲームソフト。車田正美の漫画、およびアニメ『聖闘士星矢』を原作とするアクションアドベンチャーシミュレーションゲームである。原作の冒頭から十二宮での黄金聖闘士との戦いまでをゲームで再現している。\n本稿では、続編となる『聖闘士星矢 黄金伝説完結編』（セイントセイヤ おうごんでんせつかんけつへん）、および『黄金伝説』と『黄金伝説完結編』をまとめた1本のゲームソフトとしてリメイクした『聖闘士星矢 黄金伝説編 Perfect Edition』（セイントセイヤ おうごんでんせつへん パーフェクト エディション）についても併せて述べる。"
   },
   {
     "id": "fcso006",
@@ -8553,7 +8659,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Solstice 三次元迷宮的狂獸》（Solstice - The Quest for the Staff of Demnos）是 Epic Sony Records（現 Epic Records Japan）於 1990 年發行的 Famicom 遊戲，由英國 Software Creations 開發。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -8564,7 +8670,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ソルスティス 三次元迷宮の狂獣』（ソルスティス さんじげんめいきゅうのきょうじゅう、英題：Solstice - The Quest for the Staff of Demnos）は、エピックソニーレコード（現：エピックレコードジャパン）から1990年に発売されたファミリーコンピュータ（以下ファミコン）用ゲームソフト。開発は英国のSoftware Creations。"
   },
   {
     "id": "fcta006",
@@ -8590,7 +8697,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《大怪獸 Deburas》是日本 Data East 於 1990 年 12 月 21 日發行的 Famicom 戰略模擬遊戲，由 Sol、Mike 與 Data East 共同開發。製作人為《唐老鴨樂園》（1988）的中本博通，劇本為神谷春輝，音樂由酒井省吾、桃井聖司與岩崎正明擔任。後於 2006 年透過 i-revo、2010 年透過 Project EGG 在 Windows 上重新發行。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -8601,7 +8708,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "D",
     "genre_raw": "策略 (SLG)",
-    "genre_en": "Strategy"
+    "genre_en": "Strategy",
+    "overview_jp": "『大怪獣デブラス』（だいかいじゅうデブラス）は、1990年12月21日に日本のデータイーストより発売されたファミリーコンピュータ用戦略シミュレーションゲーム。\n開発はソルおよびマイク、データイーストが行い、プロデューサーは『ドナルドランド』（1988年）を手掛けた中本博通、脚本は神谷春輝、音楽は酒井省吾および桃井聖司、岩崎正明が担当している。\n2006年にWindows用ソフトとしてi-revoにて配信、2010年に同じくWindows用ソフトとしてプロジェクトEGGにて配信された。"
   },
   {
     "id": "fcti006",
@@ -8664,7 +8772,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《突つき大相撲》（つっぱり大相撲、Tsuppari Oozumou）是 Tecmo 於 1987 年 9 月 18 日發行的 Famicom 運動遊戲，類型為相撲格鬥。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -8675,7 +8783,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_jp": "『つっぱり大相撲』（つっぱりおおずもう）は、テクモが開発し1987年9月18日に発売されたファミリーコンピュータ用スポーツゲーム。"
   },
   {
     "id": "fcte006",
@@ -9083,7 +9192,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《麻將大會》是日本光榮於 1987 年 12 月發行的 PC-9801 麻將遊戲。本作對戰對象以古今東西的歷史人物為中心，也包含當時的製作人襟川陽一。1989 年由 Chanoir 開發 AI 後移植到 Famicom，2004 年另推出《Mobile 麻將大會》手機版，同年也推出對手不再是歷史人物的 DS 與 PSP 版。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -9095,7 +9204,8 @@
     "letter": "M",
     "no_intro_name": "Mahjong (Japan)",
     "genre_en": "Board / Card",
-    "genre_raw": "棋盤桌遊"
+    "genre_raw": "棋盤桌遊",
+    "overview_jp": "『麻雀大会』（マージャンたいかい）は、1987年12月に日本の光栄から発売されたPC-9801用麻雀ゲーム。\n同社は歴史シミュレーションゲームを多数発売しており、本作においても対戦相手は古今東西の歴史上の人物を中心としている。また、対戦相手には本作のプロデューサーであるシブサワ・コウも含まれている。\n1989年にはシャノアールが開発した思考ルーチンを使用する形でファミリーコンピュータに移植された他、2004年には携帯電話ゲームとして『Mobile麻雀大会』のタイトルで配信された。その後、2004年にニンテンドーDS、PlayStation Portableにおいて対戦相手が歴史上の人物ではないリメイク版として発売された他、2007年にはWii用ソフトとして『麻雀大会 Wii』のタイトルで発売された。\n後に続編となるスーパーファミコン用ソフト『スーパー麻雀大会』（1992年）が発売され、以後シリーズ化された。"
   },
   {
     "id": "fcmi006",
@@ -9269,7 +9379,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《耀西餅乾》（Yoshi's Cookie）是任天堂於 1992 年 11 月 21 日發行的 Famicom 與 Game Boy 解謎遊戲。馬力歐與耀西在遊戲中製作餅乾，玩家須將同種餅乾排成一行消除，分為單人模式與比拼消除速度的 VS 模式。1993 年由 BPS 推出加入新模式的 Super Famicom 版；2003 年的 NGC《NINTENDO 解謎合輯》也收錄重製版。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -9280,7 +9390,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "Y",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_jp": "『ヨッシーのクッキー』 (Yoshi's Cookie) は、任天堂より1992年11月21日に発売されたファミリーコンピュータ（FC）用およびゲームボーイ（GB）用パズルゲーム。マリオシリーズに登場するマリオとヨッシーがクッキー作りを行うパズルゲームであり、同じ種類ごとに揃えて消滅させる1人プレイと、消滅させる速さを競うVSプレイが存在する。\n1993年、新たなモードを追加したスーパーファミコン（SFC）版がBPSより発売された。また2003年発売のニンテンドー ゲームキューブ（GC）用ソフト『NINTENDOパズルコレクション』（以下GC版）にはリメイク版が収録されているほか、GC本体とゲームボーイアドバンス（GBA）本体をGBAケーブルで接続することでGBA上でFC版の1人用モードをプレイできる。2008年にはWii用バーチャルコンソール対応ソフトとしてFC版の配信が開始されたが、2013年をもって配信を終了した。"
   },
   {
     "id": "fcra006",
@@ -9384,7 +9495,7 @@
     ],
     "youtube": [],
     "overview_en": "Wrecking Crew is a 1985 NES video game developed by Nintendo R&D1 and Intelligent Systems and released by Nintendo of America in the USA on October 18, 1985.\r\n\r\nThe player controls Mario and attempts to destroy all of a certain set of objects with a large hammer on each of 100 levels. Mario cannot jump because of the hammer's weight. Each level takes place on a playfield divided into an invisible grid, each space of which can contain one object. Objects include destructible walls, pillars, and ladders, indestructible barrels and ladders, bombs that destroy all connected destructible objects, and various enemies that Mario must avoid. Doors may also exist, which can be opened to cause enemies to move harmlessly into the background.",
-    "overview_zh": "",
+    "overview_zh": "《Wrecking Crew》是任天堂發行的動作解謎遊戲。1984 年 8 月推出大型電玩版《VS. Wrecking Crew》，之後移植到 Famicom 等平台。1998 年另推出大幅翻新的《Wrecking Crew '98》登上 Super Famicom。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -9400,7 +9511,8 @@
     "overview_en_source": "thegamesdb",
     "players": 2,
     "age_rating": "E - Everyone",
-    "tgdb_id": 321
+    "tgdb_id": 321,
+    "overview_jp": "『レッキングクルー』 （WRECKING CREW） は、任天堂より発売されたアクションパズルゲーム。1984年8月にアーケード版『VS.レッキングクルー』（VS. WRECKING CREW）が稼働された後、ファミリーコンピュータなどへ移植された。\n1998年には本作の内容を大幅にリニューアルした『レッキングクルー'98』がスーパーファミコン向けに発売されている。"
   },
   {
     "id": "fcro006",
@@ -9463,7 +9575,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Wily & Light 的洛克盤 That's Paradise》（ワイリー&ライトのロックボード）是 Capcom 於 1993 年 1 月 15 日發行的 Famicom 電腦桌遊，以《洛克人》系列角色為主角的大富翁類型遊戲。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -9474,7 +9586,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "W",
     "genre_raw": "其他 (TBG)",
-    "genre_en": "Board / Card"
+    "genre_en": "Board / Card",
+    "overview_jp": "『ワイリー&ライトのロックボード ザッツ☆パラダイス』は、1993年1月15日にカプコンより発売されたファミリーコンピュータ用コンピュータボードゲームである。"
   },
   {
     "id": "fca007",
@@ -9660,7 +9773,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《阿宅的星座》（AN ADVENTURE IN THE OTAKU GALAXY）是日本 M&M 於 1991 年 7 月 31 日發行的 Famicom 角色扮演遊戲。由 Advance Communication Company 開發，劇本為本宮宏志、角色設計由江口壽史擔當；遊戲設計由曾參與東寶《不可思議海域之娜迪亞》（1991）的永井努負責。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -9671,7 +9784,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "O",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_jp": "『おたくの星座 AN ADVENTURE IN THE OTAKU GALAXY』（おたくのせいざ - アン・アドベンチャー・イン・ザ・オタク・ギャラクシー）は、1991年7月31日に日本のM&Mより発売されたファミリーコンピュータ用ロールプレイングゲーム。\n開発はアドバンスコミュニケーションカンパニーが行い、ストーリーは本宮ひろ志、キャラクター・デザインは江口寿史が担当した他、ゲーム・デザインは東宝のファミリ－コンピュータ用ソフト『不思議の海のナディア』（1991年）を手掛けた永井努が担当、音楽はハドソンのファミリーコンピュータ用ソフト『星霊狩り』（1989年）を手掛けた笠井治および原田昌亮が担当している。\n1993年12月10日にはパック・イン・ビデオからPCエンジンSUPER CD-ROM²用として『オーロラクエスト おたくの星座 IN ANOTHER WORLD』のタイトルで、声優による音声、シナリオの修正やビジュアルシーンの追加などが行われたリメイク版が発売された。また、1994年にはOVAが全2巻で発売されている。"
   },
   {
     "id": "fcka007",
@@ -9697,7 +9811,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《凱伊的冒險》（THE QUEST OF KI）是 Game Studio 開發、Namco 於 1988 年 7 月 22 日發行的 Famicom 橫向卷軸動作遊戲，為「Namcot Famicom 系列」第 41 彈。本作為繼《巴比倫之塔》（1984）、《伊絲塔的復活》（1986）後「Babylonian Castle Saga」系列第 3 作，亦為《巴比倫之塔》前傳。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -9708,7 +9822,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『カイの冒険』（カイのぼうけん、THE QUEST OF KI）は、ゲームスタジオが開発し1988年7月22日にナムコから発売されたファミリーコンピュータ用横スクロールアクションゲーム。「ナムコット ファミリーコンピュータゲームシリーズ」第41弾。『ドルアーガの塔』（1984年）、『イシターの復活』（1986年）に続く「バビロニアン・キャッスル・サーガ」シリーズの3作目で、『ドルアーガの塔』の前日譚に当たる。\n他機種移植版は1988年に任天堂VS.システム対応のアーケード版が稼働開始。携帯電話アプリゲームとして2008年にiアプリ版が、2009年にS!アプリ版が配信されたほか、2020年にNintendo Switch用ソフト『ナムコットコレクション』の追加DLCとしてファミリーコンピュータ版が配信。また、2024年にアーケードアーカイブスの1作品としてアーケード版がPlayStation 4とNintendo Switchで配信された。"
   },
   {
     "id": "fcki007",
@@ -9736,7 +9851,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《Kinetic Connection》（キネティックコネクション）是日本 Sony 於 1986 年 10 月 21 日發行的 MSX2 解謎遊戲，屬於拼圖類玩法，每幅圖由 16 至 48 片正方形拼圖組成。最大特色是每片拼圖會以動畫方式持續移動，使片數雖少但難度大幅提高。同年 11 月 28 日由 Irem 以《きね子》之名移植到 Famicom 磁碟機。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -9748,7 +9863,8 @@
     "letter": "K",
     "no_intro_name": "Monitor Puzzle Kineko, The - Kinetic Connection (Japan)",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_jp": "『キネティックコネクション』 (Kinetic Connection) は、1986年10月21日に日本のソニーから発売されたMSX2用パズルゲーム。\n16個から最大48個あるピースの四角いパズルを完成させるジグソーパズル。ただし、普通のジグソーと異なる点はピースがアニメーションで動いていることである。これによりピース数は少ないながらも難易度が飛躍的に高まり、コンピュータゲームならではのパズルに仕上がっている。\n同年11月28日にファミリーコンピュータ ディスクシステム用ソフトとしてアイレムから『きね子』のタイトルで発売され、1991年にはゲームギア用ソフトとしてセガから発売されている。また、北米では1986年にコモドール64用ソフトとしても発売された。\nオリジナル版の開発は種子田定登が行い、ディスクシステム版の音楽は同社の『スーパーロードランナー』（1987年）を手掛けた柿沼朱里が担当している。\nディスクシステム版はゲーム誌『ファミコン通信』の「クロスレビュー」にてゴールド殿堂を獲得した。"
   },
   {
     "id": "fcku007",
@@ -9888,7 +10004,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《殺意的階層 軟體公司連續殺人事件》（殺意の階層 ソフトハウス連続殺人事件）是 HAL 研究所於 1988 年 1 月 7 日發行的 Famicom 冒險遊戲。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -9899,7 +10015,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "冒險 (ADV)",
-    "genre_en": "Adventure"
+    "genre_en": "Adventure",
+    "overview_jp": "『殺意の階層 ソフトハウス連続殺人事件』（さついのかいそう ソフトハウスれんぞくさつじんじけん）は、1988年1月7日にハル研究所から発売されたファミリーコンピュータ用アドベンチャーゲーム。"
   },
   {
     "id": "fcsi007",
@@ -10076,7 +10193,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《大工源氏》（海外版：Hammerin' Harry）是 Irem（現 APIES）自 1990 年起以大型電玩形式推出的《大工源氏 〜Beranme 町騷動記〜》為首的遊戲作品系列。本條目主要介紹大型電玩版及動畫版內容。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -10087,7 +10204,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "D",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『大工の源さん』（だいくのげんさん、海外版タイトル：Hammerin' Harry）は、アイレム（現・アピエス）より1990年にアーケードゲームとして発売された『大工の源さん 〜べらんめ町騒動記〜』を始めとするゲーム作品シリーズ。ここでは主にアーケード版ゲーム及びアニメ版について述べる。"
   },
   {
     "id": "fcti007",
@@ -10113,7 +10231,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《地底戰空 Vazoluder》是 Sofel 發行的 Famicom 動作射擊遊戲，北美版以《Wurm: Journey to the Center of the Earth》為名推出。玩家主要操作戰車前進，部分關卡會切換為操作主角本人，僅在徒步關卡可以跳躍與向上踢擊；魔王戰則改為射擊玩法。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -10124,7 +10242,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "C",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『地底戦空バゾルダー』は、ソフエルから発売されたファミリーコンピュータ用アクションシューティングゲーム。北米では『Wurm: Journey to the Center of the Earth』のタイトルで発売された。\n戦車を操作していくゲームだが、生身の主人公を操作して進んでいくステージも存在する。生身のステージのみ、ジャンプや方向キー上によるキックができる。ボス戦のみシューティングで進んでいく。"
   },
   {
     "id": "fctu007",
@@ -10187,7 +10306,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《T.M.N.T.2 The Manhattan Project》是 Konami 於 1991 年發行的 Famicom 橫向卷軸動作遊戲，為《T.M.N.T.》在 Famicom 上的第 3 部作品，北美 NES 版以《Teenage Mutant Ninja Turtles III: The Manhattan Project》為名推出。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -10198,7 +10317,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ティーンエージ ミュータント ニンジャ タートルズ2 ザ マンハッタン プロジェクト』 （Teenage Mutant Ninja Turtles 2 The Manhattan Project) はコナミが1991年にリリースしたファミリーコンピュータ（ファミコン）用の横スクロールアクションゲームである。略称は『T.M.N.T.2』（ティーエムエヌティーツー）。\n『T.M.N.T.』のファミコンにおける3作目のゲーム作品で、北米ではNintendo Entertainment System（NES）用に『Teenage Mutant Ninja Turtles III: The Manhattan Project』というタイトルで1992年にリリースされた。\n前作はアーケードゲーム『T.M.N.T. 〜スーパー亀忍者〜』の移植だったが、本作はゲームシステムを継承したファミコンオリジナル作品である。1987年のアニメ版T.M.N.T.を下敷きにしており、第5シーズンの後にリリースされた。"
   },
   {
     "id": "fcto007",
@@ -10636,7 +10756,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《燃え！TwinBee 拯救肉桂博士！》是日本 Konami 於 1986 年 11 月 21 日發行的 Famicom 磁碟機縱橫雙向卷軸射擊遊戲，海外版以《Stinger》之名推出。為大型電玩《TwinBee》（1985）的續作。設定在前作 100 年後，TwinBee 等夥伴為了拯救被新敵人 Gatlantis 擄走的肉桂博士走遍世界各國。本作支援最多 3 人同時遊玩，並新增橫向卷軸關卡。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -10648,7 +10768,8 @@
     "letter": "M",
     "no_intro_name": "Moero TwinBee - Cinnamon Hakase wo Sukue! (Japan) (Rev 1)",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『もえろツインビー シナモン博士を救え!』（もえろツインビー シナモンはかせをすくえ!）は、1986年11月21日に日本のコナミから発売されたファミリーコンピュータ ディスクシステム用縦横両スクロールシューティングゲーム。日本国外では『Stinger』のタイトルで発売された。\n同社のアーケードゲーム『ツインビー』（1985年）の続編。前作から100年後、新たな敵・ガトランティスにさらわれたシナモン博士を救うためツインビーたちが世界中の国々を巡る内容となっている。本作では3人まで同時プレイが可能な点と、縦スクロールだけでなく横スクロールの面も導入された事を特徴としている。日本国外版では2人同時プレイまでに変更され、会話デモが省略されている。\n開発はコナミ開発2課が行い、プログラムは前作を手掛けた青山和浩および後に『バイオミラクル ぼくってウパ』（1988年）を手掛けた村田司朗が担当、音楽は『キングコング2 怒りのメガトンパンチ』（1986年）を手掛けた禎清宏が担当している。\n1993年3月26日にはロムカセット版も発売されている。ロムカセット版は2006年4月14日にi-revoにて配信された他、バーチャルコンソール対応ソフトとして2010年7月27日にWii用、2015年10月28日にWii Uとして配信された。"
   },
   {
     "id": "fcyu007",
@@ -10714,7 +10835,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《耀西的蛋》是 Game Freak 開發、任天堂發行的 Famicom 與 Game Boy 遊戲，日本兩版皆於 1991 年 12 月 14 日發售。美版名稱為《Yoshi》，歐版為《Mario & Yoshi》。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -10725,7 +10846,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "Y",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_jp": "『ヨッシーのたまご』は、ゲームフリーク開発、任天堂発売のファミリーコンピュータ（以下FC）・ゲームボーイ（以下GB）用ゲームソフト。日本ではFC版・GB版ともに1991年12月14日発売。アメリカでは『Yoshi』、ヨーロッパでは『Mario & Yoshi』のタイトルで発売された。"
   },
   {
     "id": "fcra007",
@@ -10829,7 +10951,7 @@
     ],
     "youtube": [],
     "overview_en": "Wrecking Crew is a 1985 NES video game developed by Nintendo R&D1 and Intelligent Systems and released by Nintendo of America in the USA on October 18, 1985.\r\n\r\nThe player controls Mario and attempts to destroy all of a certain set of objects with a large hammer on each of 100 levels. Mario cannot jump because of the hammer's weight. Each level takes place on a playfield divided into an invisible grid, each space of which can contain one object. Objects include destructible walls, pillars, and ladders, indestructible barrels and ladders, bombs that destroy all connected destructible objects, and various enemies that Mario must avoid. Doors may also exist, which can be opened to cause enemies to move harmlessly into the background.",
-    "overview_zh": "",
+    "overview_zh": "《Wrecking Crew》是任天堂發行的動作解謎遊戲。1984 年 8 月推出大型電玩版《VS. Wrecking Crew》，之後移植到 Famicom 等平台。1998 年另推出大幅翻新的《Wrecking Crew '98》登上 Super Famicom。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -10845,7 +10967,8 @@
     "overview_en_source": "thegamesdb",
     "players": 2,
     "age_rating": "E - Everyone",
-    "tgdb_id": 321
+    "tgdb_id": 321,
+    "overview_jp": "『レッキングクルー』 （WRECKING CREW） は、任天堂より発売されたアクションパズルゲーム。1984年8月にアーケード版『VS.レッキングクルー』（VS. WRECKING CREW）が稼働された後、ファミリーコンピュータなどへ移植された。\n1998年には本作の内容を大幅にリニューアルした『レッキングクルー'98』がスーパーファミコン向けに発売されている。"
   },
   {
     "id": "fcro007",
@@ -10908,7 +11031,7 @@
     ],
     "youtube": [],
     "overview_en": "You palm sweats as you grip your Zapper™ light gun. The Outlaw's eyes flash. He yells \"Fire!\" And suddenly you're in the middle of a Wild West shootout! Get the Outlaw before he gets you, and you'll win a reward! But watch out - the more you win the tougher it becomes, because this gunman has some very nasty friends. You can take on one outlaw, two outlaws - or the whole wild gang. And you up to the action? Because it's fast and furious in this quick -on- the-trigger Nintendo Light Gun game!",
-    "overview_zh": "",
+    "overview_zh": "光線槍系列（光線銃シリーズ）是任天堂推出、運用光感技術的射擊玩具系列，由 Game & Watch 創始人橫井軍平構思設計。本作《Wild Gunman 西部槍手》為對應 Famicom 光線槍周邊的射擊遊戲。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -10923,7 +11046,8 @@
     "overview_en_source": "thegamesdb",
     "players": 1,
     "age_rating": "Not Rated",
-    "tgdb_id": 1603
+    "tgdb_id": 1603,
+    "overview_jp": "光線銃シリーズ（こうせんじゅうシリーズ）は、任天堂より発売された光を用いた射撃玩具。考案者はゲーム&ウオッチ等を手掛けた横井軍平。"
   },
   {
     "id": "fca008",
@@ -10951,7 +11075,7 @@
     ],
     "youtube": [],
     "overview_en": "Ice Climber is a 1985 NES video game developed by Nintendo R&D1 and released by Nintendo of America in the USA on October 18, 1985.\r\n\r\nThe first player controls Popo, a boy wearing a blue Eskimo parka, while the second player controls Nana, a girl wearing a pink Eskimo parka. The only tool they carry is a wooden mallet to carve openings in the ice above and to club enemies. Each mountain level consists of eight layers of colorful ice and a bonus stage. Standard, dull ice blocks pose no threat other than an easily disposed of barrier and platform. Square ice blocks with higher detail are indestructible forcing the player to take another path",
-    "overview_zh": "",
+    "overview_zh": "《敲冰塊》（Ice Climber）是任天堂於 1985 年 1 月 30 日發行的 Famicom 遊戲。本作為雙人同時可玩的動作遊戲，兩位登山者手持鐵鎚以攻頂冰山為目標。同年 10 月 19 日於美國、1986 年 9 月 1 日於歐洲發售。1985 年 2 月也推出大型電玩版，1988 年 11 月 18 日另發行以該大型電玩版為基礎的磁碟機版。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -10967,7 +11091,8 @@
     "overview_en_source": "thegamesdb",
     "players": 2,
     "age_rating": "E - Everyone",
-    "tgdb_id": 1326
+    "tgdb_id": 1326,
+    "overview_jp": "『アイスクライマー』（Ice Climber）は、1985年1月30日に任天堂が発売したファミリーコンピュータ用ソフト。2人のクライマーがハンマーを手に氷山の頂上を目指す、2人同時プレイが可能なアクションゲームである。同年10月19日にはアメリカ、1986年9月1日にはヨーロッパでそれぞれ発売された。\n本作は、1985年2月に業務用ビデオゲームとしても発売された。1988年11月18日には、このアーケード版を元にした内容のディスクシステム版も発売されている。"
   },
   {
     "id": "fci008",
@@ -11114,7 +11239,7 @@
     ],
     "youtube": [],
     "overview_en": "",
-    "overview_zh": "",
+    "overview_zh": "《掉落解謎 Tonjan!?》是日本 Micom 開發開發、Jaleco 發行、以麻將為題材的 Famicom 解謎遊戲，於 1989 年 9 月 29 日發售。",
     "comment_en": "",
     "comment_zh": "",
     "aka": "",
@@ -11125,7 +11250,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "O",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_jp": "『落っことしパズル とんじゃん!?』（おっことしパズル とんじゃん!?）は日本マイコン開発が開発し、ジャレコが販売した、麻雀を題材に扱ったファミリーコンピュータ用のパズルゲーム。1989年9月29日に発売された。"
   },
   {
     "id": "fcka008",
@@ -11316,7 +11442,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "C",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『コズミックイプシロン』（COSMIC EPSILON）は、1989年11月24日にアスミック（後のアスミック・エース）から発売された、ファミリーコンピュータ専用のゲームソフトである。ファミコン3Dシステムに対応している。"
   },
   {
     "id": "fcsa008",
@@ -11473,7 +11600,8 @@
     "letter": "S",
     "no_intro_name": "Section-Z (Japan)",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『セクションZ』は、1985年12月にカプコンが稼働したアーケード用の縦横両スクロールシューティングゲーム。\n1987年5月25日には一部ゲームシステムを変更し、ファミリーコンピュータ ディスクシステムにて発売された。"
   },
   {
     "id": "fcso008",
@@ -11513,7 +11641,8 @@
     "letter": "S",
     "no_intro_name": "Solomon no Kagi (Japan) (Disk Writer)",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_jp": "『ソロモンの鍵』（ソロモンのかぎ、英題：Solomon's Key）は、1986年7月にテクモからアーケードゲーム・ファミリーコンピュータ向けゲームとして開発・販売されたアクションパズルゲーム。"
   },
   {
     "id": "fcta008",
@@ -11704,7 +11833,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "D",
     "genre_raw": "策略 (SLG)",
-    "genre_en": "Strategy"
+    "genre_en": "Strategy",
+    "overview_jp": "『独眼竜政宗』（どくがんりゅうまさむね）は、1988年4月5日にナムコ（現在のバンダイナムコエンターテインメント）から発売されたファミリーコンピュータ用歴史シミュレーションゲーム。「ナムコット ファミリーコンピュータゲームシリーズ」第38弾。"
   },
   {
     "id": "fcna008",
@@ -11778,7 +11908,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "N",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『忍者くん 魔城の冒険』（にんじゃくん まじょうのぼうけん）は、UPLにより製作されたコンピュータゲームである。その続編である『忍者くん 阿修羅ノ章』と、その他の後継作品および関連パチスロ機についても、本稿で紹介する。"
   },
   {
     "id": "fcha008",
@@ -11815,7 +11946,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "P",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_jp": "パーフェクトボウリング\n\nパーフェクトボウリング (番組)- ボウリング中継番組。\nパーフェクトボウリング (ゲーム) - トンキンハウスが発売したゲームソフト。"
   },
   {
     "id": "fchi008",
@@ -11929,7 +12061,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "H",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『ヘクター'87』（ヘクターはちじゅうなな、HECTOR'87、英題：Starship Hector）は、ハドソンが開発し1987年7月16日に発売されたファミリーコンピュータ用縦横両スクロールシューティングゲーム。1987年に開催されたハドソン主催・TDK協賛のイベント「第3回TDK全国ファミコンキャラバン」で使用された公式ソフトである。"
   },
   {
     "id": "fcho008",
@@ -12157,7 +12290,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "Y",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『夢ペンギン物語』（ゆめペンギンものがたり）は、1991年1月25日に日本のコナミから発売されたファミリーコンピュータ用アクションシューティングゲーム。\n基本的にはアクションゲームであるが、第2、第4、最終ステージ（第6）のボス戦はシューティングゲームになる。\n2006年にはWindows用ソフトとしてi-revoにて配信された。"
   },
   {
     "id": "fcyo008",
@@ -12197,7 +12331,8 @@
     "letter": "#",
     "no_intro_name": "4 Nin Uchi Mahjong (Japan) (Rev 1)",
     "genre_en": "Board / Card",
-    "genre_raw": "棋盤桌遊"
+    "genre_raw": "棋盤桌遊",
+    "overview_jp": "『ジャン狂』（ジャンきょう）は、1983年にハドソンソフトから発売されたパソコン用麻雀ゲームソフト。"
   },
   {
     "id": "fcra008",
@@ -12234,7 +12369,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "R",
     "genre_raw": "策略 (SLG)",
-    "genre_en": "Strategy"
+    "genre_en": "Strategy",
+    "overview_jp": "『ランパート』 (RAMPART) は、アタリゲームズおよびミッドウェイゲームズが1990年に北米でリリースしたアーケードゲーム。"
   },
   {
     "id": "fcre008",
@@ -12308,7 +12444,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "R",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ローリングサンダー』 (Rolling Thunder) は、ナムコが開発し1986年12月に稼働開始したアーケード用横スクロールアクションシューティングゲームである。"
   },
   {
     "id": "fcwa008",
@@ -12425,7 +12562,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "I",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_jp": "『いけいけ!熱血ホッケー部「すべってころんで大乱闘」』（いけいけ!ねっけつホッケーぶ すべってころんでだいらんとう）は、テクノスジャパンより1992年2月7日に発売された、ファミリーコンピュータ用スポーツゲーム。"
   },
   {
     "id": "fcu009",
@@ -12546,7 +12684,8 @@
     "letter": "O",
     "no_intro_name": "Otocky (Japan)",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『オトッキー』は、1987年3月27日に発売されたディスクシステム用の横スクロールのシューティングゲームである。\nセディックにより開発され、アスキーから発売された。開発にはのちにニューメディアアートの第一人者となる岩井俊雄、現株式会社ポケモン社長の石原恒和が関わっている。キャンペーンガールには、当時のアイドル小沢なつきが起用されている。"
   },
   {
     "id": "fcka009",
@@ -12585,7 +12724,8 @@
     "letter": "K",
     "no_intro_name": "Kaettekita Mario Bros. (Japan) (Disk Writer)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『マリオブラザーズ』（MARIO BROS.）は、1983年に任天堂が発売したコンピュータゲーム。配管工のマリオとルイージが、下水道から流出したカメ、カニ、ハエなどを駆除していくアクションゲーム。マリオシリーズ第1作目。\n1983年3月14日にゲーム&ウオッチ版が発売。同年6月21日にアーケードゲーム版が稼働したが、両作品はゲーム内容が全く異なる。後にアーケード版はファミリーコンピュータを始めとした数々の家庭用ゲーム機に移植された（#他機種版）。\n本記事では、まずアーケード版について述べ、その後に#ゲーム&ウオッチ版について述べる。"
   },
   {
     "id": "fcki009",
@@ -12733,7 +12873,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "C",
     "genre_raw": "策略 (SLG)",
-    "genre_en": "Strategy"
+    "genre_en": "Strategy",
+    "overview_jp": "『コズミックウォーズ』 (COSMIC WARS) は、1989年8月4日にコナミ（後にコナミデジタルエンタテインメントへ権利移管）が発売したファミリーコンピュータ用ウォー・シミュレーションゲームソフト。『グラディウス』（1985年）の世界観を一部利用しているものの、基本的には単体作品である。"
   },
   {
     "id": "fcsa009",
@@ -12812,7 +12953,8 @@
     "genre_raw": "動作角色扮演 (ARPG)",
     "genre_en": "RPG",
     "genre_subtype": "動作角扮",
-    "genre_subtype_en": "Action RPG"
+    "genre_subtype_en": "Action RPG",
+    "overview_jp": "『時空勇伝デビアス』（じくうゆうでんデビアス、時空勇伝DEBIAS）は、1987年11月27日にナムコ（後のバンダイナムコエンターテインメント）からナムコットのブランドで発売されたファミリーコンピュータ用の横スクロールアクションロールプレイングゲームである。"
   },
   {
     "id": "fcsu009",
@@ -12886,7 +13028,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『セクターゾーン』 (Sector Zone) は、1984年7月から稼動した日本物産のアーケードゲームである。\n北米版の名称および1986年に発売されたファミリーコンピュータ（およびNES版）への移植版は『セクロス』 (Seicross)となっている。\nファミリーコンピュータ版は後にWindows用のプロジェクトEGGおよびPlayStation 5とNintendo Switch2のコンソールアーカイブスにて配信されている。また、かつてはWii、Wii Uのバーチャルコンソールでも配信されていた。\nアーケード移植版は2021年にアーケードアーカイブスの1作品としてPlayStation 4とNintendo Switchで配信。"
   },
   {
     "id": "fcso009",
@@ -12962,7 +13105,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "D",
     "genre_raw": "策略 (SLG)",
-    "genre_en": "Strategy"
+    "genre_en": "Strategy",
+    "overview_jp": "『大航海時代』（だいこうかいじだい）は、1990年5月18日に日本の光栄から発売されたPC-8801mkIISR用シミュレーションゲーム（同社はリコエイションゲームと呼称）。便宜上、「大航海時代I」「初代」と呼ぶこともある。\n同社の『大航海時代シリーズ』第1作目。プレイヤーは主人公の16世紀のポルトガルの没落貴族フェレロ家の後継ぎとして航海者となり、失われた爵位を取り戻すことが目的である。名声ポイントを高めて高い爵位を取得する事や王女との結婚を目的としている点などを特徴としている。\n開発は光栄が行い、プロデューサーはフクザワ・エイジ、音楽は同社のパソコン用ソフト『三國志』（1985年）や『信長の野望・全国版』（1986年）などを手掛けた菅野よう子が担当している。\nPC-88SR版の発売後、他の日本国産パソコン各機種に移植された他、アメリカ合衆国においても『Uncharted Waters』のタイトルでMacintoshやPC/AT互換機に移植され、1991年にはファミリーコンピュータに移植された。その他、1992年にメガドライブに移植された時にはグラフィックの品質が向上した他、コマンド操作の簡略化がされている。『スーパー大航海時代』のタイトルでスーパーファミコンに移植された。2004年には携帯電話ゲームとして『Mobile大航海時代』のタイトルで配信された。PC-9801版の復刻収録は『コーエー25周年記念パック Vol.3』、『コーエー定番シリーズ』として単品発売「my GAMECITY クラシックゲーム館」でのブラウザゲーム版、Steamでのダウンロード販売で行われている。\n後に続編となるPC-9801用ソフト『大航海時代II』（1993年）が発売され、以後シリーズ化された。"
   },
   {
     "id": "fcti009",
@@ -13155,7 +13299,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "N",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『忍者くん 魔城の冒険』（にんじゃくん まじょうのぼうけん）は、UPLにより製作されたコンピュータゲームである。その続編である『忍者くん 阿修羅ノ章』と、その他の後継作品および関連パチスロ機についても、本稿で紹介する。"
   },
   {
     "id": "fcha009",
@@ -13192,7 +13337,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "P",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『パーマン』は、藤子・F・不二雄原作の漫画『パーマン』（1967年）を題材とするファミリーコンピュータ用ゲームソフト。アイレム（現：アピエス・アイレムソフトウェアエンジニアリング）より1990年12月14日に発売された。"
   },
   {
     "id": "fchi009",
@@ -13306,7 +13452,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "B",
     "genre_raw": "策略 (SLG)",
-    "genre_en": "Strategy"
+    "genre_en": "Strategy",
+    "overview_jp": "『ダービースタリオン』(Derby Stallion) は、1991年にアスキーから発売された『ベスト競馬・ダービースタリオン』(Best Keiba Derby Stallion)をはじめとした、競走馬育成シミュレーションゲームのシリーズである。1990年代半ばに一大ブームを築き、競馬シミュレーションゲームの草分け的存在となった。開発者は、現在パリティビット代表取締役で馬主でもある薗部博之。通称ダビスタと呼ばれる。"
   },
   {
     "id": "fcho009",
@@ -13343,7 +13490,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "H",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『北斗の拳』（ほくとのけん）は、原作：武論尊、作画：原哲夫による日本の漫画、およびそれを原作・題材としたテレビアニメ、ゲームなどのメディアミックス作品。\n本項では原作である漫画を中心に、その関連作品についても述べる。"
   },
   {
     "id": "fcma009",
@@ -13531,7 +13679,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "L",
     "genre_raw": "策略 (SLG)",
-    "genre_en": "Strategy"
+    "genre_en": "Strategy",
+    "overview_jp": "『ランペルール』 (L'EMPEREUR) は、1990年7月23日に日本の光栄から発売されたPC-8801用歴史シミュレーションゲーム。タイトルの「ランペルール」はフランス語で「皇帝」の意である。\n主人公のナポレオン・ボナパルトを操作し、欧州全土の制覇を目指す。同社の歴史シミュレーションゲームの中においても補給条件、戦闘時の混乱など幾つかのシビアな条件が加味されており、中級者から上級者向けに仕上がっている。特に隠しシナリオである「エルバ島脱出」の難易度は、同社のシミュレーションゲーム史上屈指とも言われるほど高い。\nPC-88SR版の発売後、他の日本国産パソコン各機種に移植された他、欧米にてPC/AT互換機にも移植され、1991年にはファミリーコンピュータに移植された。2003年にPC-9801版を復刻収録した『コーエー25周年記念パック Vol.3』が発売され、2005年に「コーエー定番シリーズ」としても単品発売、有料ブラウザゲーム版が「my GAMECITY クラシックゲーム館」にて提供された。"
   },
   {
     "id": "fcre009",
@@ -13571,7 +13720,8 @@
     "letter": "R",
     "no_intro_name": "Replicart (Japan)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『レプリカート』　(Replicart)　は、1987年に日本のソニーから発売されたMSX2用固定画面アクションゲーム。サブタイトルは「地下迷宮の謎」。\n21世紀末を舞台に、主人公の青年ディックが乗り込んだヘビのような細長いマシン「レプリカート」を操作し、宇宙生物「サランドラ」を倒して地球を救出する事を目的としている。テレビゲームの古典と言われるヘビゲームをアレンジしたもの。\n開発はクロンが行い、プロデューサーおよびゲーム・デザイン、キャラクター・デザインはくすもとひろきが担当し、レプリカートとサランドラの決戦を描いたパッケージイラストは園田健一が担当した。\n1988年にはタイトーによってPC-8801SRやファミリーコンピュータ ディスクシステムへも移植された。"
   },
   {
     "id": "fcro009",
@@ -13645,7 +13795,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "W",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ワイワイワールド2 SOS!!パセリ城』（ワイワイワールドツー エスオーエス!!パセリじょう）は、コナミが開発し1991年1月5日に発売されたファミリーコンピュータ用横スクロールアクションゲーム。\n2015年にはWii U用ソフトとしてバーチャルコンソールにて配信された。"
   },
   {
     "id": "fca010",
@@ -13689,7 +13840,8 @@
     "overview_en_source": "thegamesdb",
     "players": 2,
     "age_rating": "E - Everyone",
-    "tgdb_id": 1375
+    "tgdb_id": 1375,
+    "overview_jp": "アイスホッケー（英: ice hockey）は、天然または人工氷のスケートリンク上で、スケート靴を履いて行われる団体スポーツ競技。陸上で行われるホッケーの形式を氷上に持ち込んだものである。2チームが長方形（楕円形）をしたリンクの中で、スティック (Ice hockey stick) （長い柄の先端部分に角度をつけ湾曲させた杖状の用具）を用いて硬質ゴムでできた扁平な円柱状の パックを打ち合い、相手方のゴール (Goal (ice hockey)) に入れることで得点でき、その得点を競うゲームで、いわゆる『氷上の格闘技』とも呼ばれている。漢字表記は氷球（ひょうきゅう）。\nスケートを用いるため、グラウンド上の同種競技と比べ格段に速いスピードが出てゲームをスリリングなものにするが、接触等による危険が高いため全身に防具を装着してプレーを行うことが義務づけられている。\nカナダでは最も人気のあるスポーツであり、同国の冬季の国技である。北米のプロアイスホッケーリーグであるNHLはいわゆる北米4大プロスポーツリーグ（他はNFL・MLB・NBA）の一つに数えられる。一方、アメリカではサッカー人気の台頭からアイスホッケーの代わりにサッカーを4大スポーツの一つと見做す意見もある。近年ギャラップやピュー研究所が実施したアメリカの人気スポーツ世論調査の結果によると、サッカーに抜かれ5番手以降に順位を下げている。\nヨーロッパや他の国々にも広がっており、アイスホッケーが盛んな国として、カナダ、アメリカの他にはロシア、スウェーデン、フィンランド、チェコ、スロバキア（1993年以前、前2国はチェコスロバキア）、ベラルーシ、ラトビア、スイス、ドイツなどが挙げられる。冬季オリンピックなどでこの競技を統括する国際アイスホッケー連盟（IIHF）の加盟国（または地域）は2026年現在で84か国になっている。"
   },
   {
     "id": "fci010",
@@ -13921,7 +14073,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "G",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ギミック!』（Gimmick!）はサン電子（サンソフト）が開発し1992年1月31日に発売したファミリーコンピュータ用の横スクロールアクションゲーム。\n2010年6月8日にはプロジェクトEGG向けに配信。2020年12月28日からは、exA-Arcadia対応のアーケードゲーム版『ギミック!EXACT☆MIX』（ギミック!エクサクトミックス）が稼働を開始。2023年7月6日にはシティコネクションより『Gimmick! Special Edition』（ギミック!スペシャルエディション）がNintendo Switch / PlayStation 4 / Xbox One / Steam向けのダウンロードソフトとして発売され、同年12月7日にはパッケージ版がSUPERDELUXE GAMES（日本）およびLimited Run Games（海外）より発売。\n2024年には、実に32年越しとなる続編『ギミック! 2』が発売された（PC版は9月5日、コンシューマ機版は12月19日）。続編の音楽にはデビッド・ワイズが参加している。"
   },
   {
     "id": "fcku010",
@@ -13961,7 +14114,8 @@
     "letter": "K",
     "no_intro_name": "Soccer (Japan)",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_jp": "『くにおくんの熱血サッカーリーグ』（くにおくんのねっけつサッカーリーグ）は、1993年4月23日に発売された、ファミリーコンピュータ用ゲームソフト。『熱血高校ドッジボール部 サッカー編』（1990年）の続編。前作から操作方法や戦術、ルールなどシステム面で変更されている点がある。"
   },
   {
     "id": "fcke010",
@@ -13998,7 +14152,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "G",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『激亀忍者伝』（げきかめにんじゃでん）（英語圏タイトル：Teenage Mutant Ninja Turtles）は、1989年にコナミから発売されたファミリーコンピュータ（FC）用アクションゲーム。\n『ミュータント・タートルズ』を題材にした初のゲーム化作品で、全世界で400万本のセールスを記録した。"
   },
   {
     "id": "fcko010",
@@ -14149,7 +14304,8 @@
     "letter": "S",
     "no_intro_name": "Xevious (Japan) (Disk Writer)",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『スーパーゼビウス ガンプの謎』（スーパーゼビウス ガンプのなぞ、SUPER XEVIOUS-）は、1986年9月19日にナムコ（現・バンダイナムコエンターテインメント）がファミリーコンピュータ用として発売したシューティングゲーム。\n『ゼビウス』の続編で、新たに謎解きやパワーアップの要素を盛り込んだ物となっている。\n後にアーケードゲーム用として『VS.スーパーゼビウス ガンプの謎』のタイトルで発売された。"
   },
   {
     "id": "fcse010",
@@ -14189,7 +14345,8 @@
     "letter": "X",
     "no_intro_name": "Xevious (Japan) (Disk Writer)",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『ゼビウス』 (XEVIOUS) は、ナムコから1983年1月に発表された業務用縦スクロールシューティングゲームである。発表時のキャッチコピーは「プレイするたびに謎が深まる!! 〜ゼビウスの全容が明らかになるのはいつか〜」。\n海外では、米国アタリ社に対し、南北アメリカおよび欧州全域における業務用機の独占的製造・販売権が許諾され、英国で開催されたアーケードゲーム機の展示会「ATE'83」にて発表された。\n本作は『ギャラクシアン』（1979年）や『ギャラガ』（1981年）などと並ぶナムコシューティングの名作として大ヒットし、タイトーの『スペースインベーダー』（1978年）に次ぐ売り上げを記録した。後にさまざまなパソコン、家庭用ゲーム機に移植された（#移植版）。"
   },
   {
     "id": "fcso010",
@@ -14303,7 +14460,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "C",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ちゃっくんぽっぷ』 (Chack'n Pop) は、1984年に稼動したタイトーのアーケードゲーム。固定画面タイプのアクションゲームである。"
   },
   {
     "id": "fcte010",
@@ -14384,7 +14542,8 @@
     "overview_en_source": "thegamesdb",
     "players": 2,
     "age_rating": "E - Everyone",
-    "tgdb_id": 344
+    "tgdb_id": 344,
+    "overview_jp": "『ドクターマリオ』（Dr. MARIO）は、1990年7月27日に任天堂よりファミリーコンピュータおよびゲームボーイ向けに発売された落ち物パズルゲーム。様々な機種で移植・リメイク作品も発売されている。"
   },
   {
     "id": "fcna010",
@@ -14458,7 +14617,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "N",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『忍者COP サイゾウ』（にんじゃコップ サイゾウ）は、1989年11月17日に九娯貿易より発売されたファミリーコンピュータ用のアクションゲーム。日本国外でも発売されており、日本国外版のタイトルは『Wrath of the Black Manta』。"
   },
   {
     "id": "fcha010",
@@ -14609,7 +14769,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "B",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_jp": "『ベストプレープロ野球』（ベストプレープロやきゅう、Bestplay Baseball）は、1988年にアスキーから発売された野球シミュレーションゲーム。『ダービースタリオン』シリーズと同じく、薗部博之が制作。\n本項では前身の「ベストナインプロ野球」（2作品）及びパーソナルコンピュータ用の「ベストプレーベースボール」についても記述する。"
   },
   {
     "id": "fcho010",
@@ -14646,7 +14807,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "H",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『北斗の拳』（ほくとのけん）は、ショウエイシステムが開発し東映動画より発売されたファミリーコンピュータ用ゲームソフト。原哲夫の漫画作品『北斗の拳』、およびそれを原作として同社が製作したテレビアニメを題材としている。\n1986年8月10日に第1作が発売。その後シリーズ化され、計4作品が発売された。本項では、ファミリーコンピュータ用として発売されたこれら4作品について記述する。\nなお、開発元のショウエイシステムは1999年に倒産しており、2018年7月7日発売のニンテンドークラシックミニ ファミリーコンピュータ 週刊少年ジャンプ50周年記念バージョンには『北斗の拳』と『北斗の拳3 新世紀創造 凄拳列伝』の収録に当たっては著作権法第67条の2第1項の規定に基づく申請を行い、同項の適用を受けた。"
   },
   {
     "id": "fcma010",
@@ -14720,7 +14882,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "M",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_jp": "『ミネルバトンサーガ ラゴンの復活』（ミネルバトンサーガ ラゴンのふっかつ）は、タイトーが発売したゲームソフト。\n1987年10月23日にファミリーコンピュータ用のロールプレイングゲームとして発売された。発売時のキャッチコピーは「大人になる前に どうしてもしておきたい大仕事がある」。パッケージイラストは米田仁士が担当している。"
   },
   {
     "id": "fcme010",
@@ -14834,7 +14997,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "R",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ランボー』（原題: First Blood）は、1982年のアメリカのアクション映画で、『ランボー』シリーズの第1作である。\nディヴィッド・マレルのデビュー小説『一人だけの軍隊』の映画化作品であり、社会から孤立したベトナム帰還兵ランボーと、たまたま街を訪れた流れ者というだけでランボーを排除しようとした保安官との戦いや、ランボー自身の独白を通して、「ベトナム戦争によって負ったアメリカの傷」が描かれている。\n本作によりスタローンは当たり役の一つを得て、『ロッキー』に続くキャラクターイメージを獲得し、アクションスターとしての地位を不動のものとした。本作は単なる娯楽追求のアクション映画と異なり、現実のアメリカのベトナム帰還兵の姿と重ね合わせたストーリーとなっており、非常に重いテーマの作品となっている。"
   },
   {
     "id": "fcre010",
@@ -14951,7 +15115,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "W",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ワギャンランド』は、ナムコ（後のバンダイナムコエンターテインメント）が1989年2月9日に発売したファミリーコンピュータ用のアクションゲーム、およびそのシリーズ作品名。「ナムコット ファミリーコンピュータゲームシリーズ」第50弾。\n主人公は1987年に同社より発表された『エレメカ』に登場する「ワギャン」。音波で攻撃するが敵を倒すことはできない、ボス戦はしりとりや神経衰弱といったミニゲームで行うなど、特徴的なキャラクターとゲームシステムが人気を集め、続編が数タイトル発売された。"
   },
   {
     "id": "fca011",
@@ -14993,7 +15158,8 @@
     "genre_raw": "動作角色扮演 (ARPG)",
     "genre_en": "RPG",
     "genre_subtype": "動作角扮",
-    "genre_subtype_en": "Action RPG"
+    "genre_subtype_en": "Action RPG",
+    "overview_jp": "『愛戦士ニコル』（あいせんしニコル）は、日本のコナミが開発し1987年4月24日に発売されたファミリーコンピュータ ディスクシステム用のアクションアドベンチャーゲーム。\nトップビュータイプのゲーム画面となっており、画面切り替えとスクロールを併用。主人公の天才少年科学者ニコルが、ダイラス星に住む牛魔王に奪われ分解された「異次元空間移動装置」を完成させ、連れ去られた恋人ステラを助けることが目的。\n2006年4月26日にコナミデジタルエンタテインメントの携帯電話向けサービス・コナミネットDXにて、コナミ名作シリーズ第2弾としてNTTドコモのiアプリ（90xシリーズ専用）向けの移植版の配信が開始され、2008年6月18日にはSoftBank 3G向けS!アプリ、2008年8月7日にはau端末向けBREWとしても配信された。"
   },
   {
     "id": "fci011",
@@ -15187,7 +15353,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "K",
     "genre_raw": "冒險 (ADV)",
-    "genre_en": "Adventure"
+    "genre_en": "Adventure",
+    "overview_jp": "『新竹取物語』（しんたけとりものがたり）は、ビクター音楽産業が1984年にパーソナルコンピュータで発売したアドベンチャーゲーム。1988年に『かぐや姫伝説』のタイトルでファミリーコンピュータへも移植された。若干のお色気要素や下ネタを含むストーリーだが、アダルトゲームではない。\n本項では続編『新玉取物語』及びFC版『かぐや姫伝説』についても記述する。\nなお、本作は1983年にポニー（現・ポニーキャニオン）が発売した『おーい!かぐや姫 衣衣の別れ』と「1980年代前半にパソコンで発売」「発売元がレコード会社」「竹取物語を題材にしている」という共通点があるために混同される場合があるが、無関係である。"
   },
   {
     "id": "fcki011",
@@ -15224,7 +15391,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "C",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_jp": "『ザ・キャッスル』(The Castle) は、アスキーから発売されたパーソナルコンピュータ用のアクションパズルゲーム。第2回アスキーソフトウェアコンテストのグランプリ受賞作品。\n主な対応機種は最初に発売されたFM-7やX1、後に移植されたPC-8801やMSXなど。主人公はラファエル王子となり、魔王メフィストにとらわれたマルガリータ姫を救出する。全100ステージ。キャッチコピーは「恋する王子の100の冒険」。\n続編として、同一のシステムながらマップを総入れ替えし全体の難易度を向上させた『キャッスルエクセレント』（Castle Excellent、英語版のタイトルは Castlequest）が半年後の1985年11月に発売されており、同作はファミリーコンピュータにも1986年11月28日に移植されている。また、両作のPC-8801版がプロジェクトEGGにて配信されている。その他、韓国の携帯ゲーム機GP32では『ラファエル』というノーライセンスタイトルとして移植されている。"
   },
   {
     "id": "fcku011",
@@ -15261,7 +15429,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "C",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『クライシスフォース』は、1991年8月27日にコナミから発売されたファミリーコンピュータ用縦スクロールシューティングゲーム。2人同時プレイ可能。"
   },
   {
     "id": "fcke011",
@@ -15522,7 +15691,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『ソンソン』は、1984年に稼働したカプコンのアーケード用アクションシューティングゲーム。\n『西遊記』の日本版絵本に着想を得た作品で、1P側がソンソン（サル）、2P側がトントン（ブタ）を操作する。カプコン初のふたり同時プレイが可能なゲームであり、協力プレイできるのが特徴。\n後に家庭用ゲーム機などに移植されたほか、続編として『SON SON II』（1989年）が発売された（#移植版、#続編）。"
   },
   {
     "id": "fcta011",
@@ -15602,7 +15772,8 @@
     "letter": "C",
     "no_intro_name": "Kick Challenger - Air Foot - Yasai no Kuni no Ashi Senshi (Japan)",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『チャレンジャー』 (Challenger) は、ハドソンより1985年10月15日に発売されたファミリーコンピュータ用コンピュータゲームソフトである。"
   },
   {
     "id": "fcte011",
@@ -15678,7 +15849,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『所さんのまもるもせめるも』（ところさんのまもるもせめるも）は、1987年6月27日に、エピックソニーレコードから発売されたアクションゲーム。所ジョージ全面監修によるタレントゲーム。"
   },
   {
     "id": "fcna011",
@@ -15718,7 +15890,8 @@
     "letter": "N",
     "no_intro_name": "Nazo no Kabe - Block Kuzushi (Japan)",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_jp": "『謎の壁 ブロックくずし』（なぞのかべ ブロックくずし）は、1986年にコナミから発売されたファミリーコンピュータ ディスクシステム用ブロックくずしゲーム。タイトルの謎の字のしんにょうの点は、ディスクシステムのものが2つ、アプリのものは1つである。欧州ではNES用ソフトとして『Crackout』（クラックアウト）のタイトルで発売された。\n開発はコナミ開発2課、ゲーム・デザインは後にスーパーファミコン用ソフト『ツインビー レインボーベルアドベンチャー』（1994年）などを手掛ける事となる神戸良治が担当、音楽は前沢秀憲、船橋淳、竹安弘が担当している。ゲーム内容は自機「レッドファイター」を操作し、コンピュータの自爆装置を解除して地球人が移住している惑星「セリム」を救出する事を目的としている。\n『アルカノイド』（1986年）の亜流の一つであるが、ただ単にブロックを崩すだけでなく、画面内に現れる敵キャラクターを倒してアイテムでパワーアップしたり、「コナミマン」をキャッチして裏面にワープしたりすることができる。また、全面をクリアしてもそれだけではエンディングとはならず、いくつかの面に隠されているアルファベットを組み合わせて英文を作り、最終面クリア後にその英文 (MERRYCHRISTMAS) を入力しなければならないシステムとなっている。\n2002年に携帯電話アプリ用としてゲーム化され、iアプリ、Jスカイ、ezplus用としてそれぞれ配信された。\nディスクシステム版はゲーム誌『ファミコン通信』の「クロスレビュー」にてゴールド殿堂入りを獲得した。"
   },
   {
     "id": "fcni011",
@@ -15792,7 +15965,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "H",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_jp": "『ハイウェイスター』（Highway Star）は、スクウェア（後のスクウェア・エニックス）が1987年8月7日に発売した、ファミリーコンピュータ向けのゲームソフトである。日本国外での名称は『Rad Racer』（ラッド・レーサー）。のちに『ファイナルファンタジーシリーズ』（IからIIIまで）の開発に携わるナーシャ・ジベリがメイン・プログラミングを担当した。「ファミコン3Dシステム」対応作品。"
   },
   {
     "id": "fchi011",
@@ -15874,7 +16048,8 @@
     "genre_raw": "動作角色扮演 (ARPG)",
     "genre_en": "RPG",
     "genre_subtype": "動作角扮",
-    "genre_subtype_en": "Action RPG"
+    "genre_subtype_en": "Action RPG",
+    "overview_jp": "『ファイヤーバム』は、1988年2月1日にハル研究所から発売された、ファミリーコンピュータ ディスクシステム用のアクションRPG。"
   },
   {
     "id": "fche011",
@@ -16096,7 +16271,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "M",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_jp": "『燃えろ!!プロ野球』（もえろ プロやきゅう、英題：Bases Loaded）は、トーセが開発し、ジャレコ（現：シティコネクション）より1987年6月26日に発売されたファミリーコンピュータ用野球ゲーム。通称は燃えプロ。\n野球盤のような上空からの視点ではなく、TV中継さながらの、投手後方の視点によるプレイ画面などのリアルな演出や合成音声、選手名がほぼ実名で登録されていることを特徴とする。一方で「バントホームラン」と呼ばれる不具合やゲームバランスの悪さで購入者から苦情が寄せられたことでも知られる。\n日本では158万本を出荷し、ジャレコの家庭用ゲーム事業における最大のヒット作となった。また、ゲーム誌『ファミコン通信』の「クロスレビュー」にてゴールド殿堂入りを獲得した。\n本作発売以降は各機種へ移植され、またシリーズ化された（#他機種版、#シリーズ一覧）。"
   },
   {
     "id": "fcro011",
@@ -16170,7 +16346,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "W",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ワギャンランド』は、ナムコ（後のバンダイナムコエンターテインメント）が1989年2月9日に発売したファミリーコンピュータ用のアクションゲーム、およびそのシリーズ作品名。「ナムコット ファミリーコンピュータゲームシリーズ」第50弾。\n主人公は1987年に同社より発表された『エレメカ』に登場する「ワギャン」。音波で攻撃するが敵を倒すことはできない、ボス戦はしりとりや神経衰弱といったミニゲームで行うなど、特徴的なキャラクターとゲームシステムが人気を集め、続編が数タイトル発売された。"
   },
   {
     "id": "fca012",
@@ -16247,7 +16424,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "I",
     "genre_raw": "其他 (TBG)",
-    "genre_en": "Board / Card"
+    "genre_en": "Board / Card",
+    "overview_jp": "『囲碁指南』はヘクトが発売した一連のシリーズで、シリーズ共通でファミリーコンピュータ用ソフト。"
   },
   {
     "id": "fcu012",
@@ -16364,7 +16542,8 @@
     "genre_en": "Shooter",
     "overview_en_source": "thegamesdb",
     "players": 1,
-    "tgdb_id": 1378
+    "tgdb_id": 1378,
+    "overview_jp": "『オペレーションウルフ』 (OPERATION WOLF) は、日本のタイトーが制作し、1987年11月に稼働されたアーケード用ガンシューティングゲーム。\n1988年に北米および欧州にて各種ホビーパソコンに移植された他、1989年にはファミリーコンピュータ、PC/AT互換機に移植され、1990年にはFM TOWNS、PCエンジン、セガ・マスターシステムに移植された。アーケード版は後に欧州にてPlayStation 2およびXbox、Windows用ソフト『Taito Legends』（2005年）に収録された他、日本ではPlayStation 2用ソフト『タイトーメモリーズII 下巻』（2007年）に収録された。2008年には北米と欧州にてWii用ソフトとしてバーチャルコンソールにてNES版が配信された。\n後に続編となるアーケードゲーム『オペレーションサンダーボルト』（1988年）が稼働され、以後『オペレーションウルフ3』（1994年）、『オペレーションタイガー』（1998年）とシリーズ化された。\nまた、2023年7月には、リメイク版に相当するVRゲーム『Operation Wolf Returns: First Mission VR』が配信された。"
   },
   {
     "id": "fcka012",
@@ -16554,7 +16733,8 @@
     "genre_raw": "動作角色扮演 (ARPG)",
     "genre_en": "RPG",
     "genre_subtype": "動作角扮",
-    "genre_subtype_en": "Action RPG"
+    "genre_subtype_en": "Action RPG",
+    "overview_jp": "『ゴッド・スレイヤー はるか天空のソナタ』（ゴッド・スレイヤー はるかてんくうのソナタ）は、SNKが開発し1990年4月13日に発売されたファミリーコンピュータ用アクションRPGである。\n古代文明が滅びた後の世界を舞台としており、主人公を操作し「救世主伝説」を基に人類を救出する事を目的としたゲーム。風、火、水、雷の4つの剣やフォースでの溜め撃ち攻撃を特徴としている。また、SNKのアーケードゲーム作品の登場人物をモデルにしたキャラクターが数名登場する。\n北米では『Crystalis』のタイトルで発売され、また後に北米のみでゲームボーイカラー専用ソフトとしても発売された。後にNintendo Switch用ソフト『SNK 40th Anniversary Collection』（2018年）に収録され、同ソフトはPlayStation 4、Xbox One、Windowsにおいても発売された。"
   },
   {
     "id": "fcsa012",
@@ -16591,7 +16771,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_jp": "『真田十勇士』（さなだじゅうゆうし）は、1988年6月27日にコトブキシステムより発売されたファミリーコンピュータ用ロールプレイングゲーム。\nプレイヤーは上田城主・真田昌幸の命を受けた真田幸村となり、日本各地にいる真田十勇士を集め、仇敵・徳川家康を討ち取るのが目的。経験値の概念がなく真田軍は戦闘時に敵兵を説得し味方につけて行くことにより強化される。\n2004年に携帯電話アプリゲームとしてVアプリ版が配信された他、2005年にはiアプリ、EZアプリ版、2006年にはウィルコム版がそれぞれ配信された。その後、2011年にはiOS版、Android版が配信された。\nファミリーコンピュータ版はゲーム誌『ファミコン通信』の「クロスレビュー」にて、シルバー殿堂入りを獲得した。"
   },
   {
     "id": "fcsi012",
@@ -16628,7 +16809,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "Z",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_jp": "『ジッピーレース』（Zippy Race）は、アイレムから1983年6月に発売された業務用ゲームである。\n海外版のタイトルは『Traverse USA』（トラバース・ユーエスエー）。『ジッピーレース』と同一の基板で、ディップスイッチを切り替えることでタイトルの変更が可能。\n北米地域では、ウィリアムスに製造許諾されており、タイトルは『MotoRace USA』と変更されている。"
   },
   {
     "id": "fcsu012",
@@ -16665,7 +16847,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『スーパーチャイニーズ』 (SUPER CHINESE) は、1986年に日本ゲームが開発し、ナムコットから発売されたファミリーコンピュータ用固定画面アクションゲーム。\n1984年に日本ゲームが開発し、タイトーから稼働されたアーケードゲーム『チャイニーズヒーロー』（CHINESE HERO）のアレンジ移植版である。\n主人公のジャッキーおよびリーを操作し、妖魔軍団を倒してミンミン姫を救出するのを目的としている。"
   },
   {
     "id": "fcse012",
@@ -16707,7 +16890,8 @@
     "genre_raw": "動作角色扮演 (ARPG)",
     "genre_en": "RPG",
     "genre_subtype": "動作角扮",
-    "genre_subtype_en": "Action RPG"
+    "genre_subtype_en": "Action RPG",
+    "overview_jp": "『ゼルダの伝説』（ゼルダのでんせつ、The Legend of Zelda）は、任天堂から発売されたゲームソフト。ゼルダの伝説シリーズの一作目にあたる。表記はパッケージやタイトル画面では『THE HYRULE FANTASY ゼルダの伝説』となっている。日本では1986年2月21日にファミリーコンピュータ ディスクシステム用として、日本国外のディスクシステムが発売されなかった地域ではロムカセットとして発売された。\n任天堂のディスクシステムの第一弾ソフトとして発売された。当時のパソコンゲームは『ハイドライドシリーズ』『ドラゴンスレイヤー』『ザナドゥ』といった剣と魔法のファンタジー世界観を持つアクションRPGが人気を博しており、『ゼルダの伝説』はパソコンのフロッピーディスクの容量に対抗できるディスクシステムを生かしたゲームとして開発された。そして『ゼルダの伝説』は大きな人気を博し、その後もシリーズ作品は継続して作られている。\nディスクライターでの累計書き換え回数は第3位を記録する。当時書換用として生ディスクの需要があり、書き換え用のディスクとして複数枚を購入する客が多かったことと、ディスクシステムでのゲームとしては最安値であったことから、異例のロングセラーとなった。"
   },
   {
     "id": "fcso012",
@@ -16746,7 +16930,8 @@
     "genre_raw": "動作角色扮演 (ARPG)",
     "genre_en": "RPG",
     "genre_subtype": "動作角扮",
-    "genre_subtype_en": "Action RPG"
+    "genre_subtype_en": "Action RPG",
+    "overview_jp": "『ゾンビハンター』（ZOMBIE HUNTER）は、1987年にハイスコアメディアワークより発売されたファミリーコンピュータ用アクションRPG、およびエスキモーから発売された、同ソフトを懸賞品としていたグミ入りのバニラアイスクリームである。\n横スクロールタイプのアクションロールプレイングゲームであり、風の精霊エアリアルの部下、ビューズに選ばれた戦士である「あなた」を操作して、地下迷宮の奥に待ち構える土の精霊ドルゴを倒し、ライフシーカーを取り戻すことで命の源を失い暗闇と化してしまったパルマの都を救うのがゲームの目的である。\nアクションロールプレイングゲームではあるが、セーブやコンティニューの概念はなく、必ず最初からのプレイとなり、ゲームオーバーになったらゲームはそこで完全に終了である。また、ゲーム中はストーリー性のある展開や謎解きの要素はない。\nマップは全6ステージ（地上+地下1〜5階）で構成されている。最初と最後を除いたステージの冒頭にルート分岐（各ステージにつき「ひだり」と「みぎ」の2つのルート）が存在する以外は、画面の右方向へ進むのみの一本道の展開でゲームが進行する。\n1988年にはMSX2に移植された。\n本項目では、1987年7月3日に発売されたファミリーコンピュータ（以下FC）版を中心に記述する。"
   },
   {
     "id": "fcta012",
@@ -16941,7 +17126,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "N",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『謎の村雨城』（なぞのむらさめじょう）は、1986年4月14日に日本の任天堂から発売されたファミリーコンピュータ ディスクシステム用アクションアドベンチャーゲーム。"
   },
   {
     "id": "fcni012",
@@ -16978,7 +17164,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "N",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『忍者じゃじゃ丸くん』（にんじゃじゃじゃまるくん）は、トーセが開発しジャレコより1985年11月15日に発売されたファミリーコンピュータ用横スクロールアクションゲーム。\n本項では、他のシリーズ作品や移植版についても併せて記載する。"
   },
   {
     "id": "fcha012",
@@ -17015,7 +17202,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "B",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『バイオ戦士DAN インクリーザーとの闘い』（バイオせんしダン インクリーザーとのたたかい）は、アトラスが開発しジャレコより1987年9月22日に発売されたファミリーコンピュータ用アクションアドベンチャーゲーム。北米では『Bashi Bazook: Morphoid Masher』のタイトルで発売が予定されていたが発売中止となった。\n物語は、バイオ手術を施された主人公の青年DANが、地球に侵略し繁殖し続けるエイリアンの「インクリーザー」を食い止めるため侵略直後の過去の時代へ渡るというもので、本来はシリアスな展開なのだが、作中で突然怪物との手押し相撲が始まったり、DANがなぜか浴衣姿でくつろぐなど休憩中のグラフィックのセンスに癖があることなどから、しばしばお笑いソフトとして紹介される。"
   },
   {
     "id": "fchi012",
@@ -17205,7 +17393,8 @@
     "genre_raw": "動作 (ACT)",
     "genre_en": "Action",
     "overview_en_source": "thegamesdb",
-    "tgdb_id": 1437
+    "tgdb_id": 1437,
+    "overview_jp": "『マイティボンジャック』（Mighty BombJack）は、テクモが開発し1986年（昭和61年）4月24日に発売されたファミリーコンピュータ用アクションアドベンチャーゲーム。同社のファミリーコンピュータ参入第1弾ソフトでもある。1984年に稼動された同社（当時の社名はテーカン）のアーケードゲーム『ボンジャック』の続編。"
   },
   {
     "id": "fcmi012",
@@ -17353,7 +17542,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "R",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ロックマン』（ROCKMAN、英：Mega Man）は、1987年12月17日に日本のカプコンから発売されたファミリーコンピュータ用横スクロールアクションゲーム。同社の『ロックマンシリーズ』の第1作目である。\n主人公のロックマンを操作し、ライト博士が開発したロボットを悪用している悪の天才科学者・Dr.ワイリーを倒して世界を救出することを目的としたゲーム。ゲーム開始時にステージが選択できることや、各ステージに個性的なボスが存在することを特徴としている。6つの選択ステージと、それをすべてクリアした後に現れる4つのステージの、計10ステージで構成される。\n開発はカプコン第2企画室が行い、開発スタッフはディスクシステム用ソフト『セクションZ』（1987年）を手掛けた北村玲がゲーム・デザイン、アーケードゲーム『ストリートファイター』（1987年）を手掛けた西山隆志がプロデューサー、松前真奈美が音楽を担当した。\nいくつかの家庭用ゲーム機に移植されている（後述）他、2003年以降は携帯電話ゲームとして配信された。また、バーチャルコンソール対応ソフトとして2007年にWii、2012年にニンテンドー3DS、2013年にWii U用としてそれぞれ配信された。\n本項では特に断りがない限りファミリーコンピュータ版（FC版）の仕様について記す。"
   },
   {
     "id": "fcwa012",
@@ -17390,7 +17580,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "W",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ワギャンランド』は、ナムコ（後のバンダイナムコエンターテインメント）が1989年2月9日に発売したファミリーコンピュータ用のアクションゲーム、およびそのシリーズ作品名。「ナムコット ファミリーコンピュータゲームシリーズ」第50弾。\n主人公は1987年に同社より発表された『エレメカ』に登場する「ワギャン」。音波で攻撃するが敵を倒すことはできない、ボス戦はしりとりや神経衰弱といったミニゲームで行うなど、特徴的なキャラクターとゲームシステムが人気を集め、続編が数タイトル発売された。"
   },
   {
     "id": "fca013",
@@ -17427,7 +17618,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "I",
     "genre_raw": "冒險 (AVG)",
-    "genre_en": "Adventure"
+    "genre_en": "Adventure",
+    "overview_jp": "『アイドル八犬伝』（あいどるはっけんでん）は、ナツメが開発し、1989年9月14日にトーワチキから発売されたファミリーコンピュータ用ゲームソフト。ジャンルはアドベンチャーゲーム。"
   },
   {
     "id": "fci013",
@@ -17501,7 +17693,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "U",
     "genre_raw": "策略 (SLG)",
-    "genre_en": "Strategy"
+    "genre_en": "Strategy",
+    "overview_jp": "『宇宙船コスモキャリア』（うちゅうせんコスモキャリア）は、1987年11月6日にジャレコより発売のファミリーコンピュータ用シミュレーションゲーム。"
   },
   {
     "id": "fce013",
@@ -17541,7 +17734,8 @@
     "letter": "E",
     "no_intro_name": "Exciting Soccer - Konami Cup (Japan)",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_jp": "『エキサイティングサッカー』（英: EXCITING SOCCER）は、アルファ電子が1983年10月に発売した業務用ビデオゲーム。サッカーを再現したビデオゲームで、6カ国との戦いで勝ち抜きを目指す内容となっている。\nまた、1985年2月には、2人による協力プレイが可能となった『エキサイティングサッカーII』をアルファ電子が発売している。"
   },
   {
     "id": "fco013",
@@ -17615,7 +17809,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "K",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『影の伝説』（かげのでんせつ）はタイトーのアクションゲーム。海外版タイトルは『The Legend of Kage』。1985年よりアーケードゲームとして稼働を開始した。\n本項では2008年3月13日にニンテンドーDS用ソフトとしてリリースされた続編である『影之伝説』に関しても併せて解説する。"
   },
   {
     "id": "fcki013",
@@ -17693,7 +17888,8 @@
     "overview_en_source": "thegamesdb",
     "players": 2,
     "age_rating": "E - Everyone",
-    "tgdb_id": 1297
+    "tgdb_id": 1297,
+    "overview_jp": "『グラディウス』（Gradius、日本国外名Nemesis）は、日本のコナミから発売され1985年5月に稼働開始したアーケード用横スクロールシューティングゲーム。\n稼働当初の正式タイトル名は『超次空ファイター グラディウス』。シリーズ化され、同社の『グラディウスシリーズ』第1作となった。全7ステージの無限ループ制。ゲームデザインは町口浩康。キャッチコピーは「1.9.8.5. 宇宙ガ、マルゴト、ヤッテクル」。\n数多くのシリーズ作品（続編）がリリースされている。"
   },
   {
     "id": "fcke013",
@@ -17814,7 +18010,8 @@
     "overview_en_source": "thegamesdb",
     "players": 1,
     "age_rating": "Not Rated",
-    "tgdb_id": 1595
+    "tgdb_id": 1595,
+    "overview_jp": "ザナック\n\nダリル・F・ザナック - アメリカの映画プロデューサー、脚本家。\nリチャード・D・ザナック - アメリカの映画プロデューサー。ダリルの息子。\nディーン・ザナック - アメリカの映画プロデューサー。リチャードの息子。\nザナック (シューティングゲーム) - コンパイル開発・ポニーキャニオン発売のシューティングゲーム。\nザ・ナック - アメリカのバンド。"
   },
   {
     "id": "fcsi013",
@@ -17936,7 +18133,8 @@
     "genre_raw": "動作角色扮演 (ARPG)",
     "genre_en": "RPG",
     "genre_subtype": "動作角扮",
-    "genre_subtype_en": "Action RPG"
+    "genre_subtype_en": "Action RPG",
+    "overview_jp": "『ゼルダの伝説』（ゼルダのでんせつ、The Legend of Zelda）は、任天堂から発売されたゲームソフト。ゼルダの伝説シリーズの一作目にあたる。表記はパッケージやタイトル画面では『THE HYRULE FANTASY ゼルダの伝説』となっている。日本では1986年2月21日にファミリーコンピュータ ディスクシステム用として、日本国外のディスクシステムが発売されなかった地域ではロムカセットとして発売された。\n任天堂のディスクシステムの第一弾ソフトとして発売された。当時のパソコンゲームは『ハイドライドシリーズ』『ドラゴンスレイヤー』『ザナドゥ』といった剣と魔法のファンタジー世界観を持つアクションRPGが人気を博しており、『ゼルダの伝説』はパソコンのフロッピーディスクの容量に対抗できるディスクシステムを生かしたゲームとして開発された。そして『ゼルダの伝説』は大きな人気を博し、その後もシリーズ作品は継続して作られている。\nディスクライターでの累計書き換え回数は第3位を記録する。当時書換用として生ディスクの需要があり、書き換え用のディスクとして複数枚を購入する客が多かったことと、ディスクシステムでのゲームとしては最安値であったことから、異例のロングセラーとなった。"
   },
   {
     "id": "fcta013",
@@ -18013,7 +18211,8 @@
     "letter": "C",
     "no_intro_name": "Super Lode Runner (Japan)",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_jp": "『チャンピオンシップロードランナー』 (Championship Lode Runner)はコンピューターゲームで、アクションパズルゲーム『ロードランナー』（1983年）の続編である。オリジナルはアメリカ合衆国のブローダーバンド社からApple II対応ソフトとして発売された。\n日本では、1985年からファミリーコンピュータ (発売元:ハドソン) やSG-1000 (発売元:セガ)、MSX (発売元ソニー)、国産パソコン各機種（発売元:システムソフト、ソフトプロ）に移植された。またWiiとWii Uのバーチャルコンソールでファミリーコンピュータ版が配信されていた。"
   },
   {
     "id": "fcte013",
@@ -18087,7 +18286,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "H",
     "genre_raw": "運動 (SPG)",
-    "genre_en": "Sports"
+    "genre_en": "Sports",
+    "overview_jp": "『炎の闘球児 ドッジ弾平』（ほのおのとうきゅうじ ドッジだんぺい）は、こしたてつひろによるスーパードッジボールを題材にした漫画作品、およびそれを原作とするテレビアニメ、コンピュータゲームである。"
   },
   {
     "id": "fcna013",
@@ -18203,7 +18403,8 @@
     "genre_en": "Action",
     "genre_raw": "動作平台",
     "genre_subtype": "動作平台",
-    "genre_subtype_en": "Action Platformer"
+    "genre_subtype_en": "Action Platformer",
+    "overview_jp": "『バイオミラクル ぼくってウパ』は、1988年4月22日に日本のコナミから発売されたファミリーコンピュータ ディスクシステム用横スクロールアクションゲーム。\n主人公はルアクーヨ王国の王子、赤ん坊のウパ（名前の由来は勇者ウパラートから）。魔王「ザイー」を倒してさらわれた赤ん坊たちを救出することが目的。主人公も敵キャラクターも可愛らしいことが特徴だが、アクションゲームとしての難易度は高い。\n元々ディスクシステム用として発売された本作であるが、ディスクシステム衰退後の1993年2月26日にはロムカセット版が発売されている。ロムカセット版ではBGMが、ディスクシステムに搭載される拡張音源を除いたアレンジが行われ、初心者向けのイージーモードが追加された。2006年11月1日には、コナミデジタルエンタテインメントが提供する携帯電話向け有料サイト「コナミネットDX」にて、『コナミ名作シリーズ』の第8弾としてiアプリへ移植された（FOMA90xシリーズ以上）他、2008年6月3日にはWiiの、2014年2月19日にはニンテンドー3DSの、2015年7月15日にはWii Uのバーチャルコンソールでも、それぞれ配信が開始された。"
   },
   {
     "id": "fchi013",
@@ -18396,7 +18597,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "M",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_jp": "『マイティボンジャック』（Mighty BombJack）は、テクモが開発し1986年（昭和61年）4月24日に発売されたファミリーコンピュータ用アクションアドベンチャーゲーム。同社のファミリーコンピュータ参入第1弾ソフトでもある。1984年に稼動された同社（当時の社名はテーカン）のアーケードゲーム『ボンジャック』の続編。"
   },
   {
     "id": "fcmi013",
@@ -18478,7 +18680,8 @@
     "overview_en_source": "thegamesdb",
     "players": 1,
     "age_rating": "E - Everyone",
-    "tgdb_id": 365
+    "tgdb_id": 365,
+    "overview_jp": "『メタルギア』（METAL GEAR、略称: MG）は、1987年7月13日に日本のコナミから発売されたMSX2用ステルスゲーム。同社の『メタルギアシリーズ』の第1作である。ゲーム・デザインは本作で監督デビューした小島秀夫。\n本作はソリッド・スネークのFOXHOUND隊員としての初陣となった事件「アウターヘブン蜂起」を描き、なるべく戦闘を回避しながら敵から隠れながら進む。シリーズ第1作でありながら、時系列上は最終作『メタルギアソリッドV』の後の物語にあたる。\n同年12月にはファミリーコンピュータへ移植されるが、小島は関与していない。MSX2版は2004年に新アイテムや新モードが追加された携帯アプリ版がコナミネットDXで配信されている。また2005年発売のPlayStation 2用ソフト『メタルギアソリッド3 サブシスタンス』、2007年の『メタルギアソリッド3 20周年廉価版』への付録、2011年のPS3とXbox 360、2012年にPlayStation Vitaで発売された『メタルギア ソリッド HD エディション』にMSX2版を元にした復刻版が収録された。ほかi-revo（Windowsパソコン用）やWiiのバーチャルコンソールで配信された。\n2008年、「ステルス要素を完全に取り入れた最初のビデオゲーム」として、ギネス世界記録「GAMER'S EDITION 2008」に認定された。"
   },
   {
     "id": "fcmo013",
@@ -18592,7 +18795,8 @@
     "letter": "W",
     "no_intro_name": "Wardner no Mori (Japan)",
     "genre_raw": "益智 (PZG)",
-    "genre_en": "Puzzle"
+    "genre_en": "Puzzle",
+    "overview_jp": "『ワリオの森』（ワリオのもり、Wario's Woods）は、1994年2月19日に任天堂が発売したアクションパズルゲーム。任天堂が日本で発売した最後のファミリーコンピュータ用のゲームタイトル。\n北米およびヨーロッパ市場ではNES版に加え、SNES版も同時発売された。北米向けNES版は唯一ESRBの審査を受けて販売された正規ソフトであり、NES用として正規メーカーから発売された最後のソフトである。SNES版は日本未発売だが、SNES版を元にした改変作がサテラビュー向けに配信された（#移植版）。"
   },
   {
     "id": "fca014",
@@ -18705,7 +18909,8 @@
     "genre_raw": "動作角色扮演 (ARPG)",
     "genre_en": "RPG",
     "genre_subtype": "動作角扮",
-    "genre_subtype_en": "Action RPG"
+    "genre_subtype_en": "Action RPG",
+    "overview_jp": "『うっでいぽこ』（Woody POCO）は、1986年10月22日に日本のデービーソフトから発売されたゲーム。\n主人公のぽこを操作し、木の人形にされてしまった理由を知るためにかつて自分を人間にしてくれた妖精を探す事を目的とした、アドベンチャーゲームの要素を持つ横スクロール型アクションロールプレイングゲーム。\n開発はデービーソフトが行い、プログラムは同社のパソコン用ソフト『ヴォルガード』（1985年）を手掛けた小林貴樹や松井文也が担当し、音楽は同社のファミリーコンピュータ用ソフト『頭脳戦艦ガル』（1985年）を手掛けた斉藤康仁が担当している。\n同年にX1、PC-9801に移植された他、1987年にはファミリーコンピュータ、FM77AV、MSX2に移植された。MSX2版はWindows用ソフトとして2002年にプロジェクトEGGにて、2006年にi-revoにて配信された。FM77AV版は2003年にプロジェクトEGGより配信された。\nファミリーコンピュータ版はゲーム誌『ファミコン通信』の「クロスレビュー」にてシルバー殿堂入りを獲得した。"
   },
   {
     "id": "fce014",
@@ -18822,7 +19027,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "K",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『カケフくんのジャンプ天国 スピード地獄』（カケフくんのジャンプてんごくスピードじごく）は、ビック東海が1988年7月22日に発売したファミリーコンピュータ用のアクションゲーム。ゲーム発売当時に活躍していた人気子役のカケフくんが主人公に起用されている。\n北米では『Kid Kool』というタイトルで発売されている。"
   },
   {
     "id": "fcki014",
@@ -18933,7 +19139,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "G",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ゲゲゲの鬼太郎 妖怪大魔境』（ゲゲゲのきたろう ようかいだいまきょう）は、1986年にバンダイから発売されたファミリーコンピュータ用の横スクロールアクションゲーム。漫画およびアニメ作品『ゲゲゲの鬼太郎』を原作としている。\n日本国外版のタイトルは『NINJA KID』（ニンジャ・キッド）。主人公が忍者のようなキャラクターに、アニメのテーマソングを乗せたBGMが別の曲に差し替られるなどしており、『ゲゲゲの鬼太郎』とは関係なくなっている。"
   },
   {
     "id": "fcko014",
@@ -19083,7 +19290,8 @@
     "genre_raw": "動作角色扮演 (ARPG)",
     "genre_en": "RPG",
     "genre_subtype": "動作角扮",
-    "genre_subtype_en": "Action RPG"
+    "genre_subtype_en": "Action RPG",
+    "overview_jp": "『スーパーチャイニーズ3』は、1991年3月1日にカルチャーブレーンより発売されたファミリーコンピュータ用ゲームソフト。『スーパーチャイニーズ』（1984年）シリーズの第三作目である。"
   },
   {
     "id": "fcse014",
@@ -19120,7 +19328,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "S",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『戦場の狼』（せんじょうのおおかみ、日本国外タイトルは『Commando』）は、1985年5月に稼働したカプコンのアーケード用アクションシューティングゲーム。"
   },
   {
     "id": "fcta014",
@@ -19194,7 +19403,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "C",
     "genre_raw": "射擊 (STG)",
-    "genre_en": "Shooter"
+    "genre_en": "Shooter",
+    "overview_jp": "『中華大仙』(CHUKA TAISEN)は、1988年7月に日本のタイトーから稼働されたアーケード用横スクロールシューティングゲームである。日本国外(海外)では1989年にセガ・マスターシステム用として発売され、タイトルは『Cloud Master』となっている。\n開発はホット・ビィ。阿部幸雄と藤原英裕がデザインした。\n日本国内では1988年にMSX2、1989年にファミリーコンピュータ、1991年にX68000に移植された。また、1992年にはPCエンジン用ソフトとして『極楽! 中華大仙』のタイトルでリメイク移植された。2007年にはリメイク版としてWii用ソフト『新・中華大仙 〜マイケルとメイメイの冒険〜』が発売された。\nMSX2版は2005年にWindows用ソフトとしてプロジェクトEGGにて配信され、アーケード版はPlayStation 2用ソフト『タイトーメモリーズII 上巻』（2007年）に収録された他、2018年にNintendo Switch用、PlayStation 4用ソフトとしてそれぞれ配信されている。"
   },
   {
     "id": "fcte014",
@@ -19268,7 +19478,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "T",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『突然! マッチョマン』（とつぜん マッチョマン）は、ビック東海より1988年に発売されたファミコン用横スクロール型アクションゲーム。制作はエイコム。北米では『Amagon』（アマゴン）のタイトルで発売された。\n本作の物語は、新薬の注文を受けトロッポ島を訪れた主人公である科学者・ジャクソンが、撃墜されて砂浜に不時着し、銃を手に奪われた薬を回収しながら脱出するという内容である。島のモンスターは飛行機から持ち去った新薬の『マッチョマックス・ペレー』を隠し持っており、ジャクソンはそれを服用することで強力なマッチョマンに変身することができる。"
   },
   {
     "id": "fcna014",
@@ -19342,7 +19553,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "N",
     "genre_raw": "角色扮演 (RPG)",
-    "genre_en": "RPG"
+    "genre_en": "RPG",
+    "overview_jp": "『忍者らホイ! 痛快うんがちょこ忍法伝!!』（にんじゃらホイ! つうかいうんがちょこにんぽうでん!!）は、1990年に、アスキーから発売されたファミリーコンピュータ専用のRPGソフト。"
   },
   {
     "id": "fcha014",
@@ -19384,7 +19596,8 @@
     "genre_en": "Action",
     "genre_raw": "動作平台",
     "genre_subtype": "動作平台",
-    "genre_subtype_en": "Action Platformer"
+    "genre_subtype_en": "Action Platformer",
+    "overview_jp": "『バイオミラクル ぼくってウパ』は、1988年4月22日に日本のコナミから発売されたファミリーコンピュータ ディスクシステム用横スクロールアクションゲーム。\n主人公はルアクーヨ王国の王子、赤ん坊のウパ（名前の由来は勇者ウパラートから）。魔王「ザイー」を倒してさらわれた赤ん坊たちを救出することが目的。主人公も敵キャラクターも可愛らしいことが特徴だが、アクションゲームとしての難易度は高い。\n元々ディスクシステム用として発売された本作であるが、ディスクシステム衰退後の1993年2月26日にはロムカセット版が発売されている。ロムカセット版ではBGMが、ディスクシステムに搭載される拡張音源を除いたアレンジが行われ、初心者向けのイージーモードが追加された。2006年11月1日には、コナミデジタルエンタテインメントが提供する携帯電話向け有料サイト「コナミネットDX」にて、『コナミ名作シリーズ』の第8弾としてiアプリへ移植された（FOMA90xシリーズ以上）他、2008年6月3日にはWiiの、2014年2月19日にはニンテンドー3DSの、2015年7月15日にはWii Uのバーチャルコンソールでも、それぞれ配信が開始された。"
   },
   {
     "id": "fchi014",
@@ -19421,7 +19634,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "H",
     "genre_raw": "冒險 (ADV)",
-    "genre_en": "Adventure"
+    "genre_en": "Adventure",
+    "overview_jp": "『必殺仕事人』（ひっさつしごとにん）はTV連続時代劇必殺シリーズの中の1作品およびその続編、単発スペシャル、映画など派生作品の総称。映像作品が基本であるが、関連商品も多く発売されているためその一部も記載する。"
   },
   {
     "id": "fchu014",
@@ -19532,7 +19746,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "P",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ポケットザウルス 十王剣の謎』（ポケットザウルス じゅうおうけんのなぞ）は、1987年2月27日にバンダイから発売されたファミリーコンピュータ用ゲームソフト。同社の発売したキャラクター文具『ポケットザウルス』をモチーフとしている。"
   },
   {
     "id": "fcma014",
@@ -19717,7 +19932,8 @@
     "source_url": "https://famicom.tw/museum/sw/",
     "letter": "R",
     "genre_raw": "動作 (ACT)",
-    "genre_en": "Action"
+    "genre_en": "Action",
+    "overview_jp": "『ロックマン3 Dr.ワイリーの最期!?』（ロックマンスリー ドクターワイリーのさいご!?、ROCKMAN 3）は、1990年9月28日に日本のカプコンから発売されたファミリーコンピュータ用横スクロールアクションゲーム。\n同社の『ロックマンシリーズ』第3作目である。主人公のロックマンを操作し、愛犬「ラッシュ」と共に未知の惑星で反乱を起こしたロボットたちを倒すことを目的としたゲーム。前作からさらにステージ数やボス戦が増加し、さらにストーリー性が重視されるなど演出面が向上している。\n開発はカプコン第二企画制作課が行い、プロデューサーは藤原得郎、企画は黒川真圭、音楽は藤田靖明、キャラクター・デザインは稲船敬二が担当している。また『2』まで企画を担当した北村玲は会社を退職する際、黒川から今あるアイデアを聞かせておいてくれと頼まれ、ゲームシステムを変更しないことやブルースやラッシュのアイデアなどを伝えたという。\n1999年にプレイステーションに移植された他、2005年以降は携帯電話ゲームとして配信された。またバーチャルコンソール対応ソフトとしてWii、ニンテンドー3DS、Wii Uにて配信された他、ゲームアーカイブス対応ソフトとしてPlayStation Portable、PlayStation 3にて配信された。"
   },
   {
     "id": "fcwa014",
