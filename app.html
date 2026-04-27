@@ -1074,7 +1074,11 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
     -ms-overflow-style: none;
     -webkit-overflow-scrolling: touch;
     flex-wrap: nowrap;
-    justify-content: center;
+    /* center 在內容超寬時會把第一個 icon (PCE) 推到 negative scroll 看不到（Z Fold 4 外屏 ~376px viewport 觀察到）。
+       改 flex-start 讓 PCE 永遠在最左、立刻看得見。padding 加 safe-area 避免折疊屏遮邊。 */
+    justify-content: flex-start;
+    padding-left: max(8px, env(safe-area-inset-left));
+    padding-right: max(8px, env(safe-area-inset-right));
     width: 100%;
   }
   .console-picker::-webkit-scrollbar { display: none; }
