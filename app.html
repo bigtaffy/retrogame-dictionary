@@ -742,9 +742,14 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
   display: flex; align-items: center; justify-content: center;
   position: relative;
 }
-#emu-game {
+#emu-game, #emu-canvas {
   width: 100%; max-width: 1024px;
   height: 100%; max-height: calc(100vh - 80px);
+  /* PCE 像素藝術用 nearest-neighbor 放大才好看 */
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  background: #000;
+  outline: none;
 }
 #emu-loading {
   position: absolute; inset: 0;
@@ -1342,14 +1347,15 @@ const state = {
 /* ============================================================
    ROMS / 模擬器 (EmulatorJS)
    ============================================================ */
-// console slug → EmulatorJS core 名
+// console slug → Nostalgist.js (RetroArch wasm) core 名
+// 比 EmulatorJS PCE core 穩，PCE 用 mednafen_pce_fast 對 1943 Kai 等 HuCard 已驗證
 const EMU_CORE = {
-  pce: 'pce',
-  fc:  'nes',
-  gb:  'gb',
-  gbc: 'gb',
-  gba: 'gba',
-  md:  'segaMD',
+  pce: 'mednafen_pce_fast',  // 也支援 pce_fast 的別名
+  fc:  'fceumm',             // FCEUmm（NES/Famicom 標準）
+  gb:  'gambatte',
+  gbc: 'gambatte',
+  gba: 'mgba',
+  md:  'genesis_plus_gx',
 };
 
 // 載入 Roms/index.json 一次。檔案缺也 OK（沒 ROM 就沒事）。
@@ -1372,8 +1378,12 @@ function getRomUrl(consoleName, game) {
   return state.roms[consoleName]?.[niName] || null;
 }
 
-// 啟動模擬器 — 全螢幕 modal + EmulatorJS loader
-function openEmulator(romUrl, consoleName, gameTitle) {
+// 啟動模擬器 — 全螢幕 modal + Nostalgist.js (RetroArch wasm)
+// 為什麼換掉 EmulatorJS：PCE core 在 1943 Kai 上 black-screen（canvas 全 0,0,0,0）。
+// Nostalgist 一行 launch、API 直、debug 容易，core 也用 RetroArch + Mednafen。
+let _nostalgistInstance = null;
+
+async function openEmulator(romUrl, consoleName, gameTitle) {
   const core = EMU_CORE[consoleName];
   if (!core) {
     alert('不支援這個主機的模擬器');
@@ -1382,6 +1392,10 @@ function openEmulator(romUrl, consoleName, gameTitle) {
 
   // 已有 modal 先關掉
   document.getElementById('emu-modal')?.remove();
+  if (_nostalgistInstance) {
+    try { await _nostalgistInstance.exit(); } catch {}
+    _nostalgistInstance = null;
+  }
 
   const modal = document.createElement('div');
   modal.id = 'emu-modal';
@@ -1391,35 +1405,44 @@ function openEmulator(romUrl, consoleName, gameTitle) {
       <button id="emu-close" type="button">✕ CLOSE</button>
     </div>
     <div id="emu-frame">
-      <div id="emu-game"></div>
+      <canvas id="emu-canvas"></canvas>
       <div id="emu-loading">載入中…</div>
     </div>
   `;
   document.body.appendChild(modal);
 
-  // 關閉 = 移除 modal + 全部 EJS_* globals + 任何 EJS 注入的 script
-  document.getElementById('emu-close').onclick = () => {
+  document.getElementById('emu-close').onclick = async () => {
+    if (_nostalgistInstance) {
+      try { await _nostalgistInstance.exit(); } catch {}
+      _nostalgistInstance = null;
+    }
     modal.remove();
-    Object.keys(window).forEach(k => {
-      if (k.startsWith('EJS_')) delete window[k];
+  };
+
+  try {
+    // 動態 import Nostalgist (ES module from CDN)
+    const { Nostalgist } = await import('https://esm.run/nostalgist');
+    _nostalgistInstance = await Nostalgist.launch({
+      element: '#emu-canvas',
+      core,
+      rom: { fileName: gameTitle + '.pce', fileContent: await fetchRomBlob(romUrl) },
+      runEmulatorManually: false,
+      style: { width: '100%', height: '100%' },
     });
-    document.querySelectorAll('script[src*="emulatorjs"]').forEach(s => s.remove());
-  };
-
-  // EmulatorJS 設定
-  window.EJS_player = '#emu-game';
-  window.EJS_core = core;
-  window.EJS_gameUrl = romUrl;
-  window.EJS_pathtodata = 'https://cdn.emulatorjs.org/stable/data/';
-  window.EJS_startOnLoaded = true;
-  window.EJS_gameName = gameTitle || '';
-  window.EJS_ready = () => {
     document.getElementById('emu-loading')?.remove();
-  };
+  } catch (err) {
+    const loading = document.getElementById('emu-loading');
+    if (loading) {
+      loading.innerHTML = '載入失敗：<br><span style="color:#ff5fb6;font-size:11px">' + (err.message || err) + '</span>';
+    }
+    console.error('Nostalgist launch failed:', err);
+  }
+}
 
-  const script = document.createElement('script');
-  script.src = 'https://cdn.emulatorjs.org/stable/data/loader.js';
-  document.body.appendChild(script);
+async function fetchRomBlob(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error('ROM fetch HTTP ' + r.status);
+  return await r.blob();
 }
 
 /* ============================================================
