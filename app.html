@@ -1429,22 +1429,15 @@ async function openEmulator(romUrl, consoleName, gameTitle) {
     // 動態 import Nostalgist (ES module from CDN，pin major 版本)
     const { Nostalgist } = await import('https://cdn.jsdelivr.net/npm/nostalgist@0/+esm');
 
-    // 從 romUrl 拿原始檔名 + 副檔名（Mednafen 對檔名 case 跟 extension 敏感）
-    // 注意：Nostalgist 看到 url 結尾不是已知 ROM 副檔名 / 或 mime 類型不對
-    // 會把 binary 當 zip 解析。所以我們先 fetch + 給 Blob with 明確 fileName。
-    const urlPath = decodeURIComponent(romUrl.split('?')[0]);
-    const origFileName = urlPath.split('/').pop() || 'rom.pce';
-    const ext = origFileName.split('.').pop().toLowerCase();
-    // 用 ASCII-safe filename（去空格 + 括號），保留副檔名
-    const safeFileName = `rom_${Date.now()}.${ext}`;
-
-    const romBlob = await fetchRomBlob(romUrl);
-    console.log('[emu] ROM fetched', { size: romBlob.size, ext, safeFileName });
+    // 直接給 Nostalgist URL（讓它自己 fetch + unzip + 找 ROM），
+    // 比 Blob/ArrayBuffer 路徑更穩。但 URL 必須是 absolute 或 same-origin。
+    const absoluteRomUrl = new URL(romUrl, location.href).href;
+    console.log('[emu] launching with URL', absoluteRomUrl);
 
     _nostalgistInstance = await Nostalgist.launch({
       element: '#emu-canvas',
       core,
-      rom: { fileName: safeFileName, fileContent: romBlob },
+      rom: absoluteRomUrl,
       style: { width: '100%', height: '100%' },
       respondToGlobalEvents: true,
     });
