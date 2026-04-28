@@ -1,6 +1,8 @@
 {
-  "_note": "ROM 索引：console_slug → no_intro_name → 相對 URL。Nostalgist 期待 .zip 包裝（ROM 放在 zip 內）。1943 Kai 在 mednafen-pce-fast wasm core 上不相容（已測 EmulatorJS + Nostalgist 兩個框架），暫時不掛 button；以後試其他 PCE ROM 再啟用。",
-  "pce": {},
+  "_note": "ROM 索引：console_slug → no_intro_name → 相對 URL（直接指向原始 ROM 檔，不需 zip 包裝）。",
+  "pce": {
+    "1943 Kai (Japan)": "Roms/PCE/1943 Kai (Japan).pce"
+  },
   "fc":  {},
   "gb":  {},
   "gbc": {},

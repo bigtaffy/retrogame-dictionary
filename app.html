@@ -1347,15 +1347,15 @@ const state = {
 /* ============================================================
    ROMS / 模擬器 (EmulatorJS)
    ============================================================ */
-// console slug → Nostalgist.js short core 名（Nostalgist 內部會 map 到 retroarch core）
-// 用 short name 避免 long name 在某些版本 mismatch
+// console slug → EmulatorJS core 名
+// 用 EmulatorJS 走原始 .pce 路徑（不需要 zip 包裝）
 const EMU_CORE = {
-  pce: 'pce',    // → mednafen_pce_fast
-  fc:  'nes',    // → fceumm
-  gb:  'gb',     // → gambatte
-  gbc: 'gbc',    // → gambatte
-  gba: 'gba',    // → mgba
-  md:  'megadrive', // → genesis_plus_gx
+  pce: 'pce',
+  fc:  'nes',
+  gb:  'gb',
+  gbc: 'gb',
+  gba: 'gba',
+  md:  'segaMD',
 };
 
 // 載入 Roms/index.json 一次。檔案缺也 OK（沒 ROM 就沒事）。
@@ -1378,24 +1378,18 @@ function getRomUrl(consoleName, game) {
   return state.roms[consoleName]?.[niName] || null;
 }
 
-// 啟動模擬器 — 全螢幕 modal + Nostalgist.js (RetroArch wasm)
-// 為什麼換掉 EmulatorJS：PCE core 在 1943 Kai 上 black-screen（canvas 全 0,0,0,0）。
-// Nostalgist 一行 launch、API 直、debug 容易，core 也用 RetroArch + Mednafen。
-let _nostalgistInstance = null;
-
-async function openEmulator(romUrl, consoleName, gameTitle) {
+// 啟動模擬器 — 全螢幕 modal + EmulatorJS（直送 .pce / .nes / .gb 等原始 ROM）
+function openEmulator(romUrl, consoleName, gameTitle) {
   const core = EMU_CORE[consoleName];
   if (!core) {
     alert('不支援這個主機的模擬器');
     return;
   }
 
-  // 已有 modal 先關掉
+  // 已有 modal 先關掉，並清乾淨之前 EmulatorJS 注入的 globals + script
   document.getElementById('emu-modal')?.remove();
-  if (_nostalgistInstance) {
-    try { await _nostalgistInstance.exit(); } catch {}
-    _nostalgistInstance = null;
-  }
+  Object.keys(window).forEach(k => { if (k.startsWith('EJS_')) delete window[k]; });
+  document.querySelectorAll('script[src*="emulatorjs"]').forEach(s => s.remove());
 
   const modal = document.createElement('div');
   modal.id = 'emu-modal';
@@ -1405,57 +1399,51 @@ async function openEmulator(romUrl, consoleName, gameTitle) {
       <button id="emu-close" type="button">✕ CLOSE</button>
     </div>
     <div id="emu-frame">
-      <canvas id="emu-canvas"></canvas>
+      <div id="emu-game"></div>
       <div id="emu-loading">載入中…</div>
     </div>
   `;
   document.body.appendChild(modal);
 
-  document.getElementById('emu-close').onclick = async () => {
-    if (_nostalgistInstance) {
-      try { await _nostalgistInstance.exit(); } catch {}
-      _nostalgistInstance = null;
-    }
+  document.getElementById('emu-close').onclick = () => {
     modal.remove();
+    if (window.EJS_emulator?.exit) {
+      try { window.EJS_emulator.exit(); } catch {}
+    }
+    Object.keys(window).forEach(k => { if (k.startsWith('EJS_')) delete window[k]; });
+    document.querySelectorAll('script[src*="emulatorjs"]').forEach(s => s.remove());
   };
 
-  try {
-    // 點按鈕當作 user gesture，先建 AudioContext 並 resume() — 部分 wasm core 沒這步會卡 frame loop
-    try {
-      const ac = new (window.AudioContext || window.webkitAudioContext)();
-      if (ac.state === 'suspended') await ac.resume();
-    } catch {}
-
-    // 動態 import Nostalgist (ES module from CDN，pin major 版本)
-    const { Nostalgist } = await import('https://cdn.jsdelivr.net/npm/nostalgist@0/+esm');
-
-    // 直接給 Nostalgist URL（讓它自己 fetch + unzip + 找 ROM），
-    // 比 Blob/ArrayBuffer 路徑更穩。但 URL 必須是 absolute 或 same-origin。
-    const absoluteRomUrl = new URL(romUrl, location.href).href;
-    console.log('[emu] launching with URL', absoluteRomUrl);
-
-    _nostalgistInstance = await Nostalgist.launch({
-      element: '#emu-canvas',
-      core,
-      rom: absoluteRomUrl,
-      style: { width: '100%', height: '100%' },
-      respondToGlobalEvents: true,
-    });
+  // === EmulatorJS 設定 ===
+  // 重要：EmulatorJS 預設會去 hash ROM + 查 game DB。某些 ROM 不在 DB 會卡載入。
+  // disableDatabases:true 跳過這步，直接 boot。
+  window.EJS_player = '#emu-game';
+  window.EJS_core = core;
+  window.EJS_gameUrl = romUrl;          // 直接給 .pce URL，不包 zip
+  window.EJS_pathtodata = 'https://cdn.emulatorjs.org/stable/data/';
+  window.EJS_startOnLoaded = true;      // 載完直接跑，不等 user 點 PLAY
+  window.EJS_disableDatabases = true;   // 跳過 game DB hash lookup
+  window.EJS_gameName = gameTitle || '';
+  window.EJS_color = '#ff3ec8';         // synthwave 粉紅 accent
+  window.EJS_ready = function () {
+    console.log('[emu] EmulatorJS ready');
     document.getElementById('emu-loading')?.remove();
-    console.log('[emu] Nostalgist launched OK', { core, rom: origFileName });
-  } catch (err) {
-    const loading = document.getElementById('emu-loading');
-    if (loading) {
-      loading.innerHTML = '載入失敗：<br><span style="color:#ff5fb6;font-size:11px">' + (err.message || err) + '</span>';
-    }
-    console.error('Nostalgist launch failed:', err);
-  }
-}
+    // 強制叫 emulator restart 一次（部分 ROM 第一輪沒啟動 frame loop，restart 會強制 boot）
+    setTimeout(() => {
+      try { window.EJS_emulator?.gameManager?.restart?.(); } catch (e) { console.warn(e); }
+    }, 500);
+  };
+  window.EJS_onGameStart = function () {
+    console.log('[emu] game started');
+  };
 
-async function fetchRomBlob(url) {
-  const r = await fetch(url);
-  if (!r.ok) throw new Error('ROM fetch HTTP ' + r.status);
-  return await r.blob();
+  const script = document.createElement('script');
+  script.src = 'https://cdn.emulatorjs.org/stable/data/loader.js';
+  script.onerror = () => {
+    const l = document.getElementById('emu-loading');
+    if (l) l.innerHTML = 'EmulatorJS 載入失敗（CDN）';
+  };
+  document.body.appendChild(script);
 }
 
 /* ============================================================
