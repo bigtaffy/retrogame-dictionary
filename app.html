@@ -697,6 +697,66 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
 .detail .action-btn.fav:hover, .detail .action-btn.fav.active { background: rgba(255, 62, 200, 0.15); box-shadow: var(--glow-pink); }
 .detail .action-btn.src { color: var(--cyan); border-color: var(--cyan); }
 .detail .action-btn.src:hover { background: rgba(0, 240, 255, 0.12); box-shadow: var(--glow-cyan); }
+.detail .action-btn.play {
+  color: #5cffb6; border-color: #5cffb6;
+  font-weight: 700;
+  text-shadow: 0 0 6px rgba(92, 255, 182, 0.5);
+}
+.detail .action-btn.play:hover {
+  background: rgba(92, 255, 182, 0.15);
+  box-shadow: 0 0 12px rgba(92, 255, 182, 0.6);
+}
+
+/* ============================================================
+   EMULATOR MODAL（EmulatorJS）— 有 ROM 才開
+   ============================================================ */
+#emu-modal {
+  position: fixed; inset: 0; z-index: 9999;
+  background: rgba(0, 0, 0, 0.92);
+  backdrop-filter: blur(8px);
+  display: flex; flex-direction: column;
+  padding: 16px;
+}
+#emu-topbar {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 6px 4px 12px;
+  color: var(--text-soft);
+  font-family: var(--pixel-en); font-size: 11px; letter-spacing: 1px;
+}
+#emu-title {
+  color: var(--pink); text-shadow: 0 0 8px rgba(255, 62, 200, 0.5);
+  font-size: 13px;
+}
+#emu-close {
+  font-family: var(--pixel-en); font-size: 12px; letter-spacing: 1px;
+  padding: 8px 14px; border-radius: 6px;
+  border: 1px solid rgba(255, 62, 200, 0.4);
+  color: var(--pink);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+#emu-close:hover { background: rgba(255, 62, 200, 0.15); box-shadow: var(--glow-pink); }
+#emu-frame {
+  flex: 1; min-height: 0;
+  display: flex; align-items: center; justify-content: center;
+  position: relative;
+}
+#emu-game {
+  width: 100%; max-width: 1024px;
+  height: 100%; max-height: calc(100vh - 80px);
+}
+#emu-loading {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--cyan);
+  font-family: var(--pixel-en); font-size: 14px;
+  pointer-events: none;
+}
+@media (max-width: 700px) {
+  #emu-modal { padding: 8px; }
+  #emu-game { max-width: 100%; }
+}
 
 .detail .section {
   margin-top: 28px; padding-top: 20px;
@@ -1276,7 +1336,91 @@ const state = {
   filters: { search: '', format: '', genre: '', region: '', rating: 'all', letter: '' },
   cache: new Map(), // console → { games, byId }
   detail: null, // current detail game id
+  roms: null,   // ROM 索引：載入 Roms/index.json 一次後 cache 起來
 };
+
+/* ============================================================
+   ROMS / 模擬器 (EmulatorJS)
+   ============================================================ */
+// console slug → EmulatorJS core 名
+const EMU_CORE = {
+  pce: 'pce',
+  fc:  'nes',
+  gb:  'gb',
+  gbc: 'gb',
+  gba: 'gba',
+  md:  'segaMD',
+};
+
+// 載入 Roms/index.json 一次。檔案缺也 OK（沒 ROM 就沒事）。
+async function loadRomsIndex() {
+  if (state.roms !== null) return state.roms;
+  try {
+    const r = await fetch('Roms/index.json', { cache: 'no-cache' });
+    state.roms = r.ok ? await r.json() : {};
+  } catch {
+    state.roms = {};
+  }
+  return state.roms;
+}
+
+// 用 console + no_intro_name 查 ROM URL；查不到回 null
+function getRomUrl(consoleName, game) {
+  if (!state.roms) return null;
+  const niName = (game?.no_intro_name || '').trim();
+  if (!niName) return null;
+  return state.roms[consoleName]?.[niName] || null;
+}
+
+// 啟動模擬器 — 全螢幕 modal + EmulatorJS loader
+function openEmulator(romUrl, consoleName, gameTitle) {
+  const core = EMU_CORE[consoleName];
+  if (!core) {
+    alert('不支援這個主機的模擬器');
+    return;
+  }
+
+  // 已有 modal 先關掉
+  document.getElementById('emu-modal')?.remove();
+
+  const modal = document.createElement('div');
+  modal.id = 'emu-modal';
+  modal.innerHTML = `
+    <div id="emu-topbar">
+      <div id="emu-title">▶ ${gameTitle || ''}</div>
+      <button id="emu-close" type="button">✕ CLOSE</button>
+    </div>
+    <div id="emu-frame">
+      <div id="emu-game"></div>
+      <div id="emu-loading">載入中…</div>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  // 關閉 = 移除 modal + 全部 EJS_* globals + 任何 EJS 注入的 script
+  document.getElementById('emu-close').onclick = () => {
+    modal.remove();
+    Object.keys(window).forEach(k => {
+      if (k.startsWith('EJS_')) delete window[k];
+    });
+    document.querySelectorAll('script[src*="emulatorjs"]').forEach(s => s.remove());
+  };
+
+  // EmulatorJS 設定
+  window.EJS_player = '#emu-game';
+  window.EJS_core = core;
+  window.EJS_gameUrl = romUrl;
+  window.EJS_pathtodata = 'https://cdn.emulatorjs.org/stable/data/';
+  window.EJS_startOnLoaded = true;
+  window.EJS_gameName = gameTitle || '';
+  window.EJS_ready = () => {
+    document.getElementById('emu-loading')?.remove();
+  };
+
+  const script = document.createElement('script');
+  script.src = 'https://cdn.emulatorjs.org/stable/data/loader.js';
+  document.body.appendChild(script);
+}
 
 /* ============================================================
    ROUTING (hash-based)
@@ -1789,6 +1933,7 @@ function renderSuggestions() {
    ============================================================ */
 async function renderDetail(consoleName, id) {
   await loadConsole(consoleName);
+  await loadRomsIndex();   // ROM 索引（cached after first call）
   const data = state.cache.get(consoleName);
   const g = data.byId.get(String(id));
   const c = document.getElementById('view-container');
@@ -1845,6 +1990,12 @@ async function renderDetail(consoleName, id) {
             ${region ? `<span class="badge region ${region}">${region}</span>` : ''}
           </div>
           <div class="header-actions">
+            ${(() => {
+              const romUrl = getRomUrl(consoleName, g);
+              return romUrl
+                ? `<button class="action-btn play" type="button" data-rom-url="${escapeHtml(romUrl)}" data-rom-console="${escapeHtml(consoleName)}" data-rom-title="${escapeHtml(primary)}">▶ 試玩</button>`
+                : '';
+            })()}
             ${g.source_url ? `<a class="action-btn src" href="${escapeHtml(g.source_url)}" target="_blank" rel="noopener">↗ SOURCE</a>` : ''}
           </div>
         </div>
@@ -1920,6 +2071,12 @@ async function renderDetail(consoleName, id) {
   `;
 
   document.getElementById('detail-back').addEventListener('click', () => navigate(consoleName));
+  // ▶ 試玩 → 啟動 EmulatorJS
+  c.querySelectorAll('.action-btn.play').forEach(btn => {
+    btn.addEventListener('click', () => {
+      openEmulator(btn.dataset.romUrl, btn.dataset.romConsole, btn.dataset.romTitle);
+    });
+  });
   c.querySelectorAll('.gallery img').forEach(img => {
     img.addEventListener('click', () => openLightbox(`<img src="${img.dataset.shot}">`));
   });

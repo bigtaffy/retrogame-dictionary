@@ -1,0 +1,11 @@
+{
+  "_note": "ROM 索引：console_slug → no_intro_name → 相對 URL。前端用此判斷該遊戲是否有可玩 ROM。檔名請與 games.json 的 no_intro_name 完全一致（不含副檔名）。",
+  "pce": {
+    "1943 Kai (Japan)": "Roms/PCE/1943 Kai (Japan).pce"
+  },
+  "fc":  {},
+  "gb":  {},
+  "gbc": {},
+  "gba": {},
+  "md":  {}
+}
