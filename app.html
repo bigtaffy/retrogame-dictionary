@@ -1194,6 +1194,9 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
       <button class="console-pill" data-console="md" title="Mega Drive">
         <img class="ico-img" src="icons/md.png" alt="MD" draggable="false">
       </button>
+      <button class="console-pill" data-console="nds" title="Nintendo DS">
+        <img class="ico-img" src="icons/nds.png" alt="NDS" draggable="false">
+      </button>
     </div>
 
     <div class="topbar-right">
@@ -1306,6 +1309,14 @@ const CONSOLE_CONFIG = {
     imageBase: '',
     hasFormat: true,    // Cartridge / CD-ROM
     hasRegion: true,
+    hasYoutube: false,
+  },
+  nds: {
+    name: 'Nintendo DS',
+    dataUrl: 'data/nds/games.json',
+    imageBase: '',
+    hasFormat: false,
+    hasRegion: true,    // 5000+ 遊戲跨多個 region
     hasYoutube: false,
   },
 };
