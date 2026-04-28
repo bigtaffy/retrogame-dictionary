@@ -1386,6 +1386,30 @@ function openEmulator(romUrl, consoleName, gameTitle) {
     return;
   }
 
+  // 修黑畫面 bug：RetroArch wasm 內部會呼 navigator.wakeLock.request()，
+  // 失敗時拋 NotAllowedError，導致 wasm callMain abort、frame loop 沒啟動 → 畫面黑。
+  // Stub 一個永不失敗的 wakeLock 介面，wasm init 才能跑完。
+  if (!window.__rgdWakeLockStubbed) {
+    try {
+      const stubLock = {
+        released: false,
+        type: 'screen',
+        addEventListener: () => {},
+        removeEventListener: () => {},
+        release: async () => {},
+      };
+      Object.defineProperty(navigator, 'wakeLock', {
+        configurable: true,
+        get: () => ({
+          request: async () => stubLock,
+        }),
+      });
+      window.__rgdWakeLockStubbed = true;
+    } catch (e) {
+      console.warn('wakeLock stub failed:', e);
+    }
+  }
+
   // 已有 modal 先關掉，並清乾淨之前 EmulatorJS 注入的 globals + script
   document.getElementById('emu-modal')?.remove();
   Object.keys(window).forEach(k => { if (k.startsWith('EJS_')) delete window[k]; });
