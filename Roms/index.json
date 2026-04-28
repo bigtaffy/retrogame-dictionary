@@ -1,7 +1,7 @@
 {
   "_note": "ROM 索引：console_slug → no_intro_name → 相對 URL（直接指向原始 ROM 檔，不需 zip 包裝）。",
   "pce": {
-    "1943 Kai (Japan)": "Roms/PCE/1943 Kai (Japan).pce"
+    "1943 Kai (Japan)": "Roms/PCE/1943_kai.pce"
   },
   "fc":  {},
   "gb":  {},
