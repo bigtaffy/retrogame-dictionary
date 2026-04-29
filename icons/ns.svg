@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+  <!-- Left Joy-Con (red/pink neon) -->
+  <rect x="6" y="14" width="22" height="36" rx="8" ry="8"
+        fill="none" stroke="#ff3ec8" stroke-width="2.4" filter="url(#g)"/>
+  <rect x="6" y="14" width="22" height="36" rx="8" ry="8"
+        fill="none" stroke="#ff3ec8" stroke-width="1.4"/>
+  <!-- left analog stick -->
+  <circle cx="17" cy="24" r="2.4" fill="none" stroke="#ff3ec8" stroke-width="1.3"/>
+  <!-- left arrow keys placeholder -->
+  <circle cx="17" cy="40" r="1.6" fill="#ff3ec8"/>
+
+  <!-- Right Joy-Con (cyan neon) -->
+  <rect x="36" y="14" width="22" height="36" rx="8" ry="8"
+        fill="none" stroke="#4dd6ff" stroke-width="2.4" filter="url(#g)"/>
+  <rect x="36" y="14" width="22" height="36" rx="8" ry="8"
+        fill="none" stroke="#4dd6ff" stroke-width="1.4"/>
+  <!-- right analog stick -->
+  <circle cx="47" cy="40" r="2.4" fill="none" stroke="#4dd6ff" stroke-width="1.3"/>
+  <!-- ABXY dots -->
+  <circle cx="51" cy="22" r="1.4" fill="#4dd6ff"/>
+  <circle cx="47" cy="26" r="1.4" fill="#4dd6ff"/>
+  <circle cx="47" cy="18" r="1.4" fill="#4dd6ff"/>
+  <circle cx="43" cy="22" r="1.4" fill="#4dd6ff"/>
+
+  <!-- Central screen rail -->
+  <rect x="28" y="20" width="8" height="24" fill="#1a0e2e" stroke="#5b3a8e" stroke-width="0.8"/>
+</svg>
