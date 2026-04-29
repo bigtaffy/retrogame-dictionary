@@ -1197,6 +1197,9 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
       <button class="console-pill" data-console="nds" title="Nintendo DS">
         <img class="ico-img" src="icons/nds.png" alt="NDS" draggable="false">
       </button>
+      <button class="console-pill" data-console="3ds" title="Nintendo 3DS">
+        <img class="ico-img" src="icons/3ds.svg" alt="3DS" draggable="false">
+      </button>
       <button class="console-pill" data-console="ns" title="Nintendo Switch">
         <img class="ico-img" src="icons/ns.svg" alt="NS" draggable="false">
       </button>
@@ -1320,6 +1323,14 @@ const CONSOLE_CONFIG = {
     imageBase: '',
     hasFormat: false,
     hasRegion: true,    // 5000+ 遊戲跨多個 region
+    hasYoutube: false,
+  },
+  '3ds': {
+    name: 'Nintendo 3DS',
+    dataUrl: 'data/3ds/games.json',
+    imageBase: '',
+    hasFormat: false,
+    hasRegion: true,
     hasYoutube: false,
   },
   ns: {

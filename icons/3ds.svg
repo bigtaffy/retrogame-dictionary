@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g3" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+  <!-- Top half: dual-screen clamshell open -->
+  <!-- Top screen (3D screen) -->
+  <rect x="10" y="6" width="44" height="22" rx="3" ry="3"
+        fill="none" stroke="#ff3ec8" stroke-width="2.4" filter="url(#g3)"/>
+  <rect x="10" y="6" width="44" height="22" rx="3" ry="3"
+        fill="none" stroke="#ff3ec8" stroke-width="1.4"/>
+  <rect x="14" y="9" width="36" height="16" rx="1" fill="none" stroke="#ff3ec8" stroke-width="0.8" opacity="0.6"/>
+  <!-- "3D" text -->
+  <text x="32" y="21" fill="#ff3ec8" text-anchor="middle"
+        font-family="-apple-system, system-ui, sans-serif"
+        font-size="9" font-weight="700">3D</text>
+
+  <!-- Hinge -->
+  <rect x="10" y="29" width="44" height="2" fill="#5b3a8e"/>
+
+  <!-- Bottom half: touchscreen + buttons -->
+  <rect x="10" y="32" width="44" height="26" rx="3" ry="3"
+        fill="none" stroke="#4dd6ff" stroke-width="2.4" filter="url(#g3)"/>
+  <rect x="10" y="32" width="44" height="26" rx="3" ry="3"
+        fill="none" stroke="#4dd6ff" stroke-width="1.4"/>
+  <!-- Touchscreen -->
+  <rect x="20" y="36" width="24" height="16" rx="1" fill="none" stroke="#4dd6ff" stroke-width="0.8" opacity="0.6"/>
+  <!-- Circle Pad (left) -->
+  <circle cx="14" cy="40" r="2.4" fill="none" stroke="#4dd6ff" stroke-width="1.2"/>
+  <!-- D-pad (left) -->
+  <rect x="13" y="48" width="2" height="6" fill="#4dd6ff"/>
+  <rect x="11" y="50" width="6" height="2" fill="#4dd6ff"/>
+  <!-- ABXY (right) -->
+  <circle cx="50" cy="40" r="1.4" fill="#4dd6ff"/>
+  <circle cx="46" cy="44" r="1.4" fill="#4dd6ff"/>
+  <circle cx="46" cy="36" r="1.4" fill="#4dd6ff"/>
+  <circle cx="42" cy="40" r="1.4" fill="#4dd6ff"/>
+  <!-- Start/Select -->
+  <rect x="44" y="52" width="4" height="1.5" fill="#4dd6ff"/>
+  <rect x="49" y="52" width="4" height="1.5" fill="#4dd6ff"/>
+</svg>
