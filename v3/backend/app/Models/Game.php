@@ -67,6 +67,11 @@ class Game extends Model
         return $this->hasMany(Video::class, 'game_id');
     }
 
+    public function cheats(): HasMany
+    {
+        return $this->hasMany(Cheat::class, 'game_id')->orderBy('sort_order');
+    }
+
     public function genres(): BelongsToMany
     {
         return $this->belongsToMany(Genre::class, 'game_genres', 'game_id', 'genre_id')

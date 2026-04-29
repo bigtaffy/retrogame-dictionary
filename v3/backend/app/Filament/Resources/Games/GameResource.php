@@ -5,6 +5,7 @@ namespace App\Filament\Resources\Games;
 use App\Filament\Resources\Games\Pages\CreateGame;
 use App\Filament\Resources\Games\Pages\EditGame;
 use App\Filament\Resources\Games\Pages\ListGames;
+use App\Filament\Resources\Games\RelationManagers\CheatsRelationManager;
 use App\Filament\Resources\Games\RelationManagers\DescriptionsRelationManager;
 use App\Filament\Resources\Games\RelationManagers\TitlesRelationManager;
 use App\Filament\Resources\Games\Schemas\GameForm;
@@ -49,6 +50,7 @@ class GameResource extends Resource
         return [
             TitlesRelationManager::class,
             DescriptionsRelationManager::class,
+            CheatsRelationManager::class,
         ];
     }
 
