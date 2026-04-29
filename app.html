@@ -1342,6 +1342,20 @@ function resolveImg(url, consoleName) {
   return base + p;
 }
 
+/**
+ * 把絕對 URL 包成 images.weserv.nl proxy（自動 WebP + 邊緣 cache + 縮圖）。
+ * 對 grid card 用 240w 縮圖（手機螢幕 2dpi 也夠），detail 用 600w。
+ * 不支援 SVG（直接 return）。
+ */
+function proxyImg(url, w) {
+  if (!url) return '';
+  if (/\.svg($|\?)/i.test(url)) return url;
+  if (!/^https?:\/\//i.test(url)) return url;
+  // weserv.nl 不接 protocol，把 https:// 拿掉
+  const stripped = url.replace(/^https?:\/\//i, '');
+  return `https://images.weserv.nl/?url=${encodeURIComponent(stripped)}&w=${w || 240}&output=webp&q=80`;
+}
+
 function normalizeGameImages(games, consoleName) {
   for (const g of games) {
     if (g.cover) g.cover = resolveImg(g.cover, consoleName);
@@ -1986,7 +2000,7 @@ function makeCard(g, consoleName) {
   el.className = 'card';
   el.dataset.id = g.id;
 
-  const cover = g.cover ? `<img class="cover-img" src="${escapeHtml(g.cover)}" alt="" decoding="async">` : '';
+  const cover = g.cover ? `<img class="cover-img" src="${escapeHtml(proxyImg(g.cover, 320))}" alt="" loading="lazy" decoding="async">` : '';
   const coverCls = g.cover ? '' : 'no-img';
   const lang = detectLang(g);
   const title = pickTitle(g);
@@ -2005,7 +2019,7 @@ function makeCard(g, consoleName) {
     return u ? resolveImg(u, consoleName) : '';
   }).filter(Boolean);
   const miniHtml = miniShots.length
-    ? `<div class="list-shots">${miniShots.map(u => `<img src="${escapeHtml(u)}" alt="" decoding="async">`).join('')}</div>`
+    ? `<div class="list-shots">${miniShots.map(u => `<img src="${escapeHtml(proxyImg(u, 200))}" alt="" loading="lazy" decoding="async">`).join('')}</div>`
     : '';
 
   el.dataset.title = title;
@@ -2071,7 +2085,7 @@ function renderSuggestions() {
     const t = pickTitle(g);
     const sub = (g.maker || g.publisher || '') + (g.release_date ? ' · ' + (g.release_date.match(/\d{4}/)?.[0] || '') : '');
     return `<div class="suggestion" data-id="${escapeHtml(g.id)}">
-      <div class="suggestion-cover" style="${g.cover ? `background-image:url('${escapeHtml(g.cover)}')` : ''}"></div>
+      <div class="suggestion-cover" style="${g.cover ? `background-image:url('${escapeHtml(proxyImg(g.cover, 120))}')` : ''}"></div>
       <div class="suggestion-info">
         <div class="suggestion-title">${escapeHtml(t)}</div>
         <div class="suggestion-sub">${escapeHtml(sub)}</div>
@@ -2138,7 +2152,7 @@ async function renderDetail(consoleName, id) {
     <div class="detail">
       <button class="back" id="detail-back">← BACK</button>
       <div class="header">
-        <div class="cover-large" style="${g.cover ? `background-image:url('${escapeHtml(g.cover)}')` : ''}"></div>
+        <div class="cover-large" style="${g.cover ? `background-image:url('${escapeHtml(proxyImg(g.cover, 800))}')` : ''}"></div>
         <div class="header-info">
           <h2 class="${primaryLang === 'en' ? '' : 'cjk'}">${escapeHtml(primary)}</h2>
           ${titles.filter(t => t.lang !== primaryLang).map(t => `<div class="${t.lang === 'jp' ? 'subtitle-jp' : 'subtitle-zh'}"><span class="lang-chip ${t.lang}">${t.lang.toUpperCase()}</span>${escapeHtml(t.text)}</div>`).join('')}
@@ -2200,7 +2214,7 @@ async function renderDetail(consoleName, id) {
       <div class="section">
         <div class="section-title">▦ Screenshots</div>
         <div class="gallery">
-          ${shots.slice(0, 12).map(s => `<img src="${escapeHtml(s.url || s)}" alt="" decoding="async" data-shot="${escapeHtml(s.url || s)}">`).join('')}
+          ${shots.slice(0, 12).map(s => { const u = s.url || s; return `<img src="${escapeHtml(proxyImg(u, 480))}" alt="" loading="lazy" decoding="async" data-shot="${escapeHtml(u)}">`; }).join('')}
         </div>
       </div>` : ''}
 
