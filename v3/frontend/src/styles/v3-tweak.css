@@ -1,0 +1,73 @@
+/* React 根、底欄 NavLink 與 v2 的細差（疊在 v2-app 之後匯入） */
+#root {
+  min-height: 100vh;
+}
+
+#root .app {
+  min-height: 100vh;
+}
+
+/* v2 原始把 tabbar 關掉；v3 小螢幕顯示底欄與實站常見 RWD 一致 */
+@media (max-width: 800px) {
+  .tabbar {
+    display: flex !important;
+    align-items: stretch;
+  }
+
+  .tabbar a {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    text-decoration: none;
+    color: var(--text-soft);
+    font-family: var(--pixel-en);
+    font-size: 10px;
+    letter-spacing: 0.5px;
+  }
+
+  .tabbar a.active {
+    color: var(--pink);
+    text-shadow: var(--glow-pink);
+  }
+
+  .app {
+    padding-bottom: var(--tab-h);
+  }
+}
+
+/* 桌面分頁用 NavLink */
+.tabs-desktop a {
+  text-decoration: none;
+  font-family: var(--pixel-en);
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: var(--text-soft);
+  transition: all 0.15s;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.tabs-desktop a:hover {
+  color: var(--text);
+  background: rgba(255, 62, 200, 0.1);
+}
+
+.tabs-desktop a.active {
+  color: var(--pink);
+  background: rgba(255, 62, 200, 0.18);
+  box-shadow: var(--glow-pink);
+}
+
+.tabs-desktop a > span:first-child {
+  font-size: 14px;
+}

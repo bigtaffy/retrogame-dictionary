@@ -1,0 +1,17 @@
+# v3/ 內排除（疊在 root .gitignore 之上）
+v3/backend/vendor/
+v3/backend/node_modules/
+v3/backend/storage/framework/cache/
+v3/backend/storage/framework/sessions/
+v3/backend/storage/framework/views/
+v3/backend/storage/logs/
+v3/backend/public/build/
+v3/backend/public/hot
+v3/backend/public/storage
+v3/backend/.env
+v3/backend/.phpunit.result.cache
+v3/frontend/node_modules/
+v3/frontend/dist/
+v3/frontend/.env
+v3/frontend/.eslintcache
+.DS_Store

@@ -1,0 +1,221 @@
+/*
+ * RGD Admin Theme — Synthwave Pro
+ *
+ * 設計原則：
+ *   1. 不再用 Filament 預設 indigo SaaS 感 → 改成 synthwave 暗色 + 霓虹粉/青重點
+ *   2. Catalog 重資料密度，所以間距比 default 緊一點
+ *   3. 中文字型用 Noto Sans TC（fallback 系統字型）；英文 / 數字保留 Inter
+ *
+ * 啟用方式：
+ *   AdminPanelProvider::panel() 加 ->viteTheme('resources/css/filament/admin/theme.css')
+ *   並在 vite.config.js 的 input 陣列加入這個檔案。
+ */
+
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+@source '../../../../app/Filament';
+@source '../../../../resources/views/filament';
+
+/* === 配色（dark first） === */
+@theme {
+    /* Hot pink 是第一強重點 — 主操作 / focus / link */
+    --color-primary-50:  #fff0f8;
+    --color-primary-100: #ffd6ec;
+    --color-primary-200: #ffaad8;
+    --color-primary-300: #ff7ec3;
+    --color-primary-400: #ff5fb6;
+    --color-primary-500: #ff3ec8;   /* base */
+    --color-primary-600: #e62fb1;
+    --color-primary-700: #b8228a;
+    --color-primary-800: #821961;
+    --color-primary-900: #4f0e3a;
+    --color-primary-950: #2a0620;
+
+    /* Cyan / 第二重點 — info / 連結 / 圖表座標 */
+    --color-info-50:  #ecfaff;
+    --color-info-100: #cdf1ff;
+    --color-info-200: #9ee5ff;
+    --color-info-300: #6ad7ff;
+    --color-info-400: #4dd6ff;     /* base */
+    --color-info-500: #28b8e8;
+    --color-info-600: #1592c2;
+    --color-info-700: #126f93;
+    --color-info-800: #0e4f6a;
+    --color-info-900: #0a3548;
+
+    /* 半透明深紫底 — sidebar / surface
+     * 注意：dark mode 中 inactive sidebar item 文字用 gray-300 / 400，
+     * 太暗會看不到。這組值已校正為「在 #0b0420 底上 4.5:1 對比」 */
+    --color-gray-50:  #f5f3fb;
+    --color-gray-100: #ece6f7;
+    --color-gray-200: #d8cdec;
+    --color-gray-300: #c3b5dc;     /* sidebar inactive 主用色，提亮 */
+    --color-gray-400: #a99cca;     /* secondary text，提亮 */
+    --color-gray-500: #8678ad;
+    --color-gray-600: #5e527d;
+    --color-gray-700: #3d3458;
+    --color-gray-800: #1d162e;
+    --color-gray-900: #0b0420;     /* main bg */
+    --color-gray-950: #060216;
+}
+
+/* === 全站 base === */
+:root {
+    --rgd-bg-grid:
+        linear-gradient(rgba(255, 62, 200, 0.04) 1px, transparent 1px) 0 0 / 32px 32px,
+        linear-gradient(90deg, rgba(77, 214, 255, 0.04) 1px, transparent 1px) 0 0 / 32px 32px;
+}
+
+.dark body,
+.dark .fi-body {
+    background-color: var(--color-gray-900);
+    background-image: var(--rgd-bg-grid);
+    color: #e9e6f5;
+}
+
+.fi-sidebar {
+    background-color: rgba(11, 4, 32, 0.92);
+    backdrop-filter: blur(8px);
+    border-right: 1px solid rgba(255, 62, 200, 0.12);
+}
+
+.fi-sidebar-nav-groups {
+    gap: 0.5rem;
+}
+
+.fi-sidebar-group-label {
+    color: #b3a3d8;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.fi-sidebar-item-active .fi-sidebar-item-button {
+    background: linear-gradient(90deg, rgba(255, 62, 200, 0.14), rgba(77, 214, 255, 0.06));
+    border-left: 2px solid var(--color-primary-500);
+    box-shadow: 0 0 14px -4px rgba(255, 62, 200, 0.45);
+}
+
+/* === Sidebar 文字對比（明確覆蓋 Filament default text-gray-200 太暗的問題） === */
+/* Filament sidebar item 用 .text-gray-700 dark:text-gray-200。dark 模式下 gray-200
+ * 跑成深紫看不到字。直接用 specific selector + 高優先度寫死。 */
+.dark .fi-sidebar-item-button,
+.dark .fi-sidebar-item-button .fi-sidebar-item-label,
+.dark .fi-sidebar-nav-groups a,
+.dark .fi-sidebar-nav-groups span:not(.fi-badge) {
+    color: #e9e6f5 !important;
+}
+
+.dark .fi-sidebar-item-button:hover,
+.dark .fi-sidebar-item-button:hover .fi-sidebar-item-label {
+    color: #ffffff !important;
+}
+
+.dark .fi-sidebar-item-active .fi-sidebar-item-button,
+.dark .fi-sidebar-item-active .fi-sidebar-item-button .fi-sidebar-item-label {
+    color: #ff5fb6 !important;
+}
+
+.dark .fi-sidebar-item-icon {
+    color: #c3b5dc !important;
+}
+
+.dark .fi-sidebar-item-active .fi-sidebar-item-icon {
+    color: #ff5fb6 !important;
+}
+
+/* 群組 label（"目錄 CATALOG" 那行）也提亮 */
+.dark .fi-sidebar-group-label {
+    color: #d8cdec !important;
+}
+
+/* Topbar / Header 文字 */
+.dark .fi-topbar-item,
+.dark .fi-topbar-item-label,
+.dark .fi-breadcrumbs-item-label {
+    color: #e9e6f5 !important;
+}
+
+/* 表格 / 一般內容文字 */
+.dark .fi-ta-text-item,
+.dark .fi-ta-text,
+.dark .fi-section-content-ctn {
+    color: #e9e6f5;
+}
+
+.fi-topbar {
+    background-color: rgba(11, 4, 32, 0.85);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 62, 200, 0.1);
+}
+
+.fi-topbar .fi-logo {
+    font-family: 'Press Start 2P', 'LanaPixel', monospace;
+    color: var(--color-primary-500);
+    text-shadow: 0 0 12px rgba(255, 62, 200, 0.55);
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+}
+
+/* === Cards / Tables === */
+.fi-section,
+.fi-wi-stats-overview-stat,
+.fi-ta-ctn {
+    background-color: rgba(20, 16, 42, 0.85);
+    border: 1px solid rgba(255, 62, 200, 0.08);
+}
+
+.fi-ta-row:hover {
+    background-color: rgba(255, 62, 200, 0.04);
+}
+
+.fi-ta-header-cell {
+    color: #c9bee3;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 0.7rem;
+}
+
+/* === 按鈕 === */
+.fi-btn-color-primary {
+    box-shadow: 0 0 0 1px rgba(255, 62, 200, 0.4) inset, 0 0 12px -4px rgba(255, 62, 200, 0.6);
+}
+
+.fi-btn-color-primary:hover {
+    box-shadow: 0 0 0 1px rgba(255, 62, 200, 0.7) inset, 0 0 18px -2px rgba(255, 62, 200, 0.85);
+}
+
+/* === Coverage Matrix 自訂色階（A 頁專用） === */
+.rgd-cell-bad   { background: linear-gradient(135deg, #ff3e6e, #c01540); color: #fff; }
+.rgd-cell-warn  { background: linear-gradient(135deg, #ffae3e, #c8650a); color: #1a0e00; }
+.rgd-cell-ok    { background: linear-gradient(135deg, #4dd6ff, #1f88c2); color: #00131e; }
+.rgd-cell-full  { background: linear-gradient(135deg, #5cffb6, #1d9d6c); color: #02180e; }
+.rgd-cell-empty { background: rgba(255,255,255,0.04); color: #6b5b9a; }
+
+/* === Page B 資料來源狀態指示燈 === */
+.rgd-status-ok    { color: #5cffb6; text-shadow: 0 0 8px rgba(92, 255, 182, 0.5); }
+.rgd-status-warn  { color: #ffae3e; text-shadow: 0 0 8px rgba(255, 174, 62, 0.5); }
+.rgd-status-error { color: #ff3e6e; text-shadow: 0 0 8px rgba(255, 62, 110, 0.5); }
+.rgd-status-stale { color: #6b5b9a; }
+
+/* === 中文友善字型 === */
+.fi-body,
+.fi-sidebar,
+.fi-topbar {
+    font-family:
+        'Inter',
+        'Noto Sans TC',
+        ui-sans-serif,
+        -apple-system,
+        BlinkMacSystemFont,
+        'PingFang TC',
+        'Microsoft JhengHei',
+        sans-serif;
+}
+
+/* monospace fields（slug / no_intro_name / SQL）*/
+.fi-fo-input[type="text"][readonly],
+code, pre, .fi-mono {
+    font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', monospace;
+}
