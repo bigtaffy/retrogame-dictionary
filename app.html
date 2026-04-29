@@ -1522,6 +1522,76 @@ function fmtBytes(n) {
   return `${(n/1024/1024).toFixed(1)} MB`;
 }
 
+/* ============================================================
+   IndexedDB CACHE — 跨 session 持久化遊戲 JSON
+   ============================================================
+   策略：cache-first + 24h TTL
+     1) 切到某 console → 先看 IDB
+        a. 有且 < 24h → 直接讀（< 0.5s 從磁碟）
+        b. 沒/過期 → fetch 網路 → 存進 IDB
+     2) Settings「Clear Cache」會把 in-memory + IDB 都清掉
+     3) 第一次失敗或 IDB 不可用（隱私模式）→ 退回純 fetch，不報錯
+*/
+const IDB_NAME = 'rgd-cache';
+const IDB_VERSION = 1;
+const IDB_STORE = 'consoles';
+const IDB_TTL_MS = 24 * 60 * 60 * 1000;   // 24 小時
+
+let _idbPromise = null;
+function idbOpen() {
+  if (_idbPromise) return _idbPromise;
+  _idbPromise = new Promise((resolve, reject) => {
+    if (!('indexedDB' in self)) return reject(new Error('no indexedDB'));
+    const r = indexedDB.open(IDB_NAME, IDB_VERSION);
+    r.onupgradeneeded = (e) => {
+      const db = e.target.result;
+      if (!db.objectStoreNames.contains(IDB_STORE)) db.createObjectStore(IDB_STORE);
+    };
+    r.onsuccess = (e) => resolve(e.target.result);
+    r.onerror = (e) => reject(e.target.error);
+  }).catch((e) => { console.warn('[idb] open failed', e); return null; });
+  return _idbPromise;
+}
+
+async function idbGet(key) {
+  try {
+    const db = await idbOpen();
+    if (!db) return null;
+    return await new Promise((resolve, reject) => {
+      const tx = db.transaction(IDB_STORE, 'readonly');
+      const r = tx.objectStore(IDB_STORE).get(key);
+      r.onsuccess = () => resolve(r.result || null);
+      r.onerror = () => reject(r.error);
+    });
+  } catch (e) { console.warn('[idb] get failed', e); return null; }
+}
+
+async function idbPut(key, value) {
+  try {
+    const db = await idbOpen();
+    if (!db) return false;
+    return await new Promise((resolve, reject) => {
+      const tx = db.transaction(IDB_STORE, 'readwrite');
+      tx.objectStore(IDB_STORE).put(value, key);
+      tx.oncomplete = () => resolve(true);
+      tx.onerror = () => reject(tx.error);
+    });
+  } catch (e) { console.warn('[idb] put failed', e); return false; }
+}
+
+async function idbClear() {
+  try {
+    const db = await idbOpen();
+    if (!db) return;
+    await new Promise((resolve, reject) => {
+      const tx = db.transaction(IDB_STORE, 'readwrite');
+      tx.objectStore(IDB_STORE).clear();
+      tx.oncomplete = resolve;
+      tx.onerror = () => reject(tx.error);
+    });
+  } catch (e) { console.warn('[idb] clear failed', e); }
+}
+
 async function loadConsole(name) {
   if (state.cache.has(name)) return state.cache.get(name);
   // 1) Try inline embedded data (works on file://)
@@ -1535,7 +1605,22 @@ async function loadConsole(name) {
       return data;
     } catch (e) { console.warn('inline data parse failed', e); }
   }
-  // 2) Fetch with streaming progress
+  // 2) Try IndexedDB cache
+  try {
+    const cached = await idbGet(name);
+    if (cached && cached.games && cached.savedAt && (Date.now() - cached.savedAt) < IDB_TTL_MS) {
+      const ageMin = Math.round((Date.now() - cached.savedAt) / 60000);
+      console.log(`[idb] hit ${name} (${cached.games.length} games, age ${ageMin}m)`);
+      // 短暫 loading UI 給 large console (NS / NDS) 慢 IDB 讀取體驗
+      if (cached.games.length > 5000) showLoading('讀取快取 ' + CONSOLE_CONFIG[name].name + '...', false);
+      const games = normalizeGameImages(cached.games, name);
+      const byId = new Map(games.map(g => [String(g.id), g]));
+      const data = { games, byId };
+      state.cache.set(name, data);
+      return data;
+    }
+  } catch (e) { console.warn('[idb] read fail, fallback to network', e); }
+  // 3) Fetch with streaming progress
   showLoading('載入 ' + CONSOLE_CONFIG[name].name + '...', /*withProgress=*/true);
   try {
     const res = await fetch(CONSOLE_CONFIG[name].dataUrl);
@@ -1564,7 +1649,10 @@ async function loadConsole(name) {
     // Parse JSON (small synchronous pause)
     const blob = new Blob(chunks);
     const text = await blob.text();
-    const games = normalizeGameImages(JSON.parse(text), name);
+    const rawGames = JSON.parse(text);
+    // 寫入 IDB（fire-and-forget，失敗也不擋）
+    idbPut(name, { games: rawGames, savedAt: Date.now() }).catch(() => {});
+    const games = normalizeGameImages(rawGames, name);
     const byId = new Map(games.map(g => [String(g.id), g]));
     const data = { games, byId };
     state.cache.set(name, data);
@@ -2243,10 +2331,11 @@ function renderSettings() {
 
       <div class="settings-row">
         <div class="settings-label">Cache 資料快取
-          <small>清除已載入的遊戲資料（重新載入時重抓）</small>
+          <small>清除已載入的遊戲資料（包含 IndexedDB 持久化快取，下次載入會重抓）</small>
         </div>
         <div class="settings-control">
           <button class="danger" id="clear-cache">Clear Cache</button>
+          <span id="cache-stats" style="margin-left:.6em; opacity:.7; font-size:.85em;"></span>
         </div>
       </div>
 
@@ -2264,10 +2353,30 @@ function renderSettings() {
       renderSettings();
     });
   });
-  document.getElementById('clear-cache').addEventListener('click', () => {
+  document.getElementById('clear-cache').addEventListener('click', async () => {
     state.cache.clear();
-    alert('已清除快取，下次切換主機會重新載入。');
+    await idbClear();
+    const el = document.getElementById('cache-stats');
+    if (el) el.textContent = '已清除';
+    setTimeout(() => { if (el) el.textContent = ''; }, 2000);
   });
+  // 顯示 IDB 內已快取主機（async）
+  (async () => {
+    const db = await idbOpen();
+    if (!db) return;
+    try {
+      const tx = db.transaction(IDB_STORE, 'readonly');
+      const store = tx.objectStore(IDB_STORE);
+      const keysReq = store.getAllKeys();
+      keysReq.onsuccess = () => {
+        const keys = keysReq.result || [];
+        const el = document.getElementById('cache-stats');
+        if (el && keys.length) {
+          el.textContent = `已快取: ${keys.join(', ')}`;
+        }
+      };
+    } catch (_) {}
+  })();
 }
 
 /* ============================================================
