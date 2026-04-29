@@ -10,6 +10,7 @@ use App\Filament\Resources\Cheats\Tables\CheatsTable;
 use App\Models\Cheat;
 use BackedEnum;
 use Filament\Resources\Resource;
+use Illuminate\Database\Eloquent\Builder;
 use Filament\Schemas\Schema;
 use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
@@ -50,7 +51,7 @@ class CheatResource extends Resource
         ];
     }
 
-    public static function getEloquentQuery()
+    public static function getEloquentQuery(): Builder
     {
         return parent::getEloquentQuery()->with(['game.console', 'contributor']);
     }
