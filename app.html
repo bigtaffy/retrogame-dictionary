@@ -653,10 +653,15 @@ body.scrolled .tabs-desktop button { padding: 5px 10px; }
 }
 .detail .cover-large {
   width: 100%; max-width: 560px; aspect-ratio: 1;
-  background: var(--bg-raised) center/cover no-repeat;
+  background: var(--bg-raised);
   border: 2px solid var(--pink); border-radius: 8px;
   box-shadow: var(--glow-pink), 0 16px 48px rgba(0, 0, 0, 0.6);
   margin: 0 auto;
+  overflow: hidden;
+  display: flex; align-items: center; justify-content: center;
+}
+.detail .cover-large img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
 }
 .detail .header-info { width: 100%; max-width: 720px; margin: 0 auto; }
 .detail .header-badges { justify-content: center; }
@@ -2174,7 +2179,7 @@ async function renderDetail(consoleName, id) {
     <div class="detail">
       <button class="back" id="detail-back">← BACK</button>
       <div class="header">
-        <div class="cover-large" style="${g.cover ? `background-image:url('${escapeHtml(proxyImg(g.cover, 800))}')` : ''}"></div>
+        <div class="cover-large">${g.cover ? `<img src="${escapeHtml(proxyImg(g.cover, 800))}" data-orig="${escapeHtml(g.cover)}" alt="" loading="eager" decoding="async" onerror="if(this.dataset.orig&&this.src!==this.dataset.orig){this.src=this.dataset.orig;}">` : ''}</div>
         <div class="header-info">
           <h2 class="${primaryLang === 'en' ? '' : 'cjk'}">${escapeHtml(primary)}</h2>
           ${titles.filter(t => t.lang !== primaryLang).map(t => `<div class="${t.lang === 'jp' ? 'subtitle-jp' : 'subtitle-zh'}"><span class="lang-chip ${t.lang}">${t.lang.toUpperCase()}</span>${escapeHtml(t.text)}</div>`).join('')}
