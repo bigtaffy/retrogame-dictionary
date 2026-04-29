@@ -52,7 +52,7 @@ class CheatModelTest extends TestCase
 
     public function test_difficulties_constant(): void
     {
-        $this->assertCount(3, Cheat::DIFFICULTIES);
-        $this->assertSame(['easy', 'medium', 'hard'], array_keys(Cheat::DIFFICULTIES));
+        $this->assertCount(5, Cheat::DIFFICULTIES);
+        $this->assertSame(['easy', 'medium', 'hard', 'speedrun_only', 'tas_only'], array_keys(Cheat::DIFFICULTIES));
     }
 }
